@@ -1,0 +1,89 @@
+{
+  "schema": "plushbound.master_asset_production_queue.v1",
+  "queue_id": "PLUSHBOUND_MASTER_ASSET_PRODUCTION_QUEUE_V1",
+  "source_of_truth": "approved_art/ASSET_COMPATIBILITY_V1.json",
+  "global_pipeline": "approved_art/PLUSHBOUND_GLOBAL_ASSET_PIPELINE_V1.json",
+  "reference_profile": "reference_profiles/rpg_maker_mv_reference_v1.json",
+  "reference_only": true,
+  "external_reference_pixels_allowed": false,
+  "queue_policy": {
+    "engine_world_editor_compatibility_first": true,
+    "stable_ids_must_not_be_invented": true,
+    "one_asset_id_one_visual_function": true,
+    "visual_approval_required": true,
+    "sha256_attestation_required_after_approval": true,
+    "no_post_approval_resizing": true,
+    "missing_source_bytes_are_not_approved_art": true,
+    "region_does_not_define_global_rules": true
+  },
+  "status_values": [
+    "needs_id_binding",
+    "needs_generation",
+    "needs_source_bytes",
+    "needs_visual_review",
+    "ready_for_attestation",
+    "ready_for_compile",
+    "complete"
+  ],
+  "ledger_backed_assets": [
+    {"asset_id":"tideglass.cliff_stone","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"tideglass.coastal_stone","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"tideglass.dock_timber","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"tideglass.dry_sand","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"tideglass.saltworn_board","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"tideglass.sea_glass_pebbles","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"tideglass.tidal_silt","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"silkspire.bridge_timber","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"silkspire.guild_floorboards","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"silkspire.roof_tile","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"silkspire.workshop_metal_plate","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
+    {"asset_id":"silkspire.workshop_timber","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"}
+  ],
+  "established_materials_needing_stable_id_binding": [
+    "frosted_stone",
+    "archive_stone",
+    "crystal_stone",
+    "basalt",
+    "ash_soil",
+    "forge_stone",
+    "ember_veined_rock",
+    "foundry_masonry",
+    "Steampunk_metal_floor_plate",
+    "cooled_lava",
+    "gilded_paver",
+    "lantern_brick",
+    "civic_stone",
+    "Silkward_tile",
+    "sea_glass",
+    "saltwood",
+    "shell_lacquer",
+    "blue_ceramic",
+    "harbor_brass",
+    "rope_canvas",
+    "pearl_thread",
+    "weathered_stone"
+  ],
+  "established_materials_already_bound": {
+    "dry_sand":"tideglass.dry_sand",
+    "coastal_stone":"tideglass.coastal_stone",
+    "cliff_stone":"tideglass.cliff_stone",
+    "saltworn_board":"tideglass.saltworn_board",
+    "tidal_silt":"tideglass.tidal_silt"
+  },
+  "tileset_parent_binding_rule": {
+    "required_before_child_sheet_compile": true,
+    "parent_id_source":"Engine v1 / World Editor stable tileset-set manifest",
+    "child_ids":"{parentId}/A1 through {parentId}/E",
+    "child_paths":"{parentPathWithoutExtension}/A1.png through E.png",
+    "do_not_guess_parent_ids": true
+  },
+  "production_order": [
+    "bind_existing_stable_ids_from_engine_world_editor_manifests",
+    "generate_missing_original_source_art_by_asset_class",
+    "visual_review",
+    "sha256_attestation",
+    "compile_to_Asset_Compatibility_V1_runtime_targets",
+    "package_validation",
+    "world_editor_engine_handoff"
+  ]
+}
