@@ -29,13 +29,18 @@
   ],
   "region_production_sequence": [
     {"order":1,"region":"Sunny Plains of Elyndor","status":"active","notes":"Opening region and current production priority."},
-    {"order":2,"region":"Gloamfen","status":"queued"},
+    {"order":2,"region":"Crownweave","status":"queued"},
     {"order":3,"region":"Silkspire","status":"queued"},
-    {"order":4,"region":"Cinderreach","status":"queued"},
-    {"order":5,"region":"Crownweave","status":"queued"},
-    {"order":6,"region":"Tideglass Coast","status":"queued"}
+    {"order":4,"region":"Gloamfen","status":"queued"},
+    {"order":5,"region":"Verdancia","status":"queued"},
+    {"order":6,"region":"Tideglass Coast","status":"queued"},
+    {"order":7,"region":"Moonpatch Steppe","status":"queued"},
+    {"order":8,"region":"Sunspool Desert","status":"queued"},
+    {"order":9,"region":"Cinderreach","status":"queued"},
+    {"order":10,"region":"Frostlace","status":"queued"}
   ],
   "active_region": "Sunny Plains of Elyndor",
+  "active_region_tileset_parent_id": "tileset/elyndor/sunny-plains",
   "active_region_policy": {
     "produce_region_assets_before_advancing": true,
     "use_asset_class_contracts_within_region": true,
@@ -55,30 +60,6 @@
     {"asset_id":"silkspire.roof_tile","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
     {"asset_id":"silkspire.workshop_metal_plate","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
     {"asset_id":"silkspire.workshop_timber","asset_class":"tileset_a5","footprint_tiles":[1,1],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"}
-  ],
-  "established_materials_needing_stable_id_binding": [
-    "frosted_stone",
-    "archive_stone",
-    "crystal_stone",
-    "basalt",
-    "ash_soil",
-    "forge_stone",
-    "ember_veined_rock",
-    "foundry_masonry",
-    "Steampunk_metal_floor_plate",
-    "cooled_lava",
-    "gilded_paver",
-    "lantern_brick",
-    "civic_stone",
-    "Silkward_tile",
-    "sea_glass",
-    "saltwood",
-    "shell_lacquer",
-    "blue_ceramic",
-    "harbor_brass",
-    "rope_canvas",
-    "pearl_thread",
-    "weathered_stone"
   ],
   "tileset_parent_binding_rule": {
     "required_before_child_sheet_compile": true,
