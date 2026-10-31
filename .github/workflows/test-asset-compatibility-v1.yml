@@ -1,0 +1,24 @@
+name: Test Asset Compatibility V1
+
+on:
+  push:
+    paths:
+      - 'approved_art/ASSET_COMPATIBILITY_V1.json'
+      - 'approved_art/PLUSHBOUND_GLOBAL_ASSET_PIPELINE_V1.json'
+      - 'modal_worker/asset_compatibility_v1_validator.py'
+      - 'tests/test_asset_compatibility_v1.py'
+      - '.github/workflows/test-asset-compatibility-v1.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate Asset Compatibility V1
+        run: python modal_worker/asset_compatibility_v1_validator.py
+      - name: Run regression tests
+        run: python -m unittest tests.test_asset_compatibility_v1 -v
