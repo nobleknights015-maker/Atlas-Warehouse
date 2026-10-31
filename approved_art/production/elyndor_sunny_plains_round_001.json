@@ -1,0 +1,62 @@
+{
+  "schema": "plushbound.region_production_round.v1",
+  "round_id": "elyndor-sunny-plains-round-001",
+  "source_of_truth": "approved_art/ASSET_COMPATIBILITY_V1.json",
+  "region": "Sunny Plains of Elyndor",
+  "region_order": 1,
+  "production_phase": "tileset_family",
+  "parent_tileset_id": "tileset/elyndor/sunny-plains",
+  "parent_path_status": "needs_engine_manifest_path_binding",
+  "reference_policy": {
+    "rpg_maker_mv_reference_only": true,
+    "reference_pixels_allowed": false,
+    "original_plushbound_art_required": true
+  },
+  "canon_scope": {
+    "visual_identity": [
+      "pastoral stitched grasslands",
+      "starter routes",
+      "active Waystitches",
+      "bright readable opening-region presentation",
+      "plush thread fabric charm handcrafted motifs"
+    ],
+    "settlements": ["Bramblecross", "Larkspur Hollow", "Waykeeper's Rest"],
+    "dungeon": "The Bent Mile"
+  },
+  "tileset_children": [
+    {"sheet":"A1","asset_id":"tileset/elyndor/sunny-plains/A1","dimensions":[768,576],"quarter_geometry":[24,24],"status":"needs_generation","compiler_mode":"mv_compatible_autotile"},
+    {"sheet":"A2","asset_id":"tileset/elyndor/sunny-plains/A2","dimensions":[768,576],"quarter_geometry":[24,24],"status":"needs_generation","compiler_mode":"mv_compatible_autotile"},
+    {"sheet":"A3","asset_id":"tileset/elyndor/sunny-plains/A3","dimensions":[768,384],"quarter_geometry":[24,24],"status":"needs_generation","compiler_mode":"mv_compatible_autotile"},
+    {"sheet":"A4","asset_id":"tileset/elyndor/sunny-plains/A4","dimensions":[768,720],"quarter_geometry":[24,24],"status":"needs_generation","compiler_mode":"mv_compatible_autotile"},
+    {"sheet":"A5","asset_id":"tileset/elyndor/sunny-plains/A5","dimensions":[384,768],"grid":[8,16],"tile_size":[48,48],"slot_count":128,"status":"needs_generation","compiler_mode":"WORLD_TILE_ASSET_V1"},
+    {"sheet":"B","asset_id":"tileset/elyndor/sunny-plains/B","dimensions":[768,768],"tile_size":[48,48],"status":"needs_generation","compiler_mode":"manual_object_tile_sheet"},
+    {"sheet":"C","asset_id":"tileset/elyndor/sunny-plains/C","dimensions":[768,768],"tile_size":[48,48],"status":"needs_generation","compiler_mode":"manual_object_tile_sheet"},
+    {"sheet":"D","asset_id":"tileset/elyndor/sunny-plains/D","dimensions":[768,768],"tile_size":[48,48],"status":"needs_generation","compiler_mode":"manual_object_tile_sheet"},
+    {"sheet":"E","asset_id":"tileset/elyndor/sunny-plains/E","dimensions":[768,768],"tile_size":[48,48],"status":"needs_generation","compiler_mode":"manual_object_tile_sheet"}
+  ],
+  "source_art_rules": {
+    "one_source_asset_one_visual_function": true,
+    "no_showcase_or_assortment_outputs": true,
+    "no_post_approval_scaling_or_resampling": true,
+    "autotile_variants_precomposed_manually": false,
+    "engine_editor_compose_autotile_variants": true,
+    "stable_source_asset_ids_may_not_be_invented": true
+  },
+  "round_requirements": [
+    {"requirement":"opening-region traversable terrain family","binding_status":"needs_existing_source_id_mapping"},
+    {"requirement":"starter-route path and edge family","binding_status":"needs_existing_source_id_mapping"},
+    {"requirement":"pastoral elevation wall/cliff family","binding_status":"needs_existing_source_id_mapping"},
+    {"requirement":"Sunny Plains structures and roof/wall family","binding_status":"needs_existing_source_id_mapping"},
+    {"requirement":"Waystitch-compatible ground/marker surroundings","binding_status":"needs_existing_source_id_mapping"},
+    {"requirement":"Bramblecross/Larkspur Hollow/Waykeeper's Rest object families","binding_status":"needs_existing_source_id_mapping"},
+    {"requirement":"The Bent Mile entrance/route-compatible objects where shared with overworld","binding_status":"needs_existing_source_id_mapping"}
+  ],
+  "completion_gate": {
+    "all_nine_child_sheets_required": true,
+    "exact_dimensions_required": true,
+    "visual_review_required": true,
+    "sha256_attestation_required": true,
+    "asset_compatibility_v1_validation_required": true,
+    "world_editor_engine_handoff_required": true
+  }
+}
