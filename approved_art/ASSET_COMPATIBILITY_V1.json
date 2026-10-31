@@ -1,0 +1,78 @@
+{
+  "schema": "plushbound.asset_compatibility.v1",
+  "contract_id": "ASSET_COMPATIBILITY_V1",
+  "source_of_truth": true,
+  "runtime_targets": ["engine_v1", "world_editor"],
+  "external_reference_policy": {
+    "rpg_maker_mv_reference_only": true,
+    "reference_pixels_allowed_in_runtime": false,
+    "cropping_repacking_tracing_allowed": false,
+    "arbitrary_finished_sheet_resizing_allowed": false,
+    "visual_slicing_may_be_guessed": false
+  },
+  "tilesets": {
+    "tile_baseline_px": 48,
+    "parent_id_is_stable_map_tileset_set_id": true,
+    "child_id_template": "{parentId}/{sheet}",
+    "child_path_template": "{parentPathWithoutExtension}/{sheet}.png",
+    "children": {
+      "A1": {"size": [768,576], "quarter_geometry_px": 24, "autotile_variants_precomposed_by_artist": false},
+      "A2": {"size": [768,576], "quarter_geometry_px": 24, "autotile_variants_precomposed_by_artist": false},
+      "A3": {"size": [768,384], "quarter_geometry_px": 24, "autotile_variants_precomposed_by_artist": false},
+      "A4": {"size": [768,720], "quarter_geometry_px": 24, "autotile_variants_precomposed_by_artist": false},
+      "A5": {"size": [384,768], "grid": [8,16], "slot_count": 128, "tile_px": 48, "margins_px": 0, "padding_px": 0, "post_generation_resizing_allowed": false, "locked_contract": "WORLD_TILE_ASSET_V1"},
+      "B": {"size": [768,768]},
+      "C": {"size": [768,768]},
+      "D": {"size": [768,768]},
+      "E": {"size": [768,768]}
+    },
+    "engine_editor_interpretation_shared": true
+  },
+  "characters": {
+    "atlas_contract": "CHARACTER_ATLAS_V1",
+    "atlas_size": [1536,1024],
+    "slot_inference_allowed": false,
+    "field_slot_size": [75,64],
+    "field_safe_area": [48,48],
+    "runtime_extraction": {"horizontal_alignment": "center", "vertical_alignment": "bottom"},
+    "runtime_field_sheet": {"size": [144,192], "columns": 3, "rows": 4, "cell": [48,48], "row_order": ["Down","Left","Right","Up"], "scaling_allowed": false, "resampling_allowed": false},
+    "builder_outputs": ["master_atlas_png", "runtime_field_sheet_png", "exact_json_crop_manifest"]
+  },
+  "faces": {
+    "single_face_size": [144,144],
+    "eight_face_sheet_size": [576,288],
+    "eight_face_grid": [4,2],
+    "character_atlas_portrait_stretch_allowed": false,
+    "dedicated_face_output_required": true
+  },
+  "battle_environment": {
+    "battleback_target": [816,624],
+    "enemy_battler": {"transparent_background": true, "anchor": "bottom_center", "fixed_canvas_required": false},
+    "map_objects_overlays": {"transparent_png_allowed": true, "world_grid_px": 48},
+    "parallax_reference_target": [816,624],
+    "larger_scrollable_parallax_source_allowed": true
+  },
+  "ui": {
+    "runtime_icon_size": [32,32],
+    "main_compatibility_canvas": [816,624],
+    "mv_windowskin_geometry_reference_only": true,
+    "final_ui_requires_192x192_windowskin": false
+  },
+  "audio": {
+    "categories": ["BGM","BGS","ME","SE"],
+    "native_target": "OGG",
+    "m4a_duplicate_required": false,
+    "m4a_only_for_deliberate_mv_shaped_export": true
+  },
+  "animation_effects": {
+    "mv_960x960_5x5_192x192_reference_only": true,
+    "original_effect_source_art_required": true,
+    "freeze_large_batches_to_mv_runtime_layout": false,
+    "await_explicit_plushbound_effect_timeline_contract": true
+  },
+  "determinism": {
+    "stable_ids_required": true,
+    "manifest_driven_layouts_required": true,
+    "visual_guessing_for_slicing_allowed": false
+  }
+}
