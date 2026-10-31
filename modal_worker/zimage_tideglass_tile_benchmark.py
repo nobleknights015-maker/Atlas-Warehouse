@@ -44,7 +44,6 @@ image = (
     )
     .add_local_python_source("modal_worker")
     .add_local_file(str(ANCHOR_PATH), remote_path=f"/root/{ANCHOR_PATH}")
-    .add_local_file(str(CONDITIONING_PATH), remote_path=f"/root/{CONDITIONING_PATH}")
 )
 
 app = modal.App(APP_NAME)
@@ -52,6 +51,7 @@ model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
 
 
 def build_case() -> dict:
+    """Freeze the exact production prompt/seed locally before crossing into Modal."""
     from modal_worker.world_asset_pipeline_v2_flux2_reference_batch import build_repair_rows
 
     rows, _ = build_repair_rows("tideglass-coast", [ASSET_ID])
@@ -93,15 +93,25 @@ class ZImageTileBenchmark:
         self.pipe.set_progress_bar_config(disable=True)
 
     @modal.method()
-    def run(self) -> dict:
+    def run(self, case: dict) -> dict:
         from PIL import Image
 
-        case = build_case()
-        reference = Image.open(ANCHOR_PATH).convert("RGB")
-        generator = self.torch.Generator(device="cuda").manual_seed(case["seed"])
+        required = {"asset_id", "prompt", "prompt_sha256", "seed", "anchor_sha256"}
+        if set(case) != required:
+            raise ValueError("benchmark case contract mismatch")
+        if case["asset_id"] != ASSET_ID:
+            raise ValueError("benchmark asset_id drift")
+        if hashlib.sha256(str(case["prompt"]).encode("utf-8")).hexdigest() != case["prompt_sha256"]:
+            raise ValueError("benchmark prompt hash mismatch")
+        anchor_raw = ANCHOR_PATH.read_bytes()
+        if hashlib.sha256(anchor_raw).hexdigest() != case["anchor_sha256"]:
+            raise ValueError("benchmark anchor hash mismatch")
+
+        reference = Image.open(io.BytesIO(anchor_raw)).convert("RGB")
+        generator = self.torch.Generator(device="cuda").manual_seed(int(case["seed"]))
         started = time.monotonic()
         rendered = self.pipe(
-            prompt=case["prompt"],
+            prompt=str(case["prompt"]),
             image=reference,
             strength=STRENGTH,
             width=WIDTH,
@@ -115,7 +125,7 @@ class ZImageTileBenchmark:
         rendered.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "zimage-tideglass-tile-v1",
+            "benchmark": "zimage-tideglass-tile-v2-frozen-request",
             "asset_id": case["asset_id"],
             "model": MODEL_ID,
             "gpu": "L4",
@@ -124,7 +134,7 @@ class ZImageTileBenchmark:
             "steps": STEPS,
             "guidance_scale": GUIDANCE,
             "strength": STRENGTH,
-            "seed": case["seed"],
+            "seed": int(case["seed"]),
             "prompt_sha256": case["prompt_sha256"],
             "anchor_sha256": case["anchor_sha256"],
             "elapsed_seconds": elapsed,
@@ -139,7 +149,8 @@ class ZImageTileBenchmark:
 
 @app.local_entrypoint()
 def main():
-    result = ZImageTileBenchmark().run.remote()
+    case = build_case()
+    result = ZImageTileBenchmark().run.remote(case)
     png = base64.b64decode(result.pop("png_base64"))
     Path(OUTPUT_PNG).write_bytes(png)
     result["output_png"] = OUTPUT_PNG
