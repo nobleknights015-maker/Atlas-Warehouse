@@ -110,6 +110,10 @@ class ZImageTileBenchmark:
             raise ValueError("benchmark anchor hash mismatch")
 
         reference = Image.open(io.BytesIO(anchor_raw)).convert("RGB")
+        source_reference_size = list(reference.size)
+        reference = reference.resize((WIDTH, HEIGHT), Image.Resampling.LANCZOS)
+        inference_reference_size = list(reference.size)
+
         generator = self.torch.Generator(device="cuda").manual_seed(int(case["seed"]))
         started = time.monotonic()
         rendered = self.pipe(
@@ -127,13 +131,16 @@ class ZImageTileBenchmark:
         rendered.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "zimage-tideglass-tile-v3-production-gpu-fallback",
+            "benchmark": "zimage-tideglass-tile-v4-matched-img2img-dimensions",
             "asset_id": case["asset_id"],
             "model": MODEL_ID,
             "gpu_candidates": GPU_CANDIDATES,
             "gpu_device": self.gpu_device,
             "width": rendered.width,
             "height": rendered.height,
+            "reference_source_size": source_reference_size,
+            "reference_inference_size": inference_reference_size,
+            "reference_resize": "lanczos-conditioning-only",
             "steps": STEPS,
             "guidance_scale": GUIDANCE,
             "strength": STRENGTH,
