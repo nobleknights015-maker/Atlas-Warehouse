@@ -24,6 +24,7 @@ OUTPUT_PNG = "zimage-tidal-silt-output.png"
 ASSET_ID = "tileset.tideglass-coast.a5.source.tidal_silt"
 ANCHOR_PATH = Path("modal_worker/project_references/tideglass_correction_round/tidal_silt_reference_anchor_256.jpg")
 CONDITIONING_PATH = Path("modal_worker/world_asset_pipeline_v2_reference_conditioning.json")
+GPU_CANDIDATES = ["L4", "A10G"]
 WIDTH = 384
 HEIGHT = 384
 STEPS = 8
@@ -69,7 +70,7 @@ def build_case() -> dict:
 
 
 @app.cls(
-    gpu="L4",
+    gpu=GPU_CANDIDATES,
     image=image,
     volumes={CACHE_DIR: model_cache},
     scaledown_window=60,
@@ -84,6 +85,7 @@ class ZImageTileBenchmark:
         os.environ.setdefault("HF_HOME", CACHE_DIR)
         os.environ.setdefault("HF_HUB_CACHE", f"{CACHE_DIR}/hub")
         self.torch = torch
+        self.gpu_device = torch.cuda.get_device_name(0)
         self.pipe = ZImageImg2ImgPipeline.from_pretrained(
             MODEL_ID,
             torch_dtype=torch.bfloat16,
@@ -125,10 +127,11 @@ class ZImageTileBenchmark:
         rendered.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "zimage-tideglass-tile-v2-frozen-request",
+            "benchmark": "zimage-tideglass-tile-v3-production-gpu-fallback",
             "asset_id": case["asset_id"],
             "model": MODEL_ID,
-            "gpu": "L4",
+            "gpu_candidates": GPU_CANDIDATES,
+            "gpu_device": self.gpu_device,
             "width": rendered.width,
             "height": rendered.height,
             "steps": STEPS,
