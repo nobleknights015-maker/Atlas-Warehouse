@@ -1,0 +1,146 @@
+"""Bounded Z-Image-Turbo challenger benchmark for the failing Tideglass tile case.
+
+This is QA-only. It reuses the production Tideglass prompt contract and the exact
+material-specific tidal_silt conditioning anchor, renders one 384x384 source master,
+and never authorizes compile or production rollout.
+"""
+from __future__ import annotations
+
+import base64
+import hashlib
+import io
+import json
+import os
+import time
+from pathlib import Path
+
+import modal
+
+APP_NAME = "freeframe-zimage-tideglass-benchmark"
+MODEL_ID = "Tongyi-MAI/Z-Image-Turbo"
+MODEL_VOLUME = "freeframe-model-cache"
+CACHE_DIR = "/cache"
+OUTPUT_PNG = "zimage-tidal-silt-output.png"
+ASSET_ID = "tileset.tideglass-coast.a5.source.tidal_silt"
+ANCHOR_PATH = Path("modal_worker/project_references/tideglass_correction_round/tidal_silt_reference_anchor_256.jpg")
+CONDITIONING_PATH = Path("modal_worker/world_asset_pipeline_v2_reference_conditioning.json")
+WIDTH = 384
+HEIGHT = 384
+STEPS = 8
+GUIDANCE = 0.0
+STRENGTH = 0.6
+
+image = (
+    modal.Image.debian_slim(python_version="3.11")
+    .apt_install("libgl1", "libglib2.0-0")
+    .pip_install(
+        "accelerate",
+        "diffusers>=0.37.1",
+        "pillow>=10.4,<12",
+        "safetensors",
+        "sentencepiece",
+        "torch>=2.6,<3",
+        "transformers>=4.51,<6",
+    )
+    .add_local_python_source("modal_worker")
+    .add_local_file(str(ANCHOR_PATH), remote_path=f"/root/{ANCHOR_PATH}")
+    .add_local_file(str(CONDITIONING_PATH), remote_path=f"/root/{CONDITIONING_PATH}")
+)
+
+app = modal.App(APP_NAME)
+model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
+
+
+def build_case() -> dict:
+    from modal_worker.world_asset_pipeline_v2_flux2_reference_batch import build_repair_rows
+
+    rows, _ = build_repair_rows("tideglass-coast", [ASSET_ID])
+    row = rows[0]
+    conditioning = json.loads(CONDITIONING_PATH.read_text(encoding="utf-8"))["regions"]["tideglass-coast"]
+    prompt = str(conditioning["conditioning_prompt_prefix"]).strip() + " " + str(row["prompt"]).strip()
+    anchor_raw = ANCHOR_PATH.read_bytes()
+    return {
+        "asset_id": ASSET_ID,
+        "prompt": prompt,
+        "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
+        "seed": int(row["seed"]),
+        "anchor_sha256": hashlib.sha256(anchor_raw).hexdigest(),
+    }
+
+
+@app.cls(
+    gpu="L4",
+    image=image,
+    volumes={CACHE_DIR: model_cache},
+    scaledown_window=60,
+    timeout=1200,
+)
+class ZImageTileBenchmark:
+    @modal.enter()
+    def load(self):
+        import torch
+        from diffusers import ZImageImg2ImgPipeline
+
+        os.environ.setdefault("HF_HOME", CACHE_DIR)
+        os.environ.setdefault("HF_HUB_CACHE", f"{CACHE_DIR}/hub")
+        self.torch = torch
+        self.pipe = ZImageImg2ImgPipeline.from_pretrained(
+            MODEL_ID,
+            torch_dtype=torch.bfloat16,
+            cache_dir=CACHE_DIR,
+        )
+        self.pipe.to("cuda")
+        self.pipe.set_progress_bar_config(disable=True)
+
+    @modal.method()
+    def run(self) -> dict:
+        from PIL import Image
+
+        case = build_case()
+        reference = Image.open(ANCHOR_PATH).convert("RGB")
+        generator = self.torch.Generator(device="cuda").manual_seed(case["seed"])
+        started = time.monotonic()
+        rendered = self.pipe(
+            prompt=case["prompt"],
+            image=reference,
+            strength=STRENGTH,
+            width=WIDTH,
+            height=HEIGHT,
+            num_inference_steps=STEPS,
+            guidance_scale=GUIDANCE,
+            generator=generator,
+        ).images[0]
+        elapsed = round(time.monotonic() - started, 3)
+        out = io.BytesIO()
+        rendered.save(out, format="PNG")
+        raw = out.getvalue()
+        return {
+            "benchmark": "zimage-tideglass-tile-v1",
+            "asset_id": case["asset_id"],
+            "model": MODEL_ID,
+            "gpu": "L4",
+            "width": rendered.width,
+            "height": rendered.height,
+            "steps": STEPS,
+            "guidance_scale": GUIDANCE,
+            "strength": STRENGTH,
+            "seed": case["seed"],
+            "prompt_sha256": case["prompt_sha256"],
+            "anchor_sha256": case["anchor_sha256"],
+            "elapsed_seconds": elapsed,
+            "bytes": len(raw),
+            "sha256": hashlib.sha256(raw).hexdigest(),
+            "production_authorized": False,
+            "compile_authorized": False,
+            "catalog_wide_launch_authorized": False,
+            "png_base64": base64.b64encode(raw).decode("ascii"),
+        }
+
+
+@app.local_entrypoint()
+def main():
+    result = ZImageTileBenchmark().run.remote()
+    png = base64.b64decode(result.pop("png_base64"))
+    Path(OUTPUT_PNG).write_bytes(png)
+    result["output_png"] = OUTPUT_PNG
+    print(json.dumps(result, sort_keys=True))
