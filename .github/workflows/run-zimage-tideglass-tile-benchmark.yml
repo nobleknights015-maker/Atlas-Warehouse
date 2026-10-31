@@ -4,6 +4,7 @@ on:
   push:
     branches: [freeframe-modal-worker]
     paths:
+      - 'modal_worker/zimage_tideglass_tile_benchmark.py'
       - '.github/workflows/run-zimage-tideglass-tile-benchmark.yml'
   workflow_dispatch:
 
