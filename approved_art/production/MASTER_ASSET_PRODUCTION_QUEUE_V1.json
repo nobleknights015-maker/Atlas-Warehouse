@@ -8,13 +8,15 @@
   "external_reference_pixels_allowed": false,
   "queue_policy": {
     "engine_world_editor_compatibility_first": true,
+    "world_progression_drives_region_priority": true,
     "stable_ids_must_not_be_invented": true,
     "one_asset_id_one_visual_function": true,
     "visual_approval_required": true,
     "sha256_attestation_required_after_approval": true,
     "no_post_approval_resizing": true,
     "missing_source_bytes_are_not_approved_art": true,
-    "region_does_not_define_global_rules": true
+    "region_does_not_define_global_rules": true,
+    "legacy_canary_regions_do_not_override_world_order": true
   },
   "status_values": [
     "needs_id_binding",
@@ -25,7 +27,22 @@
     "ready_for_compile",
     "complete"
   ],
-  "ledger_backed_assets": [
+  "region_production_sequence": [
+    {"order":1,"region":"Sunny Plains of Elyndor","status":"active","notes":"Opening region and current production priority."},
+    {"order":2,"region":"Gloamfen","status":"queued"},
+    {"order":3,"region":"Silkspire","status":"queued"},
+    {"order":4,"region":"Cinderreach","status":"queued"},
+    {"order":5,"region":"Crownweave","status":"queued"},
+    {"order":6,"region":"Tideglass Coast","status":"queued"}
+  ],
+  "active_region": "Sunny Plains of Elyndor",
+  "active_region_policy": {
+    "produce_region_assets_before_advancing": true,
+    "use_asset_class_contracts_within_region": true,
+    "do_not_skip_forward_to_legacy_canary_regions": true,
+    "advance_only_after_region_asset_set_is_complete_or_explicitly_deferred": true
+  },
+  "legacy_backlog_evidence_not_priority": [
     {"asset_id":"tideglass.cliff_stone","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
     {"asset_id":"tideglass.coastal_stone","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
     {"asset_id":"tideglass.dock_timber","asset_class":"tileset_a5","footprint_tiles":[2,2],"status":"needs_source_bytes","legacy_round":"approved_art/rounds/next_round.json"},
@@ -63,13 +80,6 @@
     "pearl_thread",
     "weathered_stone"
   ],
-  "established_materials_already_bound": {
-    "dry_sand":"tideglass.dry_sand",
-    "coastal_stone":"tideglass.coastal_stone",
-    "cliff_stone":"tideglass.cliff_stone",
-    "saltworn_board":"tideglass.saltworn_board",
-    "tidal_silt":"tideglass.tidal_silt"
-  },
   "tileset_parent_binding_rule": {
     "required_before_child_sheet_compile": true,
     "parent_id_source":"Engine v1 / World Editor stable tileset-set manifest",
@@ -77,9 +87,16 @@
     "child_paths":"{parentPathWithoutExtension}/A1.png through E.png",
     "do_not_guess_parent_ids": true
   },
-  "production_order": [
+  "production_order_within_each_region": [
     "bind_existing_stable_ids_from_engine_world_editor_manifests",
-    "generate_missing_original_source_art_by_asset_class",
+    "tilesets_A1_through_E",
+    "map_props_and_buildings",
+    "field_characters_and_npcs",
+    "faces_and_portraits",
+    "battle_assets_and_enemies",
+    "ui_icons_and_region_specific_interface_assets",
+    "backgrounds_parallaxes_and_battlebacks",
+    "audio",
     "visual_review",
     "sha256_attestation",
     "compile_to_Asset_Compatibility_V1_runtime_targets",
