@@ -1,0 +1,56 @@
+name: Elyndor MV Restyle Gate
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - freeframe-modal-worker
+    paths:
+      - modal_worker/elyndor_mv_restyle_gate.py
+      - modal_worker/project_references/elyndor_mv_restyle_test_source.jpg.b64
+      - .github/workflows/run-elyndor-mv-restyle-gate.yml
+
+concurrency:
+  group: elyndor-mv-restyle-gate
+  cancel-in-progress: true
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: freeframe-modal-worker
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Require Modal credentials
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: |
+          test -n "$MODAL_TOKEN_ID"
+          test -n "$MODAL_TOKEN_SECRET"
+      - name: Install Modal
+        run: python -m pip install --upgrade modal
+      - name: Compile benchmark surface
+        run: python -m py_compile modal_worker/elyndor_mv_restyle_gate.py
+      - name: Run bounded Elyndor MV restyle
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: modal run modal_worker/elyndor_mv_restyle_gate.py 2>&1 | tee elyndor-mv-restyle-gate.log
+      - name: Upload benchmark evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: elyndor-mv-restyle-gate-${{ github.run_id }}
+          path: |
+            elyndor-mv-restyle-gate.log
+            elyndor-mv-restyle-gate.png
+            elyndor-mv-restyle-gate.json
+          if-no-files-found: warn
+          retention-days: 7
