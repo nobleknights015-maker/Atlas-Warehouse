@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: zimage-tideglass-tile-benchmark
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   bounded-zimage-tidal-silt:
