@@ -1,0 +1,47 @@
+{
+  "schema": "plushbound.region_production_round.v1",
+  "round_id": "elyndor-sunny-plains-round-002",
+  "source_of_truth": "approved_art/ASSET_COMPATIBILITY_V1.json",
+  "region": "Sunny Plains of Elyndor",
+  "region_order": 1,
+  "production_phase": "source_art_intake_and_preview_gate",
+  "parent_tileset_id": "tileset/elyndor/sunny-plains",
+  "previous_round": "approved_art/production/elyndor_sunny_plains_round_001.json",
+  "generation_lane": {
+    "retired_repo_generator": ".github/workflows/world-asset-pipeline-v2-executor.yml",
+    "retired_repo_generator_may_generate": false,
+    "supported_intake_workflow": ".github/workflows/process-approved-plushbound-art.yml",
+    "required_source": "Vera-approved original Plushbound PNG bytes",
+    "reference_pixels_allowed": false
+  },
+  "first_preview_policy": {
+    "preview_must_be_real_production_output": true,
+    "concept_or_mock_preview_allowed": false,
+    "reference_asset_preview_allowed": false,
+    "preview_before_region_scale_up": true,
+    "preview_status": "blocked_until_first_real_source_png_exists"
+  },
+  "first_output_targets": [
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/A1","runtime_dimensions":[768,576],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/A2","runtime_dimensions":[768,576],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/A3","runtime_dimensions":[768,384],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/A4","runtime_dimensions":[768,720],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/A5","runtime_dimensions":[384,768],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/B","runtime_dimensions":[768,768],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/C","runtime_dimensions":[768,768],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/D","runtime_dimensions":[768,768],"status":"awaiting_approved_source_art"},
+    {"runtime_child_id":"tileset/elyndor/sunny-plains/E","runtime_dimensions":[768,768],"status":"awaiting_approved_source_art"}
+  ],
+  "acceptance_sequence": [
+    "receive_original_source_png",
+    "visual_review_as_actual_game_asset",
+    "approve_source_bytes",
+    "sha256_attestation",
+    "process_approved_source_without_resizing",
+    "compile_exact_runtime_child_sheet",
+    "asset_compatibility_v1_validation",
+    "publish_actual_output_preview",
+    "scale_remaining_sunny_plains_assets_only_after_preview_passes"
+  ],
+  "blocking_fact": "No real Elyndor/Sunny Plains production PNG currently exists in repository history or the active branch, and the former World Asset Pipeline V2 generation workflow is intentionally retired."
+}
