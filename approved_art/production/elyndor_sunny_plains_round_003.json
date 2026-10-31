@@ -1,0 +1,53 @@
+{
+  "schema": "plushbound.region_production_round.v1",
+  "round_id": "elyndor-sunny-plains-round-003",
+  "source_of_truth": "approved_art/ASSET_COMPATIBILITY_V1.json",
+  "region": "Sunny Plains of Elyndor",
+  "region_order": 1,
+  "production_phase": "native_runtime_asset_build",
+  "parent_tileset_id": "tileset/elyndor/sunny-plains",
+  "reference_policy": {
+    "reference_archive": "assets.zip",
+    "reference_family": "Outside_A2",
+    "reference_usage": ["category structure", "sheet geometry", "autotile block geometry", "quarter-cell geometry"],
+    "reference_pixels_reused": false,
+    "cropping_or_repacking_reference_pixels": false
+  },
+  "completed_this_round": [
+    {
+      "asset_id": "tileset/elyndor/sunny-plains/A2",
+      "runtime_path": "tileset/elyndor/sunny-plains/A2.png",
+      "dimensions": [768, 576],
+      "quarter_geometry": [24, 24],
+      "autotile_block_geometry": [96, 144],
+      "layout": [8, 4],
+      "autotile_blocks": 32,
+      "original_plushbound_pixels": true,
+      "post_generation_resizing": false,
+      "sha256": "6cd09640adbc1f2263a384f29123fea9e2a55638ffe6fd38a27307149588c758",
+      "validation_status": "NATIVE_SIZE_GEOMETRY_PASS",
+      "repo_binary_status": "ready_for_binary_ingest"
+    }
+  ],
+  "a2_slot_families": [
+    "meadow", "meadow_soft", "meadow_flowers", "clover_meadow",
+    "packed_dirt", "dirt_grass", "sunny_trail", "worn_trail",
+    "cobble_warm", "cobble_light", "moss_stone", "civic_paver",
+    "hedge_ground", "wild_bush", "flower_border", "road_edge",
+    "farm_soil", "tilled_soil", "dry_grass", "stitchgrass",
+    "soft_sand", "sand_grass", "pebble_path", "moss_patch",
+    "pale_meadow", "golden_meadow", "petal_meadow", "waystitch_ground",
+    "stone_dirt_mix", "soft_earth", "green_paver", "garden_ground"
+  ],
+  "next_production_targets": [
+    "tileset/elyndor/sunny-plains/A1",
+    "tileset/elyndor/sunny-plains/A3",
+    "tileset/elyndor/sunny-plains/A4",
+    "tileset/elyndor/sunny-plains/A5",
+    "tileset/elyndor/sunny-plains/B",
+    "tileset/elyndor/sunny-plains/C",
+    "tileset/elyndor/sunny-plains/D",
+    "tileset/elyndor/sunny-plains/E"
+  ],
+  "preview_policy": "Only native production artifacts may be shown as production previews. Concept images are excluded."
+}
