@@ -3,7 +3,7 @@
 SAFETY-BOUNDED TEST ONLY.
 - one A10G container maximum
 - retries=0
-- startup_timeout=120s
+- startup_timeout=90s
 - input timeout=180s
 - single-use container
 - one reference, one output, 10 inference steps
@@ -50,6 +50,7 @@ image = (
         "safetensors",
         "sentencepiece",
         "torch>=2.6,<3",
+        "torchvision",
         "transformers>=4.57,<6",
     )
     .add_local_file(str(REFERENCE), remote_path=f"/root/{REFERENCE}")
@@ -65,7 +66,7 @@ model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
     retries=0,
     max_containers=1,
     buffer_containers=0,
-    startup_timeout=120,
+    startup_timeout=90,
     timeout=180,
     scaledown_window=2,
     single_use_containers=True,
@@ -112,7 +113,7 @@ class QwenGuardianGate:
         result.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "qwen2511-4bit-guardian-identity-gate-v1",
+            "benchmark": "qwen2511-4bit-guardian-identity-gate-v2",
             "model": MODEL_ID,
             "gpu_device": self.gpu_device,
             "reference_sha256": hashlib.sha256(raw_ref).hexdigest(),
