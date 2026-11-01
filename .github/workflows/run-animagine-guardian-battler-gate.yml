@@ -1,11 +1,6 @@
 name: Animagine Guardian Battler Gate
 
 on:
-  push:
-    branches: [freeframe-modal-worker]
-    paths:
-      - 'modal_worker/animagine_guardian_battler_gate.py'
-      - '.github/workflows/run-animagine-guardian-battler-gate.yml'
   workflow_dispatch:
 
 permissions:
