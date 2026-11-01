@@ -3,9 +3,10 @@
 SAFETY-BOUNDED TEST ONLY.
 - one A10G container maximum
 - retries=0
-- startup_timeout=90s
+- startup_timeout=60s
 - input timeout=150s
 - single-use container
+- model/LoRA load happens inside the single method invocation so startup failures cannot respawn-load repeatedly
 - one reference, one output, 4 inference steps
 No batch or production rollout is authorized from this file.
 """
@@ -48,6 +49,7 @@ image = (
         "accelerate>=1.0,<2",
         "bitsandbytes>=0.47,<1",
         "diffusers>=0.36,<0.40",
+        "peft>=0.17,<1",
         "pillow>=10.4,<12",
         "safetensors",
         "sentencepiece",
@@ -68,47 +70,44 @@ model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
     retries=0,
     max_containers=1,
     buffer_containers=0,
-    startup_timeout=90,
+    startup_timeout=60,
     timeout=150,
     scaledown_window=2,
     single_use_containers=True,
 )
 class QwenGuardianGate:
-    @modal.enter()
-    def load(self):
+    @modal.method()
+    def run(self) -> dict:
         import torch
         from diffusers import QwenImageEditPlusPipeline
+        from PIL import Image
 
         os.environ.setdefault("HF_HOME", CACHE_DIR)
         os.environ.setdefault("HF_HUB_CACHE", f"{CACHE_DIR}/hub")
-        self.torch = torch
-        self.gpu_device = torch.cuda.get_device_name(0)
-        self.pipe = QwenImageEditPlusPipeline.from_pretrained(
+        gpu_device = torch.cuda.get_device_name(0)
+
+        pipe = QwenImageEditPlusPipeline.from_pretrained(
             MODEL_ID,
             torch_dtype=torch.bfloat16,
             cache_dir=CACHE_DIR,
         )
-        self.pipe.load_lora_weights(
+        pipe.load_lora_weights(
             LORA_ID,
             weight_name=LORA_WEIGHT,
             cache_dir=CACHE_DIR,
             adapter_name="lightning",
         )
-        self.pipe.set_adapters(["lightning"], adapter_weights=[1.0])
-        self.pipe.enable_model_cpu_offload()
-        self.pipe.set_progress_bar_config(disable=True)
-
-    @modal.method()
-    def run(self) -> dict:
-        from PIL import Image
+        pipe.set_adapters(["lightning"], adapter_weights=[1.0])
+        pipe.enable_model_cpu_offload()
+        pipe.set_progress_bar_config(disable=True)
 
         raw_ref = REFERENCE.read_bytes()
         source = Image.open(io.BytesIO(raw_ref)).convert("RGB")
         source.thumbnail((768, 768), Image.Resampling.LANCZOS)
-        generator = self.torch.Generator(device="cpu").manual_seed(SEED)
+        generator = torch.Generator(device="cpu").manual_seed(SEED)
 
         started = time.monotonic()
-        result = self.pipe(
+        result = pipe(
             image=source,
             prompt=PROMPT,
             num_inference_steps=STEPS,
@@ -122,10 +121,10 @@ class QwenGuardianGate:
         result.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "qwen2511-4bit-lightning-guardian-identity-gate-v3",
+            "benchmark": "qwen2511-4bit-lightning-guardian-identity-gate-v4",
             "model": MODEL_ID,
             "lora": LORA_ID,
-            "gpu_device": self.gpu_device,
+            "gpu_device": gpu_device,
             "reference_sha256": hashlib.sha256(raw_ref).hexdigest(),
             "prompt_sha256": hashlib.sha256(PROMPT.encode("utf-8")).hexdigest(),
             "seed": SEED,
