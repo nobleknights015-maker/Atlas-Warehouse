@@ -1,7 +1,13 @@
 """One-shot QA gate: Qwen-Image-Edit-2511 Guardian -> Corrupt Guardian.
 
-Uses an existing project reference already committed to the FreeFrame branch.
-This is deliberately one image only: no batch, no production rollout.
+SAFETY-BOUNDED TEST ONLY.
+This harness is deliberately configured to fail fast and never retry:
+- retries=0
+- max_containers=1
+- startup_timeout=120s
+- input timeout=180s
+- single_use_containers=True
+No batch or production rollout is authorized from this file.
 """
 from __future__ import annotations
 
@@ -22,7 +28,7 @@ CACHE_DIR = "/cache"
 REFERENCE = Path("modal_worker/project_references/guardian_friendly_bramblebuck.jpg")
 OUTPUT_PNG = "qwen2511-bramblebuck-corrupt-test.png"
 SEED = 1847
-STEPS = 40
+STEPS = 20
 TRUE_CFG = 4.0
 
 PROMPT = (
@@ -58,8 +64,13 @@ model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
     gpu="H100",
     image=image,
     volumes={CACHE_DIR: model_cache},
-    scaledown_window=60,
-    timeout=1800,
+    retries=0,
+    max_containers=1,
+    buffer_containers=0,
+    startup_timeout=120,
+    timeout=180,
+    scaledown_window=2,
+    single_use_containers=True,
 )
 class QwenGuardianGate:
     @modal.enter()
@@ -102,7 +113,7 @@ class QwenGuardianGate:
         result.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "qwen2511-guardian-corruption-gate-v1",
+            "benchmark": "qwen2511-guardian-corruption-gate-v2-bounded",
             "model": MODEL_ID,
             "gpu_device": self.gpu_device,
             "reference": str(REFERENCE),
