@@ -37,7 +37,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check 'modal>=1.5,<2'
       - name: Compile gate
         run: python -m compileall -q modal_worker/qwen2511_guardian_corruption_gate.py
-      - name: Run exactly one bounded Qwen Lightning Guardian identity edit
+      - name: Run exactly one single-invocation Qwen Lightning Guardian edit
         shell: bash
         run: |
           set -o pipefail
