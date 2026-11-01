@@ -17,7 +17,7 @@ concurrency:
 jobs:
   one-shot-qwen2511-guardian:
     runs-on: ubuntu-24.04
-    timeout-minutes: 6
+    timeout-minutes: 5
     env:
       MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
       MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
@@ -41,7 +41,7 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          timeout 240s modal run modal_worker/qwen2511_guardian_corruption_gate.py | tee qwen2511-guardian-gate.log
+          timeout 180s modal run modal_worker/qwen2511_guardian_corruption_gate.py | tee qwen2511-guardian-gate.log
       - name: Upload gate image and log
         if: always()
         uses: actions/upload-artifact@v4
