@@ -1,12 +1,12 @@
-"""One-shot QA gate: quantized Qwen-Image-Edit-2511 Guardian identity test.
+"""One-shot QA gate: quantized Qwen-Image-Edit-2511 + Lightning Guardian identity test.
 
 SAFETY-BOUNDED TEST ONLY.
 - one A10G container maximum
 - retries=0
 - startup_timeout=90s
-- input timeout=180s
+- input timeout=150s
 - single-use container
-- one reference, one output, 10 inference steps
+- one reference, one output, 4 inference steps
 No batch or production rollout is authorized from this file.
 """
 from __future__ import annotations
@@ -23,13 +23,15 @@ import modal
 
 APP_NAME = "freeframe-qwen2511-guardian-gate"
 MODEL_ID = "libaya/Qwen-Image-Edit-2511-4bit"
+LORA_ID = "lightx2v/Qwen-Image-Edit-2511-Lightning"
+LORA_WEIGHT = "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors"
 MODEL_VOLUME = "freeframe-model-cache"
 CACHE_DIR = "/cache"
 REFERENCE = Path("modal_worker/project_references/guardian_friendly_bramblebuck.jpg")
 OUTPUT_PNG = "qwen2511-bramblebuck-identity-test.png"
 SEED = 1847
-STEPS = 10
-TRUE_CFG = 4.0
+STEPS = 4
+TRUE_CFG = 1.0
 
 PROMPT = (
     "Create a clean JRPG battler illustration of this exact Plush Guardian. Preserve the same identity, species, face, "
@@ -67,7 +69,7 @@ model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
     max_containers=1,
     buffer_containers=0,
     startup_timeout=90,
-    timeout=180,
+    timeout=150,
     scaledown_window=2,
     single_use_containers=True,
 )
@@ -86,6 +88,13 @@ class QwenGuardianGate:
             torch_dtype=torch.bfloat16,
             cache_dir=CACHE_DIR,
         )
+        self.pipe.load_lora_weights(
+            LORA_ID,
+            weight_name=LORA_WEIGHT,
+            cache_dir=CACHE_DIR,
+            adapter_name="lightning",
+        )
+        self.pipe.set_adapters(["lightning"], adapter_weights=[1.0])
         self.pipe.enable_model_cpu_offload()
         self.pipe.set_progress_bar_config(disable=True)
 
@@ -95,7 +104,7 @@ class QwenGuardianGate:
 
         raw_ref = REFERENCE.read_bytes()
         source = Image.open(io.BytesIO(raw_ref)).convert("RGB")
-        source.thumbnail((1024, 1024), Image.Resampling.LANCZOS)
+        source.thumbnail((768, 768), Image.Resampling.LANCZOS)
         generator = self.torch.Generator(device="cpu").manual_seed(SEED)
 
         started = time.monotonic()
@@ -104,7 +113,7 @@ class QwenGuardianGate:
             prompt=PROMPT,
             num_inference_steps=STEPS,
             true_cfg_scale=TRUE_CFG,
-            negative_prompt="different character, redesign, extra limbs, mutated anatomy, text, logo",
+            negative_prompt=" ",
             generator=generator,
         ).images[0]
         elapsed = round(time.monotonic() - started, 3)
@@ -113,8 +122,9 @@ class QwenGuardianGate:
         result.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "qwen2511-4bit-guardian-identity-gate-v2",
+            "benchmark": "qwen2511-4bit-lightning-guardian-identity-gate-v3",
             "model": MODEL_ID,
+            "lora": LORA_ID,
             "gpu_device": self.gpu_device,
             "reference_sha256": hashlib.sha256(raw_ref).hexdigest(),
             "prompt_sha256": hashlib.sha256(PROMPT.encode("utf-8")).hexdigest(),
