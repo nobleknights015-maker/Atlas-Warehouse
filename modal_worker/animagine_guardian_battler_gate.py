@@ -1,7 +1,6 @@
 """One-shot bounded QA gate: Animagine XL 4.0 + IP-Adapter Guardian battler test.
 
-This test is intentionally constrained to one reference, one image, one GPU,
-zero retries, one container, and short startup/input timeouts.
+One reference, one image, one GPU, zero retries, one container, short timeouts.
 """
 from __future__ import annotations
 
@@ -20,6 +19,7 @@ MODEL_ID = "iiYonko/animagine-xl-4.0"
 IP_ADAPTER_ID = "h94/IP-Adapter"
 IP_ADAPTER_SUBFOLDER = "sdxl_models"
 IP_ADAPTER_WEIGHT = "ip-adapter-plus_sdxl_vit-h.safetensors"
+IMAGE_ENCODER_SUBFOLDER = "models/image_encoder"
 MODEL_VOLUME = "freeframe-model-cache"
 CACHE_DIR = "/cache"
 REFERENCE = Path("modal_worker/project_references/guardian_friendly_bramblebuck.jpg")
@@ -32,14 +32,13 @@ GUIDANCE = 6.0
 IP_SCALE = 0.78
 
 PROMPT = (
-    "single full-body JRPG monster battler, same creature identity as the supplied reference image, "
-    "cute handcrafted plush guardian creature, preserve species, face, antlers, silhouette, colors and recognizable design, "
-    "clean RPG Maker MV / Trinity quality, simple readable shapes, polished anime game asset, front three-quarter battle pose, "
-    "isolated centered subject, plain unobtrusive background, no text, no frame, no extra characters, masterpiece, high quality"
+    "full-body JRPG monster battler, same plush Guardian as reference, preserve species, face, antlers, silhouette, colors, "
+    "handcrafted plush texture, clean RPG Maker MV Trinity quality, readable anime game asset, front three-quarter battle pose, "
+    "single centered character, simple background, high quality"
 )
 NEGATIVE = (
-    "different species, human, extra limbs, duplicate body, mutated anatomy, deformed, malformed, cropped, cut off, "
-    "busy background, scenery, text, watermark, logo, photorealistic, fuzzy, noisy, lowres, worst quality, low quality"
+    "different species, human, extra limbs, duplicate, mutated anatomy, deformed, cropped, scenery, text, watermark, "
+    "photorealistic, fuzzy, noisy, low quality"
 )
 
 image = (
@@ -76,13 +75,22 @@ class AnimagineGuardianBattlerGate:
     def load(self):
         import torch
         from diffusers import AutoPipelineForText2Image
+        from transformers import CLIPVisionModelWithProjection
 
         os.environ.setdefault("HF_HOME", CACHE_DIR)
         os.environ.setdefault("HF_HUB_CACHE", f"{CACHE_DIR}/hub")
         self.torch = torch
         self.gpu_device = torch.cuda.get_device_name(0)
+
+        image_encoder = CLIPVisionModelWithProjection.from_pretrained(
+            IP_ADAPTER_ID,
+            subfolder=IMAGE_ENCODER_SUBFOLDER,
+            torch_dtype=torch.float16,
+            cache_dir=CACHE_DIR,
+        )
         self.pipe = AutoPipelineForText2Image.from_pretrained(
             MODEL_ID,
+            image_encoder=image_encoder,
             torch_dtype=torch.float16,
             cache_dir=CACHE_DIR,
         )
@@ -122,22 +130,15 @@ class AnimagineGuardianBattlerGate:
         result.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "animagine-ipadapter-guardian-battler-gate-v1",
+            "benchmark": "animagine-ipadapter-guardian-battler-gate-v2-vit-h",
             "model": MODEL_ID,
             "ip_adapter": IP_ADAPTER_ID,
             "gpu_device": self.gpu_device,
             "reference_sha256": hashlib.sha256(raw_ref).hexdigest(),
-            "prompt_sha256": hashlib.sha256(PROMPT.encode("utf-8")).hexdigest(),
             "seed": SEED,
             "steps": STEPS,
-            "guidance_scale": GUIDANCE,
-            "ip_adapter_scale": IP_SCALE,
-            "width": result.width,
-            "height": result.height,
             "elapsed_seconds": elapsed,
             "output_sha256": hashlib.sha256(raw).hexdigest(),
-            "production_authorized": False,
-            "batch_authorized": False,
             "png_base64": base64.b64encode(raw).decode("ascii"),
         }
 
