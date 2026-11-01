@@ -1,10 +1,6 @@
 name: Qwen 2511 Guardian Identity Gate
 
 on:
-  push:
-    branches: [freeframe-modal-worker]
-    paths:
-      - '.github/workflows/run-qwen2511-guardian-corruption-gate.yml'
   workflow_dispatch:
 
 permissions:
