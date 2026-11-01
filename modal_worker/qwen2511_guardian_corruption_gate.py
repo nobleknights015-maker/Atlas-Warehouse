@@ -1,12 +1,12 @@
-"""One-shot QA gate: Qwen-Image-Edit-2511 Guardian -> Corrupt Guardian.
+"""One-shot QA gate: quantized Qwen-Image-Edit-2511 Guardian identity test.
 
 SAFETY-BOUNDED TEST ONLY.
-This harness is deliberately configured to fail fast and never retry:
+- one A10G container maximum
 - retries=0
-- max_containers=1
 - startup_timeout=120s
 - input timeout=180s
-- single_use_containers=True
+- single-use container
+- one reference, one output, 10 inference steps
 No batch or production rollout is authorized from this file.
 """
 from __future__ import annotations
@@ -22,31 +22,30 @@ from pathlib import Path
 import modal
 
 APP_NAME = "freeframe-qwen2511-guardian-gate"
-MODEL_ID = "Qwen/Qwen-Image-Edit-2511"
+MODEL_ID = "libaya/Qwen-Image-Edit-2511-4bit"
 MODEL_VOLUME = "freeframe-model-cache"
 CACHE_DIR = "/cache"
 REFERENCE = Path("modal_worker/project_references/guardian_friendly_bramblebuck.jpg")
-OUTPUT_PNG = "qwen2511-bramblebuck-corrupt-test.png"
+OUTPUT_PNG = "qwen2511-bramblebuck-identity-test.png"
 SEED = 1847
-STEPS = 20
+STEPS = 10
 TRUE_CFG = 4.0
 
 PROMPT = (
-    "Edit this exact Plush Guardian into its corrupted counterpart while preserving the same creature identity, "
-    "species, face, body proportions, silhouette, antlers/horns, clothing or adornment structure, and recognizable "
-    "design features. The result must clearly be the same Guardian, not a new creature. Add Plushbound corruption "
-    "through damaged stitching, frayed fabric, dark invasive thread growth, cracked charm-like details, restrained "
-    "unstable magical energy, and a more hostile expression. Keep the design polished, readable, coherent, and "
-    "JRPG character-art quality. Do not mutate anatomy, add extra limbs, change species, replace the costume, "
-    "introduce random objects, or redesign the character from scratch. Keep a simple unobtrusive background."
+    "Create a clean JRPG battler illustration of this exact Plush Guardian. Preserve the same identity, species, face, "
+    "body proportions, silhouette, antlers, colors, fabric construction, stitching, and recognizable design. Keep it "
+    "clearly the same character, not a redesign. Use a polished RPG Maker MV/Trinity-level game-art finish, centered "
+    "full body, readable battle pose, simple unobtrusive background. No extra limbs, anatomy mutation, species change, "
+    "costume replacement, random accessories, text, logo, or additional characters."
 )
 
 image = (
     modal.Image.debian_slim(python_version="3.11")
     .apt_install("libgl1", "libglib2.0-0")
     .pip_install(
-        "accelerate>=1.0",
-        "diffusers>=0.36.0",
+        "accelerate>=1.0,<2",
+        "bitsandbytes>=0.47,<1",
+        "diffusers>=0.36,<0.40",
         "pillow>=10.4,<12",
         "safetensors",
         "sentencepiece",
@@ -59,9 +58,8 @@ image = (
 app = modal.App(APP_NAME)
 model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
 
-
 @app.cls(
-    gpu="H100",
+    gpu="A10G",
     image=image,
     volumes={CACHE_DIR: model_cache},
     retries=0,
@@ -87,7 +85,7 @@ class QwenGuardianGate:
             torch_dtype=torch.bfloat16,
             cache_dir=CACHE_DIR,
         )
-        self.pipe.to("cuda")
+        self.pipe.enable_model_cpu_offload()
         self.pipe.set_progress_bar_config(disable=True)
 
     @modal.method()
@@ -95,16 +93,17 @@ class QwenGuardianGate:
         from PIL import Image
 
         raw_ref = REFERENCE.read_bytes()
-        reference_sha = hashlib.sha256(raw_ref).hexdigest()
         source = Image.open(io.BytesIO(raw_ref)).convert("RGB")
-        generator = self.torch.Generator(device="cuda").manual_seed(SEED)
+        source.thumbnail((1024, 1024), Image.Resampling.LANCZOS)
+        generator = self.torch.Generator(device="cpu").manual_seed(SEED)
 
         started = time.monotonic()
         result = self.pipe(
-            image=[source],
+            image=source,
             prompt=PROMPT,
             num_inference_steps=STEPS,
             true_cfg_scale=TRUE_CFG,
+            negative_prompt="different character, redesign, extra limbs, mutated anatomy, text, logo",
             generator=generator,
         ).images[0]
         elapsed = round(time.monotonic() - started, 3)
@@ -113,11 +112,10 @@ class QwenGuardianGate:
         result.save(out, format="PNG")
         raw = out.getvalue()
         return {
-            "benchmark": "qwen2511-guardian-corruption-gate-v2-bounded",
+            "benchmark": "qwen2511-4bit-guardian-identity-gate-v1",
             "model": MODEL_ID,
             "gpu_device": self.gpu_device,
-            "reference": str(REFERENCE),
-            "reference_sha256": reference_sha,
+            "reference_sha256": hashlib.sha256(raw_ref).hexdigest(),
             "prompt_sha256": hashlib.sha256(PROMPT.encode("utf-8")).hexdigest(),
             "seed": SEED,
             "steps": STEPS,
@@ -130,7 +128,6 @@ class QwenGuardianGate:
             "batch_authorized": False,
             "png_base64": base64.b64encode(raw).decode("ascii"),
         }
-
 
 @app.local_entrypoint()
 def main():
