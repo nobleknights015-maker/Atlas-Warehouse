@@ -1,6 +1,6 @@
 """One-shot bounded QA gate: Animagine XL 4.0 + IP-Adapter Guardian battler test.
 
-This test is intentionally constrained to one reference, one image, one L4,
+This test is intentionally constrained to one reference, one image, one GPU,
 zero retries, one container, and short startup/input timeouts.
 """
 from __future__ import annotations
@@ -60,7 +60,7 @@ app = modal.App(APP_NAME)
 model_cache = modal.Volume.from_name(MODEL_VOLUME, create_if_missing=True)
 
 @app.cls(
-    gpu="L4",
+    gpu=["L4", "A10G"],
     image=image,
     volumes={CACHE_DIR: model_cache},
     retries=0,
