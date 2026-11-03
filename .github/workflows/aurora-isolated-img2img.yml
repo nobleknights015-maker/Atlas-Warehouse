@@ -1,0 +1,40 @@
+name: Aurora isolated image-to-image tests
+on:
+  workflow_dispatch:
+  push:
+    branches: [aurora-isolated-img2img-pilot]
+    paths: [aurora/reference.png]
+permissions:
+  contents: read
+jobs:
+  aurora-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+      MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+    defaults:
+      run:
+        working-directory: aurora
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify isolation, reference image, and auth
+        run: |
+          test -s reference.png || { echo "Aurora reference missing; no GPU started"; exit 1; }
+          test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET" || { echo "Modal secrets unavailable; no GPU started"; exit 1; }
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install standalone Modal CLI
+        run: python -m pip install 'modal>=1.0,<2'
+      - name: Controlled test
+        run: modal run worker.py --reference reference.png --preset controlled --strength 0.35 --steps 28 --seed 123456 --output outputs/controlled.png
+      - name: Bold test
+        run: modal run worker.py --reference reference.png --preset bold --strength 0.48 --steps 28 --seed 123456 --output outputs/bold.png
+      - name: Upload isolated Aurora results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aurora-img2img-results
+          path: aurora/outputs/*.png
+          if-no-files-found: ignore
