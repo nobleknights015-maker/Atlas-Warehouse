@@ -1,13 +1,13 @@
-name: Aurora isolated image-to-image tests
+name: Aurora standalone prompt-only generation
 on:
   workflow_dispatch:
   push:
     branches: [aurora-isolated-img2img-pilot]
-    paths: [aurora/reference.png]
+    paths: [aurora/presets.json]
 permissions:
   contents: read
 jobs:
-  aurora-test:
+  test:
     runs-on: ubuntu-latest
     timeout-minutes: 55
     env:
@@ -18,23 +18,21 @@ jobs:
         working-directory: aurora
     steps:
       - uses: actions/checkout@v4
-      - name: Verify isolation, reference image, and auth
-        run: |
-          test -s reference.png || { echo "Aurora reference missing; no GPU started"; exit 1; }
-          test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET" || { echo "Modal secrets unavailable; no GPU started"; exit 1; }
+      - name: Check Modal credentials before GPU allocation
+        run: test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install standalone Modal CLI
+      - name: Install Modal client
         run: python -m pip install 'modal>=1.0,<2'
-      - name: Controlled test
-        run: modal run worker.py --reference reference.png --preset controlled --strength 0.35 --steps 28 --seed 123456 --output outputs/controlled.png
-      - name: Bold test
-        run: modal run worker.py --reference reference.png --preset bold --strength 0.48 --steps 28 --seed 123456 --output outputs/bold.png
-      - name: Upload isolated Aurora results
+      - name: Test 3 controlled
+        run: modal run worker.py --preset controlled --output outputs/controlled.png
+      - name: Test 1 bolder romance
+        run: modal run worker.py --preset bold --output outputs/bold.png
+      - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: aurora-img2img-results
+          name: aurora-text-prompt-tests
           path: aurora/outputs/*.png
           if-no-files-found: ignore
