@@ -1,0 +1,10 @@
+{
+  "bold": {
+    "prompt": "score_9, score_8_up, premium anime illustration, three adult female synthetic androids reclining together on luxurious pink plush bed, green-haired crowned android on left, silver-white ponytail pink bear-themed android in center, violet-haired maid android on right, preserve exact original armored designs, center android pulling both companions closer at their waists, mutually affectionate and daring playful flirting, coy romantic eye contact, fingers intertwined, cheek caresses, gentle kisses, glossy mechanical armor intact, elegant hair, dramatic magenta violet lighting, natural hands, high-detail anime rendering",
+    "negative_prompt": "score_4, score_3, low quality, blurry, bad hands, extra fingers, fused limbs, duplicate androids, swapped colors, incorrect helmets, missing armor, distorted joints, nudity, explicit sexual activity, text, watermark"
+  },
+  "controlled": {
+    "prompt": "score_9, score_8_up, anime masterpiece, three adult female armored androids reclining on plush pink bed, match uploaded reference compositions and identities exactly, green crowned android left, white-haired pink bear android middle, violet maid android right, center android hugging both around waists, close affectionate smiles, playful romantic teasing, hand on shoulder armor, gentle forehead touch, accurate armor and mechanical hands, soft romantic pink light, high detail",
+    "negative_prompt": "score_4, score_3, worst quality, missing limbs, extra arms, extra fingers, fused hands, wrong color, changed helmet, altered costumes, detached armor, duplicate bodies, nudity, text, watermark"
+  }
+}
