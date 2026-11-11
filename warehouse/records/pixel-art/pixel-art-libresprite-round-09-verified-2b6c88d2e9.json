@@ -14,8 +14,16 @@
     "technical-test"
   ],
   "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-layered-idle-study-round-09.md",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-11T05:01:24+00:00",
-  "updated_at": "2026-11-11T05:01:24+00:00"
+  "updated_at": "2026-11-11T05:01:58+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-11T05:01:58+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Scope LIMITED TO TECHNICAL PIPELINE: GitHub Actions run 42962709703 all steps completed success; artifact 13829208463 contained 4-layer 3-frame ASE, editor-exported 216x112 sprite sheet and GIF. Independent parser checked native layer names, composite pixel equivalence to exported PNGs, 14/15/16 source-to-edited pixel mutations, unmodified alpha masks, stationary ground y=101..111. This DOES NOT imply character-art quality passed; study explicitly marks visual quality FAILED."
+    }
+  ]
 }

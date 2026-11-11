@@ -72,7 +72,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### LibreSprite Round 09 verified four-layer three-frame static editing and art critique
 
-**pixel-art · unverified** · pixel-art-libresprite-round-09-verified-2b6c88d2e9
+**pixel-art · tested** · pixel-art-libresprite-round-09-verified-2b6c88d2e9
 
 GitHub Actions run 42962709703 succeeded: LibreSprite 1.3 opened a public-safe generic 72x112 native RGBA practice ASE containing internal_structure, faceted_armor, drapery and signals layers over three frames, edited actual cels via JS and exported ASE, PNG sheet, JSON metadata and GIF. Validator passed stable feet y=101..111, no partial alpha, 14 colors including transparency. Independent parse of exported source and edited ASE verified all named layers, exact matching PNG composites and 14/15/16 source-to-editor pixel changes across frames 0/1/2 without modifying alpha. This is technically reproducible but VISUAL QUALITY FAILED: figure stiff, angular armor simplistic, helmet and materials lack refined character design. Continue actual editorial practice, not generic effects or premature game production.
 
