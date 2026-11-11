@@ -152,7 +152,7 @@ Source: Atlas Warehouse operational policy and Founder requirement for continuou
 
 ### LibreSprite 1.3 real native pixel editor successfully verified in GitHub Actions
 
-**workflow · unverified** · workflow-libresprite-1-3-real-native-pi-f1a4b44b43
+**workflow · tested** · workflow-libresprite-1-3-real-native-pi-f1a4b44b43
 
 Implemented a reproducible GitHub Actions workflow that downloads the OFFICIAL LibreSprite 1.3 AppImage, extracts and launches its actual headless batch editor, executes JavaScript inside a sprite cel to change two RGBA pixels, exports a PNG and validates those exact pixels plus transparency. All steps passed on run 42961553641 with downloadable image/report artifacts. This is a VERIFIED TOOL INTEGRATION smoke test, NOT an artistic quality or game production pass. LibreSprite is ephemeral per runner; current ChatGPT sandbox does not have a local editor install. Use this workflow to build future authored layered sprite and animation tests, and keep source game art out of public repo.
 
