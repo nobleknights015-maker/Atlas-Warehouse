@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 13 active records; 0 open work orders.
+Inventory: 14 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 1
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 9
+- **pixel-art**: 10
 - **workflow**: 1
 
 ## Knowledge shelves
@@ -117,6 +117,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Founder quality feedback: the Relay Round 6 portrait resembles crude MS Paint drawing and is not a polished or sufficiently faithful Echo Frame design. Basic programmatic circles, polygons, flat fills, and added surface speckles are not a substitute for strong character-design fundamentals. Corrective workflow: study canonical Relay reference; establish an appealing, asymmetrical perspective-correct head and strong silhouette; build helmet/CRT display/hood and armor in meaningful layered planes; place and revise pixel clusters deliberately; verify visual fidelity at native resolution on light and dark backgrounds; only after the still image succeeds add wear, moss, corruption, or animation. Preserve all existing animation, overgrowth, silhouette and glitch training. Treat this pass as an unsuccessful quality-gate attempt and retain critique rather than celebrating minor metrics.
 
 Source: Founder direct visual critique of Relay portrait Round 6, Nov 2026. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-round-6-portrait-failure-b3bf8b1583.json)
+
+### Starter Sleeper Unit 09 reference and palette study
+
+**pixel-art · unverified** · pixel-art-starter-sleeper-unit-09-refere-d6ad67500c
+
+Founder shifted introductory character study from complex Relay to starter Sleeper Frame Unit 09. The supplied source has strong bone-white angular helmet and chest plates, narrow violet visor, 09-marked shoulder, dark understructure, red cabling, distinctive knees and boots. A 125x321 front standing figure was isolated transparently from the supplied pixel-style sheet and placed in a 160x352 transparent frame. Global 64-color reduction loses purple emissive accents; reserving an 8-color violet ramp then tuning its brightness/saturation preserves the identity. Original source remains benchmark. This was an EXTRACTED REFERENCE AND COLOR STUDY, not new hand-drawn pixel art or production approval. Next must paint the helmet and shoulders from a blank canvas with deliberate clusters and compare at 1x before a full sprite or animation.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/sleeper-unit-09-first-static-study.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-starter-sleeper-unit-09-refere-d6ad67500c.json)
 
 ### Evidence first warehouse learning loop
 

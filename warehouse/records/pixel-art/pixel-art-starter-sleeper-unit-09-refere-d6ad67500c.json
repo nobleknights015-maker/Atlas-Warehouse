@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-starter-sleeper-unit-09-refere-d6ad67500c",
+  "kind": "pixel-art",
+  "title": "Starter Sleeper Unit 09 reference and palette study",
+  "summary": "Founder shifted introductory character study from complex Relay to starter Sleeper Frame Unit 09. The supplied source has strong bone-white angular helmet and chest plates, narrow violet visor, 09-marked shoulder, dark understructure, red cabling, distinctive knees and boots. A 125x321 front standing figure was isolated transparently from the supplied pixel-style sheet and placed in a 160x352 transparent frame. Global 64-color reduction loses purple emissive accents; reserving an 8-color violet ramp then tuning its brightness/saturation preserves the identity. Original source remains benchmark. This was an EXTRACTED REFERENCE AND COLOR STUDY, not new hand-drawn pixel art or production approval. Next must paint the helmet and shoulders from a blank canvas with deliberate clusters and compare at 1x before a full sprite or animation.",
+  "tags": [
+    "bearframe",
+    "palette",
+    "pixel-art",
+    "quality",
+    "sleeper",
+    "source-evidence",
+    "unit09"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/sleeper-unit-09-first-static-study.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T04:08:17+00:00",
+  "updated_at": "2026-11-11T04:08:17+00:00"
+}
