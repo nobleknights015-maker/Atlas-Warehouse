@@ -39,6 +39,19 @@ class AtlasWarehouseTests(unittest.TestCase):
                 put_record(Path(temp), "workflow", "Missing evidence",
                            "This should be rejected.", [], "")
 
+    def test_long_titles_produce_valid_ids(self):
+        from atlas_warehouse import validate_entry
+        from datetime import datetime, timezone
+        title = "Native pixel-art training and quality gate"
+        record_id = make_id("pixel-art", title)
+        self.assertNotIn("--", record_id)
+        self.assertFalse(record_id.endswith("-"))
+        with tempfile.TemporaryDirectory() as temp:
+            path = put_record(Path(temp), "pixel-art", title, "Native-scale evaluation",
+                              ["practice"], "Founder feedback")
+            self.assertTrue(path.exists())
+            self.assertEqual(validate_entry(json.loads(path.read_text(encoding="utf-8"))), [])
+
     def test_search_no_hits(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
