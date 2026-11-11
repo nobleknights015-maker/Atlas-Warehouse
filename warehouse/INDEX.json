@@ -3,11 +3,12 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 6,
+  "record_count": 7,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
+    "lore": 1,
     "pixel-art": 3,
     "workflow": 1
   },
@@ -45,6 +46,24 @@
       "source": "Founder instructions for Bearframe RPG engine completion",
       "updated_at": "2026-11-11T01:54:24+00:00",
       "summary": "Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence."
+    },
+    {
+      "id": "lore-ghost-grid-and-echo-frame-anci-e08d91cd6e",
+      "title": "Ghost Grid and Echo Frame ancient deterioration canon",
+      "kind": "lore",
+      "confidence": "unverified",
+      "tags": [
+        "bearframe",
+        "echo-frames",
+        "ghost-grid",
+        "overgrowth",
+        "pixel-art",
+        "visual-canon"
+      ],
+      "path": "warehouse/records/lore/lore-ghost-grid-and-echo-frame-anci-e08d91cd6e.json",
+      "source": "Founder-approved Bearframe RPG reference images and art-direction corrections, Nov 2026",
+      "updated_at": "2026-11-11T02:05:05+00:00",
+      "summary": "Ghost Grid constructs are ancient advanced machines with accumulated age, heavy wear, overgrowth, and mechanical faults. Echo Frames are distinct old Ghost Grid-era sentient Frames, often humanoid or hulking with layered armor, exposed systems, torn fabric, and individualized silhouettes. They are weathered and overgrown too, with conspicuous glitches, memory/display instability, actuator failures, and unpredictable motion. Character reference sheets for Fract, Relay, Ruin, Murmur, and Bastion guide appearance. Broken details must be intentional and readable, not shortcuts for poor sprite anatomy."
     },
     {
       "id": "pixel-art-native-pixel-art-training-and-84bb0587a8",

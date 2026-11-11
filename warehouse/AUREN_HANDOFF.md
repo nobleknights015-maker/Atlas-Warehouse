@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 6 active records; 0 open work orders.
+Inventory: 7 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -16,6 +16,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 - **asset-standards**: 1
 - **engine**: 1
+- **lore**: 1
 - **pixel-art**: 3
 - **workflow**: 1
 
@@ -36,6 +37,14 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence.
 
 Source: Founder instructions for Bearframe RPG engine completion. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-engine-release-gate-1cf7305bda.json)
+
+### Ghost Grid and Echo Frame ancient deterioration canon
+
+**lore · unverified** · lore-ghost-grid-and-echo-frame-anci-e08d91cd6e
+
+Ghost Grid constructs are ancient advanced machines with accumulated age, heavy wear, overgrowth, and mechanical faults. Echo Frames are distinct old Ghost Grid-era sentient Frames, often humanoid or hulking with layered armor, exposed systems, torn fabric, and individualized silhouettes. They are weathered and overgrown too, with conspicuous glitches, memory/display instability, actuator failures, and unpredictable motion. Character reference sheets for Fract, Relay, Ruin, Murmur, and Bastion guide appearance. Broken details must be intentional and readable, not shortcuts for poor sprite anatomy.
+
+Source: Founder-approved Bearframe RPG reference images and art-direction corrections, Nov 2026. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/lore/lore-ghost-grid-and-echo-frame-anci-e08d91cd6e.json)
 
 ### Native pixel-art training and quality gate
 
