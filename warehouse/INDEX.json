@@ -3,11 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 2,
+  "record_count": 5,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
-    "pixel-art": 1
+    "engine": 1,
+    "pixel-art": 2,
+    "workflow": 1
   },
   "records": [
     {
@@ -27,6 +29,24 @@
       "summary": "World Editor v1 runtime tilesheets are 384 by 768 pixels using an 8 by 16 grid of 48 by 48 pixel tiles. Use top-left origin, exactly 128 slots, RGBA PNG, clean transparency, and no labels, gaps, or resizing. Preserve stable tile IDs and order."
     },
     {
+      "id": "engine-bearframe-engine-release-gate-1cf7305bda",
+      "title": "Bearframe engine release gate",
+      "kind": "engine",
+      "confidence": "unverified",
+      "tags": [
+        "android",
+        "bearframe",
+        "controller",
+        "engine",
+        "save",
+        "tests"
+      ],
+      "path": "warehouse/records/engine/engine-bearframe-engine-release-gate-1cf7305bda.json",
+      "source": "Founder instructions for Bearframe RPG engine completion",
+      "updated_at": "2026-11-11T01:54:24+00:00",
+      "summary": "Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence."
+    },
+    {
       "id": "pixel-art-native-scale-and-anatomy",
       "title": "Native scale and complete sprite anatomy",
       "kind": "pixel-art",
@@ -42,6 +62,38 @@
       "source": "Founder feedback on previous Bearframe pixel-art attempts",
       "updated_at": "2026-11-11T01:16:41.984Z",
       "summary": "Evaluate sprites at native pixel resolution before enlarging them. Avoid blocky oversized pixels that obscure the silhouette. Check that full limb anatomy is present, including both legs where the design requires them. Review readability and proportions before treating a sprite as a locked base frame."
+    },
+    {
+      "id": "pixel-art-palinode-six-leg-gait-evaluati-dc71550a16",
+      "title": "Palinode six leg gait evaluation",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "animation",
+        "gait",
+        "mechanical",
+        "palinode"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-palinode-six-leg-gait-evaluati-dc71550a16.json",
+      "source": "Bearframe pixel-art study assignment and prior exercise feedback",
+      "updated_at": "2026-11-11T01:54:24+00:00",
+      "summary": "Practice an articulated six-leg mechanical walking loop with distinct legs and alternating tripod support and swing phases. Check leg endpoints frame by frame, contact timing, silhouette and missing limb artifacts. Treat previous attempts as exercises, not finished production assets."
+    },
+    {
+      "id": "workflow-evidence-first-warehouse-learn-1bbde70f2a",
+      "title": "Evidence first warehouse learning loop",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "learning",
+        "repository",
+        "verification",
+        "workflow"
+      ],
+      "path": "warehouse/records/workflow/workflow-evidence-first-warehouse-learn-1bbde70f2a.json",
+      "source": "Atlas Warehouse operational policy and Founder requirement for continuous improvement",
+      "updated_at": "2026-11-11T01:54:24+00:00",
+      "summary": "Save reusable public-safe project techniques with source and review status. Do not promote a claim to tested without repeatable evidence. When an experiment fails, record the failure and correction. Retrieve exact records before taking action and preserve commit history."
     }
   ],
   "open_orders": []

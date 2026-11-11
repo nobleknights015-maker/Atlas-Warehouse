@@ -1,0 +1,17 @@
+{
+  "id": "workflow-evidence-first-warehouse-learn-1bbde70f2a",
+  "kind": "workflow",
+  "title": "Evidence first warehouse learning loop",
+  "summary": "Save reusable public-safe project techniques with source and review status. Do not promote a claim to tested without repeatable evidence. When an experiment fails, record the failure and correction. Retrieve exact records before taking action and preserve commit history.",
+  "tags": [
+    "learning",
+    "repository",
+    "verification",
+    "workflow"
+  ],
+  "source": "Atlas Warehouse operational policy and Founder requirement for continuous improvement",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T01:54:24+00:00",
+  "updated_at": "2026-11-11T01:54:24+00:00"
+}

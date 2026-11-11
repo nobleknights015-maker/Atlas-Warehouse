@@ -1,0 +1,17 @@
+{
+  "id": "pixel-art-palinode-six-leg-gait-evaluati-dc71550a16",
+  "kind": "pixel-art",
+  "title": "Palinode six leg gait evaluation",
+  "summary": "Practice an articulated six-leg mechanical walking loop with distinct legs and alternating tripod support and swing phases. Check leg endpoints frame by frame, contact timing, silhouette and missing limb artifacts. Treat previous attempts as exercises, not finished production assets.",
+  "tags": [
+    "animation",
+    "gait",
+    "mechanical",
+    "palinode"
+  ],
+  "source": "Bearframe pixel-art study assignment and prior exercise feedback",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T01:54:24+00:00",
+  "updated_at": "2026-11-11T01:54:24+00:00"
+}

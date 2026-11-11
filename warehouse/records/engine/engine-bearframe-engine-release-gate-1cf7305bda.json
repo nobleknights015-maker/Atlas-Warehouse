@@ -1,0 +1,19 @@
+{
+  "id": "engine-bearframe-engine-release-gate-1cf7305bda",
+  "kind": "engine",
+  "title": "Bearframe engine release gate",
+  "summary": "Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence.",
+  "tags": [
+    "android",
+    "bearframe",
+    "controller",
+    "engine",
+    "save",
+    "tests"
+  ],
+  "source": "Founder instructions for Bearframe RPG engine completion",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T01:54:24+00:00",
+  "updated_at": "2026-11-11T01:54:24+00:00"
+}

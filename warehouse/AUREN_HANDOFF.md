@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 2 active records; 0 open work orders.
+Inventory: 5 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -15,7 +15,9 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 ## Indexed aisles
 
 - **asset-standards**: 1
-- **pixel-art**: 1
+- **engine**: 1
+- **pixel-art**: 2
+- **workflow**: 1
 
 ## Knowledge shelves
 
@@ -27,6 +29,14 @@ World Editor v1 runtime tilesheets are 384 by 768 pixels using an 8 by 16 grid o
 
 Source: Founder-defined Bearframe World Editor v1 production standard. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-runtime-terrain-tile-2b851b8399.json)
 
+### Bearframe engine release gate
+
+**engine · unverified** · engine-bearframe-engine-release-gate-1cf7305bda
+
+Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence.
+
+Source: Founder instructions for Bearframe RPG engine completion. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-engine-release-gate-1cf7305bda.json)
+
 ### Native scale and complete sprite anatomy
 
 **pixel-art · reviewed** · pixel-art-native-scale-and-anatomy
@@ -34,6 +44,22 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Evaluate sprites at native pixel resolution before enlarging them. Avoid blocky oversized pixels that obscure the silhouette. Check that full limb anatomy is present, including both legs where the design requires them. Review readability and proportions before treating a sprite as a locked base frame.
 
 Source: Founder feedback on previous Bearframe pixel-art attempts. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/native-scale-and-anatomy.json)
+
+### Palinode six leg gait evaluation
+
+**pixel-art · unverified** · pixel-art-palinode-six-leg-gait-evaluati-dc71550a16
+
+Practice an articulated six-leg mechanical walking loop with distinct legs and alternating tripod support and swing phases. Check leg endpoints frame by frame, contact timing, silhouette and missing limb artifacts. Treat previous attempts as exercises, not finished production assets.
+
+Source: Bearframe pixel-art study assignment and prior exercise feedback. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-palinode-six-leg-gait-evaluati-dc71550a16.json)
+
+### Evidence first warehouse learning loop
+
+**workflow · unverified** · workflow-evidence-first-warehouse-learn-1bbde70f2a
+
+Save reusable public-safe project techniques with source and review status. Do not promote a claim to tested without repeatable evidence. When an experiment fails, record the failure and correction. Retrieve exact records before taking action and preserve commit history.
+
+Source: Atlas Warehouse operational policy and Founder requirement for continuous improvement. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-evidence-first-warehouse-learn-1bbde70f2a.json)
 
 ## Open work orders
 
