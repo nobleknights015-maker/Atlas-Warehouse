@@ -1,0 +1,17 @@
+{
+  "id": "pixel-art-native-pixel-art-training-and-84bb0587a8",
+  "kind": "pixel-art",
+  "title": "Native pixel-art training and quality gate",
+  "summary": "Produce pixel art with actual raster or pixel editing tools, not an AI generated image as substitute. Evaluate at native resolution, check silhouettes, topology, consistent pixel size and every required limb, then compare passes before accepting a base animation frame.",
+  "tags": [
+    "anatomy",
+    "pixel-art",
+    "practice",
+    "quality"
+  ],
+  "source": "Founder-requested study and corrections from Bearframe asset sessions",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T01:56:34+00:00",
+  "updated_at": "2026-11-11T01:56:34+00:00"
+}

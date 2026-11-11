@@ -3,12 +3,12 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 5,
+  "record_count": 6,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
-    "pixel-art": 2,
+    "pixel-art": 3,
     "workflow": 1
   },
   "records": [
@@ -45,6 +45,22 @@
       "source": "Founder instructions for Bearframe RPG engine completion",
       "updated_at": "2026-11-11T01:54:24+00:00",
       "summary": "Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence."
+    },
+    {
+      "id": "pixel-art-native-pixel-art-training-and-84bb0587a8",
+      "title": "Native pixel-art training and quality gate",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "anatomy",
+        "pixel-art",
+        "practice",
+        "quality"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-native-pixel-art-training-and-84bb0587a8.json",
+      "source": "Founder-requested study and corrections from Bearframe asset sessions",
+      "updated_at": "2026-11-11T01:56:34+00:00",
+      "summary": "Produce pixel art with actual raster or pixel editing tools, not an AI generated image as substitute. Evaluate at native resolution, check silhouettes, topology, consistent pixel size and every required limb, then compare passes before accepting a base animation frame."
     },
     {
       "id": "pixel-art-native-scale-and-anatomy",

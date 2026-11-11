@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 5 active records; 0 open work orders.
+Inventory: 6 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -16,7 +16,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 - **asset-standards**: 1
 - **engine**: 1
-- **pixel-art**: 2
+- **pixel-art**: 3
 - **workflow**: 1
 
 ## Knowledge shelves
@@ -36,6 +36,14 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence.
 
 Source: Founder instructions for Bearframe RPG engine completion. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-engine-release-gate-1cf7305bda.json)
+
+### Native pixel-art training and quality gate
+
+**pixel-art · unverified** · pixel-art-native-pixel-art-training-and-84bb0587a8
+
+Produce pixel art with actual raster or pixel editing tools, not an AI generated image as substitute. Evaluate at native resolution, check silhouettes, topology, consistent pixel size and every required limb, then compare passes before accepting a base animation frame.
+
+Source: Founder-requested study and corrections from Bearframe asset sessions. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-native-pixel-art-training-and-84bb0587a8.json)
 
 ### Native scale and complete sprite anatomy
 
