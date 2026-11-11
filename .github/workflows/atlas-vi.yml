@@ -56,7 +56,18 @@ jobs:
           git add -A -- warehouse
           if ! git diff --cached --quiet; then
             git commit -m "atlas: update warehouse inventory and audit ledger"
-            git push origin HEAD:main
+            # Other repository commits can arrive while a GitHub worker runs.
+            # Rebase before pushing so changes are not silently discarded.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              sleep 2
+            done
+            echo "Failed to persist warehouse inventory after retries" >&2
+            exit 1
           else
             echo "Atlas VI: read-only command; no inventory changes."
           fi
