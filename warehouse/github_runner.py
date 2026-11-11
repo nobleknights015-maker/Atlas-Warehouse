@@ -13,6 +13,7 @@ import sys
 from urllib.request import Request, urlopen
 
 from atlas_vi import AtlasVI
+from auren_bridge import refresh
 
 
 def event_command(environ: dict, event: dict) -> tuple[str, str, int | None]:
@@ -38,6 +39,8 @@ def event_command(environ: dict, event: dict) -> tuple[str, str, int | None]:
         return text, actor, number
     if event_type == "workflow_dispatch":
         actor = environ.get("GITHUB_ACTOR", "").strip() or owner
+        if actor != owner:
+            raise PermissionError("Only the repository owner can dispatch warehouse writes")
         return environ.get("ATLAS_COMMAND", "status"), actor, None
     if event_type == "schedule":
         return "maintenance", "Atlas VI scheduled inspection", None
@@ -53,6 +56,9 @@ def run(environ: dict):
     payload = json.loads(Path(environ["GITHUB_EVENT_PATH"]).read_text(encoding="utf-8"))
     command, actor, number = event_command(environ, payload)
     reply = AtlasVI(actor=actor).handle(command)
+    # Every successful command refreshes the durable Auren retrieval index.
+    # The index is deterministic, so unchanged reads do not cause new commits.
+    refresh()
     # Keep the exact command and issue ID out of public records unless explicitly
     # stored by a supported mutation; even a public issue may contain information
     # that does not belong in a permanent inventory.
