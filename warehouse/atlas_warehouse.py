@@ -44,7 +44,7 @@ def validate_entry(entry: dict) -> list[str]:
         errors.append("confidence must be unverified, tested, or reviewed")
     if entry.get("visibility") != "public":
         errors.append("visibility must be public (this repository is public)")
-    if isinstance(entry.get("id"), str) and entry["id"] != slug(entry["id"]):
+    if isinstance(entry.get("id"), str) and not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", entry["id"]):
         errors.append("id must be a safe lowercase slug")
     return errors
 
