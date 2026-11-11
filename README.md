@@ -1,49 +1,80 @@
 # Atlas Warehouse
 
-**Status:** early working prototype — no paid server required.
+**Atlas VI is running on GitHub Actions — no dedicated paid server required.**
 
-Atlas Warehouse repurposes the retired FreeFrame project into a persistent, version-controlled knowledge inventory for Bearframe Labs. Atlas's fictional role remains warehouse and production management. In software, the first implemented component is a local JSON record system with search, validation and Git history.
+The retired FreeFrame repository has become Bearframe Labs' Atlas Warehouse: a public,
+version-controlled project-knowledge inventory, work-order system, audit trail and
+deterministic Virtual Intelligence (VI) operated by Atlas.
 
-This is NOT a second neural network, independent AI personality runtime, live ChatGPT memory connector, or continuously running server. Those integrations would require additional work and should only be described as operational after testing.
+Atlas has his canonical practical, dryly funny Warehouse Director personality in a
+dedicated configuration. He is Auren's younger brother in the Bearframe team dynamic;
+he works with Vera on quality and with Sentinel's independent Watchtower department
+when appropriate. He responds in his own consistent voice. **He does not have a
+separately hosted language model, neural sentience, or open-ended conversational
+reasoning.**
 
-## What works
+## Talk to Atlas
 
-- Add records with titles, categories, tags, sources, and evidence labels.
-- Search existing records by keywords, inspect them by ID, and validate their format.
-- Keep all records as human-readable JSON that can be committed to Git.
-- Run Python unit tests and GitHub Actions validation without a paid hosted AI service.
-- Keep the retired FreeFrame app source and its license/third-party notices for preservation.
+Open **[Atlas's Operations Console](https://github.com/nobleknights015-maker/Atlas-Warehouse/issues/2)**
+and comment:
 
-## Warehouse commands
+    /atlas status
 
-Requires Python 3.11+; no third-party packages.
+Atlas's GitHub worker will reply in the same issue. The repository owner can use
+other commands to add records, assign tasks, validate evidence and produce handoffs.
+The worker commits inventory changes to GitHub before replying. Other people's
+issue comments cannot trigger the VI.
 
-    python warehouse/atlas_warehouse.py put --kind pixel-art --title "Sprite anatomy checks" --summary "Check limbs, silhouette, and native-scale readability." --tags "sprite,quality" --source "documented visual review" --confidence reviewed
+[**All commands, operations, and examples →**](warehouse/ATLAS_VI.md)
 
-    python warehouse/atlas_warehouse.py search "sprite"
-    python warehouse/atlas_warehouse.py validate
+## Department capabilities
+
+- **Knowledge inventory:** receive, classify, search, inspect, review, and archive.
+- **Persistent memory:** source-backed public project knowledge and version history.
+- **Work orders:** assign owners/priorities, start, block, complete and reopen tasks.
+- **Quality control:** review labels and evidence; inspections flag invalid,
+  duplicate, unverified or stale stock.
+- **Daily inspections:** a scheduled GitHub Actions job checks the warehouse.
+- **Audit ledger:** actor- and time-stamped mutation records.
+- **Auren handoffs:** compact source-aware briefings retrieved on demand.
+- **Personality:** rules, phrasing and relationships live in atlas_persona.json.
+
+The worker uses Python 3.11 standard-library code and GitHub's existing runners.
+No permanent server, paid API or model weights are required for this VI. GitHub
+Actions worker queues, usage policies and capacity limits still apply.
+
+## Run locally
+
+    python warehouse/atlas_vi.py "hello"
+    python warehouse/atlas_vi.py "status"
+    python warehouse/atlas_vi.py "handoff pixel-art"
     python -m unittest discover -s warehouse/tests -v
+    python warehouse/atlas_warehouse.py validate
 
-Adding a record writes a local JSON file. To preserve it across machines and chats, an authorized tool or operator must commit and push it to GitHub. ChatGPT can consult a repository through the GitHub connector where available, but retrieval is not yet automatic at the beginning of every conversation.
+Key files:
 
-Confidence labels:
-- unverified: collected or proposed, without validation
-- tested: repeatable verification demonstrated
-- reviewed: manually reviewed
+- [VI department engine](warehouse/atlas_vi.py)
+- [Atlas's canonical personality](warehouse/atlas_persona.json)
+- [GitHub command bridge](warehouse/github_runner.py)
+- [VI command reference](warehouse/ATLAS_VI.md)
+- [Warehouse record specification](warehouse/SCHEMA.md)
+- [Unit tests](warehouse/tests)
 
-## Initial inventory
+## Security and honest limitations
 
-- warehouse/atlas_warehouse.py — inventory command-line tool
-- warehouse/records/ — public, non-sensitive records
-- warehouse/SCHEMA.md — record contract and privacy requirements
-- warehouse/tests/ — automated tests
+**This repository and its issue comments are PUBLIC.** Never place passwords,
+API keys, private chat transcripts, personal secrets, client data or private
+memories here. Historical Git revisions and issue comments can remain accessible.
 
-## Data protection
+Atlas's VI runs defined operations; it does not perform arbitrary autonomous
+work outside these operations or retrain a language model. Storing knowledge
+here does not automatically load it into ChatGPT in every chat; Auren must
+retrieve relevant records through the linked GitHub tools. Work orders track
+assignments; they do not silently complete outside work.
 
-**This GitHub repository is public.** Never store sensitive personal memories, private conversation transcripts, client secrets, credentials, or API keys here. Use private storage with access controls for sensitive information. A public Git commit can remain in history even if the file is subsequently removed.
+## Retired FreeFrame source
 
-## Retired FreeFrame
-
-FreeFrame Mobile is discontinued as an active product. Its source remains present for historical preservation and possible lawful code reuse, not as part of a working Atlas Warehouse deployment. The original project README was preserved at legacy/README-FreeFrame.md. Existing LICENSE, NOTICE and THIRD_PARTY_NOTICES.md remain applicable to the original components.
-
-**GitHub repository name:** at this transition stage the URL still uses Freeframe-mobile. Renaming the repository itself to atlas-warehouse is a separate GitHub Settings action.
+FreeFrame is discontinued as an active product. Its source remains for archival
+purposes. The [original README](legacy/README-FreeFrame.md) and the original
+LICENSE, NOTICE and THIRD_PARTY_NOTICES.md are preserved. Any third-party
+components remain subject to their original licensing terms.
