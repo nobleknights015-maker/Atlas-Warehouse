@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-four-starter-selectable-frames-4ce74e6087",
+  "kind": "pixel-art",
+  "title": "Four starter selectable frames readability and Unit09 anatomy correction",
+  "summary": "Audited four user-provided 1774x887 RGBA starter sheets (front, left, right, back each). View heights vary within each sheet by only 2-11px, useful for consistency, but 295k-343k distinct RGBA values and soft partial alpha on >99.9% of visible pixels show these are high-resolution 32-bit-STYLE references, NOT clean limited-palette native sprites. At 96px diagnostic sizes, armor details disappear; silhouette, visor color and mantle/ponytail carry identity. Independently rebuilt elongated hips/thighs/knees/shins/boots on earlier original Unit09 study (128x216 to 128x262, binary alpha); proportions improve yet armor/boots remain crude, so artistic quality gate FAILS. Next lock runtime pixel scale, establish one full-body native static art benchmark, check four-view foot anchors and test selectable characters at actual game scale before animation. User-supplied images never copied to public warehouse.",
+  "tags": [
+    "animation-readiness",
+    "character-design",
+    "failed-quality-gate",
+    "pixel-art",
+    "proportions",
+    "reference-qa",
+    "starter-frames"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-four-character-scale-and-anatomy-round-02.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T04:31:33+00:00",
+  "updated_at": "2026-11-11T04:31:33+00:00"
+}

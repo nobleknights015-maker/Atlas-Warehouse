@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 15,
+  "record_count": 16,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
     "lore": 1,
-    "pixel-art": 11,
+    "pixel-art": 12,
     "workflow": 1
   },
   "records": [
@@ -102,6 +102,25 @@
       "source": "Founder correction to Auren pixel-art study scope, Nov 2026",
       "updated_at": "2026-11-11T02:15:28+00:00",
       "summary": "Character design is ADDITIONAL homework, not a replacement for existing pixel-art work. Train and evaluate all competencies together: native-scale pixel placement and cluster discipline, clean contours, anatomy and proportions, distinctive and appealing character/portrait design, shape language, strong silhouettes, expressive face/visor/helmet design, readable armor and materials, lighting and color, frame-by-frame animation timing and movement weight, articulated mechanical geometry, natural accumulated overgrowth and age/damage, and intentional Ghost Grid mechanical faults versus distinctive Echo Frame glitch behavior. Compare original reference designs to native-resolution sprites and portraits; document failures, revisions, and objective QC before production approval. Previous rough assets are practice only, not finished."
+    },
+    {
+      "id": "pixel-art-four-starter-selectable-frames-4ce74e6087",
+      "title": "Four starter selectable frames readability and Unit09 anatomy correction",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "animation-readiness",
+        "character-design",
+        "failed-quality-gate",
+        "pixel-art",
+        "proportions",
+        "reference-qa",
+        "starter-frames"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-four-starter-selectable-frames-4ce74e6087.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-four-character-scale-and-anatomy-round-02.md",
+      "updated_at": "2026-11-11T04:31:33+00:00",
+      "summary": "Audited four user-provided 1774x887 RGBA starter sheets (front, left, right, back each). View heights vary within each sheet by only 2-11px, useful for consistency, but 295k-343k distinct RGBA values and soft partial alpha on >99.9% of visible pixels show these are high-resolution 32-bit-STYLE references, NOT clean limited-palette native sprites. At 96px diagnostic sizes, armor details disappear; silhouette, visor color and mantle/ponytail carry identity. Independently rebuilt elongated hips/thighs/knees/shins/boots on earlier original Unit09 study (128x216 to 128x262, binary alpha); proportions improve yet armor/boots remain crude, so artistic quality gate FAILS. Next lock runtime pixel scale, establish one full-body native static art benchmark, check four-view foot anchors and test selectable characters at actual game scale before animation. User-supplied images never copied to public warehouse."
     },
     {
       "id": "pixel-art-native-pixel-art-training-and-84bb0587a8",
