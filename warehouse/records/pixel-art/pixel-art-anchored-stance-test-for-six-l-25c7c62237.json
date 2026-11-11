@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-anchored-stance-test-for-six-l-25c7c62237",
+  "kind": "pixel-art",
+  "title": "Anchored stance test for six-leg pixel-art rigs",
+  "summary": "In a 12-frame 160x112 RGBA Pillow mechanics exercise, six indexed legs were rendered with alternating tripod groups; each frame had exactly three stance legs, planted feet used fixed screen-space anchors while the body translated, and eight physical archive-ring panel markers changed position around a fixed pylon. Validation passed leg counts, stance counts, transparency and ring movement; this does NOT prove natural gait, anatomy, silhouette separation or canon fidelity. Earlier leg drills tested static hip anchors; this exercise changes to moving hips plus anchored stance contacts. Limitation: swing trajectories jump at wraparound, far-side legs overlap, ring is schematic. Reproduce using explicit phase=(frame/N + tripod_offset) mod 1, stance phase<0.5, and compare native 1x frames before approval.",
+  "tags": [
+    "gait",
+    "hexapod",
+    "pixel-art",
+    "ring",
+    "validation"
+  ],
+  "source": "Original 12-frame Pillow exercise and local automated checks (2026-11-10); Saint11 pixel-art tutorials https://saint11.org/blog/pixel-art-tutorials/ ; Bearframe Warehouse existing Palinode gait record",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T02:33:22+00:00",
+  "updated_at": "2026-11-11T02:33:22+00:00"
+}

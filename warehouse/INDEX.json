@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 8,
+  "record_count": 9,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
     "lore": 1,
-    "pixel-art": 4,
+    "pixel-art": 5,
     "workflow": 1
   },
   "records": [
@@ -64,6 +64,23 @@
       "source": "Founder-approved Bearframe RPG reference images and art-direction corrections, Nov 2026",
       "updated_at": "2026-11-11T02:05:05+00:00",
       "summary": "Ghost Grid constructs are ancient advanced machines with accumulated age, heavy wear, overgrowth, and mechanical faults. Echo Frames are distinct old Ghost Grid-era sentient Frames, often humanoid or hulking with layered armor, exposed systems, torn fabric, and individualized silhouettes. They are weathered and overgrown too, with conspicuous glitches, memory/display instability, actuator failures, and unpredictable motion. Character reference sheets for Fract, Relay, Ruin, Murmur, and Bastion guide appearance. Broken details must be intentional and readable, not shortcuts for poor sprite anatomy."
+    },
+    {
+      "id": "pixel-art-anchored-stance-test-for-six-l-25c7c62237",
+      "title": "Anchored stance test for six-leg pixel-art rigs",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "gait",
+        "hexapod",
+        "pixel-art",
+        "ring",
+        "validation"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-anchored-stance-test-for-six-l-25c7c62237.json",
+      "source": "Original 12-frame Pillow exercise and local automated checks (2026-11-10); Saint11 pixel-art tutorials https://saint11.org/blog/pixel-art-tutorials/ ; Bearframe Warehouse existing Palinode gait record",
+      "updated_at": "2026-11-11T02:33:22+00:00",
+      "summary": "In a 12-frame 160x112 RGBA Pillow mechanics exercise, six indexed legs were rendered with alternating tripod groups; each frame had exactly three stance legs, planted feet used fixed screen-space anchors while the body translated, and eight physical archive-ring panel markers changed position around a fixed pylon. Validation passed leg counts, stance counts, transparency and ring movement; this does NOT prove natural gait, anatomy, silhouette separation or canon fidelity. Earlier leg drills tested static hip anchors; this exercise changes to moving hips plus anchored stance contacts. Limitation: swing trajectories jump at wraparound, far-side legs overlap, ring is schematic. Reproduce using explicit phase=(frame/N + tripod_offset) mod 1, stance phase<0.5, and compare native 1x frames before approval."
     },
     {
       "id": "pixel-art-comprehensive-bearframe-visual-f99a28a2a0",
