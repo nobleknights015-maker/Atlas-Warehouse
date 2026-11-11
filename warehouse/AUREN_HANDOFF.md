@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 22 active records; 0 open work orders.
+Inventory: 23 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 3
+- **asset-standards**: 4
 - **engine**: 1
 - **lore**: 1
 - **pixel-art**: 15
@@ -45,6 +45,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Founder clarified that the four approved portrait-matched playable Sleeper designs must also show Echo-related ancient-tech characteristics: meaningful armor wear and age, exposed joints/cables, torn fabric, selective corrosion or overgrowth, independent sentient display/memory glitches and later controlled actuator stutters. Preserve four original selection portraits and one-to-one corresponding sprites with distinct A violet neutral, B damaged scarf violet, C ponytail violet and D cyan worn identifiers. Treat Echo-style cues as deliberate layering on the existing approved look, NOT a new claim that the Sleeper starters are literally Echo Frames; do not blanket-damage or merge identities. Finish/validate 4-view static sprite construction before visual glitch/walk animations and Android engine save/selection testing. No private artwork uploaded publicly.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-echo-characteristics-visual-standard.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-sleeper-sprites-incorpora-f5c76d5e9a.json)
+
+### Four Sleepers need Echo-style system malfunction animations, no visual redesign
+
+**asset-standards · unverified** · asset-standards-four-sleepers-need-echo-style-4c5fbe3ab3
+
+FOUNDER CORRECTION overrides the prior proposal to add damage/overgrowth to the four approved starter designs. They are ALREADY old and damaged. Keep all four original selection portraits and matching playable sprite silhouettes, palettes, armor, wear, and clothing exactly as approved. Once ordinary standing/idle/walk sprites are validated, create SEPARATE triggered or occasional animation clips for core light glitches, visor/side-display faults, short actuator stutters, brief desync/freeze, and recovery to idle. Keep readable native pixel scale, clean root/foot anchors, distinct purple/cyan lighting, restrained timings, and character-specific motion. This is not proof the characters are canonically Echo Frames. Do not upload user character art to the public repo.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-glitch-animation-only-clarification.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-sleepers-need-echo-style-4c5fbe3ab3.json)
 
 ### Bearframe engine release gate
 

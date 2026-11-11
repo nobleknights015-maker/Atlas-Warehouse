@@ -1,0 +1,20 @@
+{
+  "id": "asset-standards-four-sleepers-need-echo-style-4c5fbe3ab3",
+  "kind": "asset-standards",
+  "title": "Four Sleepers need Echo-style system malfunction animations, no visual redesign",
+  "summary": "FOUNDER CORRECTION overrides the prior proposal to add damage/overgrowth to the four approved starter designs. They are ALREADY old and damaged. Keep all four original selection portraits and matching playable sprite silhouettes, palettes, armor, wear, and clothing exactly as approved. Once ordinary standing/idle/walk sprites are validated, create SEPARATE triggered or occasional animation clips for core light glitches, visor/side-display faults, short actuator stutters, brief desync/freeze, and recovery to idle. Keep readable native pixel scale, clean root/foot anchors, distinct purple/cyan lighting, restrained timings, and character-specific motion. This is not proof the characters are canonically Echo Frames. Do not upload user character art to the public repo.",
+  "tags": [
+    "animation",
+    "art-standard",
+    "core-glitch",
+    "echo",
+    "identity",
+    "sleepers",
+    "system-faults"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-glitch-animation-only-clarification.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T22:59:13+00:00",
+  "updated_at": "2026-11-11T22:59:13+00:00"
+}
