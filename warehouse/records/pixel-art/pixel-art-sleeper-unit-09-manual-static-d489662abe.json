@@ -1,0 +1,19 @@
+{
+  "id": "pixel-art-sleeper-unit-09-manual-static-d489662abe",
+  "kind": "pixel-art",
+  "title": "Sleeper Unit 09 manual static sprite construction failed quality gate",
+  "summary": "Independently authored an original 128x216 static front-standing Unit09 sprite using 16 hand-planned opaque RGB colors and binary 0/255 alpha, complete arms/legs, visor, head-side modules, red wiring and an 09 shoulder mark. This was FROM BLANK PIXELS and is distinct from the separate reference-crop/palette exercise. Comparison with the supplied canonical sprite shows legs too short and stout, insufficiently layered torso plates and weak volumetric helmet construction. Technical PNG validity is not professional artistry; this remains a failing construction sketch. Next: correct hips/thigh/shin proportions and interlocking armor at 1x before animation or damage.",
+  "tags": [
+    "anatomy",
+    "bearframe",
+    "failed-quality-gate",
+    "original-drawing",
+    "pixel-art",
+    "unit09"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/sleeper-unit-09-original-static-sketch-round-01.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T04:15:03+00:00",
+  "updated_at": "2026-11-11T04:15:03+00:00"
+}
