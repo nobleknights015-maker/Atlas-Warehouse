@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-unit09-two-shin-section-rebuil-25fcfd52fb",
+  "kind": "pixel-art",
+  "title": "Unit09 two shin-section rebuild attempts reject promotion",
+  "summary": "Revisited locally available older 128x262 Unit 09 static practice drawing, constructed two distinct lower-leg A/B native-pixel corrections after a joint/silhouette inspection, and visualized both enlarged against the old figure. Candidate A changed 996 pixel positions, B 1055. Byte-identical upper+knee rows 0..211 and boot rows 245..261, 0/255 alpha and matching bbox all validated. Visual quality gate FAILED: excessive horizontal knee seam, shins still broad/flat and weak taper, full anatomy still too simple. Critical provenance: latest hourly v4b checkpoint was NOT available in active chat, so A/B are isolated practice and MUST NOT replace v4b or be called the new best. Next priority is reopening actual v4b then resolving knee/shin/ankle form with a real skeleton/section edit. No user art uploaded publicly.",
+  "tags": [
+    "art-critique",
+    "checkpoint-continuity",
+    "pixel-art",
+    "qa",
+    "section-rebuild",
+    "unit09",
+    "visual-failure"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-lowerleg-locked-section-rebuild-20261111.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T22:29:26+00:00",
+  "updated_at": "2026-11-11T22:29:26+00:00"
+}

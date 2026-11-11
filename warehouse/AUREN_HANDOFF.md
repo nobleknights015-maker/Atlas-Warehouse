@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 19 active records; 0 open work orders.
+Inventory: 20 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 1
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 14
+- **pixel-art**: 15
 - **workflow**: 2
 
 ## Knowledge shelves
@@ -157,6 +157,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Founder shifted introductory character study from complex Relay to starter Sleeper Frame Unit 09. The supplied source has strong bone-white angular helmet and chest plates, narrow violet visor, 09-marked shoulder, dark understructure, red cabling, distinctive knees and boots. A 125x321 front standing figure was isolated transparently from the supplied pixel-style sheet and placed in a 160x352 transparent frame. Global 64-color reduction loses purple emissive accents; reserving an 8-color violet ramp then tuning its brightness/saturation preserves the identity. Original source remains benchmark. This was an EXTRACTED REFERENCE AND COLOR STUDY, not new hand-drawn pixel art or production approval. Next must paint the helmet and shoulders from a blank canvas with deliberate clusters and compare at 1x before a full sprite or animation.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/sleeper-unit-09-first-static-study.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-starter-sleeper-unit-09-refere-d6ad67500c.json)
+
+### Unit09 two shin-section rebuild attempts reject promotion
+
+**pixel-art · unverified** · pixel-art-unit09-two-shin-section-rebuil-25fcfd52fb
+
+Revisited locally available older 128x262 Unit 09 static practice drawing, constructed two distinct lower-leg A/B native-pixel corrections after a joint/silhouette inspection, and visualized both enlarged against the old figure. Candidate A changed 996 pixel positions, B 1055. Byte-identical upper+knee rows 0..211 and boot rows 245..261, 0/255 alpha and matching bbox all validated. Visual quality gate FAILED: excessive horizontal knee seam, shins still broad/flat and weak taper, full anatomy still too simple. Critical provenance: latest hourly v4b checkpoint was NOT available in active chat, so A/B are isolated practice and MUST NOT replace v4b or be called the new best. Next priority is reopening actual v4b then resolving knee/shin/ankle form with a real skeleton/section edit. No user art uploaded publicly.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-lowerleg-locked-section-rebuild-20261111.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-two-shin-section-rebuil-25fcfd52fb.json)
 
 ### Evidence first warehouse learning loop
 
