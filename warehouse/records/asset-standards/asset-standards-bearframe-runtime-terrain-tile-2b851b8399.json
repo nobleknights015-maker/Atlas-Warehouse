@@ -1,0 +1,17 @@
+{
+  "id": "asset-standards-bearframe-runtime-terrain-tile-2b851b8399",
+  "kind": "asset-standards",
+  "title": "Bearframe runtime terrain tilesheet geometry",
+  "summary": "World Editor v1 runtime tilesheets are 384 by 768 pixels using an 8 by 16 grid of 48 by 48 pixel tiles. Use top-left origin, exactly 128 slots, RGBA PNG, clean transparency, and no labels, gaps, or resizing. Preserve stable tile IDs and order.",
+  "tags": [
+    "48x48",
+    "layout",
+    "tilesheet",
+    "world-editor"
+  ],
+  "source": "Founder-defined Bearframe World Editor v1 production standard",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T01:51:07+00:00",
+  "updated_at": "2026-11-11T01:51:07+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
+  "source_repository": "nobleknights015-maker/Atlas-Warehouse",
+  "privacy": "PUBLIC: no private chats, credentials or personal memories",
+  "record_count": 2,
+  "open_order_count": 0,
+  "aisles": {
+    "asset-standards": 1,
+    "pixel-art": 1
+  },
+  "records": [
+    {
+      "id": "asset-standards-bearframe-runtime-terrain-tile-2b851b8399",
+      "title": "Bearframe runtime terrain tilesheet geometry",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "48x48",
+        "layout",
+        "tilesheet",
+        "world-editor"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-bearframe-runtime-terrain-tile-2b851b8399.json",
+      "source": "Founder-defined Bearframe World Editor v1 production standard",
+      "updated_at": "2026-11-11T01:51:07+00:00",
+      "summary": "World Editor v1 runtime tilesheets are 384 by 768 pixels using an 8 by 16 grid of 48 by 48 pixel tiles. Use top-left origin, exactly 128 slots, RGBA PNG, clean transparency, and no labels, gaps, or resizing. Preserve stable tile IDs and order."
+    },
+    {
+      "id": "pixel-art-native-scale-and-anatomy",
+      "title": "Native scale and complete sprite anatomy",
+      "kind": "pixel-art",
+      "confidence": "reviewed",
+      "tags": [
+        "bearframe",
+        "anatomy",
+        "native-resolution",
+        "pixel-art",
+        "quality"
+      ],
+      "path": "warehouse/records/pixel-art/native-scale-and-anatomy.json",
+      "source": "Founder feedback on previous Bearframe pixel-art attempts",
+      "updated_at": "2026-11-11T01:16:41.984Z",
+      "summary": "Evaluate sprites at native pixel resolution before enlarging them. Avoid blocky oversized pixels that obscure the silhouette. Check that full limb anatomy is present, including both legs where the design requires them. Review readability and proportions before treating a sprite as a locked base frame."
+    }
+  ],
+  "open_orders": []
+}
