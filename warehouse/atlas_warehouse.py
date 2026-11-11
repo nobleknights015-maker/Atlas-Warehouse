@@ -18,12 +18,12 @@ CONFIDENCE = ("unverified", "tested", "reviewed")
 
 
 def slug(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")[:48] or "untitled"
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")[:48].strip("-") or "untitled"
 
 
 def make_id(kind: str, title: str) -> str:
     digest = hashlib.sha256((kind + "\x00" + title).encode("utf-8")).hexdigest()[:10]
-    return f"{slug(kind)}-{slug(title)[:30]}-{digest}"
+    return f"{slug(kind)}-{slug(title)[:30].rstrip('-')}-{digest}"
 
 
 def utc_now() -> str:
