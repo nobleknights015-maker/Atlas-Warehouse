@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-relay-round-6-portrait-failure-b3bf8b1583",
+  "kind": "pixel-art",
+  "title": "Relay Round 6 portrait failure and art-method correction",
+  "summary": "Founder quality feedback: the Relay Round 6 portrait resembles crude MS Paint drawing and is not a polished or sufficiently faithful Echo Frame design. Basic programmatic circles, polygons, flat fills, and added surface speckles are not a substitute for strong character-design fundamentals. Corrective workflow: study canonical Relay reference; establish an appealing, asymmetrical perspective-correct head and strong silhouette; build helmet/CRT display/hood and armor in meaningful layered planes; place and revise pixel clusters deliberately; verify visual fidelity at native resolution on light and dark backgrounds; only after the still image succeeds add wear, moss, corruption, or animation. Preserve all existing animation, overgrowth, silhouette and glitch training. Treat this pass as an unsuccessful quality-gate attempt and retain critique rather than celebrating minor metrics.",
+  "tags": [
+    "character-design",
+    "failure-analysis",
+    "pixel-art",
+    "portrait",
+    "quality",
+    "relay",
+    "revision"
+  ],
+  "source": "Founder direct visual critique of Relay portrait Round 6, Nov 2026",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T02:54:14+00:00",
+  "updated_at": "2026-11-11T02:54:14+00:00"
+}
