@@ -45,6 +45,24 @@ def fields(value: str, count: int) -> list[str]:
     return [safe_text(part, f"field {i+1}") for i, part in enumerate(parts)]
 
 
+def public_storage_check(*values: str) -> None:
+    """Reject recognizable sensitive strings before writing to PUBLIC GitHub.
+
+    This is defense in depth, not a substitute for human privacy review.
+    """
+    text = " ".join(values)
+    checks = [
+        r"(?i)[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",
+        r"(?i)-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----",
+        r"(?i)\b(?:password|api[_ -]?key|secret[_ -]?key|access[_ -]?token)\s*[:=]\s*\S+",
+        r"\bgh[pousr]_[A-Za-z0-9_]{15,}\b",
+        r"\bgithub_pat_[A-Za-z0-9_]{15,}\b",
+        r"\bsk-[A-Za-z0-9_-]{20,}\b",
+    ]
+    if any(re.search(pattern, text) for pattern in checks):
+        raise ValueError("Potentially sensitive information detected. This is a PUBLIC repository; nothing was stored.")
+
+
 def read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -160,6 +178,7 @@ class AtlasVI:
 
     def receive(self, value: str) -> str:
         kind, title, summary, tags, source = fields(value, 5)
+        public_storage_check(kind, title, summary, tags, source)
         kind = slug(kind)
         if kind not in ("pixel-art", "engine", "workflow", "lore", "research", "asset-standards",
                         "operations", "documentation", "other"):
@@ -174,6 +193,7 @@ class AtlasVI:
         if confidence not in ("tested", "reviewed"):
             raise ValueError("Confidence must be tested or reviewed")
         evidence = safe_text(evidence, "evidence", 500)
+        public_storage_check(evidence)
         path = self.record_path(record_id)
         item = read_json(path)
         if item.get("status", "active") != "active":
@@ -190,6 +210,7 @@ class AtlasVI:
 
     def archive(self, value: str) -> str:
         record_id, reason = fields(value, 2)
+        public_storage_check(reason)
         path = self.record_path(record_id)
         item = read_json(path)
         if item.get("status") == "archived":
@@ -203,6 +224,7 @@ class AtlasVI:
 
     def order_add(self, value: str) -> str:
         title, details, owner, priority = fields(value, 4)
+        public_storage_check(title, details, owner)
         priority = priority.lower()
         if priority not in PRIORITIES:
             raise ValueError("Priority must be low, normal, high, or critical")
@@ -243,6 +265,7 @@ class AtlasVI:
             note = "Work started"
         else:
             order_id, note = fields(value, 2)
+        public_storage_check(note)
         path = self.order_path(order_id)
         item = read_json(path)
         old = item["status"]
