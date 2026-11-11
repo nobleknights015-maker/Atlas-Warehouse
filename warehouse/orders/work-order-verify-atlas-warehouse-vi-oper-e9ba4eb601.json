@@ -1,0 +1,18 @@
+{
+  "id": "work-order-verify-atlas-warehouse-vi-oper-e9ba4eb601",
+  "title": "Verify Atlas Warehouse VI operations",
+  "details": "Demonstrate persisted GitHub work order and audit log through issue commands",
+  "owner": "Atlas",
+  "priority": "high",
+  "status": "queued",
+  "created_at": "2026-11-11T01:41:31+00:00",
+  "updated_at": "2026-11-11T01:41:31+00:00",
+  "history": [
+    {
+      "at": "2026-11-11T01:41:31+00:00",
+      "by": "nobleknights015-maker",
+      "action": "created",
+      "note": "Intake accepted"
+    }
+  ]
+}
