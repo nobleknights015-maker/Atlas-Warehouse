@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 9,
+  "record_count": 10,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
     "lore": 1,
-    "pixel-art": 5,
+    "pixel-art": 6,
     "workflow": 1
   },
   "records": [
@@ -151,6 +151,25 @@
       "source": "Bearframe pixel-art study assignment and prior exercise feedback",
       "updated_at": "2026-11-11T01:54:24+00:00",
       "summary": "Practice an articulated six-leg mechanical walking loop with distinct legs and alternating tripod support and swing phases. Check leg endpoints frame by frame, contact timing, silhouette and missing limb artifacts. Treat previous attempts as exercises, not finished production assets."
+    },
+    {
+      "id": "pixel-art-relay-portrait-round-06-shape-ffbc59e392",
+      "title": "Relay portrait round 06 shape hierarchy lesson",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "character-design",
+        "echo-frames",
+        "pixel-art",
+        "portrait",
+        "relay",
+        "silhouette",
+        "training"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-relay-portrait-round-06-shape-ffbc59e392.json",
+      "source": "Round 06 evidence and limitations: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-06.md",
+      "updated_at": "2026-11-11T02:36:14+00:00",
+      "summary": "In a native 144x144 Relay portrait experiment, rebuilding the asymmetric torn hood, tilted CRT face, separated broken halo and scarf as large silhouette clusters before damage/detail improved reference identity compared with a prior symmetrical frontal round. Integer-pixel Pillow edits used 25 colors and binary alpha; validation confirms file structure, NOT artistic quality. Remaining weaknesses: overly rounded CRT, weak shoulder planes, thin overgrowth, and display-only glitches. Next practice: sharper 3/4 faceted CRT, stronger shoulder anatomy, organic seam growth, and true-motion studies."
     },
     {
       "id": "workflow-evidence-first-warehouse-learn-1bbde70f2a",

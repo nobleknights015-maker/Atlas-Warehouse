@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-relay-portrait-round-06-shape-ffbc59e392",
+  "kind": "pixel-art",
+  "title": "Relay portrait round 06 shape hierarchy lesson",
+  "summary": "In a native 144x144 Relay portrait experiment, rebuilding the asymmetric torn hood, tilted CRT face, separated broken halo and scarf as large silhouette clusters before damage/detail improved reference identity compared with a prior symmetrical frontal round. Integer-pixel Pillow edits used 25 colors and binary alpha; validation confirms file structure, NOT artistic quality. Remaining weaknesses: overly rounded CRT, weak shoulder planes, thin overgrowth, and display-only glitches. Next practice: sharper 3/4 faceted CRT, stronger shoulder anatomy, organic seam growth, and true-motion studies.",
+  "tags": [
+    "character-design",
+    "echo-frames",
+    "pixel-art",
+    "portrait",
+    "relay",
+    "silhouette",
+    "training"
+  ],
+  "source": "Round 06 evidence and limitations: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-06.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T02:36:14+00:00",
+  "updated_at": "2026-11-11T02:36:14+00:00"
+}

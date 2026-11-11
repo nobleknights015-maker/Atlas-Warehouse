@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 9 active records; 0 open work orders.
+Inventory: 10 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 1
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 5
+- **pixel-art**: 6
 - **workflow**: 1
 
 ## Knowledge shelves
@@ -85,6 +85,14 @@ Source: Founder feedback on previous Bearframe pixel-art attempts. [Record](http
 Practice an articulated six-leg mechanical walking loop with distinct legs and alternating tripod support and swing phases. Check leg endpoints frame by frame, contact timing, silhouette and missing limb artifacts. Treat previous attempts as exercises, not finished production assets.
 
 Source: Bearframe pixel-art study assignment and prior exercise feedback. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-palinode-six-leg-gait-evaluati-dc71550a16.json)
+
+### Relay portrait round 06 shape hierarchy lesson
+
+**pixel-art · unverified** · pixel-art-relay-portrait-round-06-shape-ffbc59e392
+
+In a native 144x144 Relay portrait experiment, rebuilding the asymmetric torn hood, tilted CRT face, separated broken halo and scarf as large silhouette clusters before damage/detail improved reference identity compared with a prior symmetrical frontal round. Integer-pixel Pillow edits used 25 colors and binary alpha; validation confirms file structure, NOT artistic quality. Remaining weaknesses: overly rounded CRT, weak shoulder planes, thin overgrowth, and display-only glitches. Next practice: sharper 3/4 faceted CRT, stronger shoulder anatomy, organic seam growth, and true-motion studies.
+
+Source: Round 06 evidence and limitations: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-06.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-portrait-round-06-shape-ffbc59e392.json)
 
 ### Evidence first warehouse learning loop
 
