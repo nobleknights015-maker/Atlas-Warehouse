@@ -95,6 +95,17 @@ class AtlasVITests(unittest.TestCase):
         self.atlas.handle("receive workflow | Audit routine | Run checks | ops | Team report")
         self.assertIn("unverified", self.atlas.handle("maintenance"))
 
+    def test_public_warehouse_rejects_obvious_secrets(self):
+        for command in [
+            "receive research | Contact | Please send to someone@example.org | info | public web",
+            "order add Secret configuration | password: hunter2 | Atlas | high",
+            "receive workflow | Integration | token: github_pat_abcdefghijklmnop | ops | internal",
+        ]:
+            self.assertIn("Nothing was changed", self.atlas.handle(command))
+        self.assertFalse(self.atlas.audit.exists())
+        self.assertEqual(self.atlas.all_records(), [])
+        self.assertEqual(self.atlas.all_orders(), [])
+
     def test_alias_and_length_limit(self):
         self.assertIn("Warehouse status", self.atlas.handle("/atlas status"))
         self.assertIn("Warehouse status", self.atlas.handle("Atlas: status"))
