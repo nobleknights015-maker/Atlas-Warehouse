@@ -1,0 +1,21 @@
+{
+  "id": "pixel-art-round-18-four-view-starter-ref-1ebebc06eb",
+  "kind": "pixel-art",
+  "title": "Round 18 four-view starter reference adaptation and ASE verification",
+  "summary": "Prepared Vera's existing Starter A turnaround as FOUR independently aligned 128x256 source-derived RGBA sprite views, sharing a 74-color opaque palette, hard alpha, matching y=248 soles and top y=11, exported a 512x256 four-direction sheet and constructed a 4-frame/3-layer 32bpp ASE. Independently parsed every ASE cel and verified lossless compositing matches the four PNGs. This does NOT represent new hand-drawn character art, an animation, a LibreSprite-open test of this specific proprietary file, or production-ready sprites. The source images and derived assets remain private in conversation downloads; only method/metrics are public. Next study should tackle genuinely independent pixel-art armor design; keep all former animation/glitch/overgrowth coursework.",
+  "tags": [
+    "animation-prep",
+    "art-critique",
+    "ase",
+    "bearframe",
+    "pixel-art",
+    "qa",
+    "source-derived",
+    "starter"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-4view-reference-adaptation-round-18.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T14:13:34+00:00",
+  "updated_at": "2026-11-11T14:13:34+00:00"
+}

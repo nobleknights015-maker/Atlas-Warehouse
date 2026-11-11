@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 18 active records; 0 open work orders.
+Inventory: 19 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 1
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 13
+- **pixel-art**: 14
 - **workflow**: 2
 
 ## Knowledge shelves
@@ -133,6 +133,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Founder quality feedback: the Relay Round 6 portrait resembles crude MS Paint drawing and is not a polished or sufficiently faithful Echo Frame design. Basic programmatic circles, polygons, flat fills, and added surface speckles are not a substitute for strong character-design fundamentals. Corrective workflow: study canonical Relay reference; establish an appealing, asymmetrical perspective-correct head and strong silhouette; build helmet/CRT display/hood and armor in meaningful layered planes; place and revise pixel clusters deliberately; verify visual fidelity at native resolution on light and dark backgrounds; only after the still image succeeds add wear, moss, corruption, or animation. Preserve all existing animation, overgrowth, silhouette and glitch training. Treat this pass as an unsuccessful quality-gate attempt and retain critique rather than celebrating minor metrics.
 
 Source: Founder direct visual critique of Relay portrait Round 6, Nov 2026. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-round-6-portrait-failure-b3bf8b1583.json)
+
+### Round 18 four-view starter reference adaptation and ASE verification
+
+**pixel-art · unverified** · pixel-art-round-18-four-view-starter-ref-1ebebc06eb
+
+Prepared Vera's existing Starter A turnaround as FOUR independently aligned 128x256 source-derived RGBA sprite views, sharing a 74-color opaque palette, hard alpha, matching y=248 soles and top y=11, exported a 512x256 four-direction sheet and constructed a 4-frame/3-layer 32bpp ASE. Independently parsed every ASE cel and verified lossless compositing matches the four PNGs. This does NOT represent new hand-drawn character art, an animation, a LibreSprite-open test of this specific proprietary file, or production-ready sprites. The source images and derived assets remain private in conversation downloads; only method/metrics are public. Next study should tackle genuinely independent pixel-art armor design; keep all former animation/glitch/overgrowth coursework.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-4view-reference-adaptation-round-18.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round-18-four-view-starter-ref-1ebebc06eb.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
