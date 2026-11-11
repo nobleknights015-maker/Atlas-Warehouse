@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 20 active records; 0 open work orders.
+Inventory: 21 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 1
+- **asset-standards**: 2
 - **engine**: 1
 - **lore**: 1
 - **pixel-art**: 15
@@ -29,6 +29,14 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 World Editor v1 runtime tilesheets are 384 by 768 pixels using an 8 by 16 grid of 48 by 48 pixel tiles. Use top-left origin, exactly 128 slots, RGBA PNG, clean transparency, and no labels, gaps, or resizing. Preserve stable tile IDs and order.
 
 Source: Founder-defined Bearframe World Editor v1 production standard. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-runtime-terrain-tile-2b851b8399.json)
+
+### Four selectable Sleeper portraits must match playable characters
+
+**asset-standards · unverified** · asset-standards-four-selectable-sleeper-portra-96dac1b6a4
+
+Founder explicitly confirmed the four original Sleeper reference designs are character-select portraits. Each selected portrait MUST map to the SAME corresponding playable Frame (A-D) visually, with distinct helmet silhouette, purple vs cyan lights, cloak/scarf/damage and armor. The four newly generated 2x2 static front/side/side/back character turnarounds are founder-approved VISUAL TARGETS, not yet proven engine-ready pixel sprites: source renders 1254x1254 RGBA with soft alpha, 150k+ colors, no animation. Preserve identity mapping with stable IDs and save/load. Next steps: pixel cleanup, target size tested in mobile engine, separate direction/pivots, static QA, idle/walk animation, runtime test. Stop spending primary study hours on generic Unit09 block drawings. Public warehouse stores methods ONLY, not source/derived private art.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-portrait-playable-sprite-pairing-approved.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-selectable-sleeper-portra-96dac1b6a4.json)
 
 ### Bearframe engine release gate
 

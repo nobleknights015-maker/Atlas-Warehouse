@@ -3,10 +3,10 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 20,
+  "record_count": 21,
   "open_order_count": 0,
   "aisles": {
-    "asset-standards": 1,
+    "asset-standards": 2,
     "engine": 1,
     "lore": 1,
     "pixel-art": 15,
@@ -28,6 +28,26 @@
       "source": "Founder-defined Bearframe World Editor v1 production standard",
       "updated_at": "2026-11-11T01:51:07+00:00",
       "summary": "World Editor v1 runtime tilesheets are 384 by 768 pixels using an 8 by 16 grid of 48 by 48 pixel tiles. Use top-left origin, exactly 128 slots, RGBA PNG, clean transparency, and no labels, gaps, or resizing. Preserve stable tile IDs and order."
+    },
+    {
+      "id": "asset-standards-four-selectable-sleeper-portra-96dac1b6a4",
+      "title": "Four selectable Sleeper portraits must match playable characters",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "bearframe",
+        "character-select",
+        "founder-approved",
+        "pixel-art",
+        "playable-sprites",
+        "portraits",
+        "production-target",
+        "sleeper"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-four-selectable-sleeper-portra-96dac1b6a4.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-portrait-playable-sprite-pairing-approved.md",
+      "updated_at": "2026-11-11T22:51:01+00:00",
+      "summary": "Founder explicitly confirmed the four original Sleeper reference designs are character-select portraits. Each selected portrait MUST map to the SAME corresponding playable Frame (A-D) visually, with distinct helmet silhouette, purple vs cyan lights, cloak/scarf/damage and armor. The four newly generated 2x2 static front/side/side/back character turnarounds are founder-approved VISUAL TARGETS, not yet proven engine-ready pixel sprites: source renders 1254x1254 RGBA with soft alpha, 150k+ colors, no animation. Preserve identity mapping with stable IDs and save/load. Next steps: pixel cleanup, target size tested in mobile engine, separate direction/pivots, static QA, idle/walk animation, runtime test. Stop spending primary study hours on generic Unit09 block drawings. Public warehouse stores methods ONLY, not source/derived private art."
     },
     {
       "id": "engine-bearframe-engine-release-gate-1cf7305bda",

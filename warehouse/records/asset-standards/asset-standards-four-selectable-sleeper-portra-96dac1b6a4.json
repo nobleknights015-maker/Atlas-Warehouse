@@ -1,0 +1,21 @@
+{
+  "id": "asset-standards-four-selectable-sleeper-portra-96dac1b6a4",
+  "kind": "asset-standards",
+  "title": "Four selectable Sleeper portraits must match playable characters",
+  "summary": "Founder explicitly confirmed the four original Sleeper reference designs are character-select portraits. Each selected portrait MUST map to the SAME corresponding playable Frame (A-D) visually, with distinct helmet silhouette, purple vs cyan lights, cloak/scarf/damage and armor. The four newly generated 2x2 static front/side/side/back character turnarounds are founder-approved VISUAL TARGETS, not yet proven engine-ready pixel sprites: source renders 1254x1254 RGBA with soft alpha, 150k+ colors, no animation. Preserve identity mapping with stable IDs and save/load. Next steps: pixel cleanup, target size tested in mobile engine, separate direction/pivots, static QA, idle/walk animation, runtime test. Stop spending primary study hours on generic Unit09 block drawings. Public warehouse stores methods ONLY, not source/derived private art.",
+  "tags": [
+    "bearframe",
+    "character-select",
+    "founder-approved",
+    "pixel-art",
+    "playable-sprites",
+    "portraits",
+    "production-target",
+    "sleeper"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-portrait-playable-sprite-pairing-approved.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T22:51:01+00:00",
+  "updated_at": "2026-11-11T22:51:01+00:00"
+}
