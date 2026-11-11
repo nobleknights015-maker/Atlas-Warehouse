@@ -23,7 +23,7 @@ class AtlasVITests(unittest.TestCase):
         self.assertIn("younger brother", PERSONA["relationship"])
         self.assertIn("👍", self.atlas.handle("hello"))
         self.assertIn("Warehouse Director", self.atlas.handle("status"))
-        self.assertIn("Work order", self.atlas.handle("help").title())
+        self.assertIn("order add", self.atlas.handle("help"))
         self.assertIn("Sentinel", self.atlas.handle("team"))
         self.assertIn("deterministic VI", self.atlas.handle("about"))
 
@@ -86,7 +86,7 @@ class AtlasVITests(unittest.TestCase):
         self.assertIn("Nothing was changed", self.atlas.handle("order done " + order_id + " | no tests"))
         self.assertIn("Critical open orders: 1", self.atlas.handle("status"))
         self.assertIn("No issues detected", self.atlas.handle("maintenance"))
-        self.assertIn("Inspection", self.atlas.handle("maintenance"))
+        self.assertIn("inspection complete", self.atlas.handle("maintenance"))
 
     def test_no_duplicate_order_and_no_unverified_claim(self):
         command = "order add Audit audit | Check storage | Atlas | normal"
