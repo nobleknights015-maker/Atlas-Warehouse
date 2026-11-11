@@ -1,0 +1,21 @@
+{
+  "id": "pixel-art-relay-round-08-silhouette-sepa-13e42fb1a5",
+  "kind": "pixel-art",
+  "title": "Relay Round 08 silhouette separation versus character appeal",
+  "summary": "Three native 104x128 integer-pixel silhouette studies compared broken relay-ring placement while holding Relay's body constant. A/B/C ring-to-body minimum gaps were 2.83/3.61/4.00 pixels with no direct overlap. B better isolates the left rim, C is top-heavy; these numerical tests check geometry but NOT artistic quality. A separate 112x100 angled CRT material-plane exercise was also completed. All designs still fail canonical character-art review because hood/head and shoulders remain generic/rounded; further angular asymmetrical silhouette and 3/4 perspective practice is required before effects or animation. Preserve this critical failure along with the evidence and continue the other study subjects.",
+  "tags": [
+    "art-quality",
+    "character-design",
+    "composition",
+    "failed-gate",
+    "negative-space",
+    "pixel-art",
+    "relay",
+    "silhouette"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-08.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T03:31:29+00:00",
+  "updated_at": "2026-11-11T03:31:29+00:00"
+}

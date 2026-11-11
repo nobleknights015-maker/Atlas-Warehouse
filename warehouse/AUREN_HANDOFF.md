@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 12 active records; 0 open work orders.
+Inventory: 13 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 1
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 8
+- **pixel-art**: 9
 - **workflow**: 1
 
 ## Knowledge shelves
@@ -101,6 +101,14 @@ Source: Round 06 evidence and limitations: https://github.com/nobleknights015-ma
 Native 208x208 hand-authored Relay portrait study used 29-color palette and binary RGBA alpha; separate silhouette, faceted CRT/material, and sparse age passes; tested alternative broken-halo placements. Compared with Round 06, the CRT is more oblique and layer hierarchy clearer, but the silhouette still merges halo and hood near the top, shoulders remain shallow, and the design is not production quality. Technical PNG validation is not artistic validation. Next: three tiny monochrome thumbnail silhouettes, negative-space test at 1x, and focused 3/4 CRT/hood construction BEFORE lighting, overgrowth or glitches. Keep all prior animation and degeneration subjects in parallel.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-07.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-portrait-round-07-silhou-bbd037fb01.json)
+
+### Relay Round 08 silhouette separation versus character appeal
+
+**pixel-art · unverified** · pixel-art-relay-round-08-silhouette-sepa-13e42fb1a5
+
+Three native 104x128 integer-pixel silhouette studies compared broken relay-ring placement while holding Relay's body constant. A/B/C ring-to-body minimum gaps were 2.83/3.61/4.00 pixels with no direct overlap. B better isolates the left rim, C is top-heavy; these numerical tests check geometry but NOT artistic quality. A separate 112x100 angled CRT material-plane exercise was also completed. All designs still fail canonical character-art review because hood/head and shoulders remain generic/rounded; further angular asymmetrical silhouette and 3/4 perspective practice is required before effects or animation. Preserve this critical failure along with the evidence and continue the other study subjects.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-08.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-round-08-silhouette-sepa-13e42fb1a5.json)
 
 ### Relay Round 6 portrait failure and art-method correction
 

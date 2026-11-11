@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 12,
+  "record_count": 13,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
     "lore": 1,
-    "pixel-art": 8,
+    "pixel-art": 9,
     "workflow": 1
   },
   "records": [
@@ -189,6 +189,26 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-07.md",
       "updated_at": "2026-11-11T03:20:09+00:00",
       "summary": "Native 208x208 hand-authored Relay portrait study used 29-color palette and binary RGBA alpha; separate silhouette, faceted CRT/material, and sparse age passes; tested alternative broken-halo placements. Compared with Round 06, the CRT is more oblique and layer hierarchy clearer, but the silhouette still merges halo and hood near the top, shoulders remain shallow, and the design is not production quality. Technical PNG validation is not artistic validation. Next: three tiny monochrome thumbnail silhouettes, negative-space test at 1x, and focused 3/4 CRT/hood construction BEFORE lighting, overgrowth or glitches. Keep all prior animation and degeneration subjects in parallel."
+    },
+    {
+      "id": "pixel-art-relay-round-08-silhouette-sepa-13e42fb1a5",
+      "title": "Relay Round 08 silhouette separation versus character appeal",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "art-quality",
+        "character-design",
+        "composition",
+        "failed-gate",
+        "negative-space",
+        "pixel-art",
+        "relay",
+        "silhouette"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-relay-round-08-silhouette-sepa-13e42fb1a5.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-08.md",
+      "updated_at": "2026-11-11T03:31:29+00:00",
+      "summary": "Three native 104x128 integer-pixel silhouette studies compared broken relay-ring placement while holding Relay's body constant. A/B/C ring-to-body minimum gaps were 2.83/3.61/4.00 pixels with no direct overlap. B better isolates the left rim, C is top-heavy; these numerical tests check geometry but NOT artistic quality. A separate 112x100 angled CRT material-plane exercise was also completed. All designs still fail canonical character-art review because hood/head and shoulders remain generic/rounded; further angular asymmetrical silhouette and 3/4 perspective practice is required before effects or animation. Preserve this critical failure along with the evidence and continue the other study subjects."
     },
     {
       "id": "pixel-art-relay-round-6-portrait-failure-b3bf8b1583",
