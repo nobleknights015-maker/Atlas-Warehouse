@@ -1,0 +1,68 @@
+name: LibreSprite layered pixel-study integration
+
+on:
+  push:
+    paths:
+      - '.github/workflows/libresprite-layered-study.yml'
+      - 'warehouse/tools/editor_armor_lab.py'
+      - 'warehouse/tools/editor_armor_polish.js'
+      - 'warehouse/tools/editor_armor_validate.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  layered-native-pixels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python validator
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Create original public-safe editable layered 3-frame ASE
+        run: python warehouse/tools/editor_armor_lab.py
+      - name: Install LibreSprite from official release
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 --retry-delay 3 \
+            https://github.com/LibreSprite/LibreSprite/releases/download/v1.3/libresprite-v1.3-linux-x86_64.AppImage \
+            -o libresprite.AppImage
+          chmod +x libresprite.AppImage
+          ./libresprite.AppImage --appimage-extract >/dev/null
+          ./squashfs-root/AppRun --version
+      - name: Perform native pixel edits in LibreSprite layers and cels
+        run: |
+          ./squashfs-root/AppRun -b training_run/input_layers.ase \
+            --script warehouse/tools/editor_armor_polish.js \
+            --save-as training_run/edited_layers.ase
+      - name: Export true editor sheet, frame metadata, and animated preview
+        run: |
+          ./squashfs-root/AppRun -b --sheet-type horizontal --format json-array \
+            training_run/edited_layers.ase \
+            --sheet training_run/editor_sheet.png --data training_run/editor_sheet.json
+          ./squashfs-root/AppRun -b training_run/edited_layers.ase \
+            --save-as training_run/editor_preview.gif
+      - name: Validate exported frames and grounded stance
+        run: python warehouse/tools/editor_armor_validate.py
+      - name: Upload reproducible native editor artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: libresprite-layered-study
+          path: |
+            training_run/input_layers.ase
+            training_run/edited_layers.ase
+            training_run/editor_sheet.png
+            training_run/editor_sheet.json
+            training_run/editor_preview.gif
+            training_run/edited_frame_*.png
+            training_run/editor_validation.json
+          if-no-files-found: warn
+          retention-days: 7
