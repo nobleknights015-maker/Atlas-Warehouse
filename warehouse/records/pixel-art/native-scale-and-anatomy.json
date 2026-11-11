@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-native-scale-and-anatomy",
+  "kind": "pixel-art",
+  "title": "Native scale and complete sprite anatomy",
+  "summary": "Evaluate sprites at native pixel resolution before enlarging them. Avoid blocky oversized pixels that obscure the silhouette. Check that full limb anatomy is present, including both legs where the design requires them. Review readability and proportions before treating a sprite as a locked base frame.",
+  "tags": [
+    "bearframe",
+    "anatomy",
+    "native-resolution",
+    "pixel-art",
+    "quality"
+  ],
+  "source": "Founder feedback on previous Bearframe pixel-art attempts",
+  "confidence": "reviewed",
+  "visibility": "public",
+  "created_at": "2026-11-11T01:16:41.984Z",
+  "updated_at": "2026-11-11T01:16:41.984Z"
+}
