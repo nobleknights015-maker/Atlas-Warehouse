@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 7 active records; 0 open work orders.
+Inventory: 8 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 1
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 3
+- **pixel-art**: 4
 - **workflow**: 1
 
 ## Knowledge shelves
@@ -45,6 +45,14 @@ Source: Founder instructions for Bearframe RPG engine completion. [Record](https
 Ghost Grid constructs are ancient advanced machines with accumulated age, heavy wear, overgrowth, and mechanical faults. Echo Frames are distinct old Ghost Grid-era sentient Frames, often humanoid or hulking with layered armor, exposed systems, torn fabric, and individualized silhouettes. They are weathered and overgrown too, with conspicuous glitches, memory/display instability, actuator failures, and unpredictable motion. Character reference sheets for Fract, Relay, Ruin, Murmur, and Bastion guide appearance. Broken details must be intentional and readable, not shortcuts for poor sprite anatomy.
 
 Source: Founder-approved Bearframe RPG reference images and art-direction corrections, Nov 2026. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/lore/lore-ghost-grid-and-echo-frame-anci-e08d91cd6e.json)
+
+### Comprehensive Bearframe visual-art training checklist
+
+**pixel-art · unverified** · pixel-art-comprehensive-bearframe-visual-f99a28a2a0
+
+Character design is ADDITIONAL homework, not a replacement for existing pixel-art work. Train and evaluate all competencies together: native-scale pixel placement and cluster discipline, clean contours, anatomy and proportions, distinctive and appealing character/portrait design, shape language, strong silhouettes, expressive face/visor/helmet design, readable armor and materials, lighting and color, frame-by-frame animation timing and movement weight, articulated mechanical geometry, natural accumulated overgrowth and age/damage, and intentional Ghost Grid mechanical faults versus distinctive Echo Frame glitch behavior. Compare original reference designs to native-resolution sprites and portraits; document failures, revisions, and objective QC before production approval. Previous rough assets are practice only, not finished.
+
+Source: Founder correction to Auren pixel-art study scope, Nov 2026. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-comprehensive-bearframe-visual-f99a28a2a0.json)
 
 ### Native pixel-art training and quality gate
 
