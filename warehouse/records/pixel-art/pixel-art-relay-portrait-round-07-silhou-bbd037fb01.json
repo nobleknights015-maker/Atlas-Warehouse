@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-relay-portrait-round-07-silhou-bbd037fb01",
+  "kind": "pixel-art",
+  "title": "Relay portrait Round 07 silhouette and perspective failure analysis",
+  "summary": "Native 208x208 hand-authored Relay portrait study used 29-color palette and binary RGBA alpha; separate silhouette, faceted CRT/material, and sparse age passes; tested alternative broken-halo placements. Compared with Round 06, the CRT is more oblique and layer hierarchy clearer, but the silhouette still merges halo and hood near the top, shoulders remain shallow, and the design is not production quality. Technical PNG validation is not artistic validation. Next: three tiny monochrome thumbnail silhouettes, negative-space test at 1x, and focused 3/4 CRT/hood construction BEFORE lighting, overgrowth or glitches. Keep all prior animation and degeneration subjects in parallel.",
+  "tags": [
+    "character-design",
+    "failed-quality-gate",
+    "perspective",
+    "pixel-art",
+    "relay",
+    "silhouette",
+    "study"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-07.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T03:20:09+00:00",
+  "updated_at": "2026-11-11T03:20:09+00:00"
+}

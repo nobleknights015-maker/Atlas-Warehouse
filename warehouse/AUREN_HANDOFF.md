@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 11 active records; 0 open work orders.
+Inventory: 12 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 1
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 7
+- **pixel-art**: 8
 - **workflow**: 1
 
 ## Knowledge shelves
@@ -93,6 +93,14 @@ Source: Bearframe pixel-art study assignment and prior exercise feedback. [Recor
 In a native 144x144 Relay portrait experiment, rebuilding the asymmetric torn hood, tilted CRT face, separated broken halo and scarf as large silhouette clusters before damage/detail improved reference identity compared with a prior symmetrical frontal round. Integer-pixel Pillow edits used 25 colors and binary alpha; validation confirms file structure, NOT artistic quality. Remaining weaknesses: overly rounded CRT, weak shoulder planes, thin overgrowth, and display-only glitches. Next practice: sharper 3/4 faceted CRT, stronger shoulder anatomy, organic seam growth, and true-motion studies.
 
 Source: Round 06 evidence and limitations: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-06.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-portrait-round-06-shape-ffbc59e392.json)
+
+### Relay portrait Round 07 silhouette and perspective failure analysis
+
+**pixel-art · unverified** · pixel-art-relay-portrait-round-07-silhou-bbd037fb01
+
+Native 208x208 hand-authored Relay portrait study used 29-color palette and binary RGBA alpha; separate silhouette, faceted CRT/material, and sparse age passes; tested alternative broken-halo placements. Compared with Round 06, the CRT is more oblique and layer hierarchy clearer, but the silhouette still merges halo and hood near the top, shoulders remain shallow, and the design is not production quality. Technical PNG validation is not artistic validation. Next: three tiny monochrome thumbnail silhouettes, negative-space test at 1x, and focused 3/4 CRT/hood construction BEFORE lighting, overgrowth or glitches. Keep all prior animation and degeneration subjects in parallel.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-07.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-portrait-round-07-silhou-bbd037fb01.json)
 
 ### Relay Round 6 portrait failure and art-method correction
 
