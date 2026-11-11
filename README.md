@@ -60,6 +60,27 @@ Key files:
 - [Warehouse record specification](warehouse/SCHEMA.md)
 - [Unit tests](warehouse/tests)
 
+## Auren knowledge bridge
+
+Auren can retrieve warehouse knowledge directly through the connected GitHub
+tools. Start a new chat with **"Load Atlas Warehouse"**, then Auren should
+read [INDEX.json](warehouse/INDEX.json), fetch the exact relevant source
+records, and check project tests before acting. The Markdown
+[Auren Handoff](warehouse/AUREN_HANDOFF.md) gives a concise overview.
+
+[**Cross-chat setup and verification guide →**](warehouse/CONNECT_AUREN.md)
+
+A private **Atlas Warehouse Bridge** skills plugin was also created for
+repeatable retrieval/deposit behavior in future chats. It must be enabled
+by its owner before use. The bridge provides instructions, not an additional
+server or model. No private chat or personal information belongs in the
+public warehouse.
+
+The VI now uses a durable GitHub issue-command cursor. When rapid successive
+comments cause pending GitHub workers to be canceled, a later worker drains
+unprocessed owner commands in order instead of silently dropping inventory.
+The queue and index are tested and remain in version control.
+
 ## Security and honest limitations
 
 **This repository and its issue comments are PUBLIC.** Never place passwords,
