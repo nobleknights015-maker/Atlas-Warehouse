@@ -1,0 +1,20 @@
+{
+  "id": "asset-standards-four-sleeper-sprites-incorpora-f5c76d5e9a",
+  "kind": "asset-standards",
+  "title": "Four Sleeper sprites incorporate individualized Echo Frame visual traits without changing portrait identity",
+  "summary": "Founder clarified that the four approved portrait-matched playable Sleeper designs must also show Echo-related ancient-tech characteristics: meaningful armor wear and age, exposed joints/cables, torn fabric, selective corrosion or overgrowth, independent sentient display/memory glitches and later controlled actuator stutters. Preserve four original selection portraits and one-to-one corresponding sprites with distinct A violet neutral, B damaged scarf violet, C ponytail violet and D cyan worn identifiers. Treat Echo-style cues as deliberate layering on the existing approved look, NOT a new claim that the Sleeper starters are literally Echo Frames; do not blanket-damage or merge identities. Finish/validate 4-view static sprite construction before visual glitch/walk animations and Android engine save/selection testing. No private artwork uploaded publicly.",
+  "tags": [
+    "asset-standards",
+    "bearframe",
+    "character-design",
+    "echo-frames",
+    "portrait-mapping",
+    "sleeper",
+    "visual-canon"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-echo-characteristics-visual-standard.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-11T22:55:27+00:00",
+  "updated_at": "2026-11-11T22:55:27+00:00"
+}

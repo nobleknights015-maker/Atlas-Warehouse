@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 21 active records; 0 open work orders.
+Inventory: 22 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 2
+- **asset-standards**: 3
 - **engine**: 1
 - **lore**: 1
 - **pixel-art**: 15
@@ -37,6 +37,14 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Founder explicitly confirmed the four original Sleeper reference designs are character-select portraits. Each selected portrait MUST map to the SAME corresponding playable Frame (A-D) visually, with distinct helmet silhouette, purple vs cyan lights, cloak/scarf/damage and armor. The four newly generated 2x2 static front/side/side/back character turnarounds are founder-approved VISUAL TARGETS, not yet proven engine-ready pixel sprites: source renders 1254x1254 RGBA with soft alpha, 150k+ colors, no animation. Preserve identity mapping with stable IDs and save/load. Next steps: pixel cleanup, target size tested in mobile engine, separate direction/pivots, static QA, idle/walk animation, runtime test. Stop spending primary study hours on generic Unit09 block drawings. Public warehouse stores methods ONLY, not source/derived private art.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-portrait-playable-sprite-pairing-approved.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-selectable-sleeper-portra-96dac1b6a4.json)
+
+### Four Sleeper sprites incorporate individualized Echo Frame visual traits without changing portrait identity
+
+**asset-standards · unverified** · asset-standards-four-sleeper-sprites-incorpora-f5c76d5e9a
+
+Founder clarified that the four approved portrait-matched playable Sleeper designs must also show Echo-related ancient-tech characteristics: meaningful armor wear and age, exposed joints/cables, torn fabric, selective corrosion or overgrowth, independent sentient display/memory glitches and later controlled actuator stutters. Preserve four original selection portraits and one-to-one corresponding sprites with distinct A violet neutral, B damaged scarf violet, C ponytail violet and D cyan worn identifiers. Treat Echo-style cues as deliberate layering on the existing approved look, NOT a new claim that the Sleeper starters are literally Echo Frames; do not blanket-damage or merge identities. Finish/validate 4-view static sprite construction before visual glitch/walk animations and Android engine save/selection testing. No private artwork uploaded publicly.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-echo-characteristics-visual-standard.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-sleeper-sprites-incorpora-f5c76d5e9a.json)
 
 ### Bearframe engine release gate
 
