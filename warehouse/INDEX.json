@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 16,
+  "record_count": 17,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
     "lore": 1,
     "pixel-art": 12,
-    "workflow": 1
+    "workflow": 2
   },
   "records": [
     {
@@ -300,6 +300,25 @@
       "source": "Atlas Warehouse operational policy and Founder requirement for continuous improvement",
       "updated_at": "2026-11-11T01:54:24+00:00",
       "summary": "Save reusable public-safe project techniques with source and review status. Do not promote a claim to tested without repeatable evidence. When an experiment fails, record the failure and correction. Retrieve exact records before taking action and preserve commit history."
+    },
+    {
+      "id": "workflow-libresprite-1-3-real-native-pi-f1a4b44b43",
+      "title": "LibreSprite 1.3 real native pixel editor successfully verified in GitHub Actions",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "automation",
+        "editor",
+        "github-actions",
+        "libresprite",
+        "pixel-art",
+        "tooling",
+        "verified"
+      ],
+      "path": "warehouse/records/workflow/workflow-libresprite-1-3-real-native-pi-f1a4b44b43.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-editor-integration-v1.md",
+      "updated_at": "2026-11-11T04:49:08+00:00",
+      "summary": "Implemented a reproducible GitHub Actions workflow that downloads the OFFICIAL LibreSprite 1.3 AppImage, extracts and launches its actual headless batch editor, executes JavaScript inside a sprite cel to change two RGBA pixels, exports a PNG and validates those exact pixels plus transparency. All steps passed on run 42961553641 with downloadable image/report artifacts. This is a VERIFIED TOOL INTEGRATION smoke test, NOT an artistic quality or game production pass. LibreSprite is ephemeral per runner; current ChatGPT sandbox does not have a local editor install. Use this workflow to build future authored layered sprite and animation tests, and keep source game art out of public repo."
     }
   ],
   "open_orders": []
