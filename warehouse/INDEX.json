@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 17,
+  "record_count": 18,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 1,
     "engine": 1,
     "lore": 1,
-    "pixel-art": 12,
+    "pixel-art": 13,
     "workflow": 2
   },
   "records": [
@@ -121,6 +121,26 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-four-character-scale-and-anatomy-round-02.md",
       "updated_at": "2026-11-11T04:31:33+00:00",
       "summary": "Audited four user-provided 1774x887 RGBA starter sheets (front, left, right, back each). View heights vary within each sheet by only 2-11px, useful for consistency, but 295k-343k distinct RGBA values and soft partial alpha on >99.9% of visible pixels show these are high-resolution 32-bit-STYLE references, NOT clean limited-palette native sprites. At 96px diagnostic sizes, armor details disappear; silhouette, visor color and mantle/ponytail carry identity. Independently rebuilt elongated hips/thighs/knees/shins/boots on earlier original Unit09 study (128x216 to 128x262, binary alpha); proportions improve yet armor/boots remain crude, so artistic quality gate FAILS. Next lock runtime pixel scale, establish one full-body native static art benchmark, check four-view foot anchors and test selectable characters at actual game scale before animation. User-supplied images never copied to public warehouse."
+    },
+    {
+      "id": "pixel-art-libresprite-round-09-verified-2b6c88d2e9",
+      "title": "LibreSprite Round 09 verified four-layer three-frame static editing and art critique",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "animation",
+        "art-critique",
+        "layered-sprites",
+        "libresprite",
+        "pixel-art",
+        "qa",
+        "static-pose",
+        "technical-test"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-libresprite-round-09-verified-2b6c88d2e9.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-layered-idle-study-round-09.md",
+      "updated_at": "2026-11-11T05:01:24+00:00",
+      "summary": "GitHub Actions run 42962709703 succeeded: LibreSprite 1.3 opened a public-safe generic 72x112 native RGBA practice ASE containing internal_structure, faceted_armor, drapery and signals layers over three frames, edited actual cels via JS and exported ASE, PNG sheet, JSON metadata and GIF. Validator passed stable feet y=101..111, no partial alpha, 14 colors including transparency. Independent parse of exported source and edited ASE verified all named layers, exact matching PNG composites and 14/15/16 source-to-editor pixel changes across frames 0/1/2 without modifying alpha. This is technically reproducible but VISUAL QUALITY FAILED: figure stiff, angular armor simplistic, helmet and materials lack refined character design. Continue actual editorial practice, not generic effects or premature game production."
     },
     {
       "id": "pixel-art-native-pixel-art-training-and-84bb0587a8",
