@@ -1,0 +1,11 @@
+# Bearframe asset team — Round34 read-only cardinal sprite timing audit
+Date: 2026-11-12
+Status: reproducible file QA, NOT final artwork and NOT on-device validation.
+
+Reviewed privately supplied `Bearframe_Round33_Cardinal_32px_Map_Test.zip` against `Bearframe_Round32_Active_Feminine_Master.zip` (source character art stays private). Verified all 248 recorded Round33 file checksums. Both 48px (32×56) and 64px (40×72) scale probes contain four cardinal directions with 16 distinct walk PNGs plus idle in each direction; all alpha pixels are 0 or 255. Neither scale is artistically approved; original textures are nearest-neighbor downscales used for layout only.
+
+**Observed offline timing defect:** the Round33 timeline uses a 50ms presentation clock, snaps 32px tile coordinates, and represents movement with five ticks (250ms) per step. Its global walk-frame phase on successive steps selects indices [7,8,9,10,11] then [1,2,3,4,5], repeating. Frame indices [0,6,12,13,14,15] are never sampled in that 96-tick offline preview. This reflects the preview's source-simulated timing, not confirmed installed Android APK playback. A single 250ms step cannot display a full 16-frame loop at 50ms per frame; update art/timing handshake with engine team rather than inventing smooth interpolation.
+
+**Next artistic step:** make native 64px-height a provisional first candidate (not acceptance) because it preserves more silhouette detail than the 48px probe when tested against real 32px tiles; hand-clean four-direction S/W/E/N field idle and walk clusters at native display size, with stable foot pivots, five-step-compatible or properly phase-locked contact/down/passing/up poses, and canonical armor/visor/side-head/chest identity. Inspect 1× and gameplay contexts. Do not alter engine from asset team. Preserve Round29 approved feminine baseline and Round32 withdrawals of kneeling/prone dependent actions, arms-crossed and fake look-around.
+
+Private diagnostic deliverable: `Bearframe_Round34_Timing_Diagnostic.zip` (QA JSON, summary TXT, reproducible read-only script, original Round33 scale-comparison image). It does not claim pixel-art improvements, actual pixel-editing in this round, phone test or engine integration.
