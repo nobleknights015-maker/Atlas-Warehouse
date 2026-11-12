@@ -1,0 +1,21 @@
+{
+  "id": "engine-live-read-only-android-webview-9879bc7892",
+  "kind": "engine",
+  "title": "Live read-only Android WebView presentation clock now installed",
+  "summary": "Bearframe RPG main squash commit cd2d2c07536f77c038405b3719f812e24d42e47a merged PR 4 after Node and installed Android 35 emulator green on head 6607b72d; runtime RAF paints every 50ms visual tick without changing save revisions, pauses on hidden/tab/pagehide/native suspend, resumes without catchup. Root-cause CI failure found original synthetic character atlas had two pixel-identical frames; patched an original native-pixel 90-pixel visor-light pulse with strict same alpha and PNG regression. Installed emulator reported presentationClock PASS real idle pixel changes, tab Activity pause-resume and unchanged saved revision. Physical Moto G acceptance remains OPEN.",
+  "tags": [
+    "32x32",
+    "android",
+    "animation",
+    "bearframe",
+    "engine",
+    "qa",
+    "save-isolation",
+    "webview"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/actions/runs/43144865520",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T03:03:02+00:00",
+  "updated_at": "2026-11-12T03:03:02+00:00"
+}

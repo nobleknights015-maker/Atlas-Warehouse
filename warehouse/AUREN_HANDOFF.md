@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 27 active records; 0 open work orders.
+Inventory: 28 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -15,7 +15,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 ## Indexed aisles
 
 - **asset-standards**: 5
-- **engine**: 1
+- **engine**: 2
 - **lore**: 1
 - **pixel-art**: 17
 - **workflow**: 3
@@ -69,6 +69,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence.
 
 Source: Founder instructions for Bearframe RPG engine completion. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-engine-release-gate-1cf7305bda.json)
+
+### Live read-only Android WebView presentation clock now installed
+
+**engine · unverified** · engine-live-read-only-android-webview-9879bc7892
+
+Bearframe RPG main squash commit cd2d2c07536f77c038405b3719f812e24d42e47a merged PR 4 after Node and installed Android 35 emulator green on head 6607b72d; runtime RAF paints every 50ms visual tick without changing save revisions, pauses on hidden/tab/pagehide/native suspend, resumes without catchup. Root-cause CI failure found original synthetic character atlas had two pixel-identical frames; patched an original native-pixel 90-pixel visor-light pulse with strict same alpha and PNG regression. Installed emulator reported presentationClock PASS real idle pixel changes, tab Activity pause-resume and unchanged saved revision. Physical Moto G acceptance remains OPEN.
+
+Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/actions/runs/43144865520. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-live-read-only-android-webview-9879bc7892.json)
 
 ### Ghost Grid and Echo Frame ancient deterioration canon
 
