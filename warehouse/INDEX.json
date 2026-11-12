@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 41,
+  "record_count": 42,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 7,
     "engine": 6,
     "lore": 1,
     "pixel-art": 23,
-    "workflow": 4
+    "workflow": 5
   },
   "records": [
     {
@@ -753,6 +753,23 @@
       "source": "warehouse/studies/round26-walking-recovery.md",
       "updated_at": "2026-11-12T17:59:06+00:00",
       "summary": "Before continuing Unit09 pixel art, recover Bearframe_Round26_Eight_Direction_Walking_64_Frames.zip from the user's saved files. Read ROUND26_README.md and QA, then use walk_v5, build_walk.py and export_validate.py. The durable recovery guide records exact frame size, pivot, timing, atlas order, protected cardinal baselines, reusable articulation and quantization lessons, rejected approaches and remaining artistic limits. Preserve the working 64-frame walk; do not restart from flat diagonal studies. Numerical validation does not establish final artistic or runtime approval."
+    },
+    {
+      "id": "workflow-round27-eight-direction-core-a-88bb4be8a7",
+      "title": "Round27 eight-direction core animation checkpoint",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "animation",
+        "bearframe",
+        "continuity",
+        "pixel-art",
+        "round27"
+      ],
+      "path": "warehouse/records/workflow/workflow-round27-eight-direction-core-a-88bb4be8a7.json",
+      "source": "warehouse/studies/round27-core-animation-recovery.md",
+      "updated_at": "2026-11-12T18:22:05+00:00",
+      "summary": "Recover Bearframe_Round27_Core_Animations_Eight_Directions.zip before continuing Unit09. Eleven animation types cover all eight directions: idle, preserved walk, run, attack, guard, hurt, cast, interact, knockdown, recovery and separate malfunction. 704 frame entries include intentional holds, not 704 unique paintings. The guide records exact editable paths, pivots, scripts, failed passes and raster lessons. Saved checks pass 640 new PNG/layer/atlas and independent ASE composites, run supports and neutral transitions; all 64 previous walk PNG bytes remain unchanged. Front/back prone readability, source seams and final polish remain open. No native-editor, engine or Android acceptance claimed."
     },
     {
       "id": "workflow-six-plugin-pixel-art-capabilit-8bf7ba7f2f",

@@ -1,0 +1,18 @@
+{
+  "id": "workflow-round27-eight-direction-core-a-88bb4be8a7",
+  "kind": "workflow",
+  "title": "Round27 eight-direction core animation checkpoint",
+  "summary": "Recover Bearframe_Round27_Core_Animations_Eight_Directions.zip before continuing Unit09. Eleven animation types cover all eight directions: idle, preserved walk, run, attack, guard, hurt, cast, interact, knockdown, recovery and separate malfunction. 704 frame entries include intentional holds, not 704 unique paintings. The guide records exact editable paths, pivots, scripts, failed passes and raster lessons. Saved checks pass 640 new PNG/layer/atlas and independent ASE composites, run supports and neutral transitions; all 64 previous walk PNG bytes remain unchanged. Front/back prone readability, source seams and final polish remain open. No native-editor, engine or Android acceptance claimed.",
+  "tags": [
+    "animation",
+    "bearframe",
+    "continuity",
+    "pixel-art",
+    "round27"
+  ],
+  "source": "warehouse/studies/round27-core-animation-recovery.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T18:22:05+00:00",
+  "updated_at": "2026-11-12T18:22:05+00:00"
+}

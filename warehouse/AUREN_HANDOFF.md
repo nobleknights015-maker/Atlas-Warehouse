@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 41 active records; 0 open work orders.
+Inventory: 42 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 6
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 4
+- **workflow**: 5
 
 ## Knowledge shelves
 
@@ -341,6 +341,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Before continuing Unit09 pixel art, recover Bearframe_Round26_Eight_Direction_Walking_64_Frames.zip from the user's saved files. Read ROUND26_README.md and QA, then use walk_v5, build_walk.py and export_validate.py. The durable recovery guide records exact frame size, pivot, timing, atlas order, protected cardinal baselines, reusable articulation and quantization lessons, rejected approaches and remaining artistic limits. Preserve the working 64-frame walk; do not restart from flat diagonal studies. Numerical validation does not establish final artistic or runtime approval.
 
 Source: warehouse/studies/round26-walking-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round26-walking-checkpoint-rec-8589b54add.json)
+
+### Round27 eight-direction core animation checkpoint
+
+**workflow · unverified** · workflow-round27-eight-direction-core-a-88bb4be8a7
+
+Recover Bearframe_Round27_Core_Animations_Eight_Directions.zip before continuing Unit09. Eleven animation types cover all eight directions: idle, preserved walk, run, attack, guard, hurt, cast, interact, knockdown, recovery and separate malfunction. 704 frame entries include intentional holds, not 704 unique paintings. The guide records exact editable paths, pivots, scripts, failed passes and raster lessons. Saved checks pass 640 new PNG/layer/atlas and independent ASE composites, run supports and neutral transitions; all 64 previous walk PNG bytes remain unchanged. Front/back prone readability, source seams and final polish remain open. No native-editor, engine or Android acceptance claimed.
+
+Source: warehouse/studies/round27-core-animation-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round27-eight-direction-core-a-88bb4be8a7.json)
 
 ### Six-plugin pixel art capability routing and safer experiments
 
