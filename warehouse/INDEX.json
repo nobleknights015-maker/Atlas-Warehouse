@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 48,
+  "record_count": 49,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 9,
     "engine": 7,
     "lore": 1,
     "pixel-art": 23,
-    "workflow": 8
+    "workflow": 9
   },
   "records": [
     {
@@ -879,6 +879,24 @@
       "source": "warehouse/studies/round30-feminine-reference-master-recovery.md",
       "updated_at": "2026-11-12T22:05:41+00:00",
       "summary": "Private master Bearframe_Round30_Feminine_Reference_Master.zip contains 28 states, 224 eight-direction clips and 3344 frame entries. Nine approved Round29 states preserve 1088 entries exactly; attack/cast refined and 17 actions added. Checks pass 3344 stored ASE composites, 432 support intervals, 56 exact seams and six packed-page roundtrips. New actions remain pending visual acceptance; seated profile and transition weight need polish. Feminine completion precedes separate masculine derivation. Safe recovery guide preserves source entrypoints, reference coverage, elbow-pole blending, hand occlusion, seated FK and ground-clearance lessons. No engine/APK changes or runtime approval."
+    },
+    {
+      "id": "workflow-round31-feminine-pose-rebuild-b89e10dbbd",
+      "title": "Round31 feminine pose rebuild recovery",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "bearframe",
+        "correction",
+        "feminine",
+        "pixel-art",
+        "recovery",
+        "round31"
+      ],
+      "path": "warehouse/records/workflow/workflow-round31-feminine-pose-rebuild-b89e10dbbd.json",
+      "source": "warehouse/studies/round31-feminine-pose-rebuild-recovery.md",
+      "updated_at": "2026-11-12T22:36:45+00:00",
+      "summary": "Latest private master contains Round31 corrective sources and editable art: 29 states, 232 clips, 3440 frame entries. Rebuilt criticised arm gestures, lower seated pelvis/folded shins, reachable hand braces, prone leg/boot resting orientation and lead-foot rise. Added prone_to_knees for a compatible new floor chain; preserve old knockdown/recover separately. Checks pass 3440 ASE composites, 448 support intervals, 64 exact seams and six packed-page roundtrips. Nine Round29 baseline states preserve 1088 entries. Candidate is not accepted art: sampled head turns and front/back prone foreshortening remain weak. Reviewed rejection record is authoritative. Show moving previews inline. Masculine remains deferred."
     },
     {
       "id": "workflow-six-plugin-pixel-art-capabilit-8bf7ba7f2f",

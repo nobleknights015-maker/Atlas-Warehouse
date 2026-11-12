@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 48 active records; 0 open work orders.
+Inventory: 49 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 8
+- **workflow**: 9
 
 ## Knowledge shelves
 
@@ -397,6 +397,14 @@ Source: warehouse/studies/round29-organic-animation-master-recovery.md. [Record]
 Private master Bearframe_Round30_Feminine_Reference_Master.zip contains 28 states, 224 eight-direction clips and 3344 frame entries. Nine approved Round29 states preserve 1088 entries exactly; attack/cast refined and 17 actions added. Checks pass 3344 stored ASE composites, 432 support intervals, 56 exact seams and six packed-page roundtrips. New actions remain pending visual acceptance; seated profile and transition weight need polish. Feminine completion precedes separate masculine derivation. Safe recovery guide preserves source entrypoints, reference coverage, elbow-pole blending, hand occlusion, seated FK and ground-clearance lessons. No engine/APK changes or runtime approval.
 
 Source: warehouse/studies/round30-feminine-reference-master-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round30-feminine-reference-exp-a6115d9980.json)
+
+### Round31 feminine pose rebuild recovery
+
+**workflow · unverified** · workflow-round31-feminine-pose-rebuild-b89e10dbbd
+
+Latest private master contains Round31 corrective sources and editable art: 29 states, 232 clips, 3440 frame entries. Rebuilt criticised arm gestures, lower seated pelvis/folded shins, reachable hand braces, prone leg/boot resting orientation and lead-foot rise. Added prone_to_knees for a compatible new floor chain; preserve old knockdown/recover separately. Checks pass 3440 ASE composites, 448 support intervals, 64 exact seams and six packed-page roundtrips. Nine Round29 baseline states preserve 1088 entries. Candidate is not accepted art: sampled head turns and front/back prone foreshortening remain weak. Reviewed rejection record is authoritative. Show moving previews inline. Masculine remains deferred.
+
+Source: warehouse/studies/round31-feminine-pose-rebuild-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round31-feminine-pose-rebuild-b89e10dbbd.json)
 
 ### Six-plugin pixel art capability routing and safer experiments
 

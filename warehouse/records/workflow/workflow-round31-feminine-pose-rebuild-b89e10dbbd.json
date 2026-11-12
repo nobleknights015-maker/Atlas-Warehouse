@@ -1,0 +1,19 @@
+{
+  "id": "workflow-round31-feminine-pose-rebuild-b89e10dbbd",
+  "kind": "workflow",
+  "title": "Round31 feminine pose rebuild recovery",
+  "summary": "Latest private master contains Round31 corrective sources and editable art: 29 states, 232 clips, 3440 frame entries. Rebuilt criticised arm gestures, lower seated pelvis/folded shins, reachable hand braces, prone leg/boot resting orientation and lead-foot rise. Added prone_to_knees for a compatible new floor chain; preserve old knockdown/recover separately. Checks pass 3440 ASE composites, 448 support intervals, 64 exact seams and six packed-page roundtrips. Nine Round29 baseline states preserve 1088 entries. Candidate is not accepted art: sampled head turns and front/back prone foreshortening remain weak. Reviewed rejection record is authoritative. Show moving previews inline. Masculine remains deferred.",
+  "tags": [
+    "bearframe",
+    "correction",
+    "feminine",
+    "pixel-art",
+    "recovery",
+    "round31"
+  ],
+  "source": "warehouse/studies/round31-feminine-pose-rebuild-recovery.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T22:36:45+00:00",
+  "updated_at": "2026-11-12T22:36:45+00:00"
+}
