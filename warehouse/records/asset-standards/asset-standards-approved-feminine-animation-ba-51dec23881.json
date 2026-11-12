@@ -1,0 +1,19 @@
+{
+  "id": "asset-standards-approved-feminine-animation-ba-51dec23881",
+  "kind": "asset-standards",
+  "title": "Approved feminine animation baseline and masculine reuse order",
+  "summary": "The Founder approved Round29's motion feel and explicitly designated it the feminine animation baseline. Preserve its feminine character while refining toward the supplied full animation reference: mechanical joints and weight with human-like intention and flow. Complete the feminine reference coverage, including missing row-five gestures and later sheet actions, before deriving male/masculine variants from the reusable motion structure. Gender labels are art-direction profiles, not claims about all women or men. Keep earlier checkpoints and show moving tests inline. This style approval does not establish engine or final production acceptance.",
+  "tags": [
+    "animation",
+    "approval",
+    "bearframe",
+    "feminine",
+    "masculine-later",
+    "reference"
+  ],
+  "source": "Founder direction in current asset session; Bearframe_Round29_Organic_Animation_Master.zip",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T21:31:12+00:00",
+  "updated_at": "2026-11-12T21:31:12+00:00"
+}

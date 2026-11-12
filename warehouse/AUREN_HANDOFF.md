@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 45 active records; 0 open work orders.
+Inventory: 46 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,13 +14,21 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 7
+- **asset-standards**: 8
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
 - **workflow**: 7
 
 ## Knowledge shelves
+
+### Approved feminine animation baseline and masculine reuse order
+
+**asset-standards · unverified** · asset-standards-approved-feminine-animation-ba-51dec23881
+
+The Founder approved Round29's motion feel and explicitly designated it the feminine animation baseline. Preserve its feminine character while refining toward the supplied full animation reference: mechanical joints and weight with human-like intention and flow. Complete the feminine reference coverage, including missing row-five gestures and later sheet actions, before deriving male/masculine variants from the reusable motion structure. Gender labels are art-direction profiles, not claims about all women or men. Keep earlier checkpoints and show moving tests inline. This style approval does not establish engine or final production acceptance.
+
+Source: Founder direction in current asset session; Bearframe_Round29_Organic_Animation_Master.zip. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-approved-feminine-animation-ba-51dec23881.json)
 
 ### Bearframe RPG uses 32x32 world tiles; older 48px World Editor format is separate
 
