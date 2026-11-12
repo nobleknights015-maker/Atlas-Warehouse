@@ -1,0 +1,22 @@
+{
+  "id": "engine-bearframe-native-door-exit-and-5b801ffd42",
+  "kind": "engine",
+  "title": "Bearframe native door exit and distinct room visual QA 2026-11-12",
+  "summary": "PR #12 merged main 6871a2314a79455a8cf8b147b707aef46e7d499e. Real physical Android feedback: invisible warp to visually identical room. Implemented scene `mapTiles` per-room native 32x32 floor/wall roles and actual purchased 32x64 service door portal sprites at every exit, plus screen-only 650ms destination room title reveal. No movement/collision/save schema changes. Local suite 392/392 passed; independent PR CI run 43281823010 passed source tests + signed Android build and installed emulator. Built private signed owner-art preview APK 217001543 bytes with full 2,944 assets and 9 scene role images; zip and Android v3 signature validated, signing certificate matches prior preview. Real-owner APK not yet physically tested. Proper JRPG menu redesign is still OPEN.",
+  "tags": [
+    "android",
+    "art",
+    "bearframe",
+    "ci",
+    "doors",
+    "engine",
+    "release-gate",
+    "rooms",
+    "ui"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/12",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T18:43:54+00:00",
+  "updated_at": "2026-11-12T18:43:54+00:00"
+}

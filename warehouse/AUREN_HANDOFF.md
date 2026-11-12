@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 42 active records; 0 open work orders.
+Inventory: 43 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -15,7 +15,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 ## Indexed aisles
 
 - **asset-standards**: 7
-- **engine**: 6
+- **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
 - **workflow**: 5
@@ -101,6 +101,14 @@ Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/8. [R
 Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence.
 
 Source: Founder instructions for Bearframe RPG engine completion. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-engine-release-gate-1cf7305bda.json)
+
+### Bearframe native door exit and distinct room visual QA 2026-11-12
+
+**engine · unverified** · engine-bearframe-native-door-exit-and-5b801ffd42
+
+PR #12 merged main 6871a2314a79455a8cf8b147b707aef46e7d499e. Real physical Android feedback: invisible warp to visually identical room. Implemented scene `mapTiles` per-room native 32x32 floor/wall roles and actual purchased 32x64 service door portal sprites at every exit, plus screen-only 650ms destination room title reveal. No movement/collision/save schema changes. Local suite 392/392 passed; independent PR CI run 43281823010 passed source tests + signed Android build and installed emulator. Built private signed owner-art preview APK 217001543 bytes with full 2,944 assets and 9 scene role images; zip and Android v3 signature validated, signing certificate matches prior preview. Real-owner APK not yet physically tested. Proper JRPG menu redesign is still OPEN.
+
+Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/12. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-native-door-exit-and-5b801ffd42.json)
 
 ### Bearframe owner-art render bridge merged and Android verified
 
