@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 32 active records; 0 open work orders.
+Inventory: 33 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 5
 - **engine**: 4
 - **lore**: 1
-- **pixel-art**: 19
+- **pixel-art**: 20
 - **workflow**: 3
 
 ## Knowledge shelves
@@ -229,6 +229,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Retrieved Round21 audit and the authentic Round20 frames it audited. Confirmed four frames have three alpha silhouettes. Edited connected limb raster chains into eight distinct front-walk poses, preserved violet identity, registered emitter pixels separately, and revised knee and heel contours. Rejected v1 and v2 after review; v3 corrects per-pixel bankers-rounding gaps by rounding each row translation once. Independent local checks verified eight body and lower-body masks, connected alpha, lossless atlas crops and six-layer eight-frame ASE composite roundtrip. Actual opaque support sole pixels stay fixed in a diagnostic stage at root advance 2px per frame; this does not prove runtime gait. Visual and mechanics gates FAIL: soft source clusters, rigid pelvis, incomplete hands and heel roll. Runtime and editor-open NOT TESTED. No engine changes or private art uploaded.
 
 Source: Local reproducible Round22 build_round22.py and export_and_validate.py; private source and evidence retained in owner deliverable. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round22-actual-unit09-front-wa-cca3aa3e3a.json)
+
+### Round23 Unit09 drawn anatomy patches expose inherited ghost-hand layer
+
+**pixel-art · unverified** · pixel-art-round23-unit09-drawn-anatomy-p-c8d47db7d9
+
+Edited actual retained Round22 96x160 frames with authored native raster clusters for six boot poses, three hand orientations and a clipped pelvic plate, keeping upper 76 rows byte-identical. Eight local iterations rejected connector overpaint, cuff/material mismatch, blocky palms and scarf clipping. Layer inspection found Round22 scarf overlap also retained a static neutral left hand; final study removes that inherited hand mask while preserving the active forearm above the new cuff. Regression checks verify all visible source scarf-strip pixels unchanged, hand-cuff contact, connected alpha, eight distinct body/lower silhouettes, actual sole-pixel stage projection and lossless six-layer ASE decoding. File gate passes front-only; visual and animation gates still FAIL due material integration, incomplete hip/thigh perspective and cloth motion. Editor and Android runtime NOT TESTED. No private art or engine changes published.
+
+Source: Local Round23 draw_patches.py and export_qa.py; private PNG layer comparison and owner deliverable. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round23-unit09-drawn-anatomy-p-c8d47db7d9.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 

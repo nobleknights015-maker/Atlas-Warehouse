@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-round23-unit09-drawn-anatomy-p-c8d47db7d9",
+  "kind": "pixel-art",
+  "title": "Round23 Unit09 drawn anatomy patches expose inherited ghost-hand layer",
+  "summary": "Edited actual retained Round22 96x160 frames with authored native raster clusters for six boot poses, three hand orientations and a clipped pelvic plate, keeping upper 76 rows byte-identical. Eight local iterations rejected connector overpaint, cuff/material mismatch, blocky palms and scarf clipping. Layer inspection found Round22 scarf overlap also retained a static neutral left hand; final study removes that inherited hand mask while preserving the active forearm above the new cuff. Regression checks verify all visible source scarf-strip pixels unchanged, hand-cuff contact, connected alpha, eight distinct body/lower silhouettes, actual sole-pixel stage projection and lossless six-layer ASE decoding. File gate passes front-only; visual and animation gates still FAIL due material integration, incomplete hip/thigh perspective and cloth motion. Editor and Android runtime NOT TESTED. No private art or engine changes published.",
+  "tags": [
+    "anatomy",
+    "failed-gates",
+    "ghost-layer",
+    "pixel-art",
+    "qa",
+    "round23",
+    "unit09"
+  ],
+  "source": "Local Round23 draw_patches.py and export_qa.py; private PNG layer comparison and owner deliverable",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T16:02:20+00:00",
+  "updated_at": "2026-11-12T16:02:20+00:00"
+}
