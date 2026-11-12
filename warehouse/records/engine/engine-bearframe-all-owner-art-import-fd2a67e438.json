@@ -1,0 +1,20 @@
+{
+  "id": "engine-bearframe-all-owner-art-import-fd2a67e438",
+  "kind": "engine",
+  "title": "Bearframe all-owner-art import and fixed-tick memory QA verified",
+  "summary": "PR 5 merge 058c0a1 CI 43238586201 passed Node and installed Android 35. Engine importer inventories all supplied archive files and nested ZIPs and packages real PNG/JPEG on-demand, byte-identical, with hashes and safe IDs; source-only files stay recorded. Real inspection found 3155 source members, 2946 .png filenames, 2905 true PNG, 39 JPEG mislabeled PNG, 2 macOS resource forks, 2944 usable runtime images, 1465 exact 32x32 tiles. Android memory-recovery scene test now compares identical presentation tick and live animation resumes; actual phone acceptance and mapping these images into gameplay scenes still open. No paid raw art uploaded to public repo.",
+  "tags": [
+    "32x32",
+    "android",
+    "asset-import",
+    "bearframe",
+    "engine",
+    "qa",
+    "warehouse"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/5",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T14:39:09+00:00",
+  "updated_at": "2026-11-12T14:39:09+00:00"
+}

@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 28 active records; 0 open work orders.
+Inventory: 29 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -15,7 +15,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 ## Indexed aisles
 
 - **asset-standards**: 5
-- **engine**: 2
+- **engine**: 3
 - **lore**: 1
 - **pixel-art**: 17
 - **workflow**: 3
@@ -61,6 +61,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 FOUNDER CORRECTION overrides the prior proposal to add damage/overgrowth to the four approved starter designs. They are ALREADY old and damaged. Keep all four original selection portraits and matching playable sprite silhouettes, palettes, armor, wear, and clothing exactly as approved. Once ordinary standing/idle/walk sprites are validated, create SEPARATE triggered or occasional animation clips for core light glitches, visor/side-display faults, short actuator stutters, brief desync/freeze, and recovery to idle. Keep readable native pixel scale, clean root/foot anchors, distinct purple/cyan lighting, restrained timings, and character-specific motion. This is not proof the characters are canonically Echo Frames. Do not upload user character art to the public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-glitch-animation-only-clarification.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-sleepers-need-echo-style-4c5fbe3ab3.json)
+
+### Bearframe all-owner-art import and fixed-tick memory QA verified
+
+**engine · unverified** · engine-bearframe-all-owner-art-import-fd2a67e438
+
+PR 5 merge 058c0a1 CI 43238586201 passed Node and installed Android 35. Engine importer inventories all supplied archive files and nested ZIPs and packages real PNG/JPEG on-demand, byte-identical, with hashes and safe IDs; source-only files stay recorded. Real inspection found 3155 source members, 2946 .png filenames, 2905 true PNG, 39 JPEG mislabeled PNG, 2 macOS resource forks, 2944 usable runtime images, 1465 exact 32x32 tiles. Android memory-recovery scene test now compares identical presentation tick and live animation resumes; actual phone acceptance and mapping these images into gameplay scenes still open. No paid raw art uploaded to public repo.
+
+Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/5. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-all-owner-art-import-fd2a67e438.json)
 
 ### Bearframe engine release gate
 
