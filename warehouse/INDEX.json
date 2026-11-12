@@ -3,11 +3,11 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 30,
+  "record_count": 31,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 5,
-    "engine": 3,
+    "engine": 4,
     "lore": 1,
     "pixel-art": 18,
     "workflow": 3
@@ -141,6 +141,25 @@
       "source": "Founder instructions for Bearframe RPG engine completion",
       "updated_at": "2026-11-11T01:54:24+00:00",
       "summary": "Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence."
+    },
+    {
+      "id": "engine-bearframe-owner-art-render-bri-00950ed1de",
+      "title": "Bearframe owner-art render bridge merged and Android verified",
+      "kind": "engine",
+      "confidence": "unverified",
+      "tags": [
+        "32x32",
+        "android",
+        "asset-import",
+        "ci",
+        "owner-art",
+        "renderer",
+        "save-isolation"
+      ],
+      "path": "warehouse/records/engine/engine-bearframe-owner-art-render-bri-00950ed1de.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/6",
+      "updated_at": "2026-11-12T15:32:43+00:00",
+      "summary": "Engine PR #6 squash merge 0e6c92b69400ae2a587f8295bec35ce0cc9d667a; PR CI run 43247909857 passed Node and installed Android emulator checks. Opt-in profile resolves source identities against complete imported image manifest; native 32x32 floor/wall, original-height foot-anchored actor frames, all images registered lazy, source artifacts kept outside public GitHub, no save/journal changes. Installed synthetic-profile APK verified Canvas selected image IDs, actual pixels, Android memory trim reload and unchanged save. Original full 2944-image pack visual acceptance and physical device release checks remain open."
     },
     {
       "id": "engine-live-read-only-android-webview-9879bc7892",

@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 30 active records; 0 open work orders.
+Inventory: 31 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -15,7 +15,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 ## Indexed aisles
 
 - **asset-standards**: 5
-- **engine**: 3
+- **engine**: 4
 - **lore**: 1
 - **pixel-art**: 18
 - **workflow**: 3
@@ -77,6 +77,14 @@ Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/5. [R
 Engine development is the priority before gameplay content. Preserve existing source and GitHub history. Include Android controller and touch input, save-load verification, inventory integration and automated checks; do not declare a broken feature fixed before reproducible tests or on-device evidence.
 
 Source: Founder instructions for Bearframe RPG engine completion. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-engine-release-gate-1cf7305bda.json)
+
+### Bearframe owner-art render bridge merged and Android verified
+
+**engine · unverified** · engine-bearframe-owner-art-render-bri-00950ed1de
+
+Engine PR #6 squash merge 0e6c92b69400ae2a587f8295bec35ce0cc9d667a; PR CI run 43247909857 passed Node and installed Android emulator checks. Opt-in profile resolves source identities against complete imported image manifest; native 32x32 floor/wall, original-height foot-anchored actor frames, all images registered lazy, source artifacts kept outside public GitHub, no save/journal changes. Installed synthetic-profile APK verified Canvas selected image IDs, actual pixels, Android memory trim reload and unchanged save. Original full 2944-image pack visual acceptance and physical device release checks remain open.
+
+Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/6. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-owner-art-render-bri-00950ed1de.json)
 
 ### Live read-only Android WebView presentation clock now installed
 
