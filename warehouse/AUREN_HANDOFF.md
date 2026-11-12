@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 23 active records; 0 open work orders.
+Inventory: 27 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,13 +14,21 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 4
+- **asset-standards**: 5
 - **engine**: 1
 - **lore**: 1
-- **pixel-art**: 15
-- **workflow**: 2
+- **pixel-art**: 17
+- **workflow**: 3
 
 ## Knowledge shelves
+
+### Bearframe RPG uses 32x32 world tiles; older 48px World Editor format is separate
+
+**asset-standards · unverified** · asset-standards-bearframe-rpg-uses-32x32-world-22cc9903f3
+
+Current Founder-selected Bearframe RPG terrain/collision grid is 32x32; purchased/collected tile assets must not be resized to 48px. A historical 384x768 sheet with 48px cells belongs to a separate World Editor v1 legacy contract and must not override this engine. Sprite frames may be taller than collision cells.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/bearframe-pixel-art-master-study-2026-11-11.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-rpg-uses-32x32-world-22cc9903f3.json)
 
 ### Bearframe runtime terrain tilesheet geometry
 
@@ -77,6 +85,22 @@ Source: Founder-approved Bearframe RPG reference images and art-direction correc
 In a 12-frame 160x112 RGBA Pillow mechanics exercise, six indexed legs were rendered with alternating tripod groups; each frame had exactly three stance legs, planted feet used fixed screen-space anchors while the body translated, and eight physical archive-ring panel markers changed position around a fixed pylon. Validation passed leg counts, stance counts, transparency and ring movement; this does NOT prove natural gait, anatomy, silhouette separation or canon fidelity. Earlier leg drills tested static hip anchors; this exercise changes to moving hips plus anchored stance contacts. Limitation: swing trajectories jump at wraparound, far-side legs overlap, ring is schematic. Reproduce using explicit phase=(frame/N + tripod_offset) mod 1, stance phase<0.5, and compare native 1x frames before approval.
 
 Source: Original 12-frame Pillow exercise and local automated checks (2026-11-10); Saint11 pixel-art tutorials https://saint11.org/blog/pixel-art-tutorials/ ; Bearframe Warehouse existing Palinode gait record. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-anchored-stance-test-for-six-l-25c7c62237.json)
+
+### Bearframe pixel-art production quality gates
+
+**pixel-art · unverified** · pixel-art-bearframe-pixel-art-production-76d4478875
+
+Four independent gates: static anatomical and portrait-fidelity visual approval, real planted-foot and secondary motion, lossless 32px-compatible RGBA sheet/atlas QA, and installed Android landscape/save verification. PNG metadata pass does not equal artistic pass. Document fail conditions and reproducible evidence requirements.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/bearframe-pixel-art-quality-gates-2026-11-11.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-bearframe-pixel-art-production-76d4478875.json)
+
+### Comprehensive Bearframe pixel-art discipline research
+
+**pixel-art · unverified** · pixel-art-comprehensive-bearframe-pixel-680e0a7026
+
+Nov 11 sourced study covers native cluster drawing, anatomy, 4-direction consistency, real foot-contact gait, mechanical motion, canon identity, palettes, lighting, terrain autotiles, effects, UI, export and alpha/nearest render. Negative benchmark is prior warped/blurry walk. This is research, not production art approval.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/bearframe-pixel-art-master-study-2026-11-11.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-comprehensive-bearframe-pixel-680e0a7026.json)
 
 ### Comprehensive Bearframe visual-art training checklist
 
@@ -205,6 +229,14 @@ Source: Atlas Warehouse operational policy and Founder requirement for continuou
 Implemented a reproducible GitHub Actions workflow that downloads the OFFICIAL LibreSprite 1.3 AppImage, extracts and launches its actual headless batch editor, executes JavaScript inside a sprite cel to change two RGBA pixels, exports a PNG and validates those exact pixels plus transparency. All steps passed on run 42961553641 with downloadable image/report artifacts. This is a VERIFIED TOOL INTEGRATION smoke test, NOT an artistic quality or game production pass. LibreSprite is ephemeral per runner; current ChatGPT sandbox does not have a local editor install. Use this workflow to build future authored layered sprite and animation tests, and keep source game art out of public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-editor-integration-v1.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-libresprite-1-3-real-native-pi-f1a4b44b43.json)
+
+### Six-plugin pixel art capability routing and safer experiments
+
+**workflow · unverified** · workflow-six-plugin-pixel-art-capabilit-8bf7ba7f2f
+
+Catalogs verified LibreSprite GitHub Actions editor workflow plus SpriteCook, AutoSprite, Pixel Engine, MegaScenes, Abracadabrax and Sprite Fusion skill versus actual available action; identifies different image-input requirements, paid generation, account/credit constraints, output recovery and public private asset protections. Proposes controlled A-B tests; none generated.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/bearframe-pixel-tool-routing-and-experiments-2026-11-11.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-six-plugin-pixel-art-capabilit-8bf7ba7f2f.json)
 
 ## Open work orders
 

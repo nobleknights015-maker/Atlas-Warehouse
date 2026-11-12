@@ -1,0 +1,19 @@
+{
+  "id": "asset-standards-bearframe-rpg-uses-32x32-world-22cc9903f3",
+  "kind": "asset-standards",
+  "title": "Bearframe RPG uses 32x32 world tiles; older 48px World Editor format is separate",
+  "summary": "Current Founder-selected Bearframe RPG terrain/collision grid is 32x32; purchased/collected tile assets must not be resized to 48px. A historical 384x768 sheet with 48px cells belongs to a separate World Editor v1 legacy contract and must not override this engine. Sprite frames may be taller than collision cells.",
+  "tags": [
+    "32x32",
+    "bearframe",
+    "compatibility",
+    "priority",
+    "scale",
+    "tiles"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/bearframe-pixel-art-master-study-2026-11-11.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T00:32:22+00:00",
+  "updated_at": "2026-11-12T00:32:22+00:00"
+}
