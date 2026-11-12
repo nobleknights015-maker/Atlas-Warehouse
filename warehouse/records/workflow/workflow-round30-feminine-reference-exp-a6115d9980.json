@@ -1,0 +1,19 @@
+{
+  "id": "workflow-round30-feminine-reference-exp-a6115d9980",
+  "kind": "workflow",
+  "title": "Round30 feminine reference expansion checkpoint",
+  "summary": "Private master Bearframe_Round30_Feminine_Reference_Master.zip contains 28 states, 224 eight-direction clips and 3344 frame entries. Nine approved Round29 states preserve 1088 entries exactly; attack/cast refined and 17 actions added. Checks pass 3344 stored ASE composites, 432 support intervals, 56 exact seams and six packed-page roundtrips. New actions remain pending visual acceptance; seated profile and transition weight need polish. Feminine completion precedes separate masculine derivation. Safe recovery guide preserves source entrypoints, reference coverage, elbow-pole blending, hand occlusion, seated FK and ground-clearance lessons. No engine/APK changes or runtime approval.",
+  "tags": [
+    "animation",
+    "bearframe",
+    "feminine",
+    "pixel-art",
+    "recovery",
+    "round30"
+  ],
+  "source": "warehouse/studies/round30-feminine-reference-master-recovery.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T22:05:41+00:00",
+  "updated_at": "2026-11-12T22:05:41+00:00"
+}

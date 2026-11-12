@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 46,
+  "record_count": 47,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 8,
     "engine": 7,
     "lore": 1,
     "pixel-art": 23,
-    "workflow": 7
+    "workflow": 8
   },
   "records": [
     {
@@ -843,6 +843,24 @@
       "source": "warehouse/studies/round29-organic-animation-master-recovery.md",
       "updated_at": "2026-11-12T19:55:05+00:00",
       "summary": "Recover Bearframe_Round29_Organic_Animation_Master.zip for all 11 Unit09 animation types in eight directions. New authored weight shifts, staggered body/head/hand motion, anticipation and settling retain grounded support and the corrected fall/recovery leg solver. 1344 frame entries include holds, not independent paintings. Checks pass 224 opaque-boot support intervals, exact neutral/fall/recovery boundaries, independent ASE composites and lossless packed pages. All 13948 Round27 and 3436 Round28 recorded file hashes remain unchanged. Show moving GIFs directly in chat. Front/back prone readability and final art polish remain open; no engine or Android acceptance."
+    },
+    {
+      "id": "workflow-round30-feminine-reference-exp-a6115d9980",
+      "title": "Round30 feminine reference expansion checkpoint",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "animation",
+        "bearframe",
+        "feminine",
+        "pixel-art",
+        "recovery",
+        "round30"
+      ],
+      "path": "warehouse/records/workflow/workflow-round30-feminine-reference-exp-a6115d9980.json",
+      "source": "warehouse/studies/round30-feminine-reference-master-recovery.md",
+      "updated_at": "2026-11-12T22:05:41+00:00",
+      "summary": "Private master Bearframe_Round30_Feminine_Reference_Master.zip contains 28 states, 224 eight-direction clips and 3344 frame entries. Nine approved Round29 states preserve 1088 entries exactly; attack/cast refined and 17 actions added. Checks pass 3344 stored ASE composites, 432 support intervals, 56 exact seams and six packed-page roundtrips. New actions remain pending visual acceptance; seated profile and transition weight need polish. Feminine completion precedes separate masculine derivation. Safe recovery guide preserves source entrypoints, reference coverage, elbow-pole blending, hand occlusion, seated FK and ground-clearance lessons. No engine/APK changes or runtime approval."
     },
     {
       "id": "workflow-six-plugin-pixel-art-capabilit-8bf7ba7f2f",

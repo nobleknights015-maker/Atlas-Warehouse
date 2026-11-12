@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 46 active records; 0 open work orders.
+Inventory: 47 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 7
+- **workflow**: 8
 
 ## Knowledge shelves
 
@@ -381,6 +381,14 @@ Source: warehouse/studies/round28-fall-recovery-leg-correction.md. [Record](http
 Recover Bearframe_Round29_Organic_Animation_Master.zip for all 11 Unit09 animation types in eight directions. New authored weight shifts, staggered body/head/hand motion, anticipation and settling retain grounded support and the corrected fall/recovery leg solver. 1344 frame entries include holds, not independent paintings. Checks pass 224 opaque-boot support intervals, exact neutral/fall/recovery boundaries, independent ASE composites and lossless packed pages. All 13948 Round27 and 3436 Round28 recorded file hashes remain unchanged. Show moving GIFs directly in chat. Front/back prone readability and final art polish remain open; no engine or Android acceptance.
 
 Source: warehouse/studies/round29-organic-animation-master-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round29-complete-organic-motio-a719a85f5c.json)
+
+### Round30 feminine reference expansion checkpoint
+
+**workflow · unverified** · workflow-round30-feminine-reference-exp-a6115d9980
+
+Private master Bearframe_Round30_Feminine_Reference_Master.zip contains 28 states, 224 eight-direction clips and 3344 frame entries. Nine approved Round29 states preserve 1088 entries exactly; attack/cast refined and 17 actions added. Checks pass 3344 stored ASE composites, 432 support intervals, 56 exact seams and six packed-page roundtrips. New actions remain pending visual acceptance; seated profile and transition weight need polish. Feminine completion precedes separate masculine derivation. Safe recovery guide preserves source entrypoints, reference coverage, elbow-pole blending, hand occlusion, seated FK and ground-clearance lessons. No engine/APK changes or runtime approval.
+
+Source: warehouse/studies/round30-feminine-reference-master-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round30-feminine-reference-exp-a6115d9980.json)
 
 ### Six-plugin pixel art capability routing and safer experiments
 
