@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-round26-eight-direction-walkin-126364edd3",
+  "kind": "pixel-art",
+  "title": "Round26 eight-direction walking build with 64 source-based frames",
+  "summary": "Built eight distinct walk poses each for S SW W NW N NE E SE using original raster materials, articulated fixed-length guides and counter-swing. Corrected calf/cuff continuity, source fragments, frame margins and diagonal loop contact drift through five revisions. Tests verify 64 unique direction-local poses, connected boots/wrists, opaque boot toe contacts with zero tested loop support drift, matching atlas crops and exact independent decode of a 19-layer 64-frame ASE with eight walk tags. Four approved static source hashes unchanged. These are source-based rig frames, not 64 independent paintings. Founder visual approval, joint-edge polish, secondary cloth, native editor and Android acceptance remain open. Engine phase must use the supplied projected motion contract. No engine changes or private artwork published.",
+  "tags": [
+    "64frames",
+    "eight-directions",
+    "qa",
+    "round26",
+    "source-based",
+    "unit09",
+    "walking"
+  ],
+  "source": "Local Round26 build_walk.py export_validate.py; private native-frame and contact-stage evidence",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T17:49:27+00:00",
+  "updated_at": "2026-11-12T17:49:27+00:00"
+}

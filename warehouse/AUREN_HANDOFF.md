@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 39 active records; 0 open work orders.
+Inventory: 40 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 7
 - **engine**: 6
 - **lore**: 1
-- **pixel-art**: 22
+- **pixel-art**: 23
 - **workflow**: 3
 
 ## Knowledge shelves
@@ -285,6 +285,14 @@ Source: Local fix_feet.py validate_export.py build_eight_directions.py and owner
 Authored one new 96x160 southeast pose using explicit native raster contours shade planes and pixels across helmet torso pelvis near-far limbs and full ankle-boot assemblies; no source face cutouts whole-image rotation or cardinal width warp. Three local versions corrected warm pad palette oversized core near shoulder and thigh. Four Founder-liked cardinal PNGs remain byte-identical with frozen SHA256 lock. Retained v3 has one connected body one head-violet component 7px bottom margin 26 visible colors and exact independent decode of ten-layer single-frame ASE. This is a STATIC candidate, not a walk or completion of all diagonals. Visual fidelity still FAILS pending closer helmet/material and armor-seam matching; editor-open and Android NOT TESTED.
 
 Source: Local draw_se.py export_qa.py and private S-SE-E comparison; no private artwork uploaded. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round25-one-whole-body-se-stat-23500faae5.json)
+
+### Round26 eight-direction walking build with 64 source-based frames
+
+**pixel-art · unverified** · pixel-art-round26-eight-direction-walkin-126364edd3
+
+Built eight distinct walk poses each for S SW W NW N NE E SE using original raster materials, articulated fixed-length guides and counter-swing. Corrected calf/cuff continuity, source fragments, frame margins and diagonal loop contact drift through five revisions. Tests verify 64 unique direction-local poses, connected boots/wrists, opaque boot toe contacts with zero tested loop support drift, matching atlas crops and exact independent decode of a 19-layer 64-frame ASE with eight walk tags. Four approved static source hashes unchanged. These are source-based rig frames, not 64 independent paintings. Founder visual approval, joint-edge polish, secondary cloth, native editor and Android acceptance remain open. Engine phase must use the supplied projected motion contract. No engine changes or private artwork published.
+
+Source: Local Round26 build_walk.py export_validate.py; private native-frame and contact-stage evidence. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round26-eight-direction-walkin-126364edd3.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
