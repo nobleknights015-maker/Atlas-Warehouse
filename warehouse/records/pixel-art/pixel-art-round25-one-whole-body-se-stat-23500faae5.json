@@ -1,0 +1,20 @@
+{
+  "id": "pixel-art-round25-one-whole-body-se-stat-23500faae5",
+  "kind": "pixel-art",
+  "title": "Round25 one whole-body SE static redraw replaces pasted-face method",
+  "summary": "Authored one new 96x160 southeast pose using explicit native raster contours shade planes and pixels across helmet torso pelvis near-far limbs and full ankle-boot assemblies; no source face cutouts whole-image rotation or cardinal width warp. Three local versions corrected warm pad palette oversized core near shoulder and thigh. Four Founder-liked cardinal PNGs remain byte-identical with frozen SHA256 lock. Retained v3 has one connected body one head-violet component 7px bottom margin 26 visible colors and exact independent decode of ten-layer single-frame ASE. This is a STATIC candidate, not a walk or completion of all diagonals. Visual fidelity still FAILS pending closer helmet/material and armor-seam matching; editor-open and Android NOT TESTED.",
+  "tags": [
+    "diagonal",
+    "not-approved",
+    "pixel-art",
+    "qa",
+    "round25",
+    "unit09",
+    "whole-body-drawing"
+  ],
+  "source": "Local draw_se.py export_qa.py and private S-SE-E comparison; no private artwork uploaded",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T17:05:37+00:00",
+  "updated_at": "2026-11-12T17:05:37+00:00"
+}

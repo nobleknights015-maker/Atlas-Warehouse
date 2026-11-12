@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 37 active records; 0 open work orders.
+Inventory: 39 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,10 +14,10 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 6
+- **asset-standards**: 7
 - **engine**: 6
 - **lore**: 1
-- **pixel-art**: 21
+- **pixel-art**: 22
 - **workflow**: 3
 
 ## Knowledge shelves
@@ -45,6 +45,14 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Founder correction expands the animation target from four cardinal directions to N NE E SE S SW W NW. Each diagonal needs its own perspective-aware poses and registered feet; rotating whole sprites or replaying one standing view is not an accepted walk. Preserve canonical identity and asymmetric armor. Establish eight-direction static geometry before expanding gait cycles; static coverage must never be reported as eight complete animated directions.
 
 Source: Founder art feedback in Round24 continuation 2026-11-12; private assets excluded. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-sprite-motion-target-ca3c495bae.json)
+
+### Founder retains four Unit09 cardinal views as visual baseline and rejects Round24 diagonals
+
+**asset-standards · unverified** · asset-standards-founder-retains-four-unit09-ca-13ce95714e
+
+Founder explicitly said front back and both side views look good after rejecting the four Round24 diagonal studies. Preserve those cardinal designs and proportions as the visual baseline; do not infer walk-cycle or runtime acceptance. Eight-direction target remains N NE E SE S SW W NW. Replace narrowed-cardinal and pasted-face diagonals with coherent whole-body quarter-view drawings.
+
+Source: Founder feedback in asset continuation 2026-11-12; source artwork kept private. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-founder-retains-four-unit09-ca-13ce95714e.json)
 
 ### Four selectable Sleeper portraits must match playable characters
 
@@ -269,6 +277,14 @@ Source: Local Round23 draw_patches.py and export_qa.py; private PNG layer compar
 Actual Round23 frames had 7px or more bottom canvas clearance; the apparent clipping came from variable replacement boot masks intruding into the calf and cuff. Restored each full native Round22 ankle-to-sole assembly while preserving every non-leg Round23 pixel including hand and scarf repairs. Exported eight corrected south PNGs and independently decoded two-layer ASE. Eight static direction slots now contain four authentic cardinal references and four source-derived quarter-view construction studies with separate foot layers and static ASE; diagonals remain FAIL for torso/shoulder perspective and are not new walk cycles. Audited legacy cardinal silhouettes rather than assuming four displayed frames were unique. Full eight-direction animation, physical mechanics, editor-open and Android acceptance remain open. No engine changes or private art published.
 
 Source: Local fix_feet.py validate_export.py build_eight_directions.py and owner-only PNG comparison evidence. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round24-south-foot-mask-regres-4d003291ff.json)
+
+### Round25 one whole-body SE static redraw replaces pasted-face method
+
+**pixel-art · unverified** · pixel-art-round25-one-whole-body-se-stat-23500faae5
+
+Authored one new 96x160 southeast pose using explicit native raster contours shade planes and pixels across helmet torso pelvis near-far limbs and full ankle-boot assemblies; no source face cutouts whole-image rotation or cardinal width warp. Three local versions corrected warm pad palette oversized core near shoulder and thigh. Four Founder-liked cardinal PNGs remain byte-identical with frozen SHA256 lock. Retained v3 has one connected body one head-violet component 7px bottom margin 26 visible colors and exact independent decode of ten-layer single-frame ASE. This is a STATIC candidate, not a walk or completion of all diagonals. Visual fidelity still FAILS pending closer helmet/material and armor-seam matching; editor-open and Android NOT TESTED.
+
+Source: Local draw_se.py export_qa.py and private S-SE-E comparison; no private artwork uploaded. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round25-one-whole-body-se-stat-23500faae5.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
