@@ -3,10 +3,10 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 49,
+  "record_count": 50,
   "open_order_count": 0,
   "aisles": {
-    "asset-standards": 9,
+    "asset-standards": 10,
     "engine": 7,
     "lore": 1,
     "pixel-art": 23,
@@ -175,6 +175,24 @@
       "source": "Founder visual feedback in current asset session; Bearframe_Round30_Feminine_Reference_Master.zip",
       "updated_at": "2026-11-12T22:31:19+00:00",
       "summary": "Founder rejected Round30 knees-to-prone, look-around, head-check, crossed-arms and combat-ready poses. Sit-down, meditate, charged meditation and stand-from-sit read as crouching splits. Do not treat Round30 technical checks or reference coverage as art acceptance. Preserve Round29 approved feminine baseline. Rebuild low seated pelvis with clearly folded shins and crossed ankles, deliberate arm silhouettes, neck turns and hand-supported floor transitions. Masculine derivation remains deferred. Round31 is corrective work in progress, not approved art."
+    },
+    {
+      "id": "asset-standards-round32-scrapped-poses-and-wit-3534db6983",
+      "title": "Round32 scrapped poses and withdrawn false head turn",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "bearframe",
+        "continuity",
+        "head-turn",
+        "pixel-art",
+        "round32",
+        "scrapped"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-round32-scrapped-poses-and-wit-3534db6983.json",
+      "source": "Founder current direction; WITHDRAWN_STATES.json in active master",
+      "updated_at": "2026-11-12T22:44:02+00:00",
+      "summary": "Founder explicitly scrapped knees_to_prone, rise_from_knees and arms_crossed. Remove those actions from active definitions, PNG/ASE exports, packed pages and previews. Also remove dependent prone_to_knees; it exists only to return from the scrapped transition. Withdraw look_around: sliding facial features under a fixed helmet is not a whole-head turn. Rebuild with genuine whole-head turn poses before reintroducing it. Earlier saved versions are historical only. Active repertoire now24 states,192 clips,2864 frame entries; reference coverage is intentionally incomplete. Retained Round31 art is still pending acceptance; Round29 remains feminine baseline and masculine stays deferred."
     },
     {
       "id": "engine-bearframe-all-owner-art-import-fd2a67e438",

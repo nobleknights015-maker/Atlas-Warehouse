@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 49 active records; 0 open work orders.
+Inventory: 50 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 9
+- **asset-standards**: 10
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
@@ -93,6 +93,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Founder rejected Round30 knees-to-prone, look-around, head-check, crossed-arms and combat-ready poses. Sit-down, meditate, charged meditation and stand-from-sit read as crouching splits. Do not treat Round30 technical checks or reference coverage as art acceptance. Preserve Round29 approved feminine baseline. Rebuild low seated pelvis with clearly folded shins and crossed ankles, deliberate arm silhouettes, neck turns and hand-supported floor transitions. Masculine derivation remains deferred. Round31 is corrective work in progress, not approved art.
 
 Source: Founder visual feedback in current asset session; Bearframe_Round30_Feminine_Reference_Master.zip. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round30-gesture-and-seated-mot-87d06d1210.json)
+
+### Round32 scrapped poses and withdrawn false head turn
+
+**asset-standards · unverified** · asset-standards-round32-scrapped-poses-and-wit-3534db6983
+
+Founder explicitly scrapped knees_to_prone, rise_from_knees and arms_crossed. Remove those actions from active definitions, PNG/ASE exports, packed pages and previews. Also remove dependent prone_to_knees; it exists only to return from the scrapped transition. Withdraw look_around: sliding facial features under a fixed helmet is not a whole-head turn. Rebuild with genuine whole-head turn poses before reintroducing it. Earlier saved versions are historical only. Active repertoire now24 states,192 clips,2864 frame entries; reference coverage is intentionally incomplete. Retained Round31 art is still pending acceptance; Round29 remains feminine baseline and masculine stays deferred.
+
+Source: Founder current direction; WITHDRAWN_STATES.json in active master. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round32-scrapped-poses-and-wit-3534db6983.json)
 
 ### Bearframe all-owner-art import and fixed-tick memory QA verified
 
