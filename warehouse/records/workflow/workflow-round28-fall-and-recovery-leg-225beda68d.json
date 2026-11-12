@@ -1,0 +1,18 @@
+{
+  "id": "workflow-round28-fall-and-recovery-leg-225beda68d",
+  "kind": "workflow",
+  "title": "Round28 fall and recovery leg correction",
+  "summary": "Recover Bearframe_Round28_Knockdown_Recovery_Leg_Fix.zip for corrected fall/recovery; retain Round27 for other actions. Old free 3D knee poles caused lateral knee motion despite passing length checks. Fixed sagittal-plane bend removes the sideways flip. Recovery now has 12 authored keys with an airborne tuck, foot plant and support transfer; knockdown has 8. Saved checks cover 160 frames, 40 stationary opaque-boot support intervals, exact neutral/fall/recovery endpoints and independently decoded ASEs. Front/back prone readability and seams remain open. Show moving previews directly in chat; do not require test downloads.",
+  "tags": [
+    "bearframe",
+    "continuity",
+    "pixel-art",
+    "recovery",
+    "round28"
+  ],
+  "source": "warehouse/studies/round28-fall-recovery-leg-correction.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T19:31:02+00:00",
+  "updated_at": "2026-11-12T19:31:02+00:00"
+}

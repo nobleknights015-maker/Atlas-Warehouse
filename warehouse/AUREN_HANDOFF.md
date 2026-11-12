@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 43 active records; 0 open work orders.
+Inventory: 44 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 5
+- **workflow**: 6
 
 ## Knowledge shelves
 
@@ -357,6 +357,14 @@ Source: warehouse/studies/round26-walking-recovery.md. [Record](https://github.c
 Recover Bearframe_Round27_Core_Animations_Eight_Directions.zip before continuing Unit09. Eleven animation types cover all eight directions: idle, preserved walk, run, attack, guard, hurt, cast, interact, knockdown, recovery and separate malfunction. 704 frame entries include intentional holds, not 704 unique paintings. The guide records exact editable paths, pivots, scripts, failed passes and raster lessons. Saved checks pass 640 new PNG/layer/atlas and independent ASE composites, run supports and neutral transitions; all 64 previous walk PNG bytes remain unchanged. Front/back prone readability, source seams and final polish remain open. No native-editor, engine or Android acceptance claimed.
 
 Source: warehouse/studies/round27-core-animation-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round27-eight-direction-core-a-88bb4be8a7.json)
+
+### Round28 fall and recovery leg correction
+
+**workflow · unverified** · workflow-round28-fall-and-recovery-leg-225beda68d
+
+Recover Bearframe_Round28_Knockdown_Recovery_Leg_Fix.zip for corrected fall/recovery; retain Round27 for other actions. Old free 3D knee poles caused lateral knee motion despite passing length checks. Fixed sagittal-plane bend removes the sideways flip. Recovery now has 12 authored keys with an airborne tuck, foot plant and support transfer; knockdown has 8. Saved checks cover 160 frames, 40 stationary opaque-boot support intervals, exact neutral/fall/recovery endpoints and independently decoded ASEs. Front/back prone readability and seams remain open. Show moving previews directly in chat; do not require test downloads.
+
+Source: warehouse/studies/round28-fall-recovery-leg-correction.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round28-fall-and-recovery-leg-225beda68d.json)
 
 ### Six-plugin pixel art capability routing and safer experiments
 
