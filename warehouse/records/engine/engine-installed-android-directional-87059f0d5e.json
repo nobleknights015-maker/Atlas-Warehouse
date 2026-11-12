@@ -1,0 +1,21 @@
+{
+  "id": "engine-installed-android-directional-87059f0d5e",
+  "kind": "engine",
+  "title": "Installed Android directional animation and blocked-facing release gates 2026-11-12",
+  "summary": "PR #10 merged main 5c35db9; CI 43258541492 and main 43259514668 passed Node+installed Android emulator: face wall, no movement/save write, repaint on touch/gamepad. PR #9 merged main f675c3c; CI 43260465205 passed Node+installed Android emulator: synthetic four-direction idle/walk sources, actual passable-tile movement pixels, save revisions, Android low-memory rehydration. Early PR9 failure came from test moving right into a scripted event that correctly increments event revision without relocating player; test corrected to move down to empty tile. Full private owner raster archive 2944 images hash/read validated offline; only synthetic art installed in CI. Preview APK from main 5c35db9 built and downloadable separately; physical Android and full-art builds remain open release blockers.",
+  "tags": [
+    "android",
+    "animation",
+    "bearframe",
+    "controls",
+    "emulator",
+    "engine",
+    "regression",
+    "release-gate"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/9",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T16:42:22+00:00",
+  "updated_at": "2026-11-12T16:42:22+00:00"
+}

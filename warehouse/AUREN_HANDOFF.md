@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 34 active records; 0 open work orders.
+Inventory: 35 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -15,7 +15,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 ## Indexed aisles
 
 - **asset-standards**: 5
-- **engine**: 5
+- **engine**: 6
 - **lore**: 1
 - **pixel-art**: 20
 - **workflow**: 3
@@ -93,6 +93,14 @@ Source: Founder instructions for Bearframe RPG engine completion. [Record](https
 Engine PR #6 squash merge 0e6c92b69400ae2a587f8295bec35ce0cc9d667a; PR CI run 43247909857 passed Node and installed Android emulator checks. Opt-in profile resolves source identities against complete imported image manifest; native 32x32 floor/wall, original-height foot-anchored actor frames, all images registered lazy, source artifacts kept outside public GitHub, no save/journal changes. Installed synthetic-profile APK verified Canvas selected image IDs, actual pixels, Android memory trim reload and unchanged save. Original full 2944-image pack visual acceptance and physical device release checks remain open.
 
 Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/6. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-owner-art-render-bri-00950ed1de.json)
+
+### Installed Android directional animation and blocked-facing release gates 2026-11-12
+
+**engine · unverified** · engine-installed-android-directional-87059f0d5e
+
+PR #10 merged main 5c35db9; CI 43258541492 and main 43259514668 passed Node+installed Android emulator: face wall, no movement/save write, repaint on touch/gamepad. PR #9 merged main f675c3c; CI 43260465205 passed Node+installed Android emulator: synthetic four-direction idle/walk sources, actual passable-tile movement pixels, save revisions, Android low-memory rehydration. Early PR9 failure came from test moving right into a scripted event that correctly increments event revision without relocating player; test corrected to move down to empty tile. Full private owner raster archive 2944 images hash/read validated offline; only synthetic art installed in CI. Preview APK from main 5c35db9 built and downloadable separately; physical Android and full-art builds remain open release blockers.
+
+Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/9. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-installed-android-directional-87059f0d5e.json)
 
 ### Live read-only Android WebView presentation clock now installed
 

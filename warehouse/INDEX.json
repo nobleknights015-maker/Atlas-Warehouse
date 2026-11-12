@@ -3,11 +3,11 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 34,
+  "record_count": 35,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 5,
-    "engine": 5,
+    "engine": 6,
     "lore": 1,
     "pixel-art": 20,
     "workflow": 3
@@ -179,6 +179,26 @@
       "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/6",
       "updated_at": "2026-11-12T15:34:11+00:00",
       "summary": "Engine PR #6 squash merge 0e6c92b69400ae2a587f8295bec35ce0cc9d667a; PR CI run 43247909857 passed Node and installed Android emulator checks. Opt-in profile resolves source identities against complete imported image manifest; native 32x32 floor/wall, original-height foot-anchored actor frames, all images registered lazy, source artifacts kept outside public GitHub, no save/journal changes. Installed synthetic-profile APK verified Canvas selected image IDs, actual pixels, Android memory trim reload and unchanged save. Original full 2944-image pack visual acceptance and physical device release checks remain open."
+    },
+    {
+      "id": "engine-installed-android-directional-87059f0d5e",
+      "title": "Installed Android directional animation and blocked-facing release gates 2026-11-12",
+      "kind": "engine",
+      "confidence": "unverified",
+      "tags": [
+        "android",
+        "animation",
+        "bearframe",
+        "controls",
+        "emulator",
+        "engine",
+        "regression",
+        "release-gate"
+      ],
+      "path": "warehouse/records/engine/engine-installed-android-directional-87059f0d5e.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/9",
+      "updated_at": "2026-11-12T16:42:22+00:00",
+      "summary": "PR #10 merged main 5c35db9; CI 43258541492 and main 43259514668 passed Node+installed Android emulator: face wall, no movement/save write, repaint on touch/gamepad. PR #9 merged main f675c3c; CI 43260465205 passed Node+installed Android emulator: synthetic four-direction idle/walk sources, actual passable-tile movement pixels, save revisions, Android low-memory rehydration. Early PR9 failure came from test moving right into a scripted event that correctly increments event revision without relocating player; test corrected to move down to empty tile. Full private owner raster archive 2944 images hash/read validated offline; only synthetic art installed in CI. Preview APK from main 5c35db9 built and downloadable separately; physical Android and full-art builds remain open release blockers."
     },
     {
       "id": "engine-live-read-only-android-webview-9879bc7892",
