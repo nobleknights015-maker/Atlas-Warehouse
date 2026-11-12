@@ -3,10 +3,10 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 47,
+  "record_count": 48,
   "open_order_count": 0,
   "aisles": {
-    "asset-standards": 8,
+    "asset-standards": 9,
     "engine": 7,
     "lore": 1,
     "pixel-art": 23,
@@ -157,6 +157,24 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-glitch-animation-only-clarification.md",
       "updated_at": "2026-11-11T22:59:13+00:00",
       "summary": "FOUNDER CORRECTION overrides the prior proposal to add damage/overgrowth to the four approved starter designs. They are ALREADY old and damaged. Keep all four original selection portraits and matching playable sprite silhouettes, palettes, armor, wear, and clothing exactly as approved. Once ordinary standing/idle/walk sprites are validated, create SEPARATE triggered or occasional animation clips for core light glitches, visor/side-display faults, short actuator stutters, brief desync/freeze, and recovery to idle. Keep readable native pixel scale, clean root/foot anchors, distinct purple/cyan lighting, restrained timings, and character-specific motion. This is not proof the characters are canonically Echo Frames. Do not upload user character art to the public repo."
+    },
+    {
+      "id": "asset-standards-round30-gesture-and-seated-mot-87d06d1210",
+      "title": "Round30 gesture and seated motion rejection",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "bearframe",
+        "feminine",
+        "pixel-art",
+        "rejection",
+        "round30",
+        "round31"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-round30-gesture-and-seated-mot-87d06d1210.json",
+      "source": "Founder visual feedback in current asset session; Bearframe_Round30_Feminine_Reference_Master.zip",
+      "updated_at": "2026-11-12T22:27:42+00:00",
+      "summary": "Founder rejected Round30 knees-to-prone, look-around, head-check, crossed-arms and combat-ready poses. Sit-down, meditate, charged meditation and stand-from-sit read as crouching splits. Do not treat Round30 technical checks or reference coverage as art acceptance. Preserve Round29 approved feminine baseline. Rebuild low seated pelvis with clearly folded shins and crossed ankles, deliberate arm silhouettes, neck turns and hand-supported floor transitions. Masculine derivation remains deferred. Round31 is corrective work in progress, not approved art."
     },
     {
       "id": "engine-bearframe-all-owner-art-import-fd2a67e438",

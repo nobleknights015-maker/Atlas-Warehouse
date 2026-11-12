@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 47 active records; 0 open work orders.
+Inventory: 48 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 8
+- **asset-standards**: 9
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
@@ -85,6 +85,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 FOUNDER CORRECTION overrides the prior proposal to add damage/overgrowth to the four approved starter designs. They are ALREADY old and damaged. Keep all four original selection portraits and matching playable sprite silhouettes, palettes, armor, wear, and clothing exactly as approved. Once ordinary standing/idle/walk sprites are validated, create SEPARATE triggered or occasional animation clips for core light glitches, visor/side-display faults, short actuator stutters, brief desync/freeze, and recovery to idle. Keep readable native pixel scale, clean root/foot anchors, distinct purple/cyan lighting, restrained timings, and character-specific motion. This is not proof the characters are canonically Echo Frames. Do not upload user character art to the public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-glitch-animation-only-clarification.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-sleepers-need-echo-style-4c5fbe3ab3.json)
+
+### Round30 gesture and seated motion rejection
+
+**asset-standards · unverified** · asset-standards-round30-gesture-and-seated-mot-87d06d1210
+
+Founder rejected Round30 knees-to-prone, look-around, head-check, crossed-arms and combat-ready poses. Sit-down, meditate, charged meditation and stand-from-sit read as crouching splits. Do not treat Round30 technical checks or reference coverage as art acceptance. Preserve Round29 approved feminine baseline. Rebuild low seated pelvis with clearly folded shins and crossed ankles, deliberate arm silhouettes, neck turns and hand-supported floor transitions. Masculine derivation remains deferred. Round31 is corrective work in progress, not approved art.
+
+Source: Founder visual feedback in current asset session; Bearframe_Round30_Feminine_Reference_Master.zip. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round30-gesture-and-seated-mot-87d06d1210.json)
 
 ### Bearframe all-owner-art import and fixed-tick memory QA verified
 
