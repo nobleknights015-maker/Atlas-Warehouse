@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 33 active records; 0 open work orders.
+Inventory: 34 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -15,7 +15,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 ## Indexed aisles
 
 - **asset-standards**: 5
-- **engine**: 4
+- **engine**: 5
 - **lore**: 1
 - **pixel-art**: 20
 - **workflow**: 3
@@ -69,6 +69,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 PR 5 merge 058c0a1 CI 43238586201 passed Node and installed Android 35. Engine importer inventories all supplied archive files and nested ZIPs and packages real PNG/JPEG on-demand, byte-identical, with hashes and safe IDs; source-only files stay recorded. Real inspection found 3155 source members, 2946 .png filenames, 2905 true PNG, 39 JPEG mislabeled PNG, 2 macOS resource forks, 2944 usable runtime images, 1465 exact 32x32 tiles. Android memory-recovery scene test now compares identical presentation tick and live animation resumes; actual phone acceptance and mapping these images into gameplay scenes still open. No paid raw art uploaded to public repo.
 
 Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/5. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-all-owner-art-import-fd2a67e438.json)
+
+### Bearframe engine 2026-11-12 input and directional owner art checkpoint
+
+**engine · unverified** · engine-bearframe-engine-2026-11-12-in-18000d20ff
+
+PR #7 merged e4a7be7: Android touch D-pad pointer hold/repeat, release/blur/cancel, duplicate-click suppression. PR #8 merged a607feb: explicit 4-direction idle/walk source frames from distinct images, arbitrary source row order, presentation-only facing/timing, original native 32x32 pixel geometry preserved. Both PR CI runs passed Node and installed Android emulator on synthetic assets. Separately, all 2,944 owner image payloads were imported and SHA256/image integrity validated offline; 1,465 are 32x32; actual owner-art APK has NOT been built or installed. All work engine-only; prior save journal and original launcher intact. Main CI for #8 pending after merge; physical device, full art/UI/audio integration and release gates OPEN.
+
+Source: https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/8. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/engine/engine-bearframe-engine-2026-11-12-in-18000d20ff.json)
 
 ### Bearframe engine release gate
 

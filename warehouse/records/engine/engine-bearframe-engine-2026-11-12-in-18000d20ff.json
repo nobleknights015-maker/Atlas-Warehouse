@@ -1,0 +1,20 @@
+{
+  "id": "engine-bearframe-engine-2026-11-12-in-18000d20ff",
+  "kind": "engine",
+  "title": "Bearframe engine 2026-11-12 input and directional owner art checkpoint",
+  "summary": "PR #7 merged e4a7be7: Android touch D-pad pointer hold/repeat, release/blur/cancel, duplicate-click suppression. PR #8 merged a607feb: explicit 4-direction idle/walk source frames from distinct images, arbitrary source row order, presentation-only facing/timing, original native 32x32 pixel geometry preserved. Both PR CI runs passed Node and installed Android emulator on synthetic assets. Separately, all 2,944 owner image payloads were imported and SHA256/image integrity validated offline; 1,465 are 32x32; actual owner-art APK has NOT been built or installed. All work engine-only; prior save journal and original launcher intact. Main CI for #8 pending after merge; physical device, full art/UI/audio integration and release gates OPEN.",
+  "tags": [
+    "android",
+    "art",
+    "bearframe",
+    "ci",
+    "dpad",
+    "engine",
+    "release-gate"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/8",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T16:19:55+00:00",
+  "updated_at": "2026-11-12T16:19:55+00:00"
+}
