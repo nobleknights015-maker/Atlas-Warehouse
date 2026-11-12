@@ -1,0 +1,18 @@
+{
+  "id": "workflow-round29-complete-organic-motio-a719a85f5c",
+  "kind": "workflow",
+  "title": "Round29 complete organic motion master",
+  "summary": "Recover Bearframe_Round29_Organic_Animation_Master.zip for all 11 Unit09 animation types in eight directions. New authored weight shifts, staggered body/head/hand motion, anticipation and settling retain grounded support and the corrected fall/recovery leg solver. 1344 frame entries include holds, not independent paintings. Checks pass 224 opaque-boot support intervals, exact neutral/fall/recovery boundaries, independent ASE composites and lossless packed pages. All 13948 Round27 and 3436 Round28 recorded file hashes remain unchanged. Show moving GIFs directly in chat. Front/back prone readability and final art polish remain open; no engine or Android acceptance.",
+  "tags": [
+    "bearframe",
+    "continuity",
+    "organic-motion",
+    "pixel-art",
+    "round29"
+  ],
+  "source": "warehouse/studies/round29-organic-animation-master-recovery.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T19:55:05+00:00",
+  "updated_at": "2026-11-12T19:55:05+00:00"
+}

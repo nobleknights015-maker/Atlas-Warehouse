@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 44,
+  "record_count": 45,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 7,
     "engine": 7,
     "lore": 1,
     "pixel-art": 23,
-    "workflow": 6
+    "workflow": 7
   },
   "records": [
     {
@@ -808,6 +808,23 @@
       "source": "warehouse/studies/round28-fall-recovery-leg-correction.md",
       "updated_at": "2026-11-12T19:31:02+00:00",
       "summary": "Recover Bearframe_Round28_Knockdown_Recovery_Leg_Fix.zip for corrected fall/recovery; retain Round27 for other actions. Old free 3D knee poles caused lateral knee motion despite passing length checks. Fixed sagittal-plane bend removes the sideways flip. Recovery now has 12 authored keys with an airborne tuck, foot plant and support transfer; knockdown has 8. Saved checks cover 160 frames, 40 stationary opaque-boot support intervals, exact neutral/fall/recovery endpoints and independently decoded ASEs. Front/back prone readability and seams remain open. Show moving previews directly in chat; do not require test downloads."
+    },
+    {
+      "id": "workflow-round29-complete-organic-motio-a719a85f5c",
+      "title": "Round29 complete organic motion master",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "bearframe",
+        "continuity",
+        "organic-motion",
+        "pixel-art",
+        "round29"
+      ],
+      "path": "warehouse/records/workflow/workflow-round29-complete-organic-motio-a719a85f5c.json",
+      "source": "warehouse/studies/round29-organic-animation-master-recovery.md",
+      "updated_at": "2026-11-12T19:55:05+00:00",
+      "summary": "Recover Bearframe_Round29_Organic_Animation_Master.zip for all 11 Unit09 animation types in eight directions. New authored weight shifts, staggered body/head/hand motion, anticipation and settling retain grounded support and the corrected fall/recovery leg solver. 1344 frame entries include holds, not independent paintings. Checks pass 224 opaque-boot support intervals, exact neutral/fall/recovery boundaries, independent ASE composites and lossless packed pages. All 13948 Round27 and 3436 Round28 recorded file hashes remain unchanged. Show moving GIFs directly in chat. Front/back prone readability and final art polish remain open; no engine or Android acceptance."
     },
     {
       "id": "workflow-six-plugin-pixel-art-capabilit-8bf7ba7f2f",

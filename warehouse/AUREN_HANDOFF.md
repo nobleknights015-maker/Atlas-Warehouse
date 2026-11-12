@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 44 active records; 0 open work orders.
+Inventory: 45 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 6
+- **workflow**: 7
 
 ## Knowledge shelves
 
@@ -365,6 +365,14 @@ Source: warehouse/studies/round27-core-animation-recovery.md. [Record](https://g
 Recover Bearframe_Round28_Knockdown_Recovery_Leg_Fix.zip for corrected fall/recovery; retain Round27 for other actions. Old free 3D knee poles caused lateral knee motion despite passing length checks. Fixed sagittal-plane bend removes the sideways flip. Recovery now has 12 authored keys with an airborne tuck, foot plant and support transfer; knockdown has 8. Saved checks cover 160 frames, 40 stationary opaque-boot support intervals, exact neutral/fall/recovery endpoints and independently decoded ASEs. Front/back prone readability and seams remain open. Show moving previews directly in chat; do not require test downloads.
 
 Source: warehouse/studies/round28-fall-recovery-leg-correction.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round28-fall-and-recovery-leg-225beda68d.json)
+
+### Round29 complete organic motion master
+
+**workflow · unverified** · workflow-round29-complete-organic-motio-a719a85f5c
+
+Recover Bearframe_Round29_Organic_Animation_Master.zip for all 11 Unit09 animation types in eight directions. New authored weight shifts, staggered body/head/hand motion, anticipation and settling retain grounded support and the corrected fall/recovery leg solver. 1344 frame entries include holds, not independent paintings. Checks pass 224 opaque-boot support intervals, exact neutral/fall/recovery boundaries, independent ASE composites and lossless packed pages. All 13948 Round27 and 3436 Round28 recorded file hashes remain unchanged. Show moving GIFs directly in chat. Front/back prone readability and final art polish remain open; no engine or Android acceptance.
+
+Source: warehouse/studies/round29-organic-animation-master-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round29-complete-organic-motio-a719a85f5c.json)
 
 ### Six-plugin pixel art capability routing and safer experiments
 
