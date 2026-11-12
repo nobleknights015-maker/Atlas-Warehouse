@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-relay-r09-angular-hood-and-crt-047dd771f3",
+  "kind": "pixel-art",
+  "title": "Relay R09 angular hood and CRT geometry study",
+  "summary": "Native 104x128 silhouettes retain Round08 B ring, zero overlap, 1 connected body each, gap 8.06/8.94/8.06px; two 116x104 CRT plane studies. Technical pass only; artistic quality unverified. Four portrait-matched Sleepers remain production priority; no extra permanent damage.",
+  "tags": [
+    "crt",
+    "pixel-art",
+    "quality-gate",
+    "relay",
+    "training"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-round09-angular-hood-crt-2026-11-12.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T15:13:39+00:00",
+  "updated_at": "2026-11-12T15:13:39+00:00"
+}

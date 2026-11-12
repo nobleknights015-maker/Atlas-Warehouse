@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 29 active records; 0 open work orders.
+Inventory: 30 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 5
 - **engine**: 3
 - **lore**: 1
-- **pixel-art**: 17
+- **pixel-art**: 18
 - **workflow**: 3
 
 ## Knowledge shelves
@@ -181,6 +181,14 @@ Source: Round 06 evidence and limitations: https://github.com/nobleknights015-ma
 Native 208x208 hand-authored Relay portrait study used 29-color palette and binary RGBA alpha; separate silhouette, faceted CRT/material, and sparse age passes; tested alternative broken-halo placements. Compared with Round 06, the CRT is more oblique and layer hierarchy clearer, but the silhouette still merges halo and hood near the top, shoulders remain shallow, and the design is not production quality. Technical PNG validation is not artistic validation. Next: three tiny monochrome thumbnail silhouettes, negative-space test at 1x, and focused 3/4 CRT/hood construction BEFORE lighting, overgrowth or glitches. Keep all prior animation and degeneration subjects in parallel.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-07.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-portrait-round-07-silhou-bbd037fb01.json)
+
+### Relay R09 angular hood and CRT geometry study
+
+**pixel-art · unverified** · pixel-art-relay-r09-angular-hood-and-crt-047dd771f3
+
+Native 104x128 silhouettes retain Round08 B ring, zero overlap, 1 connected body each, gap 8.06/8.94/8.06px; two 116x104 CRT plane studies. Technical pass only; artistic quality unverified. Four portrait-matched Sleepers remain production priority; no extra permanent damage.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-round09-angular-hood-crt-2026-11-12.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-relay-r09-angular-hood-and-crt-047dd771f3.json)
 
 ### Relay Round 08 silhouette separation versus character appeal
 

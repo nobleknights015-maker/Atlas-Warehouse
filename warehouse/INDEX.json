@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 29,
+  "record_count": 30,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 5,
     "engine": 3,
     "lore": 1,
-    "pixel-art": 17,
+    "pixel-art": 18,
     "workflow": 3
   },
   "records": [
@@ -383,6 +383,23 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-portrait-design-round-07.md",
       "updated_at": "2026-11-11T03:20:09+00:00",
       "summary": "Native 208x208 hand-authored Relay portrait study used 29-color palette and binary RGBA alpha; separate silhouette, faceted CRT/material, and sparse age passes; tested alternative broken-halo placements. Compared with Round 06, the CRT is more oblique and layer hierarchy clearer, but the silhouette still merges halo and hood near the top, shoulders remain shallow, and the design is not production quality. Technical PNG validation is not artistic validation. Next: three tiny monochrome thumbnail silhouettes, negative-space test at 1x, and focused 3/4 CRT/hood construction BEFORE lighting, overgrowth or glitches. Keep all prior animation and degeneration subjects in parallel."
+    },
+    {
+      "id": "pixel-art-relay-r09-angular-hood-and-crt-047dd771f3",
+      "title": "Relay R09 angular hood and CRT geometry study",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "crt",
+        "pixel-art",
+        "quality-gate",
+        "relay",
+        "training"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-relay-r09-angular-hood-and-crt-047dd771f3.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/relay-round09-angular-hood-crt-2026-11-12.md",
+      "updated_at": "2026-11-12T15:13:39+00:00",
+      "summary": "Native 104x128 silhouettes retain Round08 B ring, zero overlap, 1 connected body each, gap 8.06/8.94/8.06px; two 116x104 CRT plane studies. Technical pass only; artistic quality unverified. Four portrait-matched Sleepers remain production priority; no extra permanent damage."
     },
     {
       "id": "pixel-art-relay-round-08-silhouette-sepa-13e42fb1a5",
