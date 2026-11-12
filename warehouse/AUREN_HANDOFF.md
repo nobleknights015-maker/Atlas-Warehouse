@@ -88,7 +88,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Round30 gesture and seated motion rejection
 
-**asset-standards · unverified** · asset-standards-round30-gesture-and-seated-mot-87d06d1210
+**asset-standards · reviewed** · asset-standards-round30-gesture-and-seated-mot-87d06d1210
 
 Founder rejected Round30 knees-to-prone, look-around, head-check, crossed-arms and combat-ready poses. Sit-down, meditate, charged meditation and stand-from-sit read as crouching splits. Do not treat Round30 technical checks or reference coverage as art acceptance. Preserve Round29 approved feminine baseline. Rebuild low seated pelvis with clearly folded shins and crossed ankles, deliberate arm silhouettes, neck turns and hand-supported floor transitions. Masculine derivation remains deferred. Round31 is corrective work in progress, not approved art.
 

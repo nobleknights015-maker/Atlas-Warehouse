@@ -12,8 +12,16 @@
     "round31"
   ],
   "source": "Founder visual feedback in current asset session; Bearframe_Round30_Feminine_Reference_Master.zip",
-  "confidence": "unverified",
+  "confidence": "reviewed",
   "visibility": "public",
   "created_at": "2026-11-12T22:27:42+00:00",
-  "updated_at": "2026-11-12T22:27:42+00:00"
+  "updated_at": "2026-11-12T22:31:19+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-12T22:31:19+00:00",
+      "by": "nobleknights015-maker",
+      "level": "reviewed",
+      "evidence": "Checked Founder feedback directly in the current asset session: specific gesture poses and knees-to-prone rejected, seated family described as crouching splits. This is a reviewed rejection and correction requirement, not approval of Round31."
+    }
+  ]
 }
