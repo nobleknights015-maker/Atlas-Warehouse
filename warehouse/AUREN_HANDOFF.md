@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 31 active records; 0 open work orders.
+Inventory: 32 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 5
 - **engine**: 4
 - **lore**: 1
-- **pixel-art**: 18
+- **pixel-art**: 19
 - **workflow**: 3
 
 ## Knowledge shelves
@@ -221,6 +221,14 @@ Source: Founder direct visual critique of Relay portrait Round 6, Nov 2026. [Rec
 Prepared Vera's existing Starter A turnaround as FOUR independently aligned 128x256 source-derived RGBA sprite views, sharing a 74-color opaque palette, hard alpha, matching y=248 soles and top y=11, exported a 512x256 four-direction sheet and constructed a 4-frame/3-layer 32bpp ASE. Independently parsed every ASE cel and verified lossless compositing matches the four PNGs. This does NOT represent new hand-drawn character art, an animation, a LibreSprite-open test of this specific proprietary file, or production-ready sprites. The source images and derived assets remain private in conversation downloads; only method/metrics are public. Next study should tackle genuinely independent pixel-art armor design; keep all former animation/glitch/overgrowth coursework.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-4view-reference-adaptation-round-18.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round-18-four-view-starter-ref-1ebebc06eb.json)
+
+### Round22 actual Unit09 front-walk correction remains study-only
+
+**pixel-art · unverified** · pixel-art-round22-actual-unit09-front-wa-cca3aa3e3a
+
+Retrieved Round21 audit and the authentic Round20 frames it audited. Confirmed four frames have three alpha silhouettes. Edited connected limb raster chains into eight distinct front-walk poses, preserved violet identity, registered emitter pixels separately, and revised knee and heel contours. Rejected v1 and v2 after review; v3 corrects per-pixel bankers-rounding gaps by rounding each row translation once. Independent local checks verified eight body and lower-body masks, connected alpha, lossless atlas crops and six-layer eight-frame ASE composite roundtrip. Actual opaque support sole pixels stay fixed in a diagnostic stage at root advance 2px per frame; this does not prove runtime gait. Visual and mechanics gates FAIL: soft source clusters, rigid pelvis, incomplete hands and heel roll. Runtime and editor-open NOT TESTED. No engine changes or private art uploaded.
+
+Source: Local reproducible Round22 build_round22.py and export_and_validate.py; private source and evidence retained in owner deliverable. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round22-actual-unit09-front-wa-cca3aa3e3a.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 

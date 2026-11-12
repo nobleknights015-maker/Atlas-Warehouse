@@ -1,0 +1,19 @@
+{
+  "id": "pixel-art-round22-actual-unit09-front-wa-cca3aa3e3a",
+  "kind": "pixel-art",
+  "title": "Round22 actual Unit09 front-walk correction remains study-only",
+  "summary": "Retrieved Round21 audit and the authentic Round20 frames it audited. Confirmed four frames have three alpha silhouettes. Edited connected limb raster chains into eight distinct front-walk poses, preserved violet identity, registered emitter pixels separately, and revised knee and heel contours. Rejected v1 and v2 after review; v3 corrects per-pixel bankers-rounding gaps by rounding each row translation once. Independent local checks verified eight body and lower-body masks, connected alpha, lossless atlas crops and six-layer eight-frame ASE composite roundtrip. Actual opaque support sole pixels stay fixed in a diagnostic stage at root advance 2px per frame; this does not prove runtime gait. Visual and mechanics gates FAIL: soft source clusters, rigid pelvis, incomplete hands and heel roll. Runtime and editor-open NOT TESTED. No engine changes or private art uploaded.",
+  "tags": [
+    "animation",
+    "failed-gates",
+    "pixel-art",
+    "qa",
+    "round22",
+    "unit09"
+  ],
+  "source": "Local reproducible Round22 build_round22.py and export_and_validate.py; private source and evidence retained in owner deliverable",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T15:42:28+00:00",
+  "updated_at": "2026-11-12T15:42:28+00:00"
+}
