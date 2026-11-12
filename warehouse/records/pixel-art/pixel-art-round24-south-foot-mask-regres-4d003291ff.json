@@ -1,0 +1,19 @@
+{
+  "id": "pixel-art-round24-south-foot-mask-regres-4d003291ff",
+  "kind": "pixel-art",
+  "title": "Round24 south foot-mask regression restored and eight-direction study started",
+  "summary": "Actual Round23 frames had 7px or more bottom canvas clearance; the apparent clipping came from variable replacement boot masks intruding into the calf and cuff. Restored each full native Round22 ankle-to-sole assembly while preserving every non-leg Round23 pixel including hand and scarf repairs. Exported eight corrected south PNGs and independently decoded two-layer ASE. Eight static direction slots now contain four authentic cardinal references and four source-derived quarter-view construction studies with separate foot layers and static ASE; diagonals remain FAIL for torso/shoulder perspective and are not new walk cycles. Audited legacy cardinal silhouettes rather than assuming four displayed frames were unique. Full eight-direction animation, physical mechanics, editor-open and Android acceptance remain open. No engine changes or private art published.",
+  "tags": [
+    "eight-directions",
+    "failed-gates",
+    "foot-clipping",
+    "regression",
+    "round24",
+    "unit09"
+  ],
+  "source": "Local fix_feet.py validate_export.py build_eight_directions.py and owner-only PNG comparison evidence",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T16:43:49+00:00",
+  "updated_at": "2026-11-12T16:43:49+00:00"
+}

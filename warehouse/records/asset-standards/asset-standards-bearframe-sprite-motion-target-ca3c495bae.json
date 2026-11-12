@@ -1,0 +1,19 @@
+{
+  "id": "asset-standards-bearframe-sprite-motion-target-ca3c495bae",
+  "kind": "asset-standards",
+  "title": "Bearframe sprite motion target is eight directions",
+  "summary": "Founder correction expands the animation target from four cardinal directions to N NE E SE S SW W NW. Each diagonal needs its own perspective-aware poses and registered feet; rotating whole sprites or replaying one standing view is not an accepted walk. Preserve canonical identity and asymmetric armor. Establish eight-direction static geometry before expanding gait cycles; static coverage must never be reported as eight complete animated directions.",
+  "tags": [
+    "animation",
+    "bearframe",
+    "eight-directions",
+    "identity",
+    "pixel-art",
+    "scope"
+  ],
+  "source": "Founder art feedback in Round24 continuation 2026-11-12; private assets excluded",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T16:43:49+00:00",
+  "updated_at": "2026-11-12T16:43:49+00:00"
+}

@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 35,
+  "record_count": 37,
   "open_order_count": 0,
   "aisles": {
-    "asset-standards": 5,
+    "asset-standards": 6,
     "engine": 6,
     "lore": 1,
-    "pixel-art": 20,
+    "pixel-art": 21,
     "workflow": 3
   },
   "records": [
@@ -46,6 +46,24 @@
       "source": "Founder-defined Bearframe World Editor v1 production standard",
       "updated_at": "2026-11-11T01:51:07+00:00",
       "summary": "World Editor v1 runtime tilesheets are 384 by 768 pixels using an 8 by 16 grid of 48 by 48 pixel tiles. Use top-left origin, exactly 128 slots, RGBA PNG, clean transparency, and no labels, gaps, or resizing. Preserve stable tile IDs and order."
+    },
+    {
+      "id": "asset-standards-bearframe-sprite-motion-target-ca3c495bae",
+      "title": "Bearframe sprite motion target is eight directions",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "animation",
+        "bearframe",
+        "eight-directions",
+        "identity",
+        "pixel-art",
+        "scope"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-bearframe-sprite-motion-target-ca3c495bae.json",
+      "source": "Founder art feedback in Round24 continuation 2026-11-12; private assets excluded",
+      "updated_at": "2026-11-12T16:43:49+00:00",
+      "summary": "Founder correction expands the animation target from four cardinal directions to N NE E SE S SW W NW. Each diagonal needs its own perspective-aware poses and registered feet; rotating whole sprites or replaying one standing view is not an accepted walk. Preserve canonical identity and asymmetric armor. Establish eight-direction static geometry before expanding gait cycles; static coverage must never be reported as eight complete animated directions."
     },
     {
       "id": "asset-standards-four-selectable-sleeper-portra-96dac1b6a4",
@@ -554,6 +572,24 @@
       "source": "Local Round23 draw_patches.py and export_qa.py; private PNG layer comparison and owner deliverable",
       "updated_at": "2026-11-12T16:02:20+00:00",
       "summary": "Edited actual retained Round22 96x160 frames with authored native raster clusters for six boot poses, three hand orientations and a clipped pelvic plate, keeping upper 76 rows byte-identical. Eight local iterations rejected connector overpaint, cuff/material mismatch, blocky palms and scarf clipping. Layer inspection found Round22 scarf overlap also retained a static neutral left hand; final study removes that inherited hand mask while preserving the active forearm above the new cuff. Regression checks verify all visible source scarf-strip pixels unchanged, hand-cuff contact, connected alpha, eight distinct body/lower silhouettes, actual sole-pixel stage projection and lossless six-layer ASE decoding. File gate passes front-only; visual and animation gates still FAIL due material integration, incomplete hip/thigh perspective and cloth motion. Editor and Android runtime NOT TESTED. No private art or engine changes published."
+    },
+    {
+      "id": "pixel-art-round24-south-foot-mask-regres-4d003291ff",
+      "title": "Round24 south foot-mask regression restored and eight-direction study started",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "eight-directions",
+        "failed-gates",
+        "foot-clipping",
+        "regression",
+        "round24",
+        "unit09"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-round24-south-foot-mask-regres-4d003291ff.json",
+      "source": "Local fix_feet.py validate_export.py build_eight_directions.py and owner-only PNG comparison evidence",
+      "updated_at": "2026-11-12T16:43:49+00:00",
+      "summary": "Actual Round23 frames had 7px or more bottom canvas clearance; the apparent clipping came from variable replacement boot masks intruding into the calf and cuff. Restored each full native Round22 ankle-to-sole assembly while preserving every non-leg Round23 pixel including hand and scarf repairs. Exported eight corrected south PNGs and independently decoded two-layer ASE. Eight static direction slots now contain four authentic cardinal references and four source-derived quarter-view construction studies with separate foot layers and static ASE; diagonals remain FAIL for torso/shoulder perspective and are not new walk cycles. Audited legacy cardinal silhouettes rather than assuming four displayed frames were unique. Full eight-direction animation, physical mechanics, editor-open and Android acceptance remain open. No engine changes or private art published."
     },
     {
       "id": "pixel-art-sleeper-unit-09-manual-static-d489662abe",
