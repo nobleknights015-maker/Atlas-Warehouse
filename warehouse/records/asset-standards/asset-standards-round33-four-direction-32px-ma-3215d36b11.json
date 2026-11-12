@@ -1,0 +1,19 @@
+{
+  "id": "asset-standards-round33-four-direction-32px-ma-3215d36b11",
+  "kind": "asset-standards",
+  "title": "Round33 four-direction 32px map target",
+  "summary": "Founder confirms exploration is cardinal tile-by-tile on32px tiles. Prioritise native map-scale front/back/left/right walking tested against actual owner assets; preserve larger and diagonal studies separately. Round33 private packet compares48px and64px-tall size probes,136 RGBA frames and136 actual scene-composer checks. Native tile source is owner SciFi Station Mega Kit. Current source anchors frame bottoms and snaps integer tile positions with250ms walk flags; no actor interpolation in that inspected path. This is offline source-derived testing, not installed APK proof. Downsampled probes need native pixel cleanup; no size/art approval. No engine/master changes.",
+  "tags": [
+    "32px",
+    "bearframe",
+    "cardinal",
+    "map-scale",
+    "pixel-art",
+    "round33"
+  ],
+  "source": "warehouse/studies/round33-cardinal-32px-map-test.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T23:21:54+00:00",
+  "updated_at": "2026-11-12T23:21:54+00:00"
+}

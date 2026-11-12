@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 50 active records; 0 open work orders.
+Inventory: 51 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 10
+- **asset-standards**: 11
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
@@ -101,6 +101,14 @@ Source: Founder visual feedback in current asset session; Bearframe_Round30_Femi
 Founder explicitly scrapped knees_to_prone, rise_from_knees and arms_crossed. Remove those actions from active definitions, PNG/ASE exports, packed pages and previews. Also remove dependent prone_to_knees; it exists only to return from the scrapped transition. Withdraw look_around: sliding facial features under a fixed helmet is not a whole-head turn. Rebuild with genuine whole-head turn poses before reintroducing it. Earlier saved versions are historical only. Active repertoire now24 states,192 clips,2864 frame entries; reference coverage is intentionally incomplete. Retained Round31 art is still pending acceptance; Round29 remains feminine baseline and masculine stays deferred.
 
 Source: Founder current direction; WITHDRAWN_STATES.json in active master. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round32-scrapped-poses-and-wit-3534db6983.json)
+
+### Round33 four-direction 32px map target
+
+**asset-standards · unverified** · asset-standards-round33-four-direction-32px-ma-3215d36b11
+
+Founder confirms exploration is cardinal tile-by-tile on32px tiles. Prioritise native map-scale front/back/left/right walking tested against actual owner assets; preserve larger and diagonal studies separately. Round33 private packet compares48px and64px-tall size probes,136 RGBA frames and136 actual scene-composer checks. Native tile source is owner SciFi Station Mega Kit. Current source anchors frame bottoms and snaps integer tile positions with250ms walk flags; no actor interpolation in that inspected path. This is offline source-derived testing, not installed APK proof. Downsampled probes need native pixel cleanup; no size/art approval. No engine/master changes.
+
+Source: warehouse/studies/round33-cardinal-32px-map-test.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round33-four-direction-32px-ma-3215d36b11.json)
 
 ### Bearframe all-owner-art import and fixed-tick memory QA verified
 
