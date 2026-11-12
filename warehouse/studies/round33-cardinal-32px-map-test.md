@@ -1,0 +1,17 @@
+# Round33 cardinal map test and scope correction
+
+Founder confirms exploration uses only up/down/left/right on32×32 tiles. Four-direction map walking is the immediate art target. Diagonals remain saved studies, not a requirement for the current exploration renderer. Larger combat/cutscene art remains separate. Preserve Round29 approved feminine baseline and Round32 scrapped-action decisions.
+
+Private owner test packet: Bearframe_Round33_Cardinal_32px_Map_Test.zip. This is a separate layout/motion diagnostic; it does not replace or modify the active source animation master. Source tile art is the owner attachment Bearframe assets.zip → SciFi_Station_Mega_Kit_v1.0.zip;22 actual assets used with native32px floor/wall tiles and original multi-tile door/fixture sizes. No artwork should be posted to public Warehouse.
+
+Tests compare48px versus64px opaque character height against the same real32px room. The original study is about147px tall (4.6tile heights), so it cannot be dropped unscaled into that environment. Both are nearest-resampled size probes, not finished native-pixel map art; downsampling loses armor detail and produces a narrow silhouette. Neither size is approved. A32px terrain grid does not force a32×32 character.
+
+Four-direction compact exports use down/left/right/up row order, idle plus16walk frames.48px probe uses32×56 fixed frame;64px probe40×72.136 RGBA frame exports pass bounds/binary-alpha and136 checks against actual fetched framework/scene.js, schema.js and character-sprites.js validate frame selection and bottom-frame anchoring. JSON bindings are fragments, not a complete gameplay project.
+
+Current checked source: framework/scene.js blob edc11d729a9e1f7bbc43b48eec5141a810ad33b9 anchors the whole frame bottom at tile bottom and draws at native frame dimensions; no internal pivot in that actor path. enginehost/boot.js blob7ece59e0b91b34080630c627c8bb13b3481f552b uses integer canonical tile coordinates, playerWalkUntilTick=tick+5 and playerMoving flag. The presentation clock is50ms; no player-position interpolation was found in that path. Touch pad uses270ms initial hold delay,125ms repeats. Checked-in art-profile.js is null and the build injects owner art, so this is not proof of installed APK behavior. No engine/APK was edited.
+
+In-chat previews: scale_comparison_close.png and cardinal_map_test.gif. The GIF reproduces tile snaps followed by250ms walking flags on spaced taps, not touch-hold or smooth movement. Native ffplay playback and paused samples were reviewed. Character gait/root projection from the large study is not certified for32px map steps; global animation phase can show only part of a16frame cycle during the short walking flag.
+
+Continue by choosing map scale in actual asset context, cleaning/redrawing the four native directional sprites at that scale, and confirming the engine presentation policy. Do not keep polishing giant eight-direction action studies as if they already satisfy map walking. Engine interpolation/timing changes belong in the engine project. All device/runtime/art acceptance remains open.
+
+Reproduce images using make_map_test.py and presentation_crops.py with included68 character source PNGs and22 environment PNGs. SOURCE_ASSETS.json and ENGINE_SOURCES.json provide provenance. Actual repository engine sources remain in their repository; check_scene_contract.js can rerun after fetching the named files under engine_snapshot/framework/. Do not claim sprite-binding validation equals installed game acceptance.
