@@ -12,8 +12,16 @@
     "scrapped"
   ],
   "source": "Founder current direction; WITHDRAWN_STATES.json in active master",
-  "confidence": "unverified",
+  "confidence": "reviewed",
   "visibility": "public",
   "created_at": "2026-11-12T22:44:02+00:00",
-  "updated_at": "2026-11-12T22:44:02+00:00"
+  "updated_at": "2026-11-12T22:45:08+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-12T22:45:08+00:00",
+      "by": "nobleknights015-maker",
+      "level": "reviewed",
+      "evidence": "Checked the current Founder instruction and active master: three named actions scrapped, their dependent return removed, false look-around withdrawn. Definitions, asset directories and packed keys exclude all five;2864 retained frame entries and24 seam checks pass. This confirms removal scope, not new art approval. Recovery guide: warehouse/studies/round32-active-feminine-master-recovery.md."
+    }
+  ]
 }

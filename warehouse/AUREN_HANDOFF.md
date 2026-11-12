@@ -96,7 +96,7 @@ Source: Founder visual feedback in current asset session; Bearframe_Round30_Femi
 
 ### Round32 scrapped poses and withdrawn false head turn
 
-**asset-standards · unverified** · asset-standards-round32-scrapped-poses-and-wit-3534db6983
+**asset-standards · reviewed** · asset-standards-round32-scrapped-poses-and-wit-3534db6983
 
 Founder explicitly scrapped knees_to_prone, rise_from_knees and arms_crossed. Remove those actions from active definitions, PNG/ASE exports, packed pages and previews. Also remove dependent prone_to_knees; it exists only to return from the scrapped transition. Withdraw look_around: sliding facial features under a fixed helmet is not a whole-head turn. Rebuild with genuine whole-head turn poses before reintroducing it. Earlier saved versions are historical only. Active repertoire now24 states,192 clips,2864 frame entries; reference coverage is intentionally incomplete. Retained Round31 art is still pending acceptance; Round29 remains feminine baseline and masculine stays deferred.
 
