@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 40 active records; 0 open work orders.
+Inventory: 41 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 6
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 3
+- **workflow**: 4
 
 ## Knowledge shelves
 
@@ -333,6 +333,14 @@ Source: Atlas Warehouse operational policy and Founder requirement for continuou
 Implemented a reproducible GitHub Actions workflow that downloads the OFFICIAL LibreSprite 1.3 AppImage, extracts and launches its actual headless batch editor, executes JavaScript inside a sprite cel to change two RGBA pixels, exports a PNG and validates those exact pixels plus transparency. All steps passed on run 42961553641 with downloadable image/report artifacts. This is a VERIFIED TOOL INTEGRATION smoke test, NOT an artistic quality or game production pass. LibreSprite is ephemeral per runner; current ChatGPT sandbox does not have a local editor install. Use this workflow to build future authored layered sprite and animation tests, and keep source game art out of public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-editor-integration-v1.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-libresprite-1-3-real-native-pi-f1a4b44b43.json)
+
+### Round26 walking checkpoint recovery and reuse
+
+**workflow · unverified** · workflow-round26-walking-checkpoint-rec-8589b54add
+
+Before continuing Unit09 pixel art, recover Bearframe_Round26_Eight_Direction_Walking_64_Frames.zip from the user's saved files. Read ROUND26_README.md and QA, then use walk_v5, build_walk.py and export_validate.py. The durable recovery guide records exact frame size, pivot, timing, atlas order, protected cardinal baselines, reusable articulation and quantization lessons, rejected approaches and remaining artistic limits. Preserve the working 64-frame walk; do not restart from flat diagonal studies. Numerical validation does not establish final artistic or runtime approval.
+
+Source: warehouse/studies/round26-walking-recovery.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-round26-walking-checkpoint-rec-8589b54add.json)
 
 ### Six-plugin pixel art capability routing and safer experiments
 

@@ -1,0 +1,18 @@
+{
+  "id": "workflow-round26-walking-checkpoint-rec-8589b54add",
+  "kind": "workflow",
+  "title": "Round26 walking checkpoint recovery and reuse",
+  "summary": "Before continuing Unit09 pixel art, recover Bearframe_Round26_Eight_Direction_Walking_64_Frames.zip from the user's saved files. Read ROUND26_README.md and QA, then use walk_v5, build_walk.py and export_validate.py. The durable recovery guide records exact frame size, pivot, timing, atlas order, protected cardinal baselines, reusable articulation and quantization lessons, rejected approaches and remaining artistic limits. Preserve the working 64-frame walk; do not restart from flat diagonal studies. Numerical validation does not establish final artistic or runtime approval.",
+  "tags": [
+    "bearframe",
+    "continuity",
+    "pixel-art",
+    "recovery",
+    "round26"
+  ],
+  "source": "warehouse/studies/round26-walking-recovery.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-12T17:59:06+00:00",
+  "updated_at": "2026-11-12T17:59:06+00:00"
+}
