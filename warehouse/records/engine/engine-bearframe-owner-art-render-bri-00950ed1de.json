@@ -13,8 +13,16 @@
     "save-isolation"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-rpg-engine/pull/6",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-12T15:32:43+00:00",
-  "updated_at": "2026-11-12T15:32:43+00:00"
+  "updated_at": "2026-11-12T15:34:11+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-12T15:34:11+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "PR #6 head 9928c3c89c44330b135fc927a49dd53c56a717b5 passed GitHub Actions run https://github.com/nobleknights015-maker/bearframe-rpg-engine/actions/runs/43247909857: Runtime and content contracts success, Clean Android source build success. Installed Android 35 instrumentation printed PASS unified-owner-art: selected scene image IDs and Canvas pixels, native memory trim reload, unchanged saved revision. Scope: synthetic CI profile only; full owner pack and physical phone not yet accepted."
+    }
+  ]
 }

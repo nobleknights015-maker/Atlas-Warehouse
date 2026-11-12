@@ -80,7 +80,7 @@ Source: Founder instructions for Bearframe RPG engine completion. [Record](https
 
 ### Bearframe owner-art render bridge merged and Android verified
 
-**engine · unverified** · engine-bearframe-owner-art-render-bri-00950ed1de
+**engine · tested** · engine-bearframe-owner-art-render-bri-00950ed1de
 
 Engine PR #6 squash merge 0e6c92b69400ae2a587f8295bec35ce0cc9d667a; PR CI run 43247909857 passed Node and installed Android emulator checks. Opt-in profile resolves source identities against complete imported image manifest; native 32x32 floor/wall, original-height foot-anchored actor frames, all images registered lazy, source artifacts kept outside public GitHub, no save/journal changes. Installed synthetic-profile APK verified Canvas selected image IDs, actual pixels, Android memory trim reload and unchanged save. Original full 2944-image pack visual acceptance and physical device release checks remain open.
 
