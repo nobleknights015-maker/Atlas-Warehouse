@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 58 active records; 0 open work orders.
+Inventory: 59 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 25
-- **workflow**: 13
+- **workflow**: 14
 
 ## Knowledge shelves
 
@@ -485,6 +485,14 @@ Source: Owner packet Unit09_Reference_Walk_Revision_37.zip; build_walk.py FRONT_
 Replace failed side stand-sprite rig from revisions35-39 with six genuine W and six E poses extracted from supplied full sheet43158. Larger43157 three-pose sheet is detail reference. Side retained RGB matches source coordinates exactly; integer translation only, no limb warp or scaling. Alpha threshold128 plus main-component cleanup documented. Approved front/back files byte-locked.28 ASE composites independently match. Source rectangles and pelvis/floor anchors plus reusable manual transfer method saved. Native playback reviewed; source pose detail variation, timing and owner review remain open. No new-character retarget or engine integration claim.
 
 Source: Owner packet Unit09_Reference_Walk_Revision_40.zip; source_mapping.json QA.json REFERENCE_TRANSFER.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision40-use-supplied-f1c64bd534.json)
+
+### Unit09 revision42 masked reference lower body
+
+**workflow · unverified** · workflow-unit09-revision42-masked-refer-e8918a0821
+
+Owner requested reference pelvis and legs as visible masks on hidden rig, preserving prior upper animation. Traced separate pelvis near/far thigh shin material from large contact reference at uniform0.42 scale, same-leg standing boots unscaled. Original torso kept whole beneath silhouette-matched pelvis overlap, arms and approved S/N files byte-identical. Isolated masks inspected; reference-arm fragment and detached pelvis pixel removed, lifted boots replaced.16 side alpha bodies connected,32 ASE composites exact. Native loop reviewed; knee contours waist texture and planting still need review, no artistic approval or new-character retarget claim.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_42.zip; material_parts.json MASK_WORKFLOW.md QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision42-masked-refer-e8918a0821.json)
 
 ## Open work orders
 
