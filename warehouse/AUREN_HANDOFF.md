@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 60 active records; 0 open work orders.
+Inventory: 62 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,10 +14,11 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 13
+- **asset-standards**: 14
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 25
+- **research**: 1
 - **workflow**: 14
 
 ## Knowledge shelves
@@ -109,6 +110,14 @@ Source: Founder current direction; WITHDRAWN_STATES.json in active master. [Reco
 Founder confirms exploration is cardinal tile-by-tile on32px tiles. Prioritise native map-scale front/back/left/right walking tested against actual owner assets; preserve larger and diagonal studies separately. Round33 private packet compares48px and64px-tall size probes,136 RGBA frames and136 actual scene-composer checks. Native tile source is owner SciFi Station Mega Kit. Current source anchors frame bottoms and snaps integer tile positions with250ms walk flags; no actor interpolation in that inspected path. This is offline source-derived testing, not installed APK proof. Downsampled probes need native pixel cleanup; no size/art approval. No engine/master changes.
 
 Source: warehouse/studies/round33-cardinal-32px-map-test.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round33-four-direction-32px-ma-3215d36b11.json)
+
+### Round44 supersedes rejected side rig assumptions
+
+**asset-standards · unverified** · asset-standards-round44-supersedes-rejected-si-b3c2ef3808
+
+S/front and N/back remain approved baselines;58 files each match round41 to43. Side42 rejected. Side43 is closer but unresolved, not approved: old torso occludes72 W and101 E lower-art pixels across rows76-95 and retains old pelvis material. Some overlap is necessary; counts locate conflict, not proof all overlap wrong. Preserve design, allow phase-correct pose changes to rejected sides. Research audit found round39 socket relocation at most1.002586px, so prior shortening explanation was overstated.
+
+Source: warehouse/studies/unit09-animation-research-round44/audit_results.json; FINDINGS.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round44-supersedes-rejected-si-b3c2ef3808.json)
 
 ### Unit09 revision41 restore earlier animation leg-only scope
 
@@ -389,6 +398,14 @@ Source: Owner packet Unit09_Reference_Walk_Revision_39.zip; QA.json identity_rec
 Revisited locally available older 128x262 Unit 09 static practice drawing, constructed two distinct lower-leg A/B native-pixel corrections after a joint/silhouette inspection, and visualized both enlarged against the old figure. Candidate A changed 996 pixel positions, B 1055. Byte-identical upper+knee rows 0..211 and boot rows 245..261, 0/255 alpha and matching bbox all validated. Visual quality gate FAILED: excessive horizontal knee seam, shins still broad/flat and weak taper, full anatomy still too simple. Critical provenance: latest hourly v4b checkpoint was NOT available in active chat, so A/B are isolated practice and MUST NOT replace v4b or be called the new best. Next priority is reopening actual v4b then resolving knee/shin/ankle form with a real skeleton/section edit. No user art uploaded publicly.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-lowerleg-locked-section-rebuild-20261111.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-two-shin-section-rebuil-25fcfd52fb.json)
+
+### Round44 all-cardinal whole-body animation correction study
+
+**research · unverified** · research-round44-all-cardinal-whole-bod-fad0ef2bf3
+
+Read21 primary educator/creator/tool sources and audited local assets. Research covers S N W E anatomy, whole-body phases, armor ownership, occlusion, pixel clusters, rig limits, floor contacts, JRPG cadence, action families and later character transfer. Core correction: fit whole-body poses to reference before native contour drawing and motion; masks, fixed bone lengths and export checks are not artistic acceptance. Full sources, limitations, forensic findings and pass/fail plan committed; no art/engine changed or final side fix claimed.
+
+Source: warehouse/studies/unit09-animation-research-round44/FINDINGS.md; SOURCES.md; CORRECTION_PLAN.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-round44-all-cardinal-whole-bod-fad0ef2bf3.json)
 
 ### Evidence first warehouse learning loop
 
