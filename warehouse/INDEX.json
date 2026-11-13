@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 67,
+  "record_count": 68,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 15,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 27,
+    "pixel-art": 28,
     "research": 1,
     "workflow": 16
   },
@@ -821,6 +821,24 @@
       "source": "warehouse/studies/unit09-round48/FINDINGS.md; SOURCES.md; ik_juckett.py",
       "updated_at": "2026-11-13T15:30:23+00:00",
       "summary": "Examined22 selected primary pages/source listings with explicit access limits and reused Round44 homework. Executed attributed Juckett analytic IK adaptation with native source ownership, authored hidden far thigh and registered boot shaft.8 W and8 E frames now alternate contacts/passing; approved58 S and58 N file hashes unchanged. Four whole-raster boot support intervals pass world-space identity;32 layered ASE composites exact. Final playback reviewed. Knee/ankle contours, arm stiffness and inferred surface remain unapproved; no production or runtime claim. Private reproducible art packet saved separately."
+    },
+    {
+      "id": "pixel-art-round49-side-boots-and-torso-f-0d9436cae8",
+      "title": "Round49 side boots and torso forearm correction",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "correction",
+        "feet",
+        "ownership",
+        "round49",
+        "torso",
+        "unit09"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-round49-side-boots-and-torso-f-0d9436cae8.json",
+      "source": "warehouse/studies/unit09-round49-foot-torso-correction.md",
+      "updated_at": "2026-11-13T16:45:04+00:00",
+      "summary": "Owner identified distorted side feet and belly protrusion in Round48. Isolated layers exposed forearm material stranded on torso; reassigned complete arm silhouette and added zero-residual torso regression. Replaced calf-contaminated boot cutouts with actual standing near/far boot sources, authored hidden far forefoot and reduced roll. Preserved gait and58 S plus58 N file hashes. Four raster boot support intervals and32 ASE composites pass; final native playback reviewed. Knee contours and rigid arm articulation remain open. No art or runtime approval claimed."
     },
     {
       "id": "pixel-art-sleeper-unit-09-manual-static-d489662abe",

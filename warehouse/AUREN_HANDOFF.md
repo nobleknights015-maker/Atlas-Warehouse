@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 67 active records; 0 open work orders.
+Inventory: 68 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 15
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 27
+- **pixel-art**: 28
 - **research**: 1
 - **workflow**: 16
 
@@ -374,6 +374,14 @@ Source: Local Round26 build_walk.py export_validate.py; private native-frame and
 Examined22 selected primary pages/source listings with explicit access limits and reused Round44 homework. Executed attributed Juckett analytic IK adaptation with native source ownership, authored hidden far thigh and registered boot shaft.8 W and8 E frames now alternate contacts/passing; approved58 S and58 N file hashes unchanged. Four whole-raster boot support intervals pass world-space identity;32 layered ASE composites exact. Final playback reviewed. Knee/ankle contours, arm stiffness and inferred surface remain unapproved; no production or runtime claim. Private reproducible art packet saved separately.
 
 Source: warehouse/studies/unit09-round48/FINDINGS.md; SOURCES.md; ik_juckett.py. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round48-research-applied-to-al-03b256b6ef.json)
+
+### Round49 side boots and torso forearm correction
+
+**pixel-art · unverified** · pixel-art-round49-side-boots-and-torso-f-0d9436cae8
+
+Owner identified distorted side feet and belly protrusion in Round48. Isolated layers exposed forearm material stranded on torso; reassigned complete arm silhouette and added zero-residual torso regression. Replaced calf-contaminated boot cutouts with actual standing near/far boot sources, authored hidden far forefoot and reduced roll. Preserved gait and58 S plus58 N file hashes. Four raster boot support intervals and32 ASE composites pass; final native playback reviewed. Knee contours and rigid arm articulation remain open. No art or runtime approval claimed.
+
+Source: warehouse/studies/unit09-round49-foot-torso-correction.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round49-side-boots-and-torso-f-0d9436cae8.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
