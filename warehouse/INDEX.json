@@ -3,7 +3,7 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 64,
+  "record_count": 65,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 14,
@@ -11,7 +11,7 @@
     "lore": 1,
     "pixel-art": 26,
     "research": 1,
-    "workflow": 15
+    "workflow": 16
   },
   "records": [
     {
@@ -1167,6 +1167,22 @@
       "source": "warehouse/studies/unit09-rejected-cycle-round46.md; owner rejected evidence packet",
       "updated_at": "2026-11-13T03:24:50+00:00",
       "summary": "Six-pose side body test with retained head, aspect fit and shoulder recolor was reviewed in native ffplay. Collar cuts repaired, but shoulder armor and body volume still inconsistent across poses. Rejected, not promoted.28 ASE composites and approved S/N hash checks pass only file integrity. Revision45 remains current owner checkpoint; opposite-step poses need consistent native redraw. Do not substitute more masking/scaling for drawing."
+    },
+    {
+      "id": "workflow-unit09-round47-executed-existi-926d8fca79",
+      "title": "Unit09 Round47 executed existing deformation code",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "existing-code",
+        "measured-limits",
+        "round47",
+        "unit09"
+      ],
+      "path": "warehouse/records/workflow/workflow-unit09-round47-executed-existi-926d8fca79.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-existing-code-round47.md",
+      "updated_at": "2026-11-13T14:23:53+00:00",
+      "summary": "scikit-image0.26.0 executed on all four actual views: exact identity and translation pass. W/E 16 bounded rigid-control exposures pass fixed upper pixels, group distances and triangle orientation. Small contact flex only; no support alternation or finished walk. MLS integration fails exact identity and is not selected. Revision45 remains art checkpoint. Native critique and reproducible private packet retained."
     }
   ],
   "open_orders": []

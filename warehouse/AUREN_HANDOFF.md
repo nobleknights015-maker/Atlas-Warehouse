@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 64 active records; 0 open work orders.
+Inventory: 65 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -19,7 +19,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **lore**: 1
 - **pixel-art**: 26
 - **research**: 1
-- **workflow**: 15
+- **workflow**: 16
 
 ## Knowledge shelves
 
@@ -534,6 +534,14 @@ Source: Owner packet Unit09_Reference_Walk_Revision_42.zip; material_parts.json 
 Six-pose side body test with retained head, aspect fit and shoulder recolor was reviewed in native ffplay. Collar cuts repaired, but shoulder armor and body volume still inconsistent across poses. Rejected, not promoted.28 ASE composites and approved S/N hash checks pass only file integrity. Revision45 remains current owner checkpoint; opposite-step poses need consistent native redraw. Do not substitute more masking/scaling for drawing.
 
 Source: warehouse/studies/unit09-rejected-cycle-round46.md; owner rejected evidence packet. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-round46-full-cycle-test-e7b5864d0b.json)
+
+### Unit09 Round47 executed existing deformation code
+
+**workflow · unverified** · workflow-unit09-round47-executed-existi-926d8fca79
+
+scikit-image0.26.0 executed on all four actual views: exact identity and translation pass. W/E 16 bounded rigid-control exposures pass fixed upper pixels, group distances and triangle orientation. Small contact flex only; no support alternation or finished walk. MLS integration fails exact identity and is not selected. Revision45 remains art checkpoint. Native critique and reproducible private packet retained.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-existing-code-round47.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-round47-executed-existi-926d8fca79.json)
 
 ## Open work orders
 

@@ -1,0 +1,17 @@
+{
+  "id": "workflow-unit09-round47-executed-existi-926d8fca79",
+  "kind": "workflow",
+  "title": "Unit09 Round47 executed existing deformation code",
+  "summary": "scikit-image0.26.0 executed on all four actual views: exact identity and translation pass. W/E 16 bounded rigid-control exposures pass fixed upper pixels, group distances and triangle orientation. Small contact flex only; no support alternation or finished walk. MLS integration fails exact identity and is not selected. Revision45 remains art checkpoint. Native critique and reproducible private packet retained.",
+  "tags": [
+    "existing-code",
+    "measured-limits",
+    "round47",
+    "unit09"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-existing-code-round47.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T14:23:53+00:00",
+  "updated_at": "2026-11-13T14:23:53+00:00"
+}
