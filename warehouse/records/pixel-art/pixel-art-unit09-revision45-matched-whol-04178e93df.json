@@ -1,0 +1,17 @@
+{
+  "id": "pixel-art-unit09-revision45-matched-whol-04178e93df",
+  "kind": "pixel-art",
+  "title": "Unit09 revision45 matched whole-body pose gate",
+  "summary": "Applied Round44 research to four static W/E contact and compact-transition keys. Removed revision43 waist splice and old standing pelvis overdraw: torso arms pelvis and both legs now use one matched body pose from larger43157 reference. Retained preferred head source pixels before old shoulder cap; neck landmark attachment. Initial doubled shoulder artifact found and removed. Four2-layer ASE composites exact; approved S/N file locks pass. Still key-pose checkpoint, not walking loop: opposite-foot poses, contour polish and world contact unfinished; no artistic approval claimed.",
+  "tags": [
+    "pose-gate",
+    "revision45",
+    "unit09",
+    "whole-body"
+  ],
+  "source": "Owner packet Unit09_Reference_Walk_Revision_45.zip; whole_pose_review.png QA.json",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T03:03:19+00:00",
+  "updated_at": "2026-11-13T03:03:19+00:00"
+}

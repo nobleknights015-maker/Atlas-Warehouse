@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 62,
+  "record_count": 63,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 14,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 25,
+    "pixel-art": 26,
     "research": 1,
     "workflow": 14
   },
@@ -857,6 +857,22 @@
       "source": "Owner packet Unit09_Reference_Walk_Revision_39.zip; QA.json identity_recomposition_E.png identity_recomposition_W.png",
       "updated_at": "2026-11-13T01:19:34+00:00",
       "summary": "Revision38 rejected: near/far leg layer depth reversed, shared hip axis and cloned boot still distorted original legs. Revision39 orders E leg1 far then leg0 near, W leg0 far then leg1 near; restores each original hip/ankle/boot and removes shared hip, cloned boot and synthetic5px leg guides. Unposed source-part recomposition byte-exact for both sides.32 ASE composites match, body alpha connected and front/back locks pass. Native source-above/walk-below playback reviewed; side gait remains unapproved, knee crawl and occluded partial far foot remain."
+    },
+    {
+      "id": "pixel-art-unit09-revision45-matched-whol-04178e93df",
+      "title": "Unit09 revision45 matched whole-body pose gate",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "pose-gate",
+        "revision45",
+        "unit09",
+        "whole-body"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-unit09-revision45-matched-whol-04178e93df.json",
+      "source": "Owner packet Unit09_Reference_Walk_Revision_45.zip; whole_pose_review.png QA.json",
+      "updated_at": "2026-11-13T03:03:19+00:00",
+      "summary": "Applied Round44 research to four static W/E contact and compact-transition keys. Removed revision43 waist splice and old standing pelvis overdraw: torso arms pelvis and both legs now use one matched body pose from larger43157 reference. Retained preferred head source pixels before old shoulder cap; neck landmark attachment. Initial doubled shoulder artifact found and removed. Four2-layer ASE composites exact; approved S/N file locks pass. Still key-pose checkpoint, not walking loop: opposite-foot poses, contour polish and world contact unfinished; no artistic approval claimed."
     },
     {
       "id": "pixel-art-unit09-two-shin-section-rebuil-25fcfd52fb",

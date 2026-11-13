@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 62 active records; 0 open work orders.
+Inventory: 63 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 14
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 25
+- **pixel-art**: 26
 - **research**: 1
 - **workflow**: 14
 
@@ -390,6 +390,14 @@ Source: Owner packet Unit09_Reference_Walk_Revision_38.zip; ownership_correction
 Revision38 rejected: near/far leg layer depth reversed, shared hip axis and cloned boot still distorted original legs. Revision39 orders E leg1 far then leg0 near, W leg0 far then leg1 near; restores each original hip/ankle/boot and removes shared hip, cloned boot and synthetic5px leg guides. Unposed source-part recomposition byte-exact for both sides.32 ASE composites match, body alpha connected and front/back locks pass. Native source-above/walk-below playback reviewed; side gait remains unapproved, knee crawl and occluded partial far foot remain.
 
 Source: Owner packet Unit09_Reference_Walk_Revision_39.zip; QA.json identity_recomposition_E.png identity_recomposition_W.png. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-revision39-source-leg-d-7be8799d3b.json)
+
+### Unit09 revision45 matched whole-body pose gate
+
+**pixel-art · unverified** · pixel-art-unit09-revision45-matched-whol-04178e93df
+
+Applied Round44 research to four static W/E contact and compact-transition keys. Removed revision43 waist splice and old standing pelvis overdraw: torso arms pelvis and both legs now use one matched body pose from larger43157 reference. Retained preferred head source pixels before old shoulder cap; neck landmark attachment. Initial doubled shoulder artifact found and removed. Four2-layer ASE composites exact; approved S/N file locks pass. Still key-pose checkpoint, not walking loop: opposite-foot poses, contour polish and world contact unfinished; no artistic approval claimed.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_45.zip; whole_pose_review.png QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-revision45-matched-whol-04178e93df.json)
 
 ### Unit09 two shin-section rebuild attempts reject promotion
 
