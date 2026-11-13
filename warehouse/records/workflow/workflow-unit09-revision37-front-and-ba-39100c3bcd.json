@@ -1,0 +1,17 @@
+{
+  "id": "workflow-unit09-revision37-front-and-ba-39100c3bcd",
+  "kind": "workflow",
+  "title": "Unit09 revision37 front and back approved sides pending",
+  "summary": "Owner approved S front and N back from revision36. Both directions are now byte-locked including layers and motion metadata. W E remain rejected; revision37 changes only profiles with shared sagittal hip alignment under pelvis, wider stride and lower passing lift. All32 ASE composites decode exactly, front/back hashes pass, eight sole-point diagnostic support intervals pass. Native playback reviewed; side knee shading still crawls and sides remain unapproved. No engine changes.",
+  "tags": [
+    "cardinal",
+    "front-back-lock",
+    "revision37",
+    "unit09"
+  ],
+  "source": "Owner packet Unit09_Reference_Walk_Revision_37.zip; build_walk.py FRONT_LOCK.json BACK_LOCK.json QA.json",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T01:07:19+00:00",
+  "updated_at": "2026-11-13T01:07:19+00:00"
+}

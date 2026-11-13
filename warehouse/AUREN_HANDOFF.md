@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 53 active records; 0 open work orders.
+Inventory: 54 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 11
+- **workflow**: 12
 
 ## Knowledge shelves
 
@@ -445,6 +445,14 @@ Source: warehouse/studies/unit09-original-reference-walk-revision35.md. [Record]
 Front S from revision35 is user-approved and must remain byte-identical. W E N revision35 rejected; revision36 corrects mismatched ankle references, reconstructs an occluded toe from actual boot material, constrains knee lengths and reduces rear lift. New W E N remain review candidates with contour polish and runtime cadence unresolved. Source art and editable packet preserved; no engine changes.
 
 Source: warehouse/studies/unit09-front-locked-walk-revision36.md; owner packet Unit09_Reference_Walk_Revision_36.zip. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision36-approved-fro-36e422fd7b.json)
+
+### Unit09 revision37 front and back approved sides pending
+
+**workflow · unverified** · workflow-unit09-revision37-front-and-ba-39100c3bcd
+
+Owner approved S front and N back from revision36. Both directions are now byte-locked including layers and motion metadata. W E remain rejected; revision37 changes only profiles with shared sagittal hip alignment under pelvis, wider stride and lower passing lift. All32 ASE composites decode exactly, front/back hashes pass, eight sole-point diagnostic support intervals pass. Native playback reviewed; side knee shading still crawls and sides remain unapproved. No engine changes.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_37.zip; build_walk.py FRONT_LOCK.json BACK_LOCK.json QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision37-front-and-ba-39100c3bcd.json)
 
 ## Open work orders
 
