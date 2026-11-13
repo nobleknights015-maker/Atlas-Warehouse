@@ -1,0 +1,47 @@
+{
+  "scope": "audit only; no character asset edits",
+  "hip_socket_adjustment_r39": {
+    "W": {
+      "min_y_shift": 0.0,
+      "max_y_shift": 1.0025860455578766,
+      "note": "Measured socket relocation; does not by itself establish limb artwork scaling."
+    },
+    "E": {
+      "min_y_shift": 0.0,
+      "max_y_shift": 1.0025860455578766,
+      "note": "Measured socket relocation; does not by itself establish limb artwork scaling."
+    }
+  },
+  "r43_lower_overdraw": {
+    "W": {
+      "lower_pixels": 2048,
+      "torso_occludes_new_lower_pixels": 72,
+      "overlap_y_range": [
+        76,
+        95
+      ],
+      "old_torso_pixels_below_y84": 136,
+      "note": "Some overlap is intended; this count locates inspection area, not proof all overlapping pixels are wrong."
+    },
+    "E": {
+      "lower_pixels": 2011,
+      "torso_occludes_new_lower_pixels": 101,
+      "overlap_y_range": [
+        76,
+        95
+      ],
+      "old_torso_pixels_below_y84": 130,
+      "note": "Some overlap is intended; this count locates inspection area, not proof all overlapping pixels are wrong."
+    }
+  },
+  "approved_baselines": {
+    "S": {
+      "files": 58,
+      "round41_equals_round43": true
+    },
+    "N": {
+      "files": 58,
+      "round41_equals_round43": true
+    }
+  }
+}
