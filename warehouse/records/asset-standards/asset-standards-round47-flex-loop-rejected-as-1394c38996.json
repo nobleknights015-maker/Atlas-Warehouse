@@ -1,0 +1,17 @@
+{
+  "id": "asset-standards-round47-flex-loop-rejected-as-1394c38996",
+  "kind": "asset-standards",
+  "title": "Round47 flex loop rejected as not walking",
+  "summary": "Owner rejected Round47 frozen-stride pelvis oscillation. Exact identity and rigid-pin tests prove only limited deformation integration; do not present that loop as walking or resume it as an approved animation. Recover approved S/N and compare whole gait phases. Round48 is a separate unapproved walking candidate with preserved checkpoints.",
+  "tags": [
+    "approval-boundary",
+    "rejected-motion",
+    "round47",
+    "unit09"
+  ],
+  "source": "warehouse/studies/unit09-round48/FINDINGS.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T15:30:23+00:00",
+  "updated_at": "2026-11-13T15:30:23+00:00"
+}

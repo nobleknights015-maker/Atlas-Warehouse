@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 65 active records; 0 open work orders.
+Inventory: 67 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,10 +14,10 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 14
+- **asset-standards**: 15
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 26
+- **pixel-art**: 27
 - **research**: 1
 - **workflow**: 16
 
@@ -118,6 +118,14 @@ Source: warehouse/studies/round33-cardinal-32px-map-test.md. [Record](https://gi
 S/front and N/back remain approved baselines;58 files each match round41 to43. Side42 rejected. Side43 is closer but unresolved, not approved: old torso occludes72 W and101 E lower-art pixels across rows76-95 and retains old pelvis material. Some overlap is necessary; counts locate conflict, not proof all overlap wrong. Preserve design, allow phase-correct pose changes to rejected sides. Research audit found round39 socket relocation at most1.002586px, so prior shortening explanation was overstated.
 
 Source: warehouse/studies/unit09-animation-research-round44/audit_results.json; FINDINGS.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round44-supersedes-rejected-si-b3c2ef3808.json)
+
+### Round47 flex loop rejected as not walking
+
+**asset-standards · unverified** · asset-standards-round47-flex-loop-rejected-as-1394c38996
+
+Owner rejected Round47 frozen-stride pelvis oscillation. Exact identity and rigid-pin tests prove only limited deformation integration; do not present that loop as walking or resume it as an approved animation. Recover approved S/N and compare whole gait phases. Round48 is a separate unapproved walking candidate with preserved checkpoints.
+
+Source: warehouse/studies/unit09-round48/FINDINGS.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round47-flex-loop-rejected-as-1394c38996.json)
 
 ### Unit09 revision41 restore earlier animation leg-only scope
 
@@ -358,6 +366,14 @@ Source: Local draw_se.py export_qa.py and private S-SE-E comparison; no private 
 Built eight distinct walk poses each for S SW W NW N NE E SE using original raster materials, articulated fixed-length guides and counter-swing. Corrected calf/cuff continuity, source fragments, frame margins and diagonal loop contact drift through five revisions. Tests verify 64 unique direction-local poses, connected boots/wrists, opaque boot toe contacts with zero tested loop support drift, matching atlas crops and exact independent decode of a 19-layer 64-frame ASE with eight walk tags. Four approved static source hashes unchanged. These are source-based rig frames, not 64 independent paintings. Founder visual approval, joint-edge polish, secondary cloth, native editor and Android acceptance remain open. Engine phase must use the supplied projected motion contract. No engine changes or private artwork published.
 
 Source: Local Round26 build_walk.py export_validate.py; private native-frame and contact-stage evidence. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round26-eight-direction-walkin-126364edd3.json)
+
+### Round48 research applied to alternating cardinal walk candidate
+
+**pixel-art · unverified** · pixel-art-round48-research-applied-to-al-03b256b6ef
+
+Examined22 selected primary pages/source listings with explicit access limits and reused Round44 homework. Executed attributed Juckett analytic IK adaptation with native source ownership, authored hidden far thigh and registered boot shaft.8 W and8 E frames now alternate contacts/passing; approved58 S and58 N file hashes unchanged. Four whole-raster boot support intervals pass world-space identity;32 layered ASE composites exact. Final playback reviewed. Knee/ankle contours, arm stiffness and inferred surface remain unapproved; no production or runtime claim. Private reproducible art packet saved separately.
+
+Source: warehouse/studies/unit09-round48/FINDINGS.md; SOURCES.md; ik_juckett.py. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round48-research-applied-to-al-03b256b6ef.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
