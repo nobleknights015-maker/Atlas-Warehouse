@@ -11,8 +11,16 @@
     "whole-body"
   ],
   "source": "warehouse/studies/unit09-animation-research-round44/FINDINGS.md; SOURCES.md; CORRECTION_PLAN.md",
-  "confidence": "unverified",
+  "confidence": "reviewed",
   "visibility": "public",
   "created_at": "2026-11-13T02:48:11+00:00",
-  "updated_at": "2026-11-13T02:48:11+00:00"
+  "updated_at": "2026-11-13T02:49:55+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-13T02:49:55+00:00",
+      "by": "nobleknights015-maker",
+      "level": "reviewed",
+      "evidence": "Checked21 primary text sources with access limits in SOURCES.md, verified committed FINDINGS/SOURCES/CORRECTION_PLAN byte-for-byte against authored notes, and reproduced local audit from isolated evidence packet. Research recommendations reviewed, not tested final animation. No artistic approval implied."
+    }
+  ]
 }

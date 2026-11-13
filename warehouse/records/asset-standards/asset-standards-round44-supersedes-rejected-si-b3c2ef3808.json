@@ -11,8 +11,16 @@
     "unit09"
   ],
   "source": "warehouse/studies/unit09-animation-research-round44/audit_results.json; FINDINGS.md",
-  "confidence": "unverified",
+  "confidence": "reviewed",
   "visibility": "public",
   "created_at": "2026-11-13T02:48:11+00:00",
-  "updated_at": "2026-11-13T02:48:11+00:00"
+  "updated_at": "2026-11-13T02:49:55+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-13T02:49:55+00:00",
+      "by": "nobleknights015-maker",
+      "level": "reviewed",
+      "evidence": "Approval boundaries reflect explicit owner feedback. Reproducible audit measured W72/E101 lower overdraw pixels and0-1.002586px round39 socket relocation, and116 unchanged approved S/N files. Counts identify inspection region, not automatic visual correctness. Side42 rejected and43 unresolved; no final side acceptance."
+    }
+  ]
 }

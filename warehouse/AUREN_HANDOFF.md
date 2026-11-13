@@ -113,7 +113,7 @@ Source: warehouse/studies/round33-cardinal-32px-map-test.md. [Record](https://gi
 
 ### Round44 supersedes rejected side rig assumptions
 
-**asset-standards · unverified** · asset-standards-round44-supersedes-rejected-si-b3c2ef3808
+**asset-standards · reviewed** · asset-standards-round44-supersedes-rejected-si-b3c2ef3808
 
 S/front and N/back remain approved baselines;58 files each match round41 to43. Side42 rejected. Side43 is closer but unresolved, not approved: old torso occludes72 W and101 E lower-art pixels across rows76-95 and retains old pelvis material. Some overlap is necessary; counts locate conflict, not proof all overlap wrong. Preserve design, allow phase-correct pose changes to rejected sides. Research audit found round39 socket relocation at most1.002586px, so prior shortening explanation was overstated.
 
@@ -401,7 +401,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Round44 all-cardinal whole-body animation correction study
 
-**research · unverified** · research-round44-all-cardinal-whole-bod-fad0ef2bf3
+**research · reviewed** · research-round44-all-cardinal-whole-bod-fad0ef2bf3
 
 Read21 primary educator/creator/tool sources and audited local assets. Research covers S N W E anatomy, whole-body phases, armor ownership, occlusion, pixel clusters, rig limits, floor contacts, JRPG cadence, action families and later character transfer. Core correction: fit whole-body poses to reference before native contour drawing and motion; masks, fixed bone lengths and export checks are not artistic acceptance. Full sources, limitations, forensic findings and pass/fail plan committed; no art/engine changed or final side fix claimed.
 
