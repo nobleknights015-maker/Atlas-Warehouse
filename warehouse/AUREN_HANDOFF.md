@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 63 active records; 0 open work orders.
+Inventory: 64 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -19,7 +19,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **lore**: 1
 - **pixel-art**: 26
 - **research**: 1
-- **workflow**: 14
+- **workflow**: 15
 
 ## Knowledge shelves
 
@@ -526,6 +526,14 @@ Source: Owner packet Unit09_Reference_Walk_Revision_40.zip; source_mapping.json 
 Owner requested reference pelvis and legs as visible masks on hidden rig, preserving prior upper animation. Traced separate pelvis near/far thigh shin material from large contact reference at uniform0.42 scale, same-leg standing boots unscaled. Original torso kept whole beneath silhouette-matched pelvis overlap, arms and approved S/N files byte-identical. Isolated masks inspected; reference-arm fragment and detached pelvis pixel removed, lifted boots replaced.16 side alpha bodies connected,32 ASE composites exact. Native loop reviewed; knee contours waist texture and planting still need review, no artistic approval or new-character retarget claim.
 
 Source: Owner packet Unit09_Reference_Walk_Revision_42.zip; material_parts.json MASK_WORKFLOW.md QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision42-masked-refer-e8918a0821.json)
+
+### Unit09 Round46 full-cycle test rejected
+
+**workflow · unverified** · workflow-unit09-round46-full-cycle-test-e7b5864d0b
+
+Six-pose side body test with retained head, aspect fit and shoulder recolor was reviewed in native ffplay. Collar cuts repaired, but shoulder armor and body volume still inconsistent across poses. Rejected, not promoted.28 ASE composites and approved S/N hash checks pass only file integrity. Revision45 remains current owner checkpoint; opposite-step poses need consistent native redraw. Do not substitute more masking/scaling for drawing.
+
+Source: warehouse/studies/unit09-rejected-cycle-round46.md; owner rejected evidence packet. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-round46-full-cycle-test-e7b5864d0b.json)
 
 ## Open work orders
 

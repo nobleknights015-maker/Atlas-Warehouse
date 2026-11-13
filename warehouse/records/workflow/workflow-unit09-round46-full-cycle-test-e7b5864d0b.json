@@ -1,0 +1,17 @@
+{
+  "id": "workflow-unit09-round46-full-cycle-test-e7b5864d0b",
+  "kind": "workflow",
+  "title": "Unit09 Round46 full-cycle test rejected",
+  "summary": "Six-pose side body test with retained head, aspect fit and shoulder recolor was reviewed in native ffplay. Collar cuts repaired, but shoulder armor and body volume still inconsistent across poses. Rejected, not promoted.28 ASE composites and approved S/N hash checks pass only file integrity. Revision45 remains current owner checkpoint; opposite-step poses need consistent native redraw. Do not substitute more masking/scaling for drawing.",
+  "tags": [
+    "quality-gate",
+    "rejected-experiment",
+    "round46",
+    "unit09"
+  ],
+  "source": "warehouse/studies/unit09-rejected-cycle-round46.md; owner rejected evidence packet",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T03:24:50+00:00",
+  "updated_at": "2026-11-13T03:24:50+00:00"
+}
