@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 57 active records; 0 open work orders.
+Inventory: 58 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 11
+- **asset-standards**: 12
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 25
@@ -109,6 +109,14 @@ Source: Founder current direction; WITHDRAWN_STATES.json in active master. [Reco
 Founder confirms exploration is cardinal tile-by-tile on32px tiles. Prioritise native map-scale front/back/left/right walking tested against actual owner assets; preserve larger and diagonal studies separately. Round33 private packet compares48px and64px-tall size probes,136 RGBA frames and136 actual scene-composer checks. Native tile source is owner SciFi Station Mega Kit. Current source anchors frame bottoms and snaps integer tile positions with250ms walk flags; no actor interpolation in that inspected path. This is offline source-derived testing, not installed APK proof. Downsampled probes need native pixel cleanup; no size/art approval. No engine/master changes.
 
 Source: warehouse/studies/round33-cardinal-32px-map-test.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round33-four-direction-32px-ma-3215d36b11.json)
+
+### Unit09 revision41 restore earlier animation leg-only scope
+
+**asset-standards · unverified** · asset-standards-unit09-revision41-restore-earl-83380a6a61
+
+Owner rejected revision40 whole-pose supplied-sheet replacement: preferred earlier appearance, only legs needed correction. Revision41 restores revision39 baseline and changes only side legs. Approved S/N files unchanged;48 W/E body/head/arm layer files byte-locked. Side foot-target solver replaced by rigid original-length thigh/shin rotations, preserving each original hip and boot.32 ASE composites exact and all16 side segment lengths pass. Side planting is NOT claimed; only four unchanged S/N contact intervals remain. Side stride, contours and foot planting still need review. No new character retarget or engine work.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_41.zip; UPPER_BODY_LOCK.json QA.json leg_only_comparison.gif. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-unit09-revision41-restore-earl-83380a6a61.json)
 
 ### Bearframe all-owner-art import and fixed-tick memory QA verified
 
