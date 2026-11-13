@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 51,
+  "record_count": 52,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 11,
     "engine": 7,
     "lore": 1,
     "pixel-art": 23,
-    "workflow": 9
+    "workflow": 10
   },
   "records": [
     {
@@ -952,6 +952,24 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/bearframe-pixel-tool-routing-and-experiments-2026-11-11.md",
       "updated_at": "2026-11-12T00:32:22+00:00",
       "summary": "Catalogs verified LibreSprite GitHub Actions editor workflow plus SpriteCook, AutoSprite, Pixel Engine, MegaScenes, Abracadabrax and Sprite Fusion skill versus actual available action; identifies different image-input requirements, paid generation, account/credit constraints, output recovery and public private asset protections. Proposes controlled A-B tests; none generated."
+    },
+    {
+      "id": "workflow-unit09-original-reference-walk-854cda6834",
+      "title": "Unit09 original-reference walk revision35",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "bearframe",
+        "pixel-art",
+        "reference-preservation",
+        "revision35",
+        "unit09",
+        "walking"
+      ],
+      "path": "warehouse/records/workflow/workflow-unit09-original-reference-walk-854cda6834.json",
+      "source": "warehouse/studies/unit09-original-reference-walk-revision35.md",
+      "updated_at": "2026-11-13T00:48:03+00:00",
+      "summary": "Recovered latest regular-chat proof and kept actual original96x160 cardinal art. Old8samples had4distinct poses each; whole-leg lift and stranded source shin/boot edges caused faults. Revision authors8distinct exposures each for S W E N, separate knees/ankles and intact translated boots, restrained arms and1px weight bob. Original source/helmet identity preserved;358 stranded pixels assigned to moving parts.32ASE composite matches and8sole-point stage support intervals pass. New art remains unapproved: side knee/calf contours, texture crawl, heel roll and final map scale/timing remain open. Show original_vs_revised.gif inline. No engine/APK changes; scrapped moves stay scrapped."
     }
   ],
   "open_orders": []

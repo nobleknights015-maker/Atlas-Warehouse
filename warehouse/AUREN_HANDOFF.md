@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 51 active records; 0 open work orders.
+Inventory: 52 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 9
+- **workflow**: 10
 
 ## Knowledge shelves
 
@@ -429,6 +429,14 @@ Source: warehouse/studies/round31-feminine-pose-rebuild-recovery.md. [Record](ht
 Catalogs verified LibreSprite GitHub Actions editor workflow plus SpriteCook, AutoSprite, Pixel Engine, MegaScenes, Abracadabrax and Sprite Fusion skill versus actual available action; identifies different image-input requirements, paid generation, account/credit constraints, output recovery and public private asset protections. Proposes controlled A-B tests; none generated.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/bearframe-pixel-tool-routing-and-experiments-2026-11-11.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-six-plugin-pixel-art-capabilit-8bf7ba7f2f.json)
+
+### Unit09 original-reference walk revision35
+
+**workflow · unverified** · workflow-unit09-original-reference-walk-854cda6834
+
+Recovered latest regular-chat proof and kept actual original96x160 cardinal art. Old8samples had4distinct poses each; whole-leg lift and stranded source shin/boot edges caused faults. Revision authors8distinct exposures each for S W E N, separate knees/ankles and intact translated boots, restrained arms and1px weight bob. Original source/helmet identity preserved;358 stranded pixels assigned to moving parts.32ASE composite matches and8sole-point stage support intervals pass. New art remains unapproved: side knee/calf contours, texture crawl, heel roll and final map scale/timing remain open. Show original_vs_revised.gif inline. No engine/APK changes; scrapped moves stay scrapped.
+
+Source: warehouse/studies/unit09-original-reference-walk-revision35.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-original-reference-walk-854cda6834.json)
 
 ## Open work orders
 
