@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 55 active records; 0 open work orders.
+Inventory: 56 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 11
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 24
+- **pixel-art**: 25
 - **workflow**: 12
 
 ## Knowledge shelves
@@ -357,6 +357,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Side motion fault was anatomical mask ownership, not only knee gait. False far-arm masks contained torso waist and thigh pixels: E arm1 W arm0.558 source pixels removed from those masks,163 reassigned to thighs and395 returned to body. False far-arm motion and guide removed; eight frame layers per side verified empty. Source art unchanged, approved front and back byte-locked.32 ASE composites match PNGs; eight diagnostic contact intervals pass. Native playback reviewed; side contour polish and runtime cadence remain open, no owner approval of side gait.
 
 Source: Owner packet Unit09_Reference_Walk_Revision_38.zip; ownership_correction.json and QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-revision38-false-far-ar-16a77b2c45.json)
+
+### Unit09 revision39 source leg depth repair
+
+**pixel-art · unverified** · pixel-art-unit09-revision39-source-leg-d-7be8799d3b
+
+Revision38 rejected: near/far leg layer depth reversed, shared hip axis and cloned boot still distorted original legs. Revision39 orders E leg1 far then leg0 near, W leg0 far then leg1 near; restores each original hip/ankle/boot and removes shared hip, cloned boot and synthetic5px leg guides. Unposed source-part recomposition byte-exact for both sides.32 ASE composites match, body alpha connected and front/back locks pass. Native source-above/walk-below playback reviewed; side gait remains unapproved, knee crawl and occluded partial far foot remain.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_39.zip; QA.json identity_recomposition_E.png identity_recomposition_W.png. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-revision39-source-leg-d-7be8799d3b.json)
 
 ### Unit09 two shin-section rebuild attempts reject promotion
 

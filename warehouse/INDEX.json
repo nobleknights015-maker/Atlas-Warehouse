@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 55,
+  "record_count": 56,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 11,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 24,
+    "pixel-art": 25,
     "workflow": 12
   },
   "records": [
@@ -791,6 +791,22 @@
       "source": "Owner packet Unit09_Reference_Walk_Revision_38.zip; ownership_correction.json and QA.json",
       "updated_at": "2026-11-13T01:13:42+00:00",
       "summary": "Side motion fault was anatomical mask ownership, not only knee gait. False far-arm masks contained torso waist and thigh pixels: E arm1 W arm0.558 source pixels removed from those masks,163 reassigned to thighs and395 returned to body. False far-arm motion and guide removed; eight frame layers per side verified empty. Source art unchanged, approved front and back byte-locked.32 ASE composites match PNGs; eight diagnostic contact intervals pass. Native playback reviewed; side contour polish and runtime cadence remain open, no owner approval of side gait."
+    },
+    {
+      "id": "pixel-art-unit09-revision39-source-leg-d-7be8799d3b",
+      "title": "Unit09 revision39 source leg depth repair",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "leg-depth",
+        "revision39",
+        "source-identity",
+        "unit09"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-unit09-revision39-source-leg-d-7be8799d3b.json",
+      "source": "Owner packet Unit09_Reference_Walk_Revision_39.zip; QA.json identity_recomposition_E.png identity_recomposition_W.png",
+      "updated_at": "2026-11-13T01:19:34+00:00",
+      "summary": "Revision38 rejected: near/far leg layer depth reversed, shared hip axis and cloned boot still distorted original legs. Revision39 orders E leg1 far then leg0 near, W leg0 far then leg1 near; restores each original hip/ankle/boot and removes shared hip, cloned boot and synthetic5px leg guides. Unposed source-part recomposition byte-exact for both sides.32 ASE composites match, body alpha connected and front/back locks pass. Native source-above/walk-below playback reviewed; side gait remains unapproved, knee crawl and occluded partial far foot remain."
     },
     {
       "id": "pixel-art-unit09-two-shin-section-rebuil-25fcfd52fb",

@@ -1,0 +1,17 @@
+{
+  "id": "pixel-art-unit09-revision39-source-leg-d-7be8799d3b",
+  "kind": "pixel-art",
+  "title": "Unit09 revision39 source leg depth repair",
+  "summary": "Revision38 rejected: near/far leg layer depth reversed, shared hip axis and cloned boot still distorted original legs. Revision39 orders E leg1 far then leg0 near, W leg0 far then leg1 near; restores each original hip/ankle/boot and removes shared hip, cloned boot and synthetic5px leg guides. Unposed source-part recomposition byte-exact for both sides.32 ASE composites match, body alpha connected and front/back locks pass. Native source-above/walk-below playback reviewed; side gait remains unapproved, knee crawl and occluded partial far foot remain.",
+  "tags": [
+    "leg-depth",
+    "revision39",
+    "source-identity",
+    "unit09"
+  ],
+  "source": "Owner packet Unit09_Reference_Walk_Revision_39.zip; QA.json identity_recomposition_E.png identity_recomposition_W.png",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T01:19:34+00:00",
+  "updated_at": "2026-11-13T01:19:34+00:00"
+}
