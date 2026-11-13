@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 54 active records; 0 open work orders.
+Inventory: 55 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 11
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 23
+- **pixel-art**: 24
 - **workflow**: 12
 
 ## Knowledge shelves
@@ -349,6 +349,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Founder shifted introductory character study from complex Relay to starter Sleeper Frame Unit 09. The supplied source has strong bone-white angular helmet and chest plates, narrow violet visor, 09-marked shoulder, dark understructure, red cabling, distinctive knees and boots. A 125x321 front standing figure was isolated transparently from the supplied pixel-style sheet and placed in a 160x352 transparent frame. Global 64-color reduction loses purple emissive accents; reserving an 8-color violet ramp then tuning its brightness/saturation preserves the identity. Original source remains benchmark. This was an EXTRACTED REFERENCE AND COLOR STUDY, not new hand-drawn pixel art or production approval. Next must paint the helmet and shoulders from a blank canvas with deliberate clusters and compare at 1x before a full sprite or animation.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/sleeper-unit-09-first-static-study.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-starter-sleeper-unit-09-refere-d6ad67500c.json)
+
+### Unit09 revision38 false far-arm ownership corrected
+
+**pixel-art · unverified** · pixel-art-unit09-revision38-false-far-ar-16a77b2c45
+
+Side motion fault was anatomical mask ownership, not only knee gait. False far-arm masks contained torso waist and thigh pixels: E arm1 W arm0.558 source pixels removed from those masks,163 reassigned to thighs and395 returned to body. False far-arm motion and guide removed; eight frame layers per side verified empty. Source art unchanged, approved front and back byte-locked.32 ASE composites match PNGs; eight diagnostic contact intervals pass. Native playback reviewed; side contour polish and runtime cadence remain open, no owner approval of side gait.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_38.zip; ownership_correction.json and QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-revision38-false-far-ar-16a77b2c45.json)
 
 ### Unit09 two shin-section rebuild attempts reject promotion
 
