@@ -1,0 +1,17 @@
+{
+  "id": "workflow-unit09-revision40-use-supplied-f1c64bd534",
+  "kind": "workflow",
+  "title": "Unit09 revision40 use supplied walk frames",
+  "summary": "Replace failed side stand-sprite rig from revisions35-39 with six genuine W and six E poses extracted from supplied full sheet43158. Larger43157 three-pose sheet is detail reference. Side retained RGB matches source coordinates exactly; integer translation only, no limb warp or scaling. Alpha threshold128 plus main-component cleanup documented. Approved front/back files byte-locked.28 ASE composites independently match. Source rectangles and pelvis/floor anchors plus reusable manual transfer method saved. Native playback reviewed; source pose detail variation, timing and owner review remain open. No new-character retarget or engine integration claim.",
+  "tags": [
+    "reference-transfer",
+    "revision40",
+    "source-poses",
+    "unit09"
+  ],
+  "source": "Owner packet Unit09_Reference_Walk_Revision_40.zip; source_mapping.json QA.json REFERENCE_TRANSFER.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T01:28:56+00:00",
+  "updated_at": "2026-11-13T01:28:56+00:00"
+}

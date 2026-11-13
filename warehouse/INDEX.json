@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 56,
+  "record_count": 57,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 11,
     "engine": 7,
     "lore": 1,
     "pixel-art": 25,
-    "workflow": 12
+    "workflow": 13
   },
   "records": [
     {
@@ -1035,6 +1035,22 @@
       "source": "Owner packet Unit09_Reference_Walk_Revision_37.zip; build_walk.py FRONT_LOCK.json BACK_LOCK.json QA.json",
       "updated_at": "2026-11-13T01:07:19+00:00",
       "summary": "Owner approved S front and N back from revision36. Both directions are now byte-locked including layers and motion metadata. W E remain rejected; revision37 changes only profiles with shared sagittal hip alignment under pelvis, wider stride and lower passing lift. All32 ASE composites decode exactly, front/back hashes pass, eight sole-point diagnostic support intervals pass. Native playback reviewed; side knee shading still crawls and sides remain unapproved. No engine changes."
+    },
+    {
+      "id": "workflow-unit09-revision40-use-supplied-f1c64bd534",
+      "title": "Unit09 revision40 use supplied walk frames",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "reference-transfer",
+        "revision40",
+        "source-poses",
+        "unit09"
+      ],
+      "path": "warehouse/records/workflow/workflow-unit09-revision40-use-supplied-f1c64bd534.json",
+      "source": "Owner packet Unit09_Reference_Walk_Revision_40.zip; source_mapping.json QA.json REFERENCE_TRANSFER.md",
+      "updated_at": "2026-11-13T01:28:56+00:00",
+      "summary": "Replace failed side stand-sprite rig from revisions35-39 with six genuine W and six E poses extracted from supplied full sheet43158. Larger43157 three-pose sheet is detail reference. Side retained RGB matches source coordinates exactly; integer translation only, no limb warp or scaling. Alpha threshold128 plus main-component cleanup documented. Approved front/back files byte-locked.28 ASE composites independently match. Source rectangles and pelvis/floor anchors plus reusable manual transfer method saved. Native playback reviewed; source pose detail variation, timing and owner review remain open. No new-character retarget or engine integration claim."
     }
   ],
   "open_orders": []

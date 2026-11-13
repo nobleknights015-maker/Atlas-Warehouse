@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 56 active records; 0 open work orders.
+Inventory: 57 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 25
-- **workflow**: 12
+- **workflow**: 13
 
 ## Knowledge shelves
 
@@ -469,6 +469,14 @@ Source: warehouse/studies/unit09-front-locked-walk-revision36.md; owner packet U
 Owner approved S front and N back from revision36. Both directions are now byte-locked including layers and motion metadata. W E remain rejected; revision37 changes only profiles with shared sagittal hip alignment under pelvis, wider stride and lower passing lift. All32 ASE composites decode exactly, front/back hashes pass, eight sole-point diagnostic support intervals pass. Native playback reviewed; side knee shading still crawls and sides remain unapproved. No engine changes.
 
 Source: Owner packet Unit09_Reference_Walk_Revision_37.zip; build_walk.py FRONT_LOCK.json BACK_LOCK.json QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision37-front-and-ba-39100c3bcd.json)
+
+### Unit09 revision40 use supplied walk frames
+
+**workflow · unverified** · workflow-unit09-revision40-use-supplied-f1c64bd534
+
+Replace failed side stand-sprite rig from revisions35-39 with six genuine W and six E poses extracted from supplied full sheet43158. Larger43157 three-pose sheet is detail reference. Side retained RGB matches source coordinates exactly; integer translation only, no limb warp or scaling. Alpha threshold128 plus main-component cleanup documented. Approved front/back files byte-locked.28 ASE composites independently match. Source rectangles and pelvis/floor anchors plus reusable manual transfer method saved. Native playback reviewed; source pose detail variation, timing and owner review remain open. No new-character retarget or engine integration claim.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_40.zip; source_mapping.json QA.json REFERENCE_TRANSFER.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision40-use-supplied-f1c64bd534.json)
 
 ## Open work orders
 
