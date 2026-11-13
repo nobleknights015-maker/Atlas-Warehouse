@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 52 active records; 0 open work orders.
+Inventory: 53 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 23
-- **workflow**: 10
+- **workflow**: 11
 
 ## Knowledge shelves
 
@@ -437,6 +437,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Recovered latest regular-chat proof and kept actual original96x160 cardinal art. Old8samples had4distinct poses each; whole-leg lift and stranded source shin/boot edges caused faults. Revision authors8distinct exposures each for S W E N, separate knees/ankles and intact translated boots, restrained arms and1px weight bob. Original source/helmet identity preserved;358 stranded pixels assigned to moving parts.32ASE composite matches and8sole-point stage support intervals pass. New art remains unapproved: side knee/calf contours, texture crawl, heel roll and final map scale/timing remain open. Show original_vs_revised.gif inline. No engine/APK changes; scrapped moves stay scrapped.
 
 Source: warehouse/studies/unit09-original-reference-walk-revision35.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-original-reference-walk-854cda6834.json)
+
+### Unit09 revision36 approved front lock and side-back correction
+
+**workflow · unverified** · workflow-unit09-revision36-approved-fro-36e422fd7b
+
+Front S from revision35 is user-approved and must remain byte-identical. W E N revision35 rejected; revision36 corrects mismatched ankle references, reconstructs an occluded toe from actual boot material, constrains knee lengths and reduces rear lift. New W E N remain review candidates with contour polish and runtime cadence unresolved. Source art and editable packet preserved; no engine changes.
+
+Source: warehouse/studies/unit09-front-locked-walk-revision36.md; owner packet Unit09_Reference_Walk_Revision_36.zip. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-revision36-approved-fro-36e422fd7b.json)
 
 ## Open work orders
 

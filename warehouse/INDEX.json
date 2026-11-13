@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 52,
+  "record_count": 53,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 11,
     "engine": 7,
     "lore": 1,
     "pixel-art": 23,
-    "workflow": 10
+    "workflow": 11
   },
   "records": [
     {
@@ -970,6 +970,23 @@
       "source": "warehouse/studies/unit09-original-reference-walk-revision35.md",
       "updated_at": "2026-11-13T00:48:03+00:00",
       "summary": "Recovered latest regular-chat proof and kept actual original96x160 cardinal art. Old8samples had4distinct poses each; whole-leg lift and stranded source shin/boot edges caused faults. Revision authors8distinct exposures each for S W E N, separate knees/ankles and intact translated boots, restrained arms and1px weight bob. Original source/helmet identity preserved;358 stranded pixels assigned to moving parts.32ASE composite matches and8sole-point stage support intervals pass. New art remains unapproved: side knee/calf contours, texture crawl, heel roll and final map scale/timing remain open. Show original_vs_revised.gif inline. No engine/APK changes; scrapped moves stay scrapped."
+    },
+    {
+      "id": "workflow-unit09-revision36-approved-fro-36e422fd7b",
+      "title": "Unit09 revision36 approved front lock and side-back correction",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "cardinal",
+        "front-lock",
+        "pixel-art",
+        "revision36",
+        "unit09"
+      ],
+      "path": "warehouse/records/workflow/workflow-unit09-revision36-approved-fro-36e422fd7b.json",
+      "source": "warehouse/studies/unit09-front-locked-walk-revision36.md; owner packet Unit09_Reference_Walk_Revision_36.zip",
+      "updated_at": "2026-11-13T01:03:33+00:00",
+      "summary": "Front S from revision35 is user-approved and must remain byte-identical. W E N revision35 rejected; revision36 corrects mismatched ankle references, reconstructs an occluded toe from actual boot material, constrains knee lengths and reduces rear lift. New W E N remain review candidates with contour polish and runtime cadence unresolved. Source art and editable packet preserved; no engine changes."
     }
   ],
   "open_orders": []
