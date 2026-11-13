@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 59 active records; 0 open work orders.
+Inventory: 60 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 12
+- **asset-standards**: 13
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 25
@@ -117,6 +117,14 @@ Source: warehouse/studies/round33-cardinal-32px-map-test.md. [Record](https://gi
 Owner rejected revision40 whole-pose supplied-sheet replacement: preferred earlier appearance, only legs needed correction. Revision41 restores revision39 baseline and changes only side legs. Approved S/N files unchanged;48 W/E body/head/arm layer files byte-locked. Side foot-target solver replaced by rigid original-length thigh/shin rotations, preserving each original hip and boot.32 ASE composites exact and all16 side segment lengths pass. Side planting is NOT claimed; only four unchanged S/N contact intervals remain. Side stride, contours and foot planting still need review. No new character retarget or engine work.
 
 Source: Owner packet Unit09_Reference_Walk_Revision_41.zip; UPPER_BODY_LOCK.json QA.json leg_only_comparison.gif. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-unit09-revision41-restore-earl-83380a6a61.json)
+
+### Unit09 revision43 continuous contact shape gate
+
+**asset-standards · unverified** · asset-standards-unit09-revision43-continuous-c-bde8dc9172
+
+Owner rejected revision42: waist seam and both near/far legs visibly mangled; numeric QA was not visual acceptance. Revision43 contains two static contact poses only using continuous complete pelvis-through-both-boots masks from middle row2 W/E references, uniform0.46 scale, no limb cuts or rotations. Prior upper body retained. Isolated lower silhouettes inspected beside assemblies, both connected, two ASE composites exact, approved S/N locks pass. Remaining side poses and full cycle NOT corrected yet. Resolve intact shape before further motion; no claim final walk.
+
+Source: Owner packet Unit09_Reference_Walk_Revision_43.zip; continuous_contact_proof.png lower_shape_inspection.png QA.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-unit09-revision43-continuous-c-bde8dc9172.json)
 
 ### Bearframe all-owner-art import and fixed-tick memory QA verified
 

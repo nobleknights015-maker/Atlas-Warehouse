@@ -1,0 +1,17 @@
+{
+  "id": "asset-standards-unit09-revision43-continuous-c-bde8dc9172",
+  "kind": "asset-standards",
+  "title": "Unit09 revision43 continuous contact shape gate",
+  "summary": "Owner rejected revision42: waist seam and both near/far legs visibly mangled; numeric QA was not visual acceptance. Revision43 contains two static contact poses only using continuous complete pelvis-through-both-boots masks from middle row2 W/E references, uniform0.46 scale, no limb cuts or rotations. Prior upper body retained. Isolated lower silhouettes inspected beside assemblies, both connected, two ASE composites exact, approved S/N locks pass. Remaining side poses and full cycle NOT corrected yet. Resolve intact shape before further motion; no claim final walk.",
+  "tags": [
+    "rejected-rig",
+    "revision43",
+    "shape-gate",
+    "unit09"
+  ],
+  "source": "Owner packet Unit09_Reference_Walk_Revision_43.zip; continuous_contact_proof.png lower_shape_inspection.png QA.json",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-13T02:08:48+00:00",
+  "updated_at": "2026-11-13T02:08:48+00:00"
+}
