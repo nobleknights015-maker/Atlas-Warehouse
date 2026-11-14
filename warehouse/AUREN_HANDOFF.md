@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 77 active records; 0 open work orders.
+Inventory: 78 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 17
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 34
+- **pixel-art**: 35
 - **research**: 1
 - **workflow**: 17
 
@@ -270,6 +270,14 @@ Source: warehouse/studies/female-frame01-v2-far-thigh-rework.md. [Record](https:
 Owner identified far-foot tiptoe. Contact-source boot had raised heel even at zero transform angle. Registered actual same-character standing boot around unchanged ankle and sole plane; reassigned upper cuff to shin.22 sole pixels per side, pairwise source overlap0; two raster plant intervals and32 ASE composites pass. All other layers gait S/N exact. Native comparison inspected; heel-down stance clearer, owner approval pending. Zero angle/no drift is not proof correct foot design.
 
 Source: warehouse/studies/female-frame01-v4-flat-far-boot.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v4-baked-tiptoe-91682e16fa.json)
+
+### Female frame01 v5 far arm attached to shoulder
+
+**pixel-art · unverified** · pixel-art-female-frame01-v5-far-arm-atta-bf356e88ad
+
+Owner clarified belly protrusion and stubby far arm. Forearm/hand had elbow-height pivot. Authored hidden upper arm, kept visible original forearm/hand rigid, reanchored full bent limb to shoulder; updated arm motion/material contract.3916 visible arm-footprint edits; torso near arm legs v4 flat feet S/N exact,32 ASE composites pass. Native comparison reviewed. Occlusion/contour acceptance pending; no final or all-action readiness.
+
+Source: warehouse/studies/female-frame01-v5-shoulder-arm-correction.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v5-far-arm-atta-bf356e88ad.json)
 
 ### First selected female frame four-direction walk v1
 

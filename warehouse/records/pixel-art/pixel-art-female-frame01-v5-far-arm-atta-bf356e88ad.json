@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-female-frame01-v5-far-arm-atta-bf356e88ad",
+  "kind": "pixel-art",
+  "title": "Female frame01 v5 far arm attached to shoulder",
+  "summary": "Owner clarified belly protrusion and stubby far arm. Forearm/hand had elbow-height pivot. Authored hidden upper arm, kept visible original forearm/hand rigid, reanchored full bent limb to shoulder; updated arm motion/material contract.3916 visible arm-footprint edits; torso near arm legs v4 flat feet S/N exact,32 ASE composites pass. Native comparison reviewed. Occlusion/contour acceptance pending; no final or all-action readiness.",
+  "tags": [
+    "belly",
+    "far-arm",
+    "female-frame01",
+    "scope",
+    "shoulder-pivot"
+  ],
+  "source": "warehouse/studies/female-frame01-v5-shoulder-arm-correction.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T02:00:17+00:00",
+  "updated_at": "2026-11-14T02:00:17+00:00"
+}
