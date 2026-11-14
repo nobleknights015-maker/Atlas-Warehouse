@@ -553,7 +553,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Native Sprite Studio isolated Sleek copy checkpoint
 
-**workflow · unverified** · workflow-native-sprite-studio-isolated-644e5ca900
+**workflow · tested** · workflow-native-sprite-studio-isolated-644e5ca900
 
 Native procedural generator work moved to branch sprite-studio-sleek-copy in bearframe-ghost-signal. Preserve original main at f6f8f09 and retain Classic rendering for old projects. Sleek adds chamfered tapered procedural armor, simpler facets, circular side modules and a waveform display head. Machine styling preserves part transforms, animations and imported textures. Native canvas plus DOM checks pass: 1320 Classic renders pixel-exact, 1320 Sleek renders binary alpha, edited pixels, save/reopen, PNG and ZIP verified. Browser launch blocked by Unix-socket restriction; mobile layout and real pointer/download UI remain unverified. Still a procedural prototype below supplied concept-sheet detail. Continue from this copy instead of manual sprite deformation. No automatic merge.
 

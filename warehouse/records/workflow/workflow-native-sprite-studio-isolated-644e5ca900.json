@@ -11,8 +11,16 @@
     "sprite-studio"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/5a3c08345cd7aaf45c36685d7478c8345a9ebbae/docs/sprite-studio-sleek/README.md",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T14:46:56+00:00",
-  "updated_at": "2026-11-14T14:46:56+00:00"
+  "updated_at": "2026-11-14T14:47:49+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T14:47:49+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Native renderer and editor logic validated at commit 5a3c08345cd7aaf45c36685d7478c8345a9ebbae: 19 checks, 1320 Classic exact matches, 1320 Sleek alpha checks, save/reopen and edited pixels preserved. GitHub Actions run 43606620707 completed success: https://github.com/nobleknights015-maker/bearframe-ghost-signal/actions/runs/43606620707 . Main remains f6f8f09. This stamp covers code compatibility only; artistic approval and real browser/mobile interaction remain unverified."
+    }
+  ]
 }
