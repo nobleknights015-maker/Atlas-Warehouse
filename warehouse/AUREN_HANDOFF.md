@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 72 active records; 0 open work orders.
+Inventory: 73 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -19,7 +19,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **lore**: 1
 - **pixel-art**: 31
 - **research**: 1
-- **workflow**: 16
+- **workflow**: 17
 
 ## Knowledge shelves
 
@@ -598,6 +598,14 @@ Source: warehouse/studies/unit09-rejected-cycle-round46.md; owner rejected evide
 scikit-image0.26.0 executed on all four actual views: exact identity and translation pass. W/E 16 bounded rigid-control exposures pass fixed upper pixels, group distances and triangle orientation. Small contact flex only; no support alternation or finished walk. MLS integration fails exact identity and is not selected. Revision45 remains art checkpoint. Native critique and reproducible private packet retained.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-existing-code-round47.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-round47-executed-existi-926d8fca79.json)
+
+### Unit09 Round53 locked progress and explicit belly deferral
+
+**workflow · unverified** · workflow-unit09-round53-locked-progress-272e1d5e75
+
+Saved unchanged Round50-53 originals plus current editable art exact Round52 baseline scripts previews and resume handoff.2140 original file hashes and526 bundle hashes verified. Preserve four-cardinal working proportions gait larger far foot and chest ownership. Remaining belly choppiness explicitly deferred for test sprite; do not restart fixes without new request. Palette pass is not final contour polish or retargeter completion.
+
+Source: warehouse/studies/unit09-round53-locked-progress-handoff.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-unit09-round53-locked-progress-272e1d5e75.json)
 
 ## Open work orders
 

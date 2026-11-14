@@ -3,7 +3,7 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 72,
+  "record_count": 73,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 16,
@@ -11,7 +11,7 @@
     "lore": 1,
     "pixel-art": 31,
     "research": 1,
-    "workflow": 16
+    "workflow": 17
   },
   "records": [
     {
@@ -1302,6 +1302,23 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-existing-code-round47.md",
       "updated_at": "2026-11-13T14:23:53+00:00",
       "summary": "scikit-image0.26.0 executed on all four actual views: exact identity and translation pass. W/E 16 bounded rigid-control exposures pass fixed upper pixels, group distances and triangle orientation. Small contact flex only; no support alternation or finished walk. MLS integration fails exact identity and is not selected. Revision45 remains art checkpoint. Native critique and reproducible private packet retained."
+    },
+    {
+      "id": "workflow-unit09-round53-locked-progress-272e1d5e75",
+      "title": "Unit09 Round53 locked progress and explicit belly deferral",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "progress-lock",
+        "recovery",
+        "round53",
+        "scope",
+        "unit09"
+      ],
+      "path": "warehouse/records/workflow/workflow-unit09-round53-locked-progress-272e1d5e75.json",
+      "source": "warehouse/studies/unit09-round53-locked-progress-handoff.md",
+      "updated_at": "2026-11-14T01:04:06+00:00",
+      "summary": "Saved unchanged Round50-53 originals plus current editable art exact Round52 baseline scripts previews and resume handoff.2140 original file hashes and526 bundle hashes verified. Preserve four-cardinal working proportions gait larger far foot and chest ownership. Remaining belly choppiness explicitly deferred for test sprite; do not restart fixes without new request. Palette pass is not final contour polish or retargeter completion."
     }
   ],
   "open_orders": []
