@@ -1,0 +1,17 @@
+{
+  "id": "asset-standards-female-frame01-v3-exclusive-fa-7fe065c5d9",
+  "kind": "asset-standards",
+  "title": "Female frame01 v3 exclusive far-leg source ownership",
+  "summary": "Found63 source pixels shared by thigh/shin per side and127 W135 E shared shin/boot. Assigned knee to shin and cuff to boot: zero pairwise overlap with exact neutral composite.254 visible pixel correction, other layers poses boots S/N exact;32 ASE checks pass. Native comparison inspected. Explicit material reuse gate stored; visual far-leg resolution remains pending, do not expand actions or claim fixed from numeric tests.",
+  "tags": [
+    "far-leg",
+    "female-frame01",
+    "joint-ownership",
+    "reuse-gate"
+  ],
+  "source": "warehouse/studies/female-frame01-v3-exclusive-joint-ownership.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T01:35:55+00:00",
+  "updated_at": "2026-11-14T01:35:55+00:00"
+}

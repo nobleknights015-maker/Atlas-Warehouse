@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 75 active records; 0 open work orders.
+Inventory: 76 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 16
+- **asset-standards**: 17
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 33
@@ -54,6 +54,14 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Founder correction expands the animation target from four cardinal directions to N NE E SE S SW W NW. Each diagonal needs its own perspective-aware poses and registered feet; rotating whole sprites or replaying one standing view is not an accepted walk. Preserve canonical identity and asymmetric armor. Establish eight-direction static geometry before expanding gait cycles; static coverage must never be reported as eight complete animated directions.
 
 Source: Founder art feedback in Round24 continuation 2026-11-12; private assets excluded. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-sprite-motion-target-ca3c495bae.json)
+
+### Female frame01 v3 exclusive far-leg source ownership
+
+**asset-standards · unverified** · asset-standards-female-frame01-v3-exclusive-fa-7fe065c5d9
+
+Found63 source pixels shared by thigh/shin per side and127 W135 E shared shin/boot. Assigned knee to shin and cuff to boot: zero pairwise overlap with exact neutral composite.254 visible pixel correction, other layers poses boots S/N exact;32 ASE checks pass. Native comparison inspected. Explicit material reuse gate stored; visual far-leg resolution remains pending, do not expand actions or claim fixed from numeric tests.
+
+Source: warehouse/studies/female-frame01-v3-exclusive-joint-ownership.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-female-frame01-v3-exclusive-fa-7fe065c5d9.json)
 
 ### Founder retains four Unit09 cardinal views as visual baseline and rejects Round24 diagonals
 
