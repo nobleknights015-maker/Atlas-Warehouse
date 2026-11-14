@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 93 active records; 0 open work orders.
+Inventory: 94 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 21
+- **asset-standards**: 22
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 39
@@ -118,6 +118,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 FOUNDER CORRECTION overrides the prior proposal to add damage/overgrowth to the four approved starter designs. They are ALREADY old and damaged. Keep all four original selection portraits and matching playable sprite silhouettes, palettes, armor, wear, and clothing exactly as approved. Once ordinary standing/idle/walk sprites are validated, create SEPARATE triggered or occasional animation clips for core light glitches, visor/side-display faults, short actuator stutters, brief desync/freeze, and recovery to idle. Keep readable native pixel scale, clean root/foot anchors, distinct purple/cyan lighting, restrained timings, and character-specific motion. This is not proof the characters are canonically Echo Frames. Do not upload user character art to the public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-glitch-animation-only-clarification.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-sleepers-need-echo-style-4c5fbe3ab3.json)
+
+### Industrial Echo family prototype four-view tool identity
+
+**asset-standards · unverified** · asset-standards-industrial-echo-family-prototy-804a046358
+
+Final prototype checkpoint d0fbcf7 has a hunched legacy biped, stable physical L/R limb IDs, four authored views and Survey/Maintenance right-hand tool variants. Down/up tool position and left/right near/far depth explicitly tested. Fixed 12/13 legs use a 60 percent stance path with 10-design-unit stride metadata. No modern Bearframe emblem or mandatory chest/ear display package. Original native study, not exact Murmur or approved canonical art. Additional families and runtime consumer remain pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/d0fbcf7e43b743fd89e41ef6d7f0c3651e13a5b7/docs/sprite-studio-unit-expansion/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-industrial-echo-family-prototy-804a046358.json)
 
 ### Optional tapered chassis and Bearframe character outfits
 

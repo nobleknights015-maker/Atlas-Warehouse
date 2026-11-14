@@ -1,0 +1,18 @@
+{
+  "id": "asset-standards-industrial-echo-family-prototy-804a046358",
+  "kind": "asset-standards",
+  "title": "Industrial Echo family prototype four-view tool identity",
+  "summary": "Final prototype checkpoint d0fbcf7 has a hunched legacy biped, stable physical L/R limb IDs, four authored views and Survey/Maintenance right-hand tool variants. Down/up tool position and left/right near/far depth explicitly tested. Fixed 12/13 legs use a 60 percent stance path with 10-design-unit stride metadata. No modern Bearframe emblem or mandatory chest/ear display package. Original native study, not exact Murmur or approved canonical art. Additional families and runtime consumer remain pending.",
+  "tags": [
+    "continuity",
+    "echo",
+    "physical-identity",
+    "prototype",
+    "unit-family"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/d0fbcf7e43b743fd89e41ef6d7f0c3651e13a5b7/docs/sprite-studio-unit-expansion/README.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T18:58:56+00:00",
+  "updated_at": "2026-11-14T18:58:56+00:00"
+}
