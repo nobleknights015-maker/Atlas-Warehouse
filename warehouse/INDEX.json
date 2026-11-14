@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 85,
+  "record_count": 86,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 19,
     "engine": 7,
     "lore": 1,
     "pixel-art": 38,
-    "research": 1,
+    "research": 2,
     "workflow": 19
   },
   "records": [
@@ -1182,6 +1182,27 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-lowerleg-locked-section-rebuild-20261111.md",
       "updated_at": "2026-11-11T22:29:26+00:00",
       "summary": "Revisited locally available older 128x262 Unit 09 static practice drawing, constructed two distinct lower-leg A/B native-pixel corrections after a joint/silhouette inspection, and visualized both enlarged against the old figure. Candidate A changed 996 pixel positions, B 1055. Byte-identical upper+knee rows 0..211 and boot rows 245..261, 0/255 alpha and matching bbox all validated. Visual quality gate FAILED: excessive horizontal knee seam, shins still broad/flat and weak taper, full anatomy still too simple. Critical provenance: latest hourly v4b checkpoint was NOT available in active chat, so A/B are isolated practice and MUST NOT replace v4b or be called the new best. Next priority is reopening actual v4b then resolving knee/shin/ankle form with a real skeleton/section edit. No user art uploaded publicly."
+    },
+    {
+      "id": "research-ghost-signal-engine-deep-jrpg-b767a0e875",
+      "title": "Ghost Signal Engine deep JRPG systems study, 2026-11-14",
+      "kind": "research",
+      "confidence": "unverified",
+      "tags": [
+        "32x32",
+        "combat-design",
+        "design-gates",
+        "ghost-signal",
+        "jrpg",
+        "phantasy-star",
+        "progression",
+        "research",
+        "stealth"
+      ],
+      "path": "warehouse/records/research/research-ghost-signal-engine-deep-jrpg-b767a0e875.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-jrpg-deep-systems-study-2026-11-14.md",
+      "updated_at": "2026-11-14T16:25:11+00:00",
+      "summary": "Source-backed study of Phantasy Star II-IV, Chrono Trigger, Sea of Stars, Octopath and existing Ghost Signal engine. Require interconnected exploration, authored tactical encounters, meaningful party decisions, persistent world consequences, original Ghost Signal UI and stealth, four-cardinal 32px field movement, lore-specific Sleeper equipment, measurable playable vertical slice, save and Android proof. Recommendations are not implemented features or verified hardware tests. See full archived 387-line study linked in SOURCE."
     },
     {
       "id": "research-round44-all-cardinal-whole-bod-fad0ef2bf3",
