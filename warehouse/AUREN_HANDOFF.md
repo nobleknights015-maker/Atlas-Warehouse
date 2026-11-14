@@ -329,7 +329,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Native cloth folds follow garment shape
 
-**pixel-art · unverified** · pixel-art-native-cloth-folds-follow-garm-0b4265b5ad
+**pixel-art · tested** · pixel-art-native-cloth-folds-follow-garm-0b4265b5ad
 
 Wardrobe polish replaces repeating stripe shading with curved scarf folds, gathered hood creases, broad cape-like hanging folds and dark edges. Motion deforms cloth mask and shading together; fraying stays attached. Local 22 checks pass, including 48 pixel-exact comparisons preserving the existing cape/body and a cloth translation invariant. Keep copy branch and preserve the simple-body/art-quality limitations.
 

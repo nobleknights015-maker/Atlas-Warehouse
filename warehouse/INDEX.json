@@ -705,7 +705,7 @@
       "id": "pixel-art-native-cloth-folds-follow-garm-0b4265b5ad",
       "title": "Native cloth folds follow garment shape",
       "kind": "pixel-art",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "animation",
         "bearframe",
@@ -716,7 +716,7 @@
       ],
       "path": "warehouse/records/pixel-art/pixel-art-native-cloth-folds-follow-garm-0b4265b5ad.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0724cfcda2e705377934d0102f4b3aa534dca0c4/docs/sprite-studio-cloth-polish/README.md",
-      "updated_at": "2026-11-14T15:37:49+00:00",
+      "updated_at": "2026-11-14T15:39:14+00:00",
       "summary": "Wardrobe polish replaces repeating stripe shading with curved scarf folds, gathered hood creases, broad cape-like hanging folds and dark edges. Motion deforms cloth mask and shading together; fraying stays attached. Local 22 checks pass, including 48 pixel-exact comparisons preserving the existing cape/body and a cloth translation invariant. Keep copy branch and preserve the simple-body/art-quality limitations."
     },
     {

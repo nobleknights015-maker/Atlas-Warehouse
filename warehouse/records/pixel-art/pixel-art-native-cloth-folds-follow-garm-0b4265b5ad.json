@@ -12,8 +12,16 @@
     "sprite-studio"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0724cfcda2e705377934d0102f4b3aa534dca0c4/docs/sprite-studio-cloth-polish/README.md",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T15:37:49+00:00",
-  "updated_at": "2026-11-14T15:37:49+00:00"
+  "updated_at": "2026-11-14T15:39:14+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T15:39:14+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Commit 0724cfc passed 22 native checks, 26 Chromium checks and build. Includes 48 exact existing cape/body comparisons and cloth-bob translation test, plus the existing 3216 render cases, edited-pixel protection and real save/export checks. Before/after native previews reviewed; hood backs revised after the first result was too blank. Still prototype art. Evidence: https://github.com/nobleknights015-maker/bearframe-ghost-signal/actions/runs/43611166217"
+    }
+  ]
 }
