@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 81 active records; 0 open work orders.
+Inventory: 82 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -19,7 +19,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **lore**: 1
 - **pixel-art**: 37
 - **research**: 1
-- **workflow**: 18
+- **workflow**: 19
 
 ## Knowledge shelves
 
@@ -550,6 +550,14 @@ Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https
 Implemented a reproducible GitHub Actions workflow that downloads the OFFICIAL LibreSprite 1.3 AppImage, extracts and launches its actual headless batch editor, executes JavaScript inside a sprite cel to change two RGBA pixels, exports a PNG and validates those exact pixels plus transparency. All steps passed on run 42961553641 with downloadable image/report artifacts. This is a VERIFIED TOOL INTEGRATION smoke test, NOT an artistic quality or game production pass. LibreSprite is ephemeral per runner; current ChatGPT sandbox does not have a local editor install. Use this workflow to build future authored layered sprite and animation tests, and keep source game art out of public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-editor-integration-v1.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-libresprite-1-3-real-native-pi-f1a4b44b43.json)
+
+### Native Sprite Studio isolated Sleek copy checkpoint
+
+**workflow · unverified** · workflow-native-sprite-studio-isolated-644e5ca900
+
+Native procedural generator work moved to branch sprite-studio-sleek-copy in bearframe-ghost-signal. Preserve original main at f6f8f09 and retain Classic rendering for old projects. Sleek adds chamfered tapered procedural armor, simpler facets, circular side modules and a waveform display head. Machine styling preserves part transforms, animations and imported textures. Native canvas plus DOM checks pass: 1320 Classic renders pixel-exact, 1320 Sleek renders binary alpha, edited pixels, save/reopen, PNG and ZIP verified. Browser launch blocked by Unix-socket restriction; mobile layout and real pointer/download UI remain unverified. Still a procedural prototype below supplied concept-sheet detail. Continue from this copy instead of manual sprite deformation. No automatic merge.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/5a3c08345cd7aaf45c36685d7478c8345a9ebbae/docs/sprite-studio-sleek/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-native-sprite-studio-isolated-644e5ca900.json)
 
 ### Round26 walking checkpoint recovery and reuse
 
