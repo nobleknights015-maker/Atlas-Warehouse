@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 94 active records; 0 open work orders.
+Inventory: 95 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 22
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 39
+- **pixel-art**: 40
 - **research**: 4
 - **workflow**: 21
 
@@ -270,6 +270,14 @@ Source: Founder-approved Bearframe RPG reference images and art-direction correc
 In a 12-frame 160x112 RGBA Pillow mechanics exercise, six indexed legs were rendered with alternating tripod groups; each frame had exactly three stance legs, planted feet used fixed screen-space anchors while the body translated, and eight physical archive-ring panel markers changed position around a fixed pylon. Validation passed leg counts, stance counts, transparency and ring movement; this does NOT prove natural gait, anatomy, silhouette separation or canon fidelity. Earlier leg drills tested static hip anchors; this exercise changes to moving hips plus anchored stance contacts. Limitation: swing trajectories jump at wraparound, far-side legs overlap, ring is schematic. Reproduce using explicit phase=(frame/N + tripod_offset) mod 1, stance phase<0.5, and compare native 1x frames before approval.
 
 Source: Original 12-frame Pillow exercise and local automated checks (2026-11-10); Saint11 pixel-art tutorials https://saint11.org/blog/pixel-art-tutorials/ ; Bearframe Warehouse existing Palinode gait record. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-anchored-stance-test-for-six-l-25c7c62237.json)
+
+### Back arm depth and profile garment wrap correction
+
+**pixel-art · unverified** · pixel-art-back-arm-depth-and-profile-gar-0529f1bc9a
+
+Industrial Echo up-view arms/tools now draw above the rear mantle/backpack; other three directions unchanged. Profile coats and split panels now wrap torso and attach at waist; apron/gear move to body front, near arms draw above garments. Actual Cloak remains independent. All 13 recipes retain exact down/up outfit pixels. Local 29 checks pass including 312 stable outfit and 336 non-back Echo comparisons; 3330 arm pixels visible. Browser pending. Owner art review pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/035717f0fafd9d69e0e34e45f3cf4d11327e5b47. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-back-arm-depth-and-profile-gar-0529f1bc9a.json)
 
 ### Bearframe pixel-art production quality gates
 
