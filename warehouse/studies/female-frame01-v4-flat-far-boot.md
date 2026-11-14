@@ -1,0 +1,11 @@
+# Female frame01 v4 — baked heel-up far-boot source corrected
+
+Owner identified persistent far-leg symptom: tiptoeing on far foot. Source inspection confirmed far boot was taken from a raised-heel contact drawing. Zero-degree transform angle retained that heel-up source shape. Earlier full-raster planting checks could pass because they measured no drift, not whether heel and toe visually shared a floor. Earlier thigh/ownership edits did not establish the far foot was correct.
+
+Targeted correction: use actual same-character/direction standing boot design as flat-foot shape reference; register around unchanged far ankle and old sole plane y157; shade far boot90 percent. This reuses paired boot design intentionally, not near-leg anatomy. Small W native toe-side outline completion removes1px source bevel;22 bottom sole pixels per side. Reassign former contact boot's upper-calf/cuff material to shin. Updated rig_materials.json names flat boot and corresponding exclusive shin; do not restore old heel-up material in subsequent actions.
+
+Verified: pairwise far-source overlap0; all edits within old/new far boot and cuff/shin footprint. Far thigh, torso, scarf, arms, near leg and every other rendered layer exact. S/N composites and movement metadata unchanged. Original joints, bone lengths, poses and110ms timing retained. Two full-raster far-boot support intervals zero world mismatch.32 independent ASE composites match PNGs; all alpha bodies connected. Packet hashes/CRC pass. V3 exact baseline art retained; prior saved versions retain full earlier history.
+
+Native moving comparison and stepped contact/passing poses inspected. Heel-down stance reads clearly versus old tiptoe silhouette. W one-pixel sole completion added after native review. Final owner visual acceptance and runtime/map-scale checks remain pending; inherited knee/scarf contour polish persists. Do not infer correct foot design from zero angle or no drift alone. No expansion to other actions yet, no engine/APK or Unit09 changes.
+
+Private packet Female_Frame01_Walk_v4_Flat_Far_Boot.zip includes actual art, exact baseline, editable ASE, atlas, correct materials/reuse mapping, reproducible correction, QA and direct previews. Public notes omit owner art and phone captures.
