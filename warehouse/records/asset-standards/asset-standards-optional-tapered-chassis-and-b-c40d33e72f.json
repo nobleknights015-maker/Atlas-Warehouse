@@ -11,8 +11,16 @@
     "sprite-studio"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/8c1ce18334edfc392f45efee669548ba53fe8171",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T16:43:03+00:00",
-  "updated_at": "2026-11-14T16:43:03+00:00"
+  "updated_at": "2026-11-14T16:45:40+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T16:45:40+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Commit 8c1ce18: native 26 checks pass; CI run 43617085619 native and Chromium jobs success. Includes 1440 chassis cases, 1440 bone checks, 192 sole checks, 624 character renders; original Classic 1320 pixel comparisons pass. Build passes. All four direction previews inspected. Reference-inspired prototypes; owner art approval pending. https://github.com/nobleknights015-maker/bearframe-ghost-signal/actions/runs/43617085619"
+    }
+  ]
 }

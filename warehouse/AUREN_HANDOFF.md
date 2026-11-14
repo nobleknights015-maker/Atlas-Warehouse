@@ -113,7 +113,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Optional tapered chassis and Bearframe character outfits
 
-**asset-standards · unverified** · asset-standards-optional-tapered-chassis-and-b-c40d33e72f
+**asset-standards · tested** · asset-standards-optional-tapered-chassis-and-b-c40d33e72f
 
 Sprite Studio isolated copy commit 8c1ce18334edfc392f45efee669548ba53fe8171 adds Standard-compatible lean male, lean female and broad profiles. Tapered armor uses sagittal fixed-length legs and equal-sized side boots; front/back project knee depth. Nine role outfit families and eleven named reference-inspired recipes preserve chest and ear displays. Original main unchanged. Native 26 checks pass, browser CI pending. Visual prototypes await owner review. Never treat alpha and bone checks as art approval. Previews and reproduction instructions: docs/sprite-studio-chassis.
 
