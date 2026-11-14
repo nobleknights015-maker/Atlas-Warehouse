@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 74,
+  "record_count": 75,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 16,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 32,
+    "pixel-art": 33,
     "research": 1,
     "workflow": 17
   },
@@ -526,6 +526,22 @@
       "source": "Founder correction to Auren pixel-art study scope, Nov 2026",
       "updated_at": "2026-11-11T02:15:28+00:00",
       "summary": "Character design is ADDITIONAL homework, not a replacement for existing pixel-art work. Train and evaluate all competencies together: native-scale pixel placement and cluster discipline, clean contours, anatomy and proportions, distinctive and appealing character/portrait design, shape language, strong silhouettes, expressive face/visor/helmet design, readable armor and materials, lighting and color, frame-by-frame animation timing and movement weight, articulated mechanical geometry, natural accumulated overgrowth and age/damage, and intentional Ghost Grid mechanical faults versus distinctive Echo Frame glitch behavior. Compare original reference designs to native-resolution sprites and portraits; document failures, revisions, and objective QC before production approval. Previous rough assets are practice only, not finished."
+    },
+    {
+      "id": "pixel-art-female-frame01-v2-far-thigh-ma-0d3a94cd35",
+      "title": "Female frame01 v2 far-thigh material rework pending resolution",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "far-leg",
+        "female-frame01",
+        "owner-review",
+        "scope"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-female-frame01-v2-far-thigh-ma-0d3a94cd35.json",
+      "source": "warehouse/studies/female-frame01-v2-far-thigh-rework.md",
+      "updated_at": "2026-11-14T01:24:15+00:00",
+      "summary": "Owner again criticized far leg; v1 sides not accepted. Isolated proximal far thigh was narrow dark fill. Authored cream armor completion beneath visible source knee;330 visible pixels change in16 side frames only within far-thigh masks. Other layers boots torso near leg S/N and movement exact;32 ASE composites pass. Original v1 ZIP retained. Modest material correction is not proof far-leg gait or anatomy fixed; owner review pending."
     },
     {
       "id": "pixel-art-first-selected-female-frame-fo-15de4d31ec",

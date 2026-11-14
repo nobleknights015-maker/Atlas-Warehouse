@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 74 active records; 0 open work orders.
+Inventory: 75 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 16
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 32
+- **pixel-art**: 33
 - **research**: 1
 - **workflow**: 17
 
@@ -246,6 +246,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Character design is ADDITIONAL homework, not a replacement for existing pixel-art work. Train and evaluate all competencies together: native-scale pixel placement and cluster discipline, clean contours, anatomy and proportions, distinctive and appealing character/portrait design, shape language, strong silhouettes, expressive face/visor/helmet design, readable armor and materials, lighting and color, frame-by-frame animation timing and movement weight, articulated mechanical geometry, natural accumulated overgrowth and age/damage, and intentional Ghost Grid mechanical faults versus distinctive Echo Frame glitch behavior. Compare original reference designs to native-resolution sprites and portraits; document failures, revisions, and objective QC before production approval. Previous rough assets are practice only, not finished.
 
 Source: Founder correction to Auren pixel-art study scope, Nov 2026. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-comprehensive-bearframe-visual-f99a28a2a0.json)
+
+### Female frame01 v2 far-thigh material rework pending resolution
+
+**pixel-art · unverified** · pixel-art-female-frame01-v2-far-thigh-ma-0d3a94cd35
+
+Owner again criticized far leg; v1 sides not accepted. Isolated proximal far thigh was narrow dark fill. Authored cream armor completion beneath visible source knee;330 visible pixels change in16 side frames only within far-thigh masks. Other layers boots torso near leg S/N and movement exact;32 ASE composites pass. Original v1 ZIP retained. Modest material correction is not proof far-leg gait or anatomy fixed; owner review pending.
+
+Source: warehouse/studies/female-frame01-v2-far-thigh-rework.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v2-far-thigh-ma-0d3a94cd35.json)
 
 ### First selected female frame four-direction walk v1
 

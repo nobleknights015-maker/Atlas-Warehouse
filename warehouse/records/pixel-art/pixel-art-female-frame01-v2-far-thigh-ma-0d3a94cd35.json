@@ -1,0 +1,17 @@
+{
+  "id": "pixel-art-female-frame01-v2-far-thigh-ma-0d3a94cd35",
+  "kind": "pixel-art",
+  "title": "Female frame01 v2 far-thigh material rework pending resolution",
+  "summary": "Owner again criticized far leg; v1 sides not accepted. Isolated proximal far thigh was narrow dark fill. Authored cream armor completion beneath visible source knee;330 visible pixels change in16 side frames only within far-thigh masks. Other layers boots torso near leg S/N and movement exact;32 ASE composites pass. Original v1 ZIP retained. Modest material correction is not proof far-leg gait or anatomy fixed; owner review pending.",
+  "tags": [
+    "far-leg",
+    "female-frame01",
+    "owner-review",
+    "scope"
+  ],
+  "source": "warehouse/studies/female-frame01-v2-far-thigh-rework.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T01:24:15+00:00",
+  "updated_at": "2026-11-14T01:24:15+00:00"
+}
