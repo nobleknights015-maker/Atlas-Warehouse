@@ -289,7 +289,7 @@ Source: warehouse/studies/female-frame01-v6-torso-cloth-repair.md. [Record](http
 
 ### Female frame01 v7 closed far-thigh panel and single kneecap
 
-**pixel-art · unverified** · pixel-art-female-frame01-v7-closed-far-t-ceefb9fd50
+**pixel-art · reviewed** · pixel-art-female-frame01-v7-closed-far-t-ceefb9fd50
 
 Owner liked v6 overall but identified broken panel/knee appearance. Replaced jagged distal thigh and old knee fragment with closed plate and one knee-registered cap.2718 visible edits confined to far-thigh/knee; other layers and all geometry/movement S/N exact,32 ASE checks pass. Native comparison inspected; revised initial dark gap. Cleaner surface needs wear/depth acceptance; no final art or all-action readiness claim.
 

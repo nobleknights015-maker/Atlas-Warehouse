@@ -11,8 +11,16 @@
     "scope"
   ],
   "source": "warehouse/studies/female-frame01-v7-closed-thigh-knee.md",
-  "confidence": "unverified",
+  "confidence": "reviewed",
   "visibility": "public",
   "created_at": "2026-11-14T02:19:32+00:00",
-  "updated_at": "2026-11-14T02:19:32+00:00"
+  "updated_at": "2026-11-14T02:21:59+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T02:21:59+00:00",
+      "by": "nobleknights015-maker",
+      "level": "reviewed",
+      "evidence": "REJECTED BY OWNER: v7 far-thigh/kneecap redraw broke the leg appearance. Exact v6 restored as current checkpoint; preserve v6 and leave far-thigh issue open. Review records rejection, not artistic approval. See updated source study rejection header."
+    }
+  ]
 }
