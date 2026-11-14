@@ -33,7 +33,7 @@ Source: Founder direction in current asset session; Bearframe_Round29_Organic_An
 
 ### Bearframe native wardrobe and continuous visor
 
-**asset-standards · unverified** · asset-standards-bearframe-native-wardrobe-and-f554677254
+**asset-standards · tested** · asset-standards-bearframe-native-wardrobe-and-f554677254
 
 Copy generator supports wrap/trailing/cowl scarves, raised/down hoods, mantle/tabard/split drapes, separate fabric colors, rooted armor moss/vines, fraying and worn/cracked/exposed/scorched damage. Default visor is continuous. Old Classic pixels remain exact; older Sleek unedited frames refresh without overwriting hand edits. Native 21 checks pass, including 576 new wardrobe renders. Base body remains a simple prototype; no automatic main merge.
 
