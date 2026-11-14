@@ -3,10 +3,10 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 84,
+  "record_count": 85,
   "open_order_count": 0,
   "aisles": {
-    "asset-standards": 18,
+    "asset-standards": 19,
     "engine": 7,
     "lore": 1,
     "pixel-art": 38,
@@ -101,6 +101,24 @@
       "source": "Founder art feedback in Round24 continuation 2026-11-12; private assets excluded",
       "updated_at": "2026-11-12T16:43:49+00:00",
       "summary": "Founder correction expands the animation target from four cardinal directions to N NE E SE S SW W NW. Each diagonal needs its own perspective-aware poses and registered feet; rotating whole sprites or replaying one standing view is not an accepted walk. Preserve canonical identity and asymmetric armor. Establish eight-direction static geometry before expanding gait cycles; static coverage must never be reported as eight complete animated directions."
+    },
+    {
+      "id": "asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39",
+      "title": "Echo and Ghost Grid ring array controls",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "anchor",
+        "bearframe",
+        "canvas",
+        "regression",
+        "rings",
+        "sprite-studio"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0364f27b85ca7ab96a22019ae09697e39174af33/docs/sprite-studio-rings/README.md",
+      "updated_at": "2026-11-14T16:07:11+00:00",
+      "summary": "Humanoid copy generator adds solid, segmented, broken, tilted orbital and double arrays; size/band/light/damage/motion/tag/color controls. Transparent margins preserve body scale and bottom-center registration, including custom sizes. Ring padding/scales persist; removal keeps margins and edits. Engine consumers must use exported frame dimensions/anchor rather than crop to 32x56; tile footprint stays fixed. Local 24 checks pass with 1440 ring renders and 1200 bounds checks."
     },
     {
       "id": "asset-standards-female-frame01-v3-exclusive-fa-7fe065c5d9",

@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 84 active records; 0 open work orders.
+Inventory: 85 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 18
+- **asset-standards**: 19
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 38
@@ -62,6 +62,14 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Founder correction expands the animation target from four cardinal directions to N NE E SE S SW W NW. Each diagonal needs its own perspective-aware poses and registered feet; rotating whole sprites or replaying one standing view is not an accepted walk. Preserve canonical identity and asymmetric armor. Establish eight-direction static geometry before expanding gait cycles; static coverage must never be reported as eight complete animated directions.
 
 Source: Founder art feedback in Round24 continuation 2026-11-12; private assets excluded. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-sprite-motion-target-ca3c495bae.json)
+
+### Echo and Ghost Grid ring array controls
+
+**asset-standards · unverified** · asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39
+
+Humanoid copy generator adds solid, segmented, broken, tilted orbital and double arrays; size/band/light/damage/motion/tag/color controls. Transparent margins preserve body scale and bottom-center registration, including custom sizes. Ring padding/scales persist; removal keeps margins and edits. Engine consumers must use exported frame dimensions/anchor rather than crop to 32x56; tile footprint stays fixed. Local 24 checks pass with 1440 ring renders and 1200 bounds checks.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0364f27b85ca7ab96a22019ae09697e39174af33/docs/sprite-studio-rings/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39.json)
 
 ### Female frame01 v3 exclusive far-leg source ownership
 
