@@ -121,7 +121,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Industrial Echo family prototype four-view tool identity
 
-**asset-standards · unverified** · asset-standards-industrial-echo-family-prototy-804a046358
+**asset-standards · tested** · asset-standards-industrial-echo-family-prototy-804a046358
 
 Final prototype checkpoint d0fbcf7 has a hunched legacy biped, stable physical L/R limb IDs, four authored views and Survey/Maintenance right-hand tool variants. Down/up tool position and left/right near/far depth explicitly tested. Fixed 12/13 legs use a 60 percent stance path with 10-design-unit stride metadata. No modern Bearframe emblem or mandatory chest/ear display package. Original native study, not exact Murmur or approved canonical art. Additional families and runtime consumer remain pending.
 
@@ -625,7 +625,7 @@ Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https
 
 ### Legacy unit expansion first implementation checkpoint
 
-**workflow · unverified** · workflow-legacy-unit-expansion-first-im-e2d08edd49
+**workflow · tested** · workflow-legacy-unit-expansion-first-im-e2d08edd49
 
 Isolated copy now has clamped fixed-length reach, rig parent graph validation, explicit scale-preserving margin fitting with edit and anchor translation, and bounded atlas ZIP export. Adds opt-in Industrial Echo family with four authored views and Survey/Maintenance tools. Local 28 checks plus targeted family tests pass. New browser CI pending. Runtime adapter, additional families and owner art approval remain open. Fitting rejects unsupported custom aspects without mutation.
 

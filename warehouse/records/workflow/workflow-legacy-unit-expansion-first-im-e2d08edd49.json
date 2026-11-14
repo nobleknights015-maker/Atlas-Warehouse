@@ -11,8 +11,16 @@
     "sprite-studio"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5d09037988ef76102fe2e7c89200ee641e571c33",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T18:55:06+00:00",
-  "updated_at": "2026-11-14T18:55:06+00:00"
+  "updated_at": "2026-11-14T18:59:49+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T18:59:49+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Use final d0fbcf7 rather than the initial 5d09037 preview. CI 43629376782 passes 28 native and 34 Chromium checks plus build. Covers clamped reach, graph rejection, 224 family renders, 148 fitted frame envelopes, translated hand edits and saved anchors, multi-page pixel reconstruction, and actual atlas ZIP download. Custom nonuniform canvases reject without mutation. Other families and runtime adapter remain open."
+    }
+  ]
 }

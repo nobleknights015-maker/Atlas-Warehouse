@@ -11,8 +11,16 @@
     "unit-family"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/d0fbcf7e43b743fd89e41ef6d7f0c3651e13a5b7/docs/sprite-studio-unit-expansion/README.md",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T18:58:56+00:00",
-  "updated_at": "2026-11-14T18:58:56+00:00"
+  "updated_at": "2026-11-14T18:59:49+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T18:59:49+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "d0fbcf7 CI 43629376782: 28 native and 34 browser checks pass. Explicit physical-right tool positions/depth tested in all four views. 224 render cases and 148 fitted bounds pass. Browser selects Maintenance, fits, reopens save and decodes atlas ZIP with 80 frames and stride metadata. Four-direction Survey/Maintenance preview inspected. Numeric proof does not approve visual quality or in-game readiness."
+    }
+  ]
 }
