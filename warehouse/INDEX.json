@@ -3,7 +3,7 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 80,
+  "record_count": 81,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 17,
@@ -11,7 +11,7 @@
     "lore": 1,
     "pixel-art": 37,
     "research": 1,
-    "workflow": 17
+    "workflow": 18
   },
   "records": [
     {
@@ -1161,6 +1161,23 @@
       "source": "Atlas Warehouse operational policy and Founder requirement for continuous improvement",
       "updated_at": "2026-11-11T01:54:24+00:00",
       "summary": "Save reusable public-safe project techniques with source and review status. Do not promote a claim to tested without repeatable evidence. When an experiment fails, record the failure and correction. Retrieve exact records before taking action and preserve commit history."
+    },
+    {
+      "id": "workflow-female-frame01-v7-rejected-exa-1933ba9c6f",
+      "title": "Female frame01 v7 rejected exact v6 restored",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "far-thigh",
+        "female-frame01",
+        "rejected",
+        "rollback",
+        "v6-baseline"
+      ],
+      "path": "warehouse/records/workflow/workflow-female-frame01-v7-rejected-exa-1933ba9c6f.json",
+      "source": "warehouse/studies/female-frame01-v7-closed-thigh-knee.md",
+      "updated_at": "2026-11-14T02:21:25+00:00",
+      "summary": "Owner rejected v7 for breaking far-leg appearance. Restore positively received v6 body arm cloth and flat-foot checkpoint exactly; far-thigh/knee issue remains open. Verified32 original frame PNGs and734 v6 archive hashes. V7 closed panel/separate cap must not be reused as baseline; numeric checks did not imply visual success. Updated v7 study header with rejection and rollback."
     },
     {
       "id": "workflow-libresprite-1-3-real-native-pi-f1a4b44b43",

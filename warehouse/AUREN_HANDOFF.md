@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 80 active records; 0 open work orders.
+Inventory: 81 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -19,7 +19,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **lore**: 1
 - **pixel-art**: 37
 - **research**: 1
-- **workflow**: 17
+- **workflow**: 18
 
 ## Knowledge shelves
 
@@ -534,6 +534,14 @@ Source: warehouse/studies/unit09-animation-research-round44/FINDINGS.md; SOURCES
 Save reusable public-safe project techniques with source and review status. Do not promote a claim to tested without repeatable evidence. When an experiment fails, record the failure and correction. Retrieve exact records before taking action and preserve commit history.
 
 Source: Atlas Warehouse operational policy and Founder requirement for continuous improvement. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-evidence-first-warehouse-learn-1bbde70f2a.json)
+
+### Female frame01 v7 rejected exact v6 restored
+
+**workflow · unverified** · workflow-female-frame01-v7-rejected-exa-1933ba9c6f
+
+Owner rejected v7 for breaking far-leg appearance. Restore positively received v6 body arm cloth and flat-foot checkpoint exactly; far-thigh/knee issue remains open. Verified32 original frame PNGs and734 v6 archive hashes. V7 closed panel/separate cap must not be reused as baseline; numeric checks did not imply visual success. Updated v7 study header with rejection and rollback.
+
+Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-female-frame01-v7-rejected-exa-1933ba9c6f.json)
 
 ### LibreSprite 1.3 real native pixel editor successfully verified in GitHub Actions
 

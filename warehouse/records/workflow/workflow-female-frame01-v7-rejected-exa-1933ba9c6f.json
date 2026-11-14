@@ -1,0 +1,18 @@
+{
+  "id": "workflow-female-frame01-v7-rejected-exa-1933ba9c6f",
+  "kind": "workflow",
+  "title": "Female frame01 v7 rejected exact v6 restored",
+  "summary": "Owner rejected v7 for breaking far-leg appearance. Restore positively received v6 body arm cloth and flat-foot checkpoint exactly; far-thigh/knee issue remains open. Verified32 original frame PNGs and734 v6 archive hashes. V7 closed panel/separate cap must not be reused as baseline; numeric checks did not imply visual success. Updated v7 study header with rejection and rollback.",
+  "tags": [
+    "far-thigh",
+    "female-frame01",
+    "rejected",
+    "rollback",
+    "v6-baseline"
+  ],
+  "source": "warehouse/studies/female-frame01-v7-closed-thigh-knee.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T02:21:25+00:00",
+  "updated_at": "2026-11-14T02:21:25+00:00"
+}
