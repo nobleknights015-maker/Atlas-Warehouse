@@ -1,0 +1,18 @@
+{
+  "id": "asset-standards-round50-body-baseline-locked-f-86e8e61815",
+  "kind": "asset-standards",
+  "title": "Round50 body baseline locked for targeted feet and belly correction",
+  "summary": "Owner clarified preserve earlier body and fix only feet and belly. Round50 restores exact Round48 arm and unbooted leg layers plus original motion, with only belly forearm deletion and replacement boots at unchanged ankles. All16 side composites have zero pixel differences outside explicit allowed boot/belly masks. Approved S/N58 files each unchanged; four raster support intervals and32 ASE composites pass. Direct baseline comparison reviewed. This is candidate scope preservation, not final art approval. Do not carry forward Round49 broader arm/IK changes.",
+  "tags": [
+    "body-lock",
+    "bounded-edits",
+    "round50",
+    "scope",
+    "unit09"
+  ],
+  "source": "warehouse/studies/unit09-round50-body-locked-targeted-fix.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T00:15:29+00:00",
+  "updated_at": "2026-11-14T00:15:29+00:00"
+}

@@ -3,10 +3,10 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 68,
+  "record_count": 69,
   "open_order_count": 0,
   "aisles": {
-    "asset-standards": 15,
+    "asset-standards": 16,
     "engine": 7,
     "lore": 1,
     "pixel-art": 28,
@@ -245,6 +245,23 @@
       "source": "warehouse/studies/unit09-round48/FINDINGS.md",
       "updated_at": "2026-11-13T15:30:23+00:00",
       "summary": "Owner rejected Round47 frozen-stride pelvis oscillation. Exact identity and rigid-pin tests prove only limited deformation integration; do not present that loop as walking or resume it as an approved animation. Recover approved S/N and compare whole gait phases. Round48 is a separate unapproved walking candidate with preserved checkpoints."
+    },
+    {
+      "id": "asset-standards-round50-body-baseline-locked-f-86e8e61815",
+      "title": "Round50 body baseline locked for targeted feet and belly correction",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "body-lock",
+        "bounded-edits",
+        "round50",
+        "scope",
+        "unit09"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-round50-body-baseline-locked-f-86e8e61815.json",
+      "source": "warehouse/studies/unit09-round50-body-locked-targeted-fix.md",
+      "updated_at": "2026-11-14T00:15:29+00:00",
+      "summary": "Owner clarified preserve earlier body and fix only feet and belly. Round50 restores exact Round48 arm and unbooted leg layers plus original motion, with only belly forearm deletion and replacement boots at unchanged ankles. All16 side composites have zero pixel differences outside explicit allowed boot/belly masks. Approved S/N58 files each unchanged; four raster support intervals and32 ASE composites pass. Direct baseline comparison reviewed. This is candidate scope preservation, not final art approval. Do not carry forward Round49 broader arm/IK changes."
     },
     {
       "id": "asset-standards-unit09-revision41-restore-earl-83380a6a61",

@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 68 active records; 0 open work orders.
+Inventory: 69 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 15
+- **asset-standards**: 16
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 28
@@ -126,6 +126,14 @@ Source: warehouse/studies/unit09-animation-research-round44/audit_results.json; 
 Owner rejected Round47 frozen-stride pelvis oscillation. Exact identity and rigid-pin tests prove only limited deformation integration; do not present that loop as walking or resume it as an approved animation. Recover approved S/N and compare whole gait phases. Round48 is a separate unapproved walking candidate with preserved checkpoints.
 
 Source: warehouse/studies/unit09-round48/FINDINGS.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round47-flex-loop-rejected-as-1394c38996.json)
+
+### Round50 body baseline locked for targeted feet and belly correction
+
+**asset-standards · unverified** · asset-standards-round50-body-baseline-locked-f-86e8e61815
+
+Owner clarified preserve earlier body and fix only feet and belly. Round50 restores exact Round48 arm and unbooted leg layers plus original motion, with only belly forearm deletion and replacement boots at unchanged ankles. All16 side composites have zero pixel differences outside explicit allowed boot/belly masks. Approved S/N58 files each unchanged; four raster support intervals and32 ASE composites pass. Direct baseline comparison reviewed. This is candidate scope preservation, not final art approval. Do not carry forward Round49 broader arm/IK changes.
+
+Source: warehouse/studies/unit09-round50-body-locked-targeted-fix.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round50-body-baseline-locked-f-86e8e61815.json)
 
 ### Unit09 revision41 restore earlier animation leg-only scope
 
