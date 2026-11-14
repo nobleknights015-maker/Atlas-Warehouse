@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 79 active records; 0 open work orders.
+Inventory: 80 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 17
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 36
+- **pixel-art**: 37
 - **research**: 1
 - **workflow**: 17
 
@@ -286,6 +286,14 @@ Source: warehouse/studies/female-frame01-v5-shoulder-arm-correction.md. [Record]
 Arm move exposed pre-existing torso pixels misassigned to forearm despite unchanged body hash. Restored19 contact-source pixels per side and removed matching moving pixels. Trimmed pale cloth artifact60 W46 E source pixels.751 visible edits; all leg and flat-foot layers near arm S/N and trajectories exact,32 ASE checks pass. Sheet and isolated comparisons inspected; owner visual acceptance pending. Pair repaired body and torso-separated arm in reuse contract.
 
 Source: warehouse/studies/female-frame01-v6-torso-cloth-repair.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v6-torso-backin-6840c55c26.json)
+
+### Female frame01 v7 closed far-thigh panel and single kneecap
+
+**pixel-art · unverified** · pixel-art-female-frame01-v7-closed-far-t-ceefb9fd50
+
+Owner liked v6 overall but identified broken panel/knee appearance. Replaced jagged distal thigh and old knee fragment with closed plate and one knee-registered cap.2718 visible edits confined to far-thigh/knee; other layers and all geometry/movement S/N exact,32 ASE checks pass. Native comparison inspected; revised initial dark gap. Cleaner surface needs wear/depth acceptance; no final art or all-action readiness claim.
+
+Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v7-closed-far-t-ceefb9fd50.json)
 
 ### First selected female frame four-direction walk v1
 
