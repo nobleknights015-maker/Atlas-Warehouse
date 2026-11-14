@@ -1,0 +1,18 @@
+{
+  "id": "workflow-legacy-unit-expansion-first-im-e2d08edd49",
+  "kind": "workflow",
+  "title": "Legacy unit expansion first implementation checkpoint",
+  "summary": "Isolated copy now has clamped fixed-length reach, rig parent graph validation, explicit scale-preserving margin fitting with edit and anchor translation, and bounded atlas ZIP export. Adds opt-in Industrial Echo family with four authored views and Survey/Maintenance tools. Local 28 checks plus targeted family tests pass. New browser CI pending. Runtime adapter, additional families and owner art approval remain open. Fitting rejects unsupported custom aspects without mutation.",
+  "tags": [
+    "continuity",
+    "echo",
+    "ghost-grid",
+    "implementation",
+    "sprite-studio"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5d09037988ef76102fe2e7c89200ee641e571c33",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T18:55:06+00:00",
+  "updated_at": "2026-11-14T18:55:06+00:00"
+}

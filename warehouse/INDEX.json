@@ -3,7 +3,7 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 92,
+  "record_count": 93,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 21,
@@ -11,7 +11,7 @@
     "lore": 1,
     "pixel-art": 39,
     "research": 4,
-    "workflow": 20
+    "workflow": 21
   },
   "records": [
     {
@@ -1338,6 +1338,23 @@
       "source": "warehouse/studies/female-frame01-v7-closed-thigh-knee.md",
       "updated_at": "2026-11-14T02:21:25+00:00",
       "summary": "Owner rejected v7 for breaking far-leg appearance. Restore positively received v6 body arm cloth and flat-foot checkpoint exactly; far-thigh/knee issue remains open. Verified32 original frame PNGs and734 v6 archive hashes. V7 closed panel/separate cap must not be reused as baseline; numeric checks did not imply visual success. Updated v7 study header with rejection and rollback."
+    },
+    {
+      "id": "workflow-legacy-unit-expansion-first-im-e2d08edd49",
+      "title": "Legacy unit expansion first implementation checkpoint",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "continuity",
+        "echo",
+        "ghost-grid",
+        "implementation",
+        "sprite-studio"
+      ],
+      "path": "warehouse/records/workflow/workflow-legacy-unit-expansion-first-im-e2d08edd49.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5d09037988ef76102fe2e7c89200ee641e571c33",
+      "updated_at": "2026-11-14T18:55:06+00:00",
+      "summary": "Isolated copy now has clamped fixed-length reach, rig parent graph validation, explicit scale-preserving margin fitting with edit and anchor translation, and bounded atlas ZIP export. Adds opt-in Industrial Echo family with four authored views and Survey/Maintenance tools. Local 28 checks plus targeted family tests pass. New browser CI pending. Runtime adapter, additional families and owner art approval remain open. Fitting rejects unsupported custom aspects without mutation."
     },
     {
       "id": "workflow-libresprite-1-3-real-native-pi-f1a4b44b43",

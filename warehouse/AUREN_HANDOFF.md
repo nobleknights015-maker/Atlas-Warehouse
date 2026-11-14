@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 92 active records; 0 open work orders.
+Inventory: 93 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -19,7 +19,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **lore**: 1
 - **pixel-art**: 39
 - **research**: 4
-- **workflow**: 20
+- **workflow**: 21
 
 ## Knowledge shelves
 
@@ -614,6 +614,14 @@ Source: Atlas Warehouse operational policy and Founder requirement for continuou
 Owner rejected v7 for breaking far-leg appearance. Restore positively received v6 body arm cloth and flat-foot checkpoint exactly; far-thigh/knee issue remains open. Verified32 original frame PNGs and734 v6 archive hashes. V7 closed panel/separate cap must not be reused as baseline; numeric checks did not imply visual success. Updated v7 study header with rejection and rollback.
 
 Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-female-frame01-v7-rejected-exa-1933ba9c6f.json)
+
+### Legacy unit expansion first implementation checkpoint
+
+**workflow · unverified** · workflow-legacy-unit-expansion-first-im-e2d08edd49
+
+Isolated copy now has clamped fixed-length reach, rig parent graph validation, explicit scale-preserving margin fitting with edit and anchor translation, and bounded atlas ZIP export. Adds opt-in Industrial Echo family with four authored views and Survey/Maintenance tools. Local 28 checks plus targeted family tests pass. New browser CI pending. Runtime adapter, additional families and owner art approval remain open. Fitting rejects unsupported custom aspects without mutation.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5d09037988ef76102fe2e7c89200ee641e571c33. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-legacy-unit-expansion-first-im-e2d08edd49.json)
 
 ### LibreSprite 1.3 real native pixel editor successfully verified in GitHub Actions
 
