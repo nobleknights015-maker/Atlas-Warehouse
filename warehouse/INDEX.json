@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 91,
+  "record_count": 92,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 21,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 38,
+    "pixel-art": 39,
     "research": 4,
     "workflow": 20
   },
@@ -770,6 +770,22 @@
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0724cfcda2e705377934d0102f4b3aa534dca0c4/docs/sprite-studio-cloth-polish/README.md",
       "updated_at": "2026-11-14T15:39:14+00:00",
       "summary": "Wardrobe polish replaces repeating stripe shading with curved scarf folds, gathered hood creases, broad cape-like hanging folds and dark edges. Motion deforms cloth mask and shading together; fraying stays attached. Local 22 checks pass, including 48 pixel-exact comparisons preserving the existing cape/body and a cloth translation invariant. Keep copy branch and preserve the simple-body/art-quality limitations."
+    },
+    {
+      "id": "pixel-art-native-humanoid-pixel-finish-a-4af21ce559",
+      "title": "Native humanoid pixel finish and narrower side modules",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "compatibility",
+        "pixel-cleanup",
+        "side-modules",
+        "sprite-studio"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-native-humanoid-pixel-finish-a-4af21ce559.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/2c9d43525703d2cfdcdea30d059b943e4eb8ea3f",
+      "updated_at": "2026-11-14T18:36:06+00:00",
+      "summary": "Generator copy adds Clean armor ramps and calmer thin polygon corner pixels, plus front/back Sleek side-head modules reduced from 3 to 2 design pixels wide with helmet attachment retained. Profile discs retain geometry. New projects default Clean/Narrow; old configs without fields retain Legacy/Wide and Classic ignores flags. No global deletion filter; alpha silhouette and pose geometry preserved. Local 27 checks pass; browser verification pending. Owner visual approval pending."
     },
     {
       "id": "pixel-art-native-pixel-art-training-and-84bb0587a8",

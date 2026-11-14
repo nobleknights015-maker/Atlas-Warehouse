@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 91 active records; 0 open work orders.
+Inventory: 92 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 21
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 38
+- **pixel-art**: 39
 - **research**: 4
 - **workflow**: 20
 
@@ -358,6 +358,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Wardrobe polish replaces repeating stripe shading with curved scarf folds, gathered hood creases, broad cape-like hanging folds and dark edges. Motion deforms cloth mask and shading together; fraying stays attached. Local 22 checks pass, including 48 pixel-exact comparisons preserving the existing cape/body and a cloth translation invariant. Keep copy branch and preserve the simple-body/art-quality limitations.
 
 Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0724cfcda2e705377934d0102f4b3aa534dca0c4/docs/sprite-studio-cloth-polish/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-native-cloth-folds-follow-garm-0b4265b5ad.json)
+
+### Native humanoid pixel finish and narrower side modules
+
+**pixel-art · unverified** · pixel-art-native-humanoid-pixel-finish-a-4af21ce559
+
+Generator copy adds Clean armor ramps and calmer thin polygon corner pixels, plus front/back Sleek side-head modules reduced from 3 to 2 design pixels wide with helmet attachment retained. Profile discs retain geometry. New projects default Clean/Narrow; old configs without fields retain Legacy/Wide and Classic ignores flags. No global deletion filter; alpha silhouette and pose geometry preserved. Local 27 checks pass; browser verification pending. Owner visual approval pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/2c9d43525703d2cfdcdea30d059b943e4eb8ea3f. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-native-humanoid-pixel-finish-a-4af21ce559.json)
 
 ### Native pixel-art training and quality gate
 
