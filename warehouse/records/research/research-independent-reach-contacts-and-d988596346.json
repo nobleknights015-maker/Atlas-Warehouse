@@ -1,0 +1,18 @@
+{
+  "id": "research-independent-reach-contacts-and-d988596346",
+  "kind": "research",
+  "title": "Independent reach contacts and ring closure experiments",
+  "summary": "Original standalone mathematical probes pass 3200 two-bone cases including unreachable and root-near targets with both bend signs; maximum tested length error 5.41e-14. Three support schedules pass 1200 samples each, constant-speed stance world drift below 3.56e-15 and contact join gap below 3.2e-6. 310 integer-turn ring point checks pass. Not integrated. No joint-angle collision COM stability raster art or device-performance proof.",
+  "tags": [
+    "experiments",
+    "gait",
+    "hexapod",
+    "kinematics",
+    "rings"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/experiment-results.json",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T18:07:00+00:00",
+  "updated_at": "2026-11-14T18:07:00+00:00"
+}

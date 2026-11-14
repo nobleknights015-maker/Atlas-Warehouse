@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 87 active records; 0 open work orders.
+Inventory: 91 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,12 +14,12 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 20
+- **asset-standards**: 21
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 38
-- **research**: 2
-- **workflow**: 19
+- **research**: 4
+- **workflow**: 20
 
 ## Knowledge shelves
 
@@ -70,6 +70,14 @@ Source: Founder art feedback in Round24 continuation 2026-11-12; private assets 
 Humanoid copy generator adds solid, segmented, broken, tilted orbital and double arrays; size/band/light/damage/motion/tag/color controls. Transparent margins preserve body scale and bottom-center registration, including custom sizes. Ring padding/scales persist; removal keeps margins and edits. Engine consumers must use exported frame dimensions/anchor rather than crop to 32x56; tile footprint stays fixed. Local 24 checks pass with 1440 ring renders and 1200 bounds checks.
 
 Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0364f27b85ca7ab96a22019ae09697e39174af33/docs/sprite-studio-rings/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39.json)
+
+### Echo identity classes stay separate from chassis families
+
+**asset-standards · unverified** · asset-standards-echo-identity-classes-stay-sep-985ed47c38
+
+Revision 4.10 identifies Echo as disrupted ancient synthetic personal continuity and Ghost Grid as infrastructure ecology. Fragment Repeat Split Drift Residual Corrupt Fusion are symptom flags, not chassis species or hostility labels. Use independent family role equipment motion and condition axes. Do not impose modern Bearframe emblems or chest-ear packages on all Echo or Grid units. Reference dossiers illustrate possible designs, not a finite roster or completed encounters.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-echo-identity-classes-stay-sep-985ed47c38.json)
 
 ### Female frame01 v3 exclusive far-leg source ownership
 
@@ -551,6 +559,14 @@ Revisited locally available older 128x262 Unit 09 static practice drawing, const
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-lowerleg-locked-section-rebuild-20261111.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-unit09-two-shin-section-rebuil-25fcfd52fb.json)
 
+### Echo and Ghost Grid deep generator integration study
+
+**research · unverified** · research-echo-and-ghost-grid-deep-gener-18c04a7fa0
+
+22 primary or official sources and actual code audit support six family-specific rigs, compatible socket modules, explicit asymmetric views, grounded or hovering controllers and baked metadata-aware exports. Full 4672-word study includes canon boundaries, condition layering, rings, cloth, migration, mobile memory and staged acceptance gates. Research and experiments are complete; production expansion and art approval remain pending. Preserve isolated generator, original main and engine branch.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-echo-and-ghost-grid-deep-gener-18c04a7fa0.json)
+
 ### Ghost Signal Engine deep JRPG systems study, 2026-11-14
 
 **research · unverified** · research-ghost-signal-engine-deep-jrpg-b767a0e875
@@ -558,6 +574,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Source-backed study of Phantasy Star II-IV, Chrono Trigger, Sea of Stars, Octopath and existing Ghost Signal engine. Require interconnected exploration, authored tactical encounters, meaningful party decisions, persistent world consequences, original Ghost Signal UI and stealth, four-cardinal 32px field movement, lore-specific Sleeper equipment, measurable playable vertical slice, save and Android proof. Recommendations are not implemented features or verified hardware tests. See full archived 387-line study linked in SOURCE.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-jrpg-deep-systems-study-2026-11-14.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-ghost-signal-engine-deep-jrpg-b767a0e875.json)
+
+### Independent reach contacts and ring closure experiments
+
+**research · unverified** · research-independent-reach-contacts-and-d988596346
+
+Original standalone mathematical probes pass 3200 two-bone cases including unreachable and root-near targets with both bend signs; maximum tested length error 5.41e-14. Three support schedules pass 1200 samples each, constant-speed stance world drift below 3.56e-15 and contact join gap below 3.2e-6. 310 integer-turn ring point checks pass. Not integrated. No joint-angle collision COM stability raster art or device-performance proof.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/experiment-results.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-independent-reach-contacts-and-d988596346.json)
 
 ### Round44 all-cardinal whole-body animation correction study
 
@@ -590,6 +614,14 @@ Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https
 Implemented a reproducible GitHub Actions workflow that downloads the OFFICIAL LibreSprite 1.3 AppImage, extracts and launches its actual headless batch editor, executes JavaScript inside a sprite cel to change two RGBA pixels, exports a PNG and validates those exact pixels plus transparency. All steps passed on run 42961553641 with downloadable image/report artifacts. This is a VERIFIED TOOL INTEGRATION smoke test, NOT an artistic quality or game production pass. LibreSprite is ephemeral per runner; current ChatGPT sandbox does not have a local editor install. Use this workflow to build future authored layered sprite and animation tests, and keep source game art out of public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-editor-integration-v1.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-libresprite-1-3-real-native-pi-f1a4b44b43.json)
+
+### Machine generator characterization gaps before expansion
+
+**workflow · unverified** · workflow-machine-generator-characteriza-2bbd4b2f97
+
+At generator fdea3ff, 960 frame cases repeat deterministically in native canvas. Finite 48-unit overscan finds out-of-frame content in heavy, crawler, archive and drone action combinations. Analytical idle/walk endpoints can differ. Hexapod/archive battle strips reach 6528px width. Current arbitrary-target legIK violates segment lengths outside its reach domain. Existing valid-pose tests did not cover these domains. Probe script and full output are archived; diagnostics are not art approval.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/generator-audit.json. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/workflow/workflow-machine-generator-characteriza-2bbd4b2f97.json)
 
 ### Native Sprite Studio isolated Sleek copy checkpoint
 

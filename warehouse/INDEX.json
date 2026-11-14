@@ -3,15 +3,15 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 87,
+  "record_count": 91,
   "open_order_count": 0,
   "aisles": {
-    "asset-standards": 20,
+    "asset-standards": 21,
     "engine": 7,
     "lore": 1,
     "pixel-art": 38,
-    "research": 2,
-    "workflow": 19
+    "research": 4,
+    "workflow": 20
   },
   "records": [
     {
@@ -119,6 +119,23 @@
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0364f27b85ca7ab96a22019ae09697e39174af33/docs/sprite-studio-rings/README.md",
       "updated_at": "2026-11-14T16:09:05+00:00",
       "summary": "Humanoid copy generator adds solid, segmented, broken, tilted orbital and double arrays; size/band/light/damage/motion/tag/color controls. Transparent margins preserve body scale and bottom-center registration, including custom sizes. Ring padding/scales persist; removal keeps margins and edits. Engine consumers must use exported frame dimensions/anchor rather than crop to 32x56; tile footprint stays fixed. Local 24 checks pass with 1440 ring renders and 1200 bounds checks."
+    },
+    {
+      "id": "asset-standards-echo-identity-classes-stay-sep-985ed47c38",
+      "title": "Echo identity classes stay separate from chassis families",
+      "kind": "asset-standards",
+      "confidence": "unverified",
+      "tags": [
+        "canon",
+        "echo",
+        "ghost-grid",
+        "identity",
+        "procedural-design"
+      ],
+      "path": "warehouse/records/asset-standards/asset-standards-echo-identity-classes-stay-sep-985ed47c38.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/README.md",
+      "updated_at": "2026-11-14T18:07:00+00:00",
+      "summary": "Revision 4.10 identifies Echo as disrupted ancient synthetic personal continuity and Ghost Grid as infrastructure ecology. Fragment Repeat Split Drift Residual Corrupt Fusion are symptom flags, not chassis species or hostility labels. Use independent family role equipment motion and condition axes. Do not impose modern Bearframe emblems or chest-ear packages on all Echo or Grid units. Reference dossiers illustrate possible designs, not a finite roster or completed encounters."
     },
     {
       "id": "asset-standards-female-frame01-v3-exclusive-fa-7fe065c5d9",
@@ -1201,6 +1218,24 @@
       "summary": "Revisited locally available older 128x262 Unit 09 static practice drawing, constructed two distinct lower-leg A/B native-pixel corrections after a joint/silhouette inspection, and visualized both enlarged against the old figure. Candidate A changed 996 pixel positions, B 1055. Byte-identical upper+knee rows 0..211 and boot rows 245..261, 0/255 alpha and matching bbox all validated. Visual quality gate FAILED: excessive horizontal knee seam, shins still broad/flat and weak taper, full anatomy still too simple. Critical provenance: latest hourly v4b checkpoint was NOT available in active chat, so A/B are isolated practice and MUST NOT replace v4b or be called the new best. Next priority is reopening actual v4b then resolving knee/shin/ankle form with a real skeleton/section edit. No user art uploaded publicly."
     },
     {
+      "id": "research-echo-and-ghost-grid-deep-gener-18c04a7fa0",
+      "title": "Echo and Ghost Grid deep generator integration study",
+      "kind": "research",
+      "confidence": "unverified",
+      "tags": [
+        "continuity",
+        "echo",
+        "ghost-grid",
+        "modularity",
+        "research",
+        "sprite-studio"
+      ],
+      "path": "warehouse/records/research/research-echo-and-ghost-grid-deep-gener-18c04a7fa0.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/README.md",
+      "updated_at": "2026-11-14T18:07:00+00:00",
+      "summary": "22 primary or official sources and actual code audit support six family-specific rigs, compatible socket modules, explicit asymmetric views, grounded or hovering controllers and baked metadata-aware exports. Full 4672-word study includes canon boundaries, condition layering, rings, cloth, migration, mobile memory and staged acceptance gates. Research and experiments are complete; production expansion and art approval remain pending. Preserve isolated generator, original main and engine branch."
+    },
+    {
       "id": "research-ghost-signal-engine-deep-jrpg-b767a0e875",
       "title": "Ghost Signal Engine deep JRPG systems study, 2026-11-14",
       "kind": "research",
@@ -1220,6 +1255,23 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-jrpg-deep-systems-study-2026-11-14.md",
       "updated_at": "2026-11-14T16:25:11+00:00",
       "summary": "Source-backed study of Phantasy Star II-IV, Chrono Trigger, Sea of Stars, Octopath and existing Ghost Signal engine. Require interconnected exploration, authored tactical encounters, meaningful party decisions, persistent world consequences, original Ghost Signal UI and stealth, four-cardinal 32px field movement, lore-specific Sleeper equipment, measurable playable vertical slice, save and Android proof. Recommendations are not implemented features or verified hardware tests. See full archived 387-line study linked in SOURCE."
+    },
+    {
+      "id": "research-independent-reach-contacts-and-d988596346",
+      "title": "Independent reach contacts and ring closure experiments",
+      "kind": "research",
+      "confidence": "unverified",
+      "tags": [
+        "experiments",
+        "gait",
+        "hexapod",
+        "kinematics",
+        "rings"
+      ],
+      "path": "warehouse/records/research/research-independent-reach-contacts-and-d988596346.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/experiment-results.json",
+      "updated_at": "2026-11-14T18:07:00+00:00",
+      "summary": "Original standalone mathematical probes pass 3200 two-bone cases including unreachable and root-near targets with both bend signs; maximum tested length error 5.41e-14. Three support schedules pass 1200 samples each, constant-speed stance world drift below 3.56e-15 and contact join gap below 3.2e-6. 310 integer-turn ring point checks pass. Not integrated. No joint-angle collision COM stability raster art or device-performance proof."
     },
     {
       "id": "research-round44-all-cardinal-whole-bod-fad0ef2bf3",
@@ -1289,6 +1341,24 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-editor-integration-v1.md",
       "updated_at": "2026-11-11T04:49:29+00:00",
       "summary": "Implemented a reproducible GitHub Actions workflow that downloads the OFFICIAL LibreSprite 1.3 AppImage, extracts and launches its actual headless batch editor, executes JavaScript inside a sprite cel to change two RGBA pixels, exports a PNG and validates those exact pixels plus transparency. All steps passed on run 42961553641 with downloadable image/report artifacts. This is a VERIFIED TOOL INTEGRATION smoke test, NOT an artistic quality or game production pass. LibreSprite is ephemeral per runner; current ChatGPT sandbox does not have a local editor install. Use this workflow to build future authored layered sprite and animation tests, and keep source game art out of public repo."
+    },
+    {
+      "id": "workflow-machine-generator-characteriza-2bbd4b2f97",
+      "title": "Machine generator characterization gaps before expansion",
+      "kind": "workflow",
+      "confidence": "unverified",
+      "tags": [
+        "atlas",
+        "bounds",
+        "diagnostics",
+        "ik",
+        "regression",
+        "sprite-studio"
+      ],
+      "path": "warehouse/records/workflow/workflow-machine-generator-characteriza-2bbd4b2f97.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/generator-audit.json",
+      "updated_at": "2026-11-14T18:07:00+00:00",
+      "summary": "At generator fdea3ff, 960 frame cases repeat deterministically in native canvas. Finite 48-unit overscan finds out-of-frame content in heavy, crawler, archive and drone action combinations. Analytical idle/walk endpoints can differ. Hexapod/archive battle strips reach 6528px width. Current arbitrary-target legIK violates segment lengths outside its reach domain. Existing valid-pose tests did not cover these domains. Probe script and full output are archived; diagnostics are not art approval."
     },
     {
       "id": "workflow-native-sprite-studio-isolated-644e5ca900",

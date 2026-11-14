@@ -1,0 +1,19 @@
+{
+  "id": "workflow-machine-generator-characteriza-2bbd4b2f97",
+  "kind": "workflow",
+  "title": "Machine generator characterization gaps before expansion",
+  "summary": "At generator fdea3ff, 960 frame cases repeat deterministically in native canvas. Finite 48-unit overscan finds out-of-frame content in heavy, crawler, archive and drone action combinations. Analytical idle/walk endpoints can differ. Hexapod/archive battle strips reach 6528px width. Current arbitrary-target legIK violates segment lengths outside its reach domain. Existing valid-pose tests did not cover these domains. Probe script and full output are archived; diagnostics are not art approval.",
+  "tags": [
+    "atlas",
+    "bounds",
+    "diagnostics",
+    "ik",
+    "regression",
+    "sprite-studio"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/generator-audit.json",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T18:07:00+00:00",
+  "updated_at": "2026-11-14T18:07:00+00:00"
+}
