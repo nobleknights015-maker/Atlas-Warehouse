@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 83 active records; 0 open work orders.
+Inventory: 84 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 18
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 37
+- **pixel-art**: 38
 - **research**: 1
 - **workflow**: 19
 
@@ -326,6 +326,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 GitHub Actions run 42962709703 succeeded: LibreSprite 1.3 opened a public-safe generic 72x112 native RGBA practice ASE containing internal_structure, faceted_armor, drapery and signals layers over three frames, edited actual cels via JS and exported ASE, PNG sheet, JSON metadata and GIF. Validator passed stable feet y=101..111, no partial alpha, 14 colors including transparency. Independent parse of exported source and edited ASE verified all named layers, exact matching PNG composites and 14/15/16 source-to-editor pixel changes across frames 0/1/2 without modifying alpha. This is technically reproducible but VISUAL QUALITY FAILED: figure stiff, angular armor simplistic, helmet and materials lack refined character design. Continue actual editorial practice, not generic effects or premature game production.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/libresprite-layered-idle-study-round-09.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-libresprite-round-09-verified-2b6c88d2e9.json)
+
+### Native cloth folds follow garment shape
+
+**pixel-art · unverified** · pixel-art-native-cloth-folds-follow-garm-0b4265b5ad
+
+Wardrobe polish replaces repeating stripe shading with curved scarf folds, gathered hood creases, broad cape-like hanging folds and dark edges. Motion deforms cloth mask and shading together; fraying stays attached. Local 22 checks pass, including 48 pixel-exact comparisons preserving the existing cape/body and a cloth translation invariant. Keep copy branch and preserve the simple-body/art-quality limitations.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0724cfcda2e705377934d0102f4b3aa534dca0c4/docs/sprite-studio-cloth-polish/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-native-cloth-folds-follow-garm-0b4265b5ad.json)
 
 ### Native pixel-art training and quality gate
 
