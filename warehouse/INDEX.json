@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 73,
+  "record_count": 74,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 16,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 31,
+    "pixel-art": 32,
     "research": 1,
     "workflow": 17
   },
@@ -526,6 +526,23 @@
       "source": "Founder correction to Auren pixel-art study scope, Nov 2026",
       "updated_at": "2026-11-11T02:15:28+00:00",
       "summary": "Character design is ADDITIONAL homework, not a replacement for existing pixel-art work. Train and evaluate all competencies together: native-scale pixel placement and cluster discipline, clean contours, anatomy and proportions, distinctive and appealing character/portrait design, shape language, strong silhouettes, expressive face/visor/helmet design, readable armor and materials, lighting and color, frame-by-frame animation timing and movement weight, articulated mechanical geometry, natural accumulated overgrowth and age/damage, and intentional Ghost Grid mechanical faults versus distinctive Echo Frame glitch behavior. Compare original reference designs to native-resolution sprites and portraits; document failures, revisions, and objective QC before production approval. Previous rough assets are practice only, not finished."
+    },
+    {
+      "id": "pixel-art-first-selected-female-frame-fo-15de4d31ec",
+      "title": "First selected female frame four-direction walk v1",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "cardinal",
+        "female-frame01",
+        "player-art",
+        "source-ownership",
+        "walk"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-first-selected-female-frame-fo-15de4d31ec.json",
+      "source": "warehouse/studies/female-frame01-four-direction-walk-v1.md",
+      "updated_at": "2026-11-14T01:17:09+00:00",
+      "summary": "New owner-selected ivory/cyan scarf frame uses actual source art with bespoke limb and cloth ownership; Unit09 checkpoint unchanged.32 distinct frames four directions110ms, original registered heads preserved, eight raster support intervals and32 ASE composites pass;12 source registrations reproducible. Native playback reviewed; caught arm-edge and scarf/shin ownership errors. Side contours and scarf overlap remain rough; candidate awaiting owner review, no runtime or universal-retargeter claim."
     },
     {
       "id": "pixel-art-four-starter-selectable-frames-4ce74e6087",

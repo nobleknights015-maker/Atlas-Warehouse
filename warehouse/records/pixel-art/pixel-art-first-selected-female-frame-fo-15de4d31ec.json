@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-first-selected-female-frame-fo-15de4d31ec",
+  "kind": "pixel-art",
+  "title": "First selected female frame four-direction walk v1",
+  "summary": "New owner-selected ivory/cyan scarf frame uses actual source art with bespoke limb and cloth ownership; Unit09 checkpoint unchanged.32 distinct frames four directions110ms, original registered heads preserved, eight raster support intervals and32 ASE composites pass;12 source registrations reproducible. Native playback reviewed; caught arm-edge and scarf/shin ownership errors. Side contours and scarf overlap remain rough; candidate awaiting owner review, no runtime or universal-retargeter claim.",
+  "tags": [
+    "cardinal",
+    "female-frame01",
+    "player-art",
+    "source-ownership",
+    "walk"
+  ],
+  "source": "warehouse/studies/female-frame01-four-direction-walk-v1.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T01:17:09+00:00",
+  "updated_at": "2026-11-14T01:17:09+00:00"
+}
