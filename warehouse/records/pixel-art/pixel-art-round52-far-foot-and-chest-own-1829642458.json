@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-round52-far-foot-and-chest-own-1829642458",
+  "kind": "pixel-art",
+  "title": "Round52 far foot and chest ownership correction",
+  "summary": "Retained Round51 body and gait. Painted fuller far boot at same ankle; reassigned proximal chest fragment from swinging far arm to torso.16 bounded composite checks, unchanged near limbs and movement, approved S/N58 files each, four support intervals and32 ASE composites pass. Bob-normalized chest core now has zero phase variation in both views. Native comparison inspected; owner review and inherited contour polish remain open.",
+  "tags": [
+    "body-lock",
+    "far-boot",
+    "material-ownership",
+    "round52",
+    "unit09"
+  ],
+  "source": "warehouse/studies/unit09-round52-far-foot-chest-ownership.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T00:38:34+00:00",
+  "updated_at": "2026-11-14T00:38:34+00:00"
+}

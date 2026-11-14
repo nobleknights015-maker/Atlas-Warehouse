@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 70 active records; 0 open work orders.
+Inventory: 71 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 16
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 29
+- **pixel-art**: 30
 - **research**: 1
 - **workflow**: 16
 
@@ -398,6 +398,14 @@ Source: warehouse/studies/unit09-round49-foot-torso-correction.md. [Record](http
 Owner requested cleanup while retaining Round50 body. Applied native ankle-cuff clusters and recolored41 isolated knee highlights;2703 visible pixel colors changed over16 side frames. Full alpha silhouettes, body/arm/base-leg layers, boot-contact layers, sole bands and movement remain exact. Approved S/N58 files each and32 ASE composite checks pass. Native comparison playback reviewed; remaining inherited motion/drawing limitations and owner approval stay open. No geometry or rig change.
 
 Source: warehouse/studies/unit09-round51-bounded-pixel-cleanup.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round51-bounded-native-pixel-c-e68506c534.json)
+
+### Round52 far foot and chest ownership correction
+
+**pixel-art · unverified** · pixel-art-round52-far-foot-and-chest-own-1829642458
+
+Retained Round51 body and gait. Painted fuller far boot at same ankle; reassigned proximal chest fragment from swinging far arm to torso.16 bounded composite checks, unchanged near limbs and movement, approved S/N58 files each, four support intervals and32 ASE composites pass. Bob-normalized chest core now has zero phase variation in both views. Native comparison inspected; owner review and inherited contour polish remain open.
+
+Source: warehouse/studies/unit09-round52-far-foot-chest-ownership.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round52-far-foot-and-chest-own-1829642458.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
