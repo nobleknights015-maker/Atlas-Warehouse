@@ -273,7 +273,7 @@ Source: Original 12-frame Pillow exercise and local automated checks (2026-11-10
 
 ### Back arm depth and profile garment wrap correction
 
-**pixel-art · unverified** · pixel-art-back-arm-depth-and-profile-gar-0529f1bc9a
+**pixel-art · tested** · pixel-art-back-arm-depth-and-profile-gar-0529f1bc9a
 
 Industrial Echo up-view arms/tools now draw above the rear mantle/backpack; other three directions unchanged. Profile coats and split panels now wrap torso and attach at waist; apron/gear move to body front, near arms draw above garments. Actual Cloak remains independent. All 13 recipes retain exact down/up outfit pixels. Local 29 checks pass including 312 stable outfit and 336 non-back Echo comparisons; 3330 arm pixels visible. Browser pending. Owner art review pending.
 

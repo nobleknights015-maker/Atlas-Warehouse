@@ -11,8 +11,16 @@
     "regression"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/035717f0fafd9d69e0e34e45f3cf4d11327e5b47",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T19:17:35+00:00",
-  "updated_at": "2026-11-14T19:17:35+00:00"
+  "updated_at": "2026-11-14T19:21:36+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T19:21:36+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Commit 035717f, CI 43631276054: 29 native and 35 Chromium checks plus build pass. 312 front/back outfit and 336 other Echo views exact; 3330 back-arm pixels and 468 profile arm/hand samples pass. Native before/after previews inspected. Owner visual approval pending."
+    }
+  ]
 }

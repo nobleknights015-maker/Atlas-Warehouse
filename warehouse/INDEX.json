@@ -573,7 +573,7 @@
       "id": "pixel-art-back-arm-depth-and-profile-gar-0529f1bc9a",
       "title": "Back arm depth and profile garment wrap correction",
       "kind": "pixel-art",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "echo",
         "layers",
@@ -583,7 +583,7 @@
       ],
       "path": "warehouse/records/pixel-art/pixel-art-back-arm-depth-and-profile-gar-0529f1bc9a.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/035717f0fafd9d69e0e34e45f3cf4d11327e5b47",
-      "updated_at": "2026-11-14T19:17:35+00:00",
+      "updated_at": "2026-11-14T19:21:36+00:00",
       "summary": "Industrial Echo up-view arms/tools now draw above the rear mantle/backpack; other three directions unchanged. Profile coats and split panels now wrap torso and attach at waist; apron/gear move to body front, near arms draw above garments. Actual Cloak remains independent. All 13 recipes retain exact down/up outfit pixels. Local 29 checks pass including 312 stable outfit and 336 non-back Echo comparisons; 3330 arm pixels visible. Browser pending. Owner art review pending."
     },
     {
