@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 86 active records; 0 open work orders.
+Inventory: 87 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 19
+- **asset-standards**: 20
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 38
@@ -110,6 +110,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 FOUNDER CORRECTION overrides the prior proposal to add damage/overgrowth to the four approved starter designs. They are ALREADY old and damaged. Keep all four original selection portraits and matching playable sprite silhouettes, palettes, armor, wear, and clothing exactly as approved. Once ordinary standing/idle/walk sprites are validated, create SEPARATE triggered or occasional animation clips for core light glitches, visor/side-display faults, short actuator stutters, brief desync/freeze, and recovery to idle. Keep readable native pixel scale, clean root/foot anchors, distinct purple/cyan lighting, restrained timings, and character-specific motion. This is not proof the characters are canonically Echo Frames. Do not upload user character art to the public repo.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/four-sleeper-glitch-animation-only-clarification.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-four-sleepers-need-echo-style-4c5fbe3ab3.json)
+
+### Optional tapered chassis and Bearframe character outfits
+
+**asset-standards · unverified** · asset-standards-optional-tapered-chassis-and-b-c40d33e72f
+
+Sprite Studio isolated copy commit 8c1ce18334edfc392f45efee669548ba53fe8171 adds Standard-compatible lean male, lean female and broad profiles. Tapered armor uses sagittal fixed-length legs and equal-sized side boots; front/back project knee depth. Nine role outfit families and eleven named reference-inspired recipes preserve chest and ear displays. Original main unchanged. Native 26 checks pass, browser CI pending. Visual prototypes await owner review. Never treat alpha and bone checks as art approval. Previews and reproduction instructions: docs/sprite-studio-chassis.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/8c1ce18334edfc392f45efee669548ba53fe8171. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-optional-tapered-chassis-and-b-c40d33e72f.json)
 
 ### Round30 gesture and seated motion rejection
 
