@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 69 active records; 0 open work orders.
+Inventory: 70 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 16
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 28
+- **pixel-art**: 29
 - **research**: 1
 - **workflow**: 16
 
@@ -390,6 +390,14 @@ Source: warehouse/studies/unit09-round48/FINDINGS.md; SOURCES.md; ik_juckett.py.
 Owner identified distorted side feet and belly protrusion in Round48. Isolated layers exposed forearm material stranded on torso; reassigned complete arm silhouette and added zero-residual torso regression. Replaced calf-contaminated boot cutouts with actual standing near/far boot sources, authored hidden far forefoot and reduced roll. Preserved gait and58 S plus58 N file hashes. Four raster boot support intervals and32 ASE composites pass; final native playback reviewed. Knee contours and rigid arm articulation remain open. No art or runtime approval claimed.
 
 Source: warehouse/studies/unit09-round49-foot-torso-correction.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round49-side-boots-and-torso-f-0d9436cae8.json)
+
+### Round51 bounded native pixel cleanup
+
+**pixel-art · unverified** · pixel-art-round51-bounded-native-pixel-c-e68506c534
+
+Owner requested cleanup while retaining Round50 body. Applied native ankle-cuff clusters and recolored41 isolated knee highlights;2703 visible pixel colors changed over16 side frames. Full alpha silhouettes, body/arm/base-leg layers, boot-contact layers, sole bands and movement remain exact. Approved S/N58 files each and32 ASE composite checks pass. Native comparison playback reviewed; remaining inherited motion/drawing limitations and owner approval stay open. No geometry or rig change.
+
+Source: warehouse/studies/unit09-round51-bounded-pixel-cleanup.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round51-bounded-native-pixel-c-e68506c534.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 

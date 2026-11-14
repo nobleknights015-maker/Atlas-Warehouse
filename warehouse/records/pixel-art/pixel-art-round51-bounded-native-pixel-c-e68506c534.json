@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-round51-bounded-native-pixel-c-e68506c534",
+  "kind": "pixel-art",
+  "title": "Round51 bounded native pixel cleanup",
+  "summary": "Owner requested cleanup while retaining Round50 body. Applied native ankle-cuff clusters and recolored41 isolated knee highlights;2703 visible pixel colors changed over16 side frames. Full alpha silhouettes, body/arm/base-leg layers, boot-contact layers, sole bands and movement remain exact. Approved S/N58 files each and32 ASE composite checks pass. Native comparison playback reviewed; remaining inherited motion/drawing limitations and owner approval stay open. No geometry or rig change.",
+  "tags": [
+    "body-lock",
+    "color-clusters",
+    "pixel-cleanup",
+    "round51",
+    "unit09"
+  ],
+  "source": "warehouse/studies/unit09-round51-bounded-pixel-cleanup.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T00:30:00+00:00",
+  "updated_at": "2026-11-14T00:30:00+00:00"
+}
