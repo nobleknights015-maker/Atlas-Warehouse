@@ -775,7 +775,7 @@
       "id": "pixel-art-native-humanoid-pixel-finish-a-4af21ce559",
       "title": "Native humanoid pixel finish and narrower side modules",
       "kind": "pixel-art",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "compatibility",
         "pixel-cleanup",
@@ -784,7 +784,7 @@
       ],
       "path": "warehouse/records/pixel-art/pixel-art-native-humanoid-pixel-finish-a-4af21ce559.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/2c9d43525703d2cfdcdea30d059b943e4eb8ea3f",
-      "updated_at": "2026-11-14T18:36:06+00:00",
+      "updated_at": "2026-11-14T18:38:34+00:00",
       "summary": "Generator copy adds Clean armor ramps and calmer thin polygon corner pixels, plus front/back Sleek side-head modules reduced from 3 to 2 design pixels wide with helmet attachment retained. Profile discs retain geometry. New projects default Clean/Narrow; old configs without fields retain Legacy/Wide and Classic ignores flags. No global deletion filter; alpha silhouette and pose geometry preserved. Local 27 checks pass; browser verification pending. Owner visual approval pending."
     },
     {

@@ -10,8 +10,16 @@
     "sprite-studio"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/2c9d43525703d2cfdcdea30d059b943e4eb8ea3f",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T18:36:06+00:00",
-  "updated_at": "2026-11-14T18:36:06+00:00"
+  "updated_at": "2026-11-14T18:38:34+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T18:38:34+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Commit 2c9d435: 27 native checks and Chromium CI success in run 43627473673; build passes. New two-resolution tests cover narrower front/back modules, unchanged profiles for width-only changes, preserved alpha silhouette for finish-only changes, and Classic compatibility. UI exercises both controls, edited-frame protection and save/reopen. Head and four-direction walking comparisons inspected. Owner art approval remains pending."
+    }
+  ]
 }
