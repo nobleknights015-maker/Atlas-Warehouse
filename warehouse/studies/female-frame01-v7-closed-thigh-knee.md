@@ -1,3 +1,9 @@
+# REJECTED — v7 far-thigh/knee redraw
+
+Owner rejected this revision because the leg looked broken. Do not use its closed-thigh panel or separate kneecap as the next baseline. The current asset checkpoint was restored to exact v6 (Female_Frame01_Walk_v6_Torso_And_Cloth_Repair.zip); v6 was positively received overall, with the far-thigh/knee drawing still unresolved. All32 original v6 frame PNGs and734 recorded file hashes verified against the saved v6 archive before restoring. Preserve v6 body/arm/cloth/flat-foot corrections. V7 numeric checks did not establish artistic success. Further correction must start from v6 and inspect actual reference joint structure; do not continue painting onto rejected v7.
+
+## Historical implementation and checks, not artistic acceptance
+
 # Female frame01 v7 — closed far-thigh plate and single kneecap
 
 Owner positively received v6 overall but described far-thigh problem as broken thigh panel/knee. Preserve all successful v6 regions and original skeletal path.
