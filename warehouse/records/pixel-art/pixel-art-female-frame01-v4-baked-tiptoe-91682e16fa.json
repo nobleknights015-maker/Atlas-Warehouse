@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-female-frame01-v4-baked-tiptoe-91682e16fa",
+  "kind": "pixel-art",
+  "title": "Female frame01 v4 baked tiptoe boot corrected",
+  "summary": "Owner identified far-foot tiptoe. Contact-source boot had raised heel even at zero transform angle. Registered actual same-character standing boot around unchanged ankle and sole plane; reassigned upper cuff to shin.22 sole pixels per side, pairwise source overlap0; two raster plant intervals and32 ASE composites pass. All other layers gait S/N exact. Native comparison inspected; heel-down stance clearer, owner approval pending. Zero angle/no drift is not proof correct foot design.",
+  "tags": [
+    "far-foot",
+    "female-frame01",
+    "scope",
+    "source-pose",
+    "tiptoe"
+  ],
+  "source": "warehouse/studies/female-frame01-v4-flat-far-boot.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T01:41:52+00:00",
+  "updated_at": "2026-11-14T01:41:52+00:00"
+}

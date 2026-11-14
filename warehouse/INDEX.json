@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 76,
+  "record_count": 77,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 17,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 33,
+    "pixel-art": 34,
     "research": 1,
     "workflow": 17
   },
@@ -558,6 +558,23 @@
       "source": "warehouse/studies/female-frame01-v2-far-thigh-rework.md",
       "updated_at": "2026-11-14T01:24:15+00:00",
       "summary": "Owner again criticized far leg; v1 sides not accepted. Isolated proximal far thigh was narrow dark fill. Authored cream armor completion beneath visible source knee;330 visible pixels change in16 side frames only within far-thigh masks. Other layers boots torso near leg S/N and movement exact;32 ASE composites pass. Original v1 ZIP retained. Modest material correction is not proof far-leg gait or anatomy fixed; owner review pending."
+    },
+    {
+      "id": "pixel-art-female-frame01-v4-baked-tiptoe-91682e16fa",
+      "title": "Female frame01 v4 baked tiptoe boot corrected",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "far-foot",
+        "female-frame01",
+        "scope",
+        "source-pose",
+        "tiptoe"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-female-frame01-v4-baked-tiptoe-91682e16fa.json",
+      "source": "warehouse/studies/female-frame01-v4-flat-far-boot.md",
+      "updated_at": "2026-11-14T01:41:52+00:00",
+      "summary": "Owner identified far-foot tiptoe. Contact-source boot had raised heel even at zero transform angle. Registered actual same-character standing boot around unchanged ankle and sole plane; reassigned upper cuff to shin.22 sole pixels per side, pairwise source overlap0; two raster plant intervals and32 ASE composites pass. All other layers gait S/N exact. Native comparison inspected; heel-down stance clearer, owner approval pending. Zero angle/no drift is not proof correct foot design."
     },
     {
       "id": "pixel-art-first-selected-female-frame-fo-15de4d31ec",

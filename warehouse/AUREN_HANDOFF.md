@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 76 active records; 0 open work orders.
+Inventory: 77 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 17
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 33
+- **pixel-art**: 34
 - **research**: 1
 - **workflow**: 17
 
@@ -262,6 +262,14 @@ Source: Founder correction to Auren pixel-art study scope, Nov 2026. [Record](ht
 Owner again criticized far leg; v1 sides not accepted. Isolated proximal far thigh was narrow dark fill. Authored cream armor completion beneath visible source knee;330 visible pixels change in16 side frames only within far-thigh masks. Other layers boots torso near leg S/N and movement exact;32 ASE composites pass. Original v1 ZIP retained. Modest material correction is not proof far-leg gait or anatomy fixed; owner review pending.
 
 Source: warehouse/studies/female-frame01-v2-far-thigh-rework.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v2-far-thigh-ma-0d3a94cd35.json)
+
+### Female frame01 v4 baked tiptoe boot corrected
+
+**pixel-art · unverified** · pixel-art-female-frame01-v4-baked-tiptoe-91682e16fa
+
+Owner identified far-foot tiptoe. Contact-source boot had raised heel even at zero transform angle. Registered actual same-character standing boot around unchanged ankle and sole plane; reassigned upper cuff to shin.22 sole pixels per side, pairwise source overlap0; two raster plant intervals and32 ASE composites pass. All other layers gait S/N exact. Native comparison inspected; heel-down stance clearer, owner approval pending. Zero angle/no drift is not proof correct foot design.
+
+Source: warehouse/studies/female-frame01-v4-flat-far-boot.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v4-baked-tiptoe-91682e16fa.json)
 
 ### First selected female frame four-direction walk v1
 
