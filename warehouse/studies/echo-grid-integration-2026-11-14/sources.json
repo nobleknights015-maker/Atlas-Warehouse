@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-14",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Spine User Guide: Skins",
+      "url": "https://en.esotericsoftware.com/spine-skins",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Reusable attachment sets; architectural reference for compatible modules, not a chosen runtime."
+    },
+    {
+      "id": "S02",
+      "title": "Spine User Guide: Slots",
+      "url": "https://en.esotericsoftware.com/spine-slots",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Render attachments and draw order can be separate from the bone hierarchy."
+    },
+    {
+      "id": "S03",
+      "title": "Spine User Guide: IK constraints",
+      "url": "https://en.esotericsoftware.com/spine-ik-constraints",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Target-driven one/two-bone control and explicit bend direction."
+    },
+    {
+      "id": "S04",
+      "title": "Ryan Juckett: Analytic Two-Bone IK in 2D",
+      "url": "https://www.ryanjuckett.com/analytic-two-bone-ik-in-2d/",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Reach annulus, bend solution and unreachable-target handling. Independent probe code was written for this study."
+    },
+    {
+      "id": "S05",
+      "title": "Aristidou and Lasenby: FABRIK author page, Graphical Models 2011",
+      "url": "https://andreasaristidou.com/FABRIK",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Position-based iterative IK supporting constrained and multiple-chain extensions; candidate for longer tool chains."
+    },
+    {
+      "id": "S06",
+      "title": "Bai et al.: CPG-Based Gait Generation of the Curved-Leg Hexapod Robot with Smooth Gait Transition, Sensors 2019",
+      "url": "https://www.mdpi.com/1424-8220/19/17/3705",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Tripod, quadruped and wave support schedules, duty factors and support-region interpretation."
+    },
+    {
+      "id": "S07",
+      "title": "Liu et al.: Fault-Tolerant Tripod Gait Planning and Verification of a Hexapod Robot, Applied Sciences 2020",
+      "url": "https://www.mdpi.com/2076-3417/10/8/2959",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Failed-leg placement and support geometry affect a compensating gait. This is robotics research, not validation of our sprites."
+    },
+    {
+      "id": "S08",
+      "title": "Saint11: Cluster Sketching and Painting",
+      "url": "https://saint11.art/pixel_art_articles/article2/",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Large coherent color masses precede small details; isolated pixels can create visual noise."
+    },
+    {
+      "id": "S09",
+      "title": "Saint11: Pixel Art Tutorials",
+      "url": "https://saint11.org/blog/pixel-art-tutorials/",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Author tutorial catalogue includes silhouette, fabric, looping and animation topics. Catalogue consulted; no claim every tutorial image was studied in depth."
+    },
+    {
+      "id": "S10",
+      "title": "Aseprite documentation: Command Line Interface",
+      "url": "https://aseprite.org/docs/cli/",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Batch PNG/JSON export, frame tags, slice data and export padding controls."
+    },
+    {
+      "id": "S11",
+      "title": "Aseprite documentation: Slices",
+      "url": "https://aseprite.org/docs/slices/",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Named bounds and pivots can be included in exported JSON."
+    },
+    {
+      "id": "S12",
+      "title": "MDN: CanvasRenderingContext2D.imageSmoothingEnabled",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Disable smoothing for sharp enlarged pixel previews; does not prove artistic quality."
+    },
+    {
+      "id": "S13",
+      "title": "Glenn Fiedler: Fix Your Timestep",
+      "url": "https://gafferongames.com/post/fix_your_timestep/",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Separate simulation step from display timing and control timestep for reproducibility."
+    },
+    {
+      "id": "S14",
+      "title": "Ryan Juckett: Damped Springs",
+      "url": "https://www.ryanjuckett.com/damped-springs/",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Settling responses can smooth secondary motion; deterministic baking is our proposed application."
+    },
+    {
+      "id": "S15",
+      "title": "Godot stable documentation: Using AnimationTree",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Animation data, playback control, filtered layers and one-shot semantics are distinct. No engine migration proposed."
+    },
+    {
+      "id": "S16",
+      "title": "PixiJS v8.5.1 API: SpritesheetFrameData",
+      "url": "https://pixijs.download/v8.5.1/docs/assets.SpritesheetFrameData.html",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Frame rectangle, source dimensions, trim offsets and anchor fields are distinct metadata."
+    },
+    {
+      "id": "S17",
+      "title": "MDN: WebGL best practices",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Budget decoded GPU memory and account for device capability differences; Canvas limits require separate measurement."
+    },
+    {
+      "id": "S18",
+      "title": "JSON Schema: Conditional schema validation",
+      "url": "https://json-schema.org/understanding-json-schema/reference/conditionals",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Conditional requirements can constrain modular definitions; graph validity still needs semantic checks."
+    },
+    {
+      "id": "S19",
+      "title": "Aseprite documentation source: Rotation",
+      "url": "https://github.com/aseprite/docs/blob/main/rotate.md",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Editor documentation distinguishes Fast Rotation and RotSprite. No resampling algorithm was imported."
+    },
+    {
+      "id": "S20",
+      "title": "W3C WCAG 2.2, sections 2.3.1\u20132.3.3",
+      "url": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Effect review reference for flashing and disableable motion; no conformance claim."
+    },
+    {
+      "id": "S21",
+      "title": "Esoteric Software: Spine Runtimes License Agreement",
+      "url": "https://en.esotericsoftware.com/spine-runtimes-license",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Reference software has specific runtime terms; study recommends no runtime dependency or source-code import."
+    },
+    {
+      "id": "S22",
+      "title": "Aseprite official repository README",
+      "url": "https://github.com/aseprite/aseprite",
+      "type": "primary-author-or-official-documentation",
+      "accessed": "2026-11-14",
+      "application": "Source visibility does not mean the full application is permissively licensed. No application source imported."
+    }
+  ],
+  "project_sources": [
+    {
+      "name": "Bearframe_Lore_Bible_Revision_4_10_Master.md",
+      "container": "Bearframe_Revision_4_10_Download.zip",
+      "scope": "Sections 46\u201349 and later illustrative-profile reconciliation",
+      "republication": "Original text and art not copied into public report"
+    },
+    {
+      "repository": "nobleknights015-maker/bearframe-ghost-signal",
+      "branch": "sprite-studio-sleek-copy",
+      "commit": "fdea3ffef7fb2e7e5baa9e829b2448fbae25a7fa"
+    },
+    {
+      "repository": "nobleknights015-maker/bearframe-ghost-signal",
+      "branch": "ghost-signal-engine",
+      "commit": "0a5096640773c7da223cbb8666deb25e15422a7b",
+      "scope": "Read-only renderer snapshot"
+    }
+  ],
+  "retrieval_limitations": [
+    "Several broad searches returned low-relevance results; only listed sources support the report.",
+    "Red Blob circle page and Game Programming Patterns pages failed retrieval and were not used as evidence.",
+    "PixiJS development-branch skill page returned a later 404; replaced with stable v8.5.1 API documentation.",
+    "No claim that every site or tutorial on the internet was searched."
+  ]
+}

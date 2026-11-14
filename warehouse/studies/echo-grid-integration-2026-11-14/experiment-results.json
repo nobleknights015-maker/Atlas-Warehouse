@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Independent mathematical experiments; not integrated and not visual proof",
+  "ikCases": 3200,
+  "maxLengthError": 5.4067861299245124e-14,
+  "maxStanceDrift": 3.552713678800501e-15,
+  "maxJoinGap": 0.000003199998078962672,
+  "gaits": [
+    {
+      "name": "tripod",
+      "duty": 0.5,
+      "expectedStance": 3,
+      "samples": 1200
+    },
+    {
+      "name": "ripple",
+      "duty": 0.6666666666666666,
+      "expectedStance": 4,
+      "samples": 1200
+    },
+    {
+      "name": "wave",
+      "duty": 0.8333333333333334,
+      "expectedStance": 5,
+      "samples": 1200
+    }
+  ],
+  "ringChecks": 310,
+  "limitations": [
+    "No joint-angle limits or collision solver",
+    "Static support counts do not prove center-of-mass stability",
+    "World-lock check assumes constant root velocity on flat ground",
+    "No raster, cloth, silhouette or device-performance acceptance"
+  ]
+}

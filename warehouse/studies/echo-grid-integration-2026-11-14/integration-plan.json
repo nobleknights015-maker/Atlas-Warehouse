@@ -1,0 +1,135 @@
+{
+  "schema": "bearframe-research-handoff",
+  "version": 1,
+  "status": "researched-not-implemented",
+  "generator_commit": "fdea3ffef7fb2e7e5baa9e829b2448fbae25a7fa",
+  "preserve_branches": [
+    "main",
+    "ghost-signal-engine"
+  ],
+  "implementation_branch": "sprite-studio-sleek-copy",
+  "architecture": [
+    "identity",
+    "family",
+    "modules",
+    "motion",
+    "condition",
+    "presentation"
+  ],
+  "families": [
+    "legacy-industrial-biped",
+    "heavy-biped",
+    "six-leg-crawler",
+    "orbital-core",
+    "suspended-archive-spindle",
+    "asymmetric-relay-custodian"
+  ],
+  "phases": [
+    {
+      "id": "baseline",
+      "task": "Preserve legacy renderer and projects",
+      "acceptance": [
+        "26 native and 30 browser checks remain green",
+        "Pin baseline fixtures; preserve main and engine branch"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "rig-safety",
+      "task": "Validate graph, reach and registration",
+      "acceptance": [
+        "Reject duplicate IDs and parent cycles",
+        "Clamp effective endpoints; retain lengths and bend sign",
+        "Bounds include all supported poses or classify intentional departure"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "assembly",
+      "task": "Compile versioned family and module specifications",
+      "acceptance": [
+        "Compatible sockets and actions",
+        "Explicit asymmetric views",
+        "Deterministic resolved recipes and safe save roundtrip"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "industrial-biped",
+      "task": "Prove one legacy Echo topology",
+      "acceptance": [
+        "Four directions",
+        "Normal-size flat boots",
+        "Hunched spine independent of leg length",
+        "Visual acceptance before expansion"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "crawler",
+      "task": "Prove six-leg support-aware locomotion",
+      "acceptance": [
+        "Six persistent physical leg IDs",
+        "Continuous stance/swing contacts",
+        "World-motion preview and support debug",
+        "Ring material identity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "orbital-core",
+      "task": "Prove hovering core with ring arrays",
+      "acceptance": [
+        "Stable ground registration",
+        "Front/back occlusion",
+        "Closed material loops",
+        "Independent core and ring channels"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "archive-and-relay",
+      "task": "Extend suspended and asymmetric families",
+      "acceptance": [
+        "Distinct utility chains and sockets",
+        "Authored left/right identities",
+        "Supported action coverage"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "engine-device",
+      "task": "Integrate metadata-aware baked sprites",
+      "acceptance": [
+        "Paged export",
+        "Mixed-scale test scene",
+        "Ground anchor, collision and sort point remain distinct",
+        "Measured target Android frame time and memory"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "catalogue",
+      "task": "Expand only proven combinations",
+      "acceptance": [
+        "Curated ranges and module constraints",
+        "Approved recipe regression fixtures"
+      ],
+      "status": "pending"
+    }
+  ],
+  "production_changes_in_this_study": false,
+  "evidence_files": [
+    "generator-audit.json",
+    "experiment-results.json"
+  ],
+  "blocking_findings": [
+    "Current arbitrary-target IK handling is invalid outside reachable domain",
+    "Finite overscan detects clipped content in existing machine presets",
+    "All production machine left views currently mirror right",
+    "Horizontal battle sheets can reach 6528 pixels width",
+    "Inspected runtime uses fixed Wraith frame dimensions and offsets"
+  ],
+  "next_action": "Stage 0 and 1 characterization fixes before exposing new proportion or module ranges",
+  "art_status": "Owner visual approval required for each family prototype"
+}

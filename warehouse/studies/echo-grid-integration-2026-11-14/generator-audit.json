@@ -1,0 +1,925 @@
+{
+  "study": "echo-grid-integration",
+  "scope": "Read-only characterization. Findings are probes, not art acceptance.",
+  "commit": "fdea3ffef7fb2e7e5baa9e829b2448fbae25a7fa",
+  "presets": [
+    {
+      "name": "Heavy Sentinel (humanoid titan)",
+      "size": [
+        72,
+        96
+      ],
+      "tiles": [
+        2,
+        2
+      ],
+      "authoredViews": [
+        "down",
+        "up",
+        "right"
+      ],
+      "leftMirrored": true,
+      "views": {
+        "down": {
+          "parts": 23,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "up": {
+          "parts": 21,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "right": {
+          "parts": 22,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        }
+      },
+      "actions": [
+        "idle",
+        "walk",
+        "attack",
+        "charge",
+        "hurt",
+        "malfunction",
+        "defeat"
+      ],
+      "loopEndpointPixelDifferences": [
+        {
+          "dir": "down",
+          "type": "idle",
+          "pixels": 307
+        },
+        {
+          "dir": "down",
+          "type": "walk",
+          "pixels": 307
+        },
+        {
+          "dir": "up",
+          "type": "idle",
+          "pixels": 159
+        },
+        {
+          "dir": "up",
+          "type": "walk",
+          "pixels": 159
+        },
+        {
+          "dir": "right",
+          "type": "idle",
+          "pixels": 251
+        },
+        {
+          "dir": "right",
+          "type": "walk",
+          "pixels": 256
+        },
+        {
+          "dir": "left",
+          "type": "idle",
+          "pixels": 251
+        },
+        {
+          "dir": "left",
+          "type": "walk",
+          "pixels": 256
+        }
+      ],
+      "overscan": [
+        {
+          "dir": "down",
+          "type": "idle",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 84
+        },
+        {
+          "dir": "down",
+          "type": "walk",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 86
+        },
+        {
+          "dir": "down",
+          "type": "attack",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 64
+        },
+        {
+          "dir": "down",
+          "type": "charge",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 47
+        },
+        {
+          "dir": "down",
+          "type": "hurt",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 42
+        },
+        {
+          "dir": "down",
+          "type": "malfunction",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 62
+        },
+        {
+          "dir": "down",
+          "type": "defeat",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 303
+        },
+        {
+          "dir": "up",
+          "type": "idle",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 84
+        },
+        {
+          "dir": "up",
+          "type": "walk",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 86
+        },
+        {
+          "dir": "up",
+          "type": "attack",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 64
+        },
+        {
+          "dir": "up",
+          "type": "charge",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 47
+        },
+        {
+          "dir": "up",
+          "type": "hurt",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 42
+        },
+        {
+          "dir": "up",
+          "type": "malfunction",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 62
+        },
+        {
+          "dir": "up",
+          "type": "defeat",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 303
+        },
+        {
+          "dir": "right",
+          "type": "idle",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 26
+        },
+        {
+          "dir": "right",
+          "type": "walk",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 26
+        },
+        {
+          "dir": "right",
+          "type": "attack",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 25
+        },
+        {
+          "dir": "right",
+          "type": "charge",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 19
+        },
+        {
+          "dir": "right",
+          "type": "hurt",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 18
+        },
+        {
+          "dir": "right",
+          "type": "malfunction",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 22
+        },
+        {
+          "dir": "right",
+          "type": "defeat",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 45
+        },
+        {
+          "dir": "left",
+          "type": "idle",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 26
+        },
+        {
+          "dir": "left",
+          "type": "walk",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 26
+        },
+        {
+          "dir": "left",
+          "type": "attack",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 25
+        },
+        {
+          "dir": "left",
+          "type": "charge",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 19
+        },
+        {
+          "dir": "left",
+          "type": "hurt",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 18
+        },
+        {
+          "dir": "left",
+          "type": "malfunction",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 22
+        },
+        {
+          "dir": "left",
+          "type": "defeat",
+          "framesWithOutside": 8,
+          "maxOutsidePixels": 45
+        }
+      ],
+      "currentBattleExport": {
+        "width": 3672,
+        "height": 288,
+        "rgbaBytes": 4230144,
+        "anchor": {
+          "x": 54,
+          "y": 144
+        }
+      }
+    },
+    {
+      "name": "Hexapod Cartography Engine",
+      "size": [
+        128,
+        96
+      ],
+      "tiles": [
+        4,
+        2
+      ],
+      "authoredViews": [
+        "down",
+        "up",
+        "right"
+      ],
+      "leftMirrored": true,
+      "views": {
+        "down": {
+          "parts": 46,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "up": {
+          "parts": 41,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "right": {
+          "parts": 48,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        }
+      },
+      "actions": [
+        "idle",
+        "walk",
+        "attack",
+        "charge",
+        "hurt",
+        "malfunction",
+        "defeat"
+      ],
+      "loopEndpointPixelDifferences": [
+        {
+          "dir": "down",
+          "type": "idle",
+          "pixels": 124
+        },
+        {
+          "dir": "down",
+          "type": "walk",
+          "pixels": 124
+        },
+        {
+          "dir": "up",
+          "type": "idle",
+          "pixels": 124
+        },
+        {
+          "dir": "up",
+          "type": "walk",
+          "pixels": 124
+        },
+        {
+          "dir": "right",
+          "type": "idle",
+          "pixels": 124
+        },
+        {
+          "dir": "right",
+          "type": "walk",
+          "pixels": 124
+        },
+        {
+          "dir": "left",
+          "type": "idle",
+          "pixels": 124
+        },
+        {
+          "dir": "left",
+          "type": "walk",
+          "pixels": 124
+        }
+      ],
+      "overscan": [
+        {
+          "dir": "down",
+          "type": "walk",
+          "framesWithOutside": 4,
+          "maxOutsidePixels": 8
+        },
+        {
+          "dir": "down",
+          "type": "charge",
+          "framesWithOutside": 7,
+          "maxOutsidePixels": 11
+        },
+        {
+          "dir": "down",
+          "type": "hurt",
+          "framesWithOutside": 5,
+          "maxOutsidePixels": 7
+        },
+        {
+          "dir": "down",
+          "type": "malfunction",
+          "framesWithOutside": 5,
+          "maxOutsidePixels": 10
+        },
+        {
+          "dir": "down",
+          "type": "defeat",
+          "framesWithOutside": 7,
+          "maxOutsidePixels": 624
+        },
+        {
+          "dir": "up",
+          "type": "walk",
+          "framesWithOutside": 4,
+          "maxOutsidePixels": 8
+        },
+        {
+          "dir": "up",
+          "type": "charge",
+          "framesWithOutside": 7,
+          "maxOutsidePixels": 11
+        },
+        {
+          "dir": "up",
+          "type": "hurt",
+          "framesWithOutside": 5,
+          "maxOutsidePixels": 7
+        },
+        {
+          "dir": "up",
+          "type": "malfunction",
+          "framesWithOutside": 5,
+          "maxOutsidePixels": 10
+        },
+        {
+          "dir": "up",
+          "type": "defeat",
+          "framesWithOutside": 7,
+          "maxOutsidePixels": 624
+        },
+        {
+          "dir": "right",
+          "type": "attack",
+          "framesWithOutside": 2,
+          "maxOutsidePixels": 1
+        },
+        {
+          "dir": "right",
+          "type": "charge",
+          "framesWithOutside": 6,
+          "maxOutsidePixels": 8
+        },
+        {
+          "dir": "right",
+          "type": "hurt",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 1
+        },
+        {
+          "dir": "right",
+          "type": "malfunction",
+          "framesWithOutside": 1,
+          "maxOutsidePixels": 1
+        },
+        {
+          "dir": "right",
+          "type": "defeat",
+          "framesWithOutside": 6,
+          "maxOutsidePixels": 618
+        },
+        {
+          "dir": "left",
+          "type": "attack",
+          "framesWithOutside": 2,
+          "maxOutsidePixels": 1
+        },
+        {
+          "dir": "left",
+          "type": "charge",
+          "framesWithOutside": 6,
+          "maxOutsidePixels": 8
+        },
+        {
+          "dir": "left",
+          "type": "hurt",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 1
+        },
+        {
+          "dir": "left",
+          "type": "malfunction",
+          "framesWithOutside": 1,
+          "maxOutsidePixels": 1
+        },
+        {
+          "dir": "left",
+          "type": "defeat",
+          "framesWithOutside": 6,
+          "maxOutsidePixels": 618
+        }
+      ],
+      "currentBattleExport": {
+        "width": 6528,
+        "height": 288,
+        "rgbaBytes": 7520256,
+        "anchor": {
+          "x": 96,
+          "y": 144
+        }
+      }
+    },
+    {
+      "name": "Archive Sentinel (floating boss)",
+      "size": [
+        128,
+        176
+      ],
+      "tiles": [
+        3,
+        3
+      ],
+      "authoredViews": [
+        "down",
+        "up",
+        "right"
+      ],
+      "leftMirrored": true,
+      "views": {
+        "down": {
+          "parts": 43,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "up": {
+          "parts": 40,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "right": {
+          "parts": 43,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        }
+      },
+      "actions": [
+        "idle",
+        "walk",
+        "attack",
+        "charge",
+        "hurt",
+        "malfunction",
+        "defeat"
+      ],
+      "loopEndpointPixelDifferences": [
+        {
+          "dir": "down",
+          "type": "idle",
+          "pixels": 769
+        },
+        {
+          "dir": "down",
+          "type": "walk",
+          "pixels": 727
+        },
+        {
+          "dir": "up",
+          "type": "idle",
+          "pixels": 766
+        },
+        {
+          "dir": "up",
+          "type": "walk",
+          "pixels": 727
+        },
+        {
+          "dir": "right",
+          "type": "idle",
+          "pixels": 941
+        },
+        {
+          "dir": "right",
+          "type": "walk",
+          "pixels": 919
+        },
+        {
+          "dir": "left",
+          "type": "idle",
+          "pixels": 941
+        },
+        {
+          "dir": "left",
+          "type": "walk",
+          "pixels": 919
+        }
+      ],
+      "overscan": [
+        {
+          "dir": "down",
+          "type": "attack",
+          "framesWithOutside": 2,
+          "maxOutsidePixels": 7
+        },
+        {
+          "dir": "down",
+          "type": "hurt",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 5
+        },
+        {
+          "dir": "down",
+          "type": "defeat",
+          "framesWithOutside": 4,
+          "maxOutsidePixels": 150
+        },
+        {
+          "dir": "up",
+          "type": "attack",
+          "framesWithOutside": 2,
+          "maxOutsidePixels": 7
+        },
+        {
+          "dir": "up",
+          "type": "hurt",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 5
+        },
+        {
+          "dir": "up",
+          "type": "defeat",
+          "framesWithOutside": 4,
+          "maxOutsidePixels": 150
+        },
+        {
+          "dir": "right",
+          "type": "hurt",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 5
+        },
+        {
+          "dir": "right",
+          "type": "defeat",
+          "framesWithOutside": 4,
+          "maxOutsidePixels": 150
+        },
+        {
+          "dir": "left",
+          "type": "hurt",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 5
+        },
+        {
+          "dir": "left",
+          "type": "defeat",
+          "framesWithOutside": 4,
+          "maxOutsidePixels": 150
+        }
+      ],
+      "currentBattleExport": {
+        "width": 6528,
+        "height": 528,
+        "rgbaBytes": 13787136,
+        "anchor": {
+          "x": 96,
+          "y": 264
+        }
+      }
+    },
+    {
+      "name": "Micro-drone (flyer)",
+      "size": [
+        24,
+        24
+      ],
+      "tiles": [
+        1,
+        1
+      ],
+      "authoredViews": [
+        "down",
+        "up",
+        "right"
+      ],
+      "leftMirrored": true,
+      "views": {
+        "down": {
+          "parts": 4,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "up": {
+          "parts": 3,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "right": {
+          "parts": 4,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        }
+      },
+      "actions": [
+        "idle",
+        "walk",
+        "attack",
+        "charge",
+        "hurt",
+        "malfunction",
+        "defeat"
+      ],
+      "loopEndpointPixelDifferences": [
+        {
+          "dir": "down",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "down",
+          "type": "walk",
+          "pixels": 0
+        },
+        {
+          "dir": "up",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "up",
+          "type": "walk",
+          "pixels": 0
+        },
+        {
+          "dir": "right",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "right",
+          "type": "walk",
+          "pixels": 0
+        },
+        {
+          "dir": "left",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "left",
+          "type": "walk",
+          "pixels": 0
+        }
+      ],
+      "overscan": [
+        {
+          "dir": "down",
+          "type": "defeat",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 26
+        },
+        {
+          "dir": "up",
+          "type": "defeat",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 26
+        },
+        {
+          "dir": "right",
+          "type": "defeat",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 26
+        },
+        {
+          "dir": "left",
+          "type": "defeat",
+          "framesWithOutside": 3,
+          "maxOutsidePixels": 26
+        }
+      ],
+      "currentBattleExport": {
+        "width": 1224,
+        "height": 72,
+        "rgbaBytes": 352512,
+        "anchor": {
+          "x": 18,
+          "y": 36
+        }
+      }
+    },
+    {
+      "name": "Custom machine (blank rig)",
+      "size": [
+        48,
+        48
+      ],
+      "tiles": [
+        1,
+        1
+      ],
+      "authoredViews": [
+        "down",
+        "right"
+      ],
+      "leftMirrored": true,
+      "views": {
+        "down": {
+          "parts": 2,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        },
+        "right": {
+          "parts": 2,
+          "duplicates": [],
+          "missingParents": [],
+          "cycles": []
+        }
+      },
+      "actions": [
+        "idle",
+        "walk"
+      ],
+      "loopEndpointPixelDifferences": [
+        {
+          "dir": "down",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "down",
+          "type": "walk",
+          "pixels": 0
+        },
+        {
+          "dir": "up",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "up",
+          "type": "walk",
+          "pixels": 0
+        },
+        {
+          "dir": "right",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "right",
+          "type": "walk",
+          "pixels": 0
+        },
+        {
+          "dir": "left",
+          "type": "idle",
+          "pixels": 0
+        },
+        {
+          "dir": "left",
+          "type": "walk",
+          "pixels": 0
+        }
+      ],
+      "overscan": [],
+      "currentBattleExport": {
+        "width": 2448,
+        "height": 144,
+        "rgbaBytes": 1410048,
+        "anchor": {
+          "x": 36,
+          "y": 72
+        }
+      }
+    }
+  ],
+  "ikReachProbes": [
+    {
+      "target": {
+        "x": 0,
+        "y": 100
+      },
+      "expectedLengths": [
+        8,
+        8.5
+      ],
+      "measuredLengths": [
+        8,
+        92.00055994659324
+      ],
+      "maxLengthError": 83.50055994659324
+    },
+    {
+      "target": {
+        "x": 0,
+        "y": 0
+      },
+      "expectedLengths": [
+        8,
+        8.5
+      ],
+      "measuredLengths": [
+        0,
+        0
+      ],
+      "maxLengthError": 8.5
+    },
+    {
+      "target": {
+        "x": 0,
+        "y": 0.2
+      },
+      "expectedLengths": [
+        8,
+        8.5
+      ],
+      "measuredLengths": [
+        20.525000000000002,
+        20.725
+      ],
+      "maxLengthError": 12.525000000000002
+    },
+    {
+      "target": {
+        "x": 4,
+        "y": 12
+      },
+      "expectedLengths": [
+        8,
+        8.5
+      ],
+      "measuredLengths": [
+        8,
+        8.499999999999998
+      ],
+      "maxLengthError": 1.7763568394002505e-15
+    }
+  ],
+  "renderCases": 960,
+  "repeatMismatches": 0
+}

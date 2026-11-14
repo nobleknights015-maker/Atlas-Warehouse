@@ -1,0 +1,17 @@
+{
+  "node": "v24.22.1",
+  "python": "Python 3.12.14",
+  "native_canvas": "1.1.1",
+  "generator_commit": "fdea3ffef7fb2e7e5baa9e829b2448fbae25a7fa",
+  "engine_snapshot_commit": "0a5096640773c7da223cbb8666deb25e15422a7b",
+  "files": {
+    "README.md": "e1299421037d5f8d181fb2be8481181d5a5029f7a0aaefdda7173e5fc8d9e41a",
+    "audit-generator.mjs": "6eae71aeed0900fd409c169fec18d46215b149b9ce802998a70acf29e76d0429",
+    "experiment-results.json": "0926960cf02e2d3c40d5daa966eade470a81bb8720102ac6d51a3865ad480093",
+    "generator-audit.json": "1651f13b0146320142f5300201ba7f7599981aa1c7aaf3c8045a9de79bfead27",
+    "integration-plan.json": "400fec75d6bda071df1caf5978b136c8264cd336b9cafad7c7f7a6a2baf95652",
+    "kinematic-experiments.mjs": "bb92af906c116b3ce0e820a2a757920db2cbc9e869d1d248f112cf0a9bf59937",
+    "make-manifests.py": "4ba0e3fada645462b2e9b8d2c83e40eccfad6086ed9f10ee60c2ccab7c938b9c",
+    "sources.json": "bc954975b3f20c55f18a06fe75be7fd8ee93c054d44691357faec8ee19aff42e"
+  }
+}
