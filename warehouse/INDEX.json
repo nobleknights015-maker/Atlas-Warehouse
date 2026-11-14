@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 71,
+  "record_count": 72,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 16,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 30,
+    "pixel-art": 31,
     "research": 1,
     "workflow": 16
   },
@@ -890,6 +890,23 @@
       "source": "warehouse/studies/unit09-round52-far-foot-chest-ownership.md",
       "updated_at": "2026-11-14T00:38:34+00:00",
       "summary": "Retained Round51 body and gait. Painted fuller far boot at same ankle; reassigned proximal chest fragment from swinging far arm to torso.16 bounded composite checks, unchanged near limbs and movement, approved S/N58 files each, four support intervals and32 ASE composites pass. Bob-normalized chest core now has zero phase variation in both views. Native comparison inspected; owner review and inherited contour polish remain open."
+    },
+    {
+      "id": "pixel-art-round53-reversible-palette-cle-0cd46572dc",
+      "title": "Round53 reversible palette cleanup after positive Round52 feedback",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "body-lock",
+        "cleanup",
+        "palette",
+        "round53",
+        "unit09"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-round53-reversible-palette-cle-0cd46572dc.json",
+      "source": "warehouse/studies/unit09-round53-palette-cleanup.md",
+      "updated_at": "2026-11-14T00:48:33+00:00",
+      "summary": "Preserve Round52 proportions far foot and chest ownership. Fixed authored26-color lookup reduces noisy raster shading; W0 uses25 colors from4171.16 side alpha silhouettes and motion exact, S/N58 files each unchanged,32 ASE composites pass. Native sheets and detail comparisons inspected. First palette pass only; knee/shin contour clusters still need manual work, no final art approval. Exact Round52 baseline retained."
     },
     {
       "id": "pixel-art-sleeper-unit-09-manual-static-d489662abe",

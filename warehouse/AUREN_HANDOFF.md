@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 71 active records; 0 open work orders.
+Inventory: 72 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 16
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 30
+- **pixel-art**: 31
 - **research**: 1
 - **workflow**: 16
 
@@ -406,6 +406,14 @@ Source: warehouse/studies/unit09-round51-bounded-pixel-cleanup.md. [Record](http
 Retained Round51 body and gait. Painted fuller far boot at same ankle; reassigned proximal chest fragment from swinging far arm to torso.16 bounded composite checks, unchanged near limbs and movement, approved S/N58 files each, four support intervals and32 ASE composites pass. Bob-normalized chest core now has zero phase variation in both views. Native comparison inspected; owner review and inherited contour polish remain open.
 
 Source: warehouse/studies/unit09-round52-far-foot-chest-ownership.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round52-far-foot-and-chest-own-1829642458.json)
+
+### Round53 reversible palette cleanup after positive Round52 feedback
+
+**pixel-art · unverified** · pixel-art-round53-reversible-palette-cle-0cd46572dc
+
+Preserve Round52 proportions far foot and chest ownership. Fixed authored26-color lookup reduces noisy raster shading; W0 uses25 colors from4171.16 side alpha silhouettes and motion exact, S/N58 files each unchanged,32 ASE composites pass. Native sheets and detail comparisons inspected. First palette pass only; knee/shin contour clusters still need manual work, no final art approval. Exact Round52 baseline retained.
+
+Source: warehouse/studies/unit09-round53-palette-cleanup.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round53-reversible-palette-cle-0cd46572dc.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
