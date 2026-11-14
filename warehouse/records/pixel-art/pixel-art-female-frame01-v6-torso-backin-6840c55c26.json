@@ -1,0 +1,18 @@
+{
+  "id": "pixel-art-female-frame01-v6-torso-backin-6840c55c26",
+  "kind": "pixel-art",
+  "title": "Female frame01 v6 torso backing and cloth repair",
+  "summary": "Arm move exposed pre-existing torso pixels misassigned to forearm despite unchanged body hash. Restored19 contact-source pixels per side and removed matching moving pixels. Trimmed pale cloth artifact60 W46 E source pixels.751 visible edits; all leg and flat-foot layers near arm S/N and trajectories exact,32 ASE checks pass. Sheet and isolated comparisons inspected; owner visual acceptance pending. Pair repaired body and torso-separated arm in reuse contract.",
+  "tags": [
+    "cloth",
+    "female-frame01",
+    "scope",
+    "source-ownership",
+    "torso-backing"
+  ],
+  "source": "warehouse/studies/female-frame01-v6-torso-cloth-repair.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-14T02:09:39+00:00",
+  "updated_at": "2026-11-14T02:09:39+00:00"
+}

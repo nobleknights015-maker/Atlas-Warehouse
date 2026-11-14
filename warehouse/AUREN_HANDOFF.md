@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 78 active records; 0 open work orders.
+Inventory: 79 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 17
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 35
+- **pixel-art**: 36
 - **research**: 1
 - **workflow**: 17
 
@@ -278,6 +278,14 @@ Source: warehouse/studies/female-frame01-v4-flat-far-boot.md. [Record](https://g
 Owner clarified belly protrusion and stubby far arm. Forearm/hand had elbow-height pivot. Authored hidden upper arm, kept visible original forearm/hand rigid, reanchored full bent limb to shoulder; updated arm motion/material contract.3916 visible arm-footprint edits; torso near arm legs v4 flat feet S/N exact,32 ASE composites pass. Native comparison reviewed. Occlusion/contour acceptance pending; no final or all-action readiness.
 
 Source: warehouse/studies/female-frame01-v5-shoulder-arm-correction.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v5-far-arm-atta-bf356e88ad.json)
+
+### Female frame01 v6 torso backing and cloth repair
+
+**pixel-art · unverified** · pixel-art-female-frame01-v6-torso-backin-6840c55c26
+
+Arm move exposed pre-existing torso pixels misassigned to forearm despite unchanged body hash. Restored19 contact-source pixels per side and removed matching moving pixels. Trimmed pale cloth artifact60 W46 E source pixels.751 visible edits; all leg and flat-foot layers near arm S/N and trajectories exact,32 ASE checks pass. Sheet and isolated comparisons inspected; owner visual acceptance pending. Pair repaired body and torso-separated arm in reuse contract.
+
+Source: warehouse/studies/female-frame01-v6-torso-cloth-repair.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v6-torso-backin-6840c55c26.json)
 
 ### First selected female frame four-direction walk v1
 
