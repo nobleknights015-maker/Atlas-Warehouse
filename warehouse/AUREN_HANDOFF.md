@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 82 active records; 0 open work orders.
+Inventory: 83 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 17
+- **asset-standards**: 18
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 37
@@ -30,6 +30,14 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 The Founder approved Round29's motion feel and explicitly designated it the feminine animation baseline. Preserve its feminine character while refining toward the supplied full animation reference: mechanical joints and weight with human-like intention and flow. Complete the feminine reference coverage, including missing row-five gestures and later sheet actions, before deriving male/masculine variants from the reusable motion structure. Gender labels are art-direction profiles, not claims about all women or men. Keep earlier checkpoints and show moving tests inline. This style approval does not establish engine or final production acceptance.
 
 Source: Founder direction in current asset session; Bearframe_Round29_Organic_Animation_Master.zip. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-approved-feminine-animation-ba-51dec23881.json)
+
+### Bearframe native wardrobe and continuous visor
+
+**asset-standards · unverified** · asset-standards-bearframe-native-wardrobe-and-f554677254
+
+Copy generator supports wrap/trailing/cowl scarves, raised/down hoods, mantle/tabard/split drapes, separate fabric colors, rooted armor moss/vines, fraying and worn/cracked/exposed/scorched damage. Default visor is continuous. Old Classic pixels remain exact; older Sleek unedited frames refresh without overwriting hand edits. Native 21 checks pass, including 576 new wardrobe renders. Base body remains a simple prototype; no automatic main merge.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/f4f6fe7a007dd4ed33f94d018bc6927e864d5fd0/docs/sprite-studio-wardrobe/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-native-wardrobe-and-f554677254.json)
 
 ### Bearframe RPG uses 32x32 world tiles; older 48px World Editor format is separate
 
