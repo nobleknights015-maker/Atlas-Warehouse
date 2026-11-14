@@ -65,7 +65,7 @@ Source: Founder art feedback in Round24 continuation 2026-11-12; private assets 
 
 ### Echo and Ghost Grid ring array controls
 
-**asset-standards · unverified** · asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39
+**asset-standards · tested** · asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39
 
 Humanoid copy generator adds solid, segmented, broken, tilted orbital and double arrays; size/band/light/damage/motion/tag/color controls. Transparent margins preserve body scale and bottom-center registration, including custom sizes. Ring padding/scales persist; removal keeps margins and edits. Engine consumers must use exported frame dimensions/anchor rather than crop to 32x56; tile footprint stays fixed. Local 24 checks pass with 1440 ring renders and 1200 bounds checks.
 

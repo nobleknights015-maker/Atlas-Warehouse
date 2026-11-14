@@ -106,7 +106,7 @@
       "id": "asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39",
       "title": "Echo and Ghost Grid ring array controls",
       "kind": "asset-standards",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "anchor",
         "bearframe",
@@ -117,7 +117,7 @@
       ],
       "path": "warehouse/records/asset-standards/asset-standards-echo-and-ghost-grid-ring-array-7ca3daab39.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0364f27b85ca7ab96a22019ae09697e39174af33/docs/sprite-studio-rings/README.md",
-      "updated_at": "2026-11-14T16:07:11+00:00",
+      "updated_at": "2026-11-14T16:09:05+00:00",
       "summary": "Humanoid copy generator adds solid, segmented, broken, tilted orbital and double arrays; size/band/light/damage/motion/tag/color controls. Transparent margins preserve body scale and bottom-center registration, including custom sizes. Ring padding/scales persist; removal keeps margins and edits. Engine consumers must use exported frame dimensions/anchor rather than crop to 32x56; tile footprint stays fixed. Local 24 checks pass with 1440 ring renders and 1200 bounds checks."
     },
     {

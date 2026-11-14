@@ -12,8 +12,16 @@
     "sprite-studio"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0364f27b85ca7ab96a22019ae09697e39174af33/docs/sprite-studio-rings/README.md",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T16:07:11+00:00",
-  "updated_at": "2026-11-14T16:07:11+00:00"
+  "updated_at": "2026-11-14T16:09:05+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T16:09:05+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Commit 0364f27 passed 24 native and 28 Chromium checks plus build. Includes 1440 ring/body/alpha renders, 1200 expanded-canvas clipping/lean checks, custom body scales, preserved edited pixels and anchors, saved margins, ring removal and real downloaded project reopen. Native previews reviewed. Still prototype art. Evidence: https://github.com/nobleknights015-maker/bearframe-ghost-signal/actions/runs/43613736791"
+    }
+  ]
 }
