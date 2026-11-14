@@ -12,8 +12,16 @@
     "sprite-studio"
   ],
   "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/generator-audit.json",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T18:07:00+00:00",
-  "updated_at": "2026-11-14T18:07:00+00:00"
+  "updated_at": "2026-11-14T18:07:43+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T18:07:43+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Ran archived audit-generator.mjs against fdea3ff: 960 cases with zero repeated-render hash mismatches; finite overscan and loop endpoint findings logged; battle widths 6528px; reachable and unreachable legIK probes recorded. Full output generator-audit.json at fb1f254. Characterization is tested; identified production gaps remain unfixed."
+    }
+  ]
 }

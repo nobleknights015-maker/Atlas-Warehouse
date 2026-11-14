@@ -11,8 +11,16 @@
     "rings"
   ],
   "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/experiment-results.json",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-14T18:07:00+00:00",
-  "updated_at": "2026-11-14T18:07:00+00:00"
+  "updated_at": "2026-11-14T18:07:43+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-14T18:07:43+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Ran kinematic-experiments.mjs: 3200 chain probes max length error 5.41e-14; 1200 samples per tripod/ripple/wave support schedule; stance drift 3.55e-15; joins below 3.2e-6; 310 ring closure checks. Results at fb1f254 experiment-results.json. Isolated math only, not integrated; no visual, COM stability or device proof."
+    }
+  ]
 }

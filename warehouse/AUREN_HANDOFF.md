@@ -73,7 +73,7 @@ Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/036
 
 ### Echo identity classes stay separate from chassis families
 
-**asset-standards · unverified** · asset-standards-echo-identity-classes-stay-sep-985ed47c38
+**asset-standards · reviewed** · asset-standards-echo-identity-classes-stay-sep-985ed47c38
 
 Revision 4.10 identifies Echo as disrupted ancient synthetic personal continuity and Ghost Grid as infrastructure ecology. Fragment Repeat Split Drift Residual Corrupt Fusion are symptom flags, not chassis species or hostility labels. Use independent family role equipment motion and condition axes. Do not impose modern Bearframe emblems or chest-ear packages on all Echo or Grid units. Reference dossiers illustrate possible designs, not a finite roster or completed encounters.
 
@@ -561,7 +561,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Echo and Ghost Grid deep generator integration study
 
-**research · unverified** · research-echo-and-ghost-grid-deep-gener-18c04a7fa0
+**research · reviewed** · research-echo-and-ghost-grid-deep-gener-18c04a7fa0
 
 22 primary or official sources and actual code audit support six family-specific rigs, compatible socket modules, explicit asymmetric views, grounded or hovering controllers and baked metadata-aware exports. Full 4672-word study includes canon boundaries, condition layering, rings, cloth, migration, mobile memory and staged acceptance gates. Research and experiments are complete; production expansion and art approval remain pending. Preserve isolated generator, original main and engine branch.
 
@@ -577,7 +577,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Independent reach contacts and ring closure experiments
 
-**research · unverified** · research-independent-reach-contacts-and-d988596346
+**research · tested** · research-independent-reach-contacts-and-d988596346
 
 Original standalone mathematical probes pass 3200 two-bone cases including unreachable and root-near targets with both bend signs; maximum tested length error 5.41e-14. Three support schedules pass 1200 samples each, constant-speed stance world drift below 3.56e-15 and contact join gap below 3.2e-6. 310 integer-turn ring point checks pass. Not integrated. No joint-angle collision COM stability raster art or device-performance proof.
 
@@ -617,7 +617,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Machine generator characterization gaps before expansion
 
-**workflow · unverified** · workflow-machine-generator-characteriza-2bbd4b2f97
+**workflow · tested** · workflow-machine-generator-characteriza-2bbd4b2f97
 
 At generator fdea3ff, 960 frame cases repeat deterministically in native canvas. Finite 48-unit overscan finds out-of-frame content in heavy, crawler, archive and drone action combinations. Analytical idle/walk endpoints can differ. Hexapod/archive battle strips reach 6528px width. Current arbitrary-target legIK violates segment lengths outside its reach domain. Existing valid-pose tests did not cover these domains. Probe script and full output are archived; diagnostics are not art approval.
 

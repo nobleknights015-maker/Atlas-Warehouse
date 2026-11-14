@@ -124,7 +124,7 @@
       "id": "asset-standards-echo-identity-classes-stay-sep-985ed47c38",
       "title": "Echo identity classes stay separate from chassis families",
       "kind": "asset-standards",
-      "confidence": "unverified",
+      "confidence": "reviewed",
       "tags": [
         "canon",
         "echo",
@@ -134,7 +134,7 @@
       ],
       "path": "warehouse/records/asset-standards/asset-standards-echo-identity-classes-stay-sep-985ed47c38.json",
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/README.md",
-      "updated_at": "2026-11-14T18:07:00+00:00",
+      "updated_at": "2026-11-14T18:07:43+00:00",
       "summary": "Revision 4.10 identifies Echo as disrupted ancient synthetic personal continuity and Ghost Grid as infrastructure ecology. Fragment Repeat Split Drift Residual Corrupt Fusion are symptom flags, not chassis species or hostility labels. Use independent family role equipment motion and condition axes. Do not impose modern Bearframe emblems or chest-ear packages on all Echo or Grid units. Reference dossiers illustrate possible designs, not a finite roster or completed encounters."
     },
     {
@@ -1221,7 +1221,7 @@
       "id": "research-echo-and-ghost-grid-deep-gener-18c04a7fa0",
       "title": "Echo and Ghost Grid deep generator integration study",
       "kind": "research",
-      "confidence": "unverified",
+      "confidence": "reviewed",
       "tags": [
         "continuity",
         "echo",
@@ -1232,7 +1232,7 @@
       ],
       "path": "warehouse/records/research/research-echo-and-ghost-grid-deep-gener-18c04a7fa0.json",
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/README.md",
-      "updated_at": "2026-11-14T18:07:00+00:00",
+      "updated_at": "2026-11-14T18:07:43+00:00",
       "summary": "22 primary or official sources and actual code audit support six family-specific rigs, compatible socket modules, explicit asymmetric views, grounded or hovering controllers and baked metadata-aware exports. Full 4672-word study includes canon boundaries, condition layering, rings, cloth, migration, mobile memory and staged acceptance gates. Research and experiments are complete; production expansion and art approval remain pending. Preserve isolated generator, original main and engine branch."
     },
     {
@@ -1260,7 +1260,7 @@
       "id": "research-independent-reach-contacts-and-d988596346",
       "title": "Independent reach contacts and ring closure experiments",
       "kind": "research",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "experiments",
         "gait",
@@ -1270,7 +1270,7 @@
       ],
       "path": "warehouse/records/research/research-independent-reach-contacts-and-d988596346.json",
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/experiment-results.json",
-      "updated_at": "2026-11-14T18:07:00+00:00",
+      "updated_at": "2026-11-14T18:07:43+00:00",
       "summary": "Original standalone mathematical probes pass 3200 two-bone cases including unreachable and root-near targets with both bend signs; maximum tested length error 5.41e-14. Three support schedules pass 1200 samples each, constant-speed stance world drift below 3.56e-15 and contact join gap below 3.2e-6. 310 integer-turn ring point checks pass. Not integrated. No joint-angle collision COM stability raster art or device-performance proof."
     },
     {
@@ -1346,7 +1346,7 @@
       "id": "workflow-machine-generator-characteriza-2bbd4b2f97",
       "title": "Machine generator characterization gaps before expansion",
       "kind": "workflow",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "atlas",
         "bounds",
@@ -1357,7 +1357,7 @@
       ],
       "path": "warehouse/records/workflow/workflow-machine-generator-characteriza-2bbd4b2f97.json",
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6caa8da153d1374a5819e2eb8dfe47c/warehouse/studies/echo-grid-integration-2026-11-14/generator-audit.json",
-      "updated_at": "2026-11-14T18:07:00+00:00",
+      "updated_at": "2026-11-14T18:07:43+00:00",
       "summary": "At generator fdea3ff, 960 frame cases repeat deterministically in native canvas. Finite 48-unit overscan finds out-of-frame content in heavy, crawler, archive and drone action combinations. Analytical idle/walk endpoints can differ. Hexapod/archive battle strips reach 6528px width. Current arbitrary-target legIK violates segment lengths outside its reach domain. Existing valid-pose tests did not cover these domains. Probe script and full output are archived; diagnostics are not art approval."
     },
     {
