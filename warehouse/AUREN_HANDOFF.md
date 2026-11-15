@@ -601,7 +601,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Visible vine roots on Grid deck and shell
 
-**pixel-art · unverified** · pixel-art-visible-vine-roots-on-grid-dec-c3a5c46a10
+**pixel-art · tested** · pixel-art-visible-vine-roots-on-grid-dec-c3a5c46a10
 
 Root parenting alone left floating strands. Crawler vines now overlap deck moss patch; orbital vines overlap shell patch and inherit its transform. Old saved family recipes repaired on regeneration. 896 native connected-component probes pass. Other-unit gallery shows existing Echo, Heavy Sentinel, Archive Sentinel and drone prototypes. CI pending.
 
