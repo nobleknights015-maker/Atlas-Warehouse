@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 99 active records; 0 open work orders.
+Inventory: 101 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,8 +17,8 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 23
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 43
-- **research**: 4
+- **pixel-art**: 44
+- **research**: 5
 - **workflow**: 21
 
 ## Knowledge shelves
@@ -310,6 +310,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Character design is ADDITIONAL homework, not a replacement for existing pixel-art work. Train and evaluate all competencies together: native-scale pixel placement and cluster discipline, clean contours, anatomy and proportions, distinctive and appealing character/portrait design, shape language, strong silhouettes, expressive face/visor/helmet design, readable armor and materials, lighting and color, frame-by-frame animation timing and movement weight, articulated mechanical geometry, natural accumulated overgrowth and age/damage, and intentional Ghost Grid mechanical faults versus distinctive Echo Frame glitch behavior. Compare original reference designs to native-resolution sprites and portraits; document failures, revisions, and objective QC before production approval. Previous rough assets are practice only, not finished.
 
 Source: Founder correction to Auren pixel-art study scope, Nov 2026. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-comprehensive-bearframe-visual-f99a28a2a0.json)
+
+### Echo rear arm depth must follow swing phase
+
+**pixel-art · unverified** · pixel-art-echo-rear-arm-depth-must-follo-0dae9fd0c9
+
+Supersedes blanket all-visible back-arm rule and test. Up-view arms now occupy opposite near/far planes during walk; away reach is occluded by rear body/cloth. Actual raster overlap test:411 near-arm pixels,294 hidden far pixels,136 near/body overlaps across both quarter poses and roles. Other directions preserved. CI pending; owner art approval pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/2297a5f05d1a7385ae0f31325fdcab355513a685. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-echo-rear-arm-depth-must-follo-0dae9fd0c9.json)
 
 ### Female frame01 v2 far-thigh material rework pending resolution
 
@@ -614,6 +622,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 Root parenting alone left floating strands. Crawler vines now overlap deck moss patch; orbital vines overlap shell patch and inherit its transform. Old saved family recipes repaired on regeneration. 896 native connected-component probes pass. Other-unit gallery shows existing Echo, Heavy Sentinel, Archive Sentinel and drone prototypes. CI pending.
 
 Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5c9bdfcc8bd8d7b99fc912b82a5286750c88572f. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-visible-vine-roots-on-grid-dec-c3a5c46a10.json)
+
+### Aeon Circuit connected maps, worldbuilding, interactive events, menus and combat research, 2026-11-15
+
+**research · reviewed** · research-aeon-world-menus-combat-20261115
+
+Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-aeon-world-menus-combat-20261115.json)
 
 ### Echo and Ghost Grid deep generator integration study
 

@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 100,
+  "record_count": 101,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 23,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 43,
+    "pixel-art": 44,
     "research": 5,
     "workflow": 21
   },
@@ -662,6 +662,21 @@
       "source": "Founder correction to Auren pixel-art study scope, Nov 2026",
       "updated_at": "2026-11-11T02:15:28+00:00",
       "summary": "Character design is ADDITIONAL homework, not a replacement for existing pixel-art work. Train and evaluate all competencies together: native-scale pixel placement and cluster discipline, clean contours, anatomy and proportions, distinctive and appealing character/portrait design, shape language, strong silhouettes, expressive face/visor/helmet design, readable armor and materials, lighting and color, frame-by-frame animation timing and movement weight, articulated mechanical geometry, natural accumulated overgrowth and age/damage, and intentional Ghost Grid mechanical faults versus distinctive Echo Frame glitch behavior. Compare original reference designs to native-resolution sprites and portraits; document failures, revisions, and objective QC before production approval. Previous rough assets are practice only, not finished."
+    },
+    {
+      "id": "pixel-art-echo-rear-arm-depth-must-follo-0dae9fd0c9",
+      "title": "Echo rear arm depth must follow swing phase",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "correction",
+        "echo",
+        "occlusion"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-echo-rear-arm-depth-must-follo-0dae9fd0c9.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/2297a5f05d1a7385ae0f31325fdcab355513a685",
+      "updated_at": "2026-11-15T15:25:18+00:00",
+      "summary": "Supersedes blanket all-visible back-arm rule and test. Up-view arms now occupy opposite near/far planes during walk; away reach is occluded by rear body/cloth. Actual raster overlap test:411 near-arm pixels,294 hidden far pixels,136 near/body overlaps across both quarter poses and roles. Other directions preserved. CI pending; owner art approval pending."
     },
     {
       "id": "pixel-art-female-frame01-v2-far-thigh-ma-0d3a94cd35",

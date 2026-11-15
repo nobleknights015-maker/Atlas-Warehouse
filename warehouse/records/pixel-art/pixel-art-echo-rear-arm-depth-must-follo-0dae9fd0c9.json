@@ -1,0 +1,16 @@
+{
+  "id": "pixel-art-echo-rear-arm-depth-must-follo-0dae9fd0c9",
+  "kind": "pixel-art",
+  "title": "Echo rear arm depth must follow swing phase",
+  "summary": "Supersedes blanket all-visible back-arm rule and test. Up-view arms now occupy opposite near/far planes during walk; away reach is occluded by rear body/cloth. Actual raster overlap test:411 near-arm pixels,294 hidden far pixels,136 near/body overlaps across both quarter poses and roles. Other directions preserved. CI pending; owner art approval pending.",
+  "tags": [
+    "correction",
+    "echo",
+    "occlusion"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/2297a5f05d1a7385ae0f31325fdcab355513a685",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-15T15:25:18+00:00",
+  "updated_at": "2026-11-15T15:25:18+00:00"
+}
