@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 106,
+  "record_count": 107,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 24,
     "engine": 7,
     "lore": 1,
     "pixel-art": 47,
-    "research": 6,
+    "research": 7,
     "workflow": 21
   },
   "records": [
@@ -1435,6 +1435,26 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md",
       "updated_at": "2026-11-15T15:15:00+00:00",
       "summary": "Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations."
+    },
+    {
+      "id": "research-deep-jrpg-battle-presentation-7431443a37",
+      "title": "Deep JRPG battle presentation research and v1 audit",
+      "kind": "research",
+      "confidence": "unverified",
+      "tags": [
+        "animation",
+        "enemy",
+        "jrpg",
+        "memory",
+        "party",
+        "player",
+        "quality-gates",
+        "research"
+      ],
+      "path": "warehouse/records/research/research-deep-jrpg-battle-presentation-7431443a37.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/6aaad032bc699bd47640580aecca4446594816d2/warehouse/studies/jrpg-battle-animation-deep-research-2026-11-15/Aeon_Circuit_JRPG_Battle_Animation_Research.md",
+      "updated_at": "2026-11-15T20:56:06+00:00",
+      "summary": "Source-grounded guide covers enemies playable actors and NPC party members through complete actor-delivery-target exchanges, camera contracts, role-specific kits, persistent guard/channel/down states, hit-block-miss-support outcomes, multi-hit and cooperative actions, timing and export/runtime gates. 38 primary pages or excerpts plus one explicitly unwatched further-viewing description are depth-labeled. Direct v1 audit finds every normal attack 1640ms with release at740ms and no target sequence; archive has1843 unique RGBA frames across2880 exposures and392.76MiB RGBA page footprint if all29 pages decoded. Footprint is arithmetic, not measured Android allocation. Reproducible script and proposed creator work order archived; new animation/engine changes NOT implemented."
     },
     {
       "id": "research-echo-and-ghost-grid-deep-gener-18c04a7fa0",

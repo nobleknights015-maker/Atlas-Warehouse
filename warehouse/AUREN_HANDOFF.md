@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 106 active records; 0 open work orders.
+Inventory: 107 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 47
-- **research**: 6
+- **research**: 7
 - **workflow**: 21
 
 ## Knowledge shelves
@@ -662,6 +662,14 @@ Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5
 Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-aeon-world-menus-combat-20261115.json)
+
+### Deep JRPG battle presentation research and v1 audit
+
+**research · unverified** · research-deep-jrpg-battle-presentation-7431443a37
+
+Source-grounded guide covers enemies playable actors and NPC party members through complete actor-delivery-target exchanges, camera contracts, role-specific kits, persistent guard/channel/down states, hit-block-miss-support outcomes, multi-hit and cooperative actions, timing and export/runtime gates. 38 primary pages or excerpts plus one explicitly unwatched further-viewing description are depth-labeled. Direct v1 audit finds every normal attack 1640ms with release at740ms and no target sequence; archive has1843 unique RGBA frames across2880 exposures and392.76MiB RGBA page footprint if all29 pages decoded. Footprint is arithmetic, not measured Android allocation. Reproducible script and proposed creator work order archived; new animation/engine changes NOT implemented.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/6aaad032bc699bd47640580aecca4446594816d2/warehouse/studies/jrpg-battle-animation-deep-research-2026-11-15/Aeon_Circuit_JRPG_Battle_Animation_Research.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-deep-jrpg-battle-presentation-7431443a37.json)
 
 ### Echo and Ghost Grid deep generator integration study
 
