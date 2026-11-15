@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 102 active records; 0 open work orders.
+Inventory: 103 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 23
+- **asset-standards**: 24
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 45
@@ -190,6 +190,14 @@ Source: warehouse/studies/unit09-round48/FINDINGS.md. [Record](https://github.co
 Owner clarified preserve earlier body and fix only feet and belly. Round50 restores exact Round48 arm and unbooted leg layers plus original motion, with only belly forearm deletion and replacement boots at unchanged ankles. All16 side composites have zero pixel differences outside explicit allowed boot/belly masks. Approved S/N58 files each unchanged; four raster support intervals and32 ASE composites pass. Direct baseline comparison reviewed. This is candidate scope preservation, not final art approval. Do not carry forward Round49 broader arm/IK changes.
 
 Source: warehouse/studies/unit09-round50-body-locked-targeted-fix.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-round50-body-baseline-locked-f-86e8e61815.json)
+
+### Six world variety studies and honest clip capabilities
+
+**asset-standards · unverified** · asset-standards-six-world-variety-studies-and-dbacffcd6b
+
+Separate Bulwark/Breaker, Keeper/Surveyor, suspended Archivist/asymmetric Relay presets. Four authored views; physical gear sides; rooted moss. Grounded studies expose idle only, suspended variants idle/hover. Optional validated rig.clips preserves legacy projects. Local256 render/bounds and64 root-connectivity cases plus29 native checks/build pass. Browser CI pending; art/runtime pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/58203684eb3bc1c16f098bdd54ccbc697f99fa4e. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-six-world-variety-studies-and-dbacffcd6b.json)
 
 ### Unit09 revision41 restore earlier animation leg-only scope
 
