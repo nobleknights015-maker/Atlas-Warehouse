@@ -10,8 +10,16 @@
     "prototype"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/770557cf2ac0d2579e4c3cc57ea4f8bdcd443476",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-15T02:09:58+00:00",
-  "updated_at": "2026-11-15T02:09:58+00:00"
+  "updated_at": "2026-11-15T02:12:49+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-15T02:12:49+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Source770557c, CI43666444483 native29 and Chromium/editor checks plus build PASS. New coverage:896 renders,896 fitted bounds,240 support samples; fixed chain lengths, stance cancellation, anchor/save roundtrip checked. Four-view native preview inspected. Initial art only; owner approval, richer battle actions and game/device integration remain pending."
+    }
+  ]
 }

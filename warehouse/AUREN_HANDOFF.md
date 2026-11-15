@@ -65,7 +65,7 @@ Source: Founder art feedback in Round24 continuation 2026-11-12; private assets 
 
 ### Crawler and orbital core first family prototypes
 
-**asset-standards · unverified** · asset-standards-crawler-and-orbital-core-first-9d0a204406
+**asset-standards · tested** · asset-standards-crawler-and-orbital-core-first-9d0a204406
 
 Four authored views added to copy branch. Crawler has six persistent chains, tripod/ripple stance and fixed 22/24 bones; floater has split ring depth and fixed ground projection. 896 new render/bounds cases and 240 support samples pass locally. Native suite29/build pass; CI pending. Native preview inspected; art approval and runtime integration pending.
 
