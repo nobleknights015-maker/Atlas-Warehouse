@@ -1,0 +1,17 @@
+{
+  "id": "research-world-and-battle-animation-23-d21cc2dfe4",
+  "kind": "research",
+  "title": "World and battle animation 23-source study",
+  "summary": "Archived first-party research on locomotion, weight, rig topology, depth, timing, events, registration, export and pixel verification. Full report, source registry and implementation map distinguish implemented heavy walking and timing foundations from remaining battle actions and device validation.",
+  "tags": [
+    "animation",
+    "heavy-units",
+    "research",
+    "sprite-creator"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/tree/4c22c74aa41bd8ed4bf1352064045ef602be5318/warehouse/studies/world-battle-animation-2026-11-15",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-15T16:32:50+00:00",
+  "updated_at": "2026-11-15T16:32:50+00:00"
+}

@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 103,
+  "record_count": 104,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 24,
     "engine": 7,
     "lore": 1,
     "pixel-art": 45,
-    "research": 5,
+    "research": 6,
     "workflow": 21
   },
   "records": [
@@ -1475,6 +1475,22 @@
       "source": "warehouse/studies/unit09-animation-research-round44/FINDINGS.md; SOURCES.md; CORRECTION_PLAN.md",
       "updated_at": "2026-11-13T02:49:55+00:00",
       "summary": "Read21 primary educator/creator/tool sources and audited local assets. Research covers S N W E anatomy, whole-body phases, armor ownership, occlusion, pixel clusters, rig limits, floor contacts, JRPG cadence, action families and later character transfer. Core correction: fit whole-body poses to reference before native contour drawing and motion; masks, fixed bone lengths and export checks are not artistic acceptance. Full sources, limitations, forensic findings and pass/fail plan committed; no art/engine changed or final side fix claimed."
+    },
+    {
+      "id": "research-world-and-battle-animation-23-d21cc2dfe4",
+      "title": "World and battle animation 23-source study",
+      "kind": "research",
+      "confidence": "unverified",
+      "tags": [
+        "animation",
+        "heavy-units",
+        "research",
+        "sprite-creator"
+      ],
+      "path": "warehouse/records/research/research-world-and-battle-animation-23-d21cc2dfe4.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/tree/4c22c74aa41bd8ed4bf1352064045ef602be5318/warehouse/studies/world-battle-animation-2026-11-15",
+      "updated_at": "2026-11-15T16:32:50+00:00",
+      "summary": "Archived first-party research on locomotion, weight, rig topology, depth, timing, events, registration, export and pixel verification. Full report, source registry and implementation map distinguish implemented heavy walking and timing foundations from remaining battle actions and device validation."
     },
     {
       "id": "workflow-evidence-first-warehouse-learn-1bbde70f2a",

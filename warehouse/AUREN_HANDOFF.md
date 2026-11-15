@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 103 active records; 0 open work orders.
+Inventory: 104 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 45
-- **research**: 5
+- **research**: 6
 - **workflow**: 21
 
 ## Knowledge shelves
@@ -678,6 +678,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6
 Read21 primary educator/creator/tool sources and audited local assets. Research covers S N W E anatomy, whole-body phases, armor ownership, occlusion, pixel clusters, rig limits, floor contacts, JRPG cadence, action families and later character transfer. Core correction: fit whole-body poses to reference before native contour drawing and motion; masks, fixed bone lengths and export checks are not artistic acceptance. Full sources, limitations, forensic findings and pass/fail plan committed; no art/engine changed or final side fix claimed.
 
 Source: warehouse/studies/unit09-animation-research-round44/FINDINGS.md; SOURCES.md; CORRECTION_PLAN.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-round44-all-cardinal-whole-bod-fad0ef2bf3.json)
+
+### World and battle animation 23-source study
+
+**research · unverified** · research-world-and-battle-animation-23-d21cc2dfe4
+
+Archived first-party research on locomotion, weight, rig topology, depth, timing, events, registration, export and pixel verification. Full report, source registry and implementation map distinguish implemented heavy walking and timing foundations from remaining battle actions and device validation.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/tree/4c22c74aa41bd8ed4bf1352064045ef602be5318/warehouse/studies/world-battle-animation-2026-11-15. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-world-and-battle-animation-23-d21cc2dfe4.json)
 
 ### Evidence first warehouse learning loop
 
