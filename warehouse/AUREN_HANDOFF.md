@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 104 active records; 0 open work orders.
+Inventory: 105 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 24
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 45
+- **pixel-art**: 46
 - **research**: 6
 - **workflow**: 21
 
@@ -590,6 +590,14 @@ Source: warehouse/studies/unit09-round53-palette-cleanup.md. [Record](https://gi
 Independently authored an original 128x216 static front-standing Unit09 sprite using 16 hand-planned opaque RGB colors and binary 0/255 alpha, complete arms/legs, visor, head-side modules, red wiring and an 09 shoulder mark. This was FROM BLANK PIXELS and is distinct from the separate reference-crop/palette exercise. Comparison with the supplied canonical sprite shows legs too short and stout, insufficiently layered torso plates and weak volumetric helmet construction. Technical PNG validity is not professional artistry; this remains a failing construction sketch. Next: correct hips/thigh/shin proportions and interlocking armor at 1x before animation or damage.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/sleeper-unit-09-original-static-sketch-round-01.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-sleeper-unit-09-manual-static-d489662abe.json)
+
+### Slender Keeper and Surveyor four-direction locomotion checkpoint
+
+**pixel-art · unverified** · pixel-art-slender-keeper-and-surveyor-fo-b8ee1fae9c
+
+Isolated creator now includes opt-in slender-v1 controller with 12-frame 9FPS walks, fixed 18/19-unit leg chains, 62 percent stance duty, 14-unit stance span and physical-right Surveyor probe. Native 29 groups and build pass, including 600 support samples, 192 leg/sole cases and 8 exact loop checks. Old idle recipes stay unchanged. Local Chromium blocked by host socket restriction; new CI browser verification pending. Battle actions and engine integration remain unfinished. Earlier heavy checkpoint d8a21aa passed CI run 43735995310.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0b86a959f96db9bbd7ab7d9cddf6d34aac44edc3/docs/sprite-studio-slender-motion/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-slender-keeper-and-surveyor-fo-b8ee1fae9c.json)
 
 ### Starter Sleeper Unit 09 reference and palette study
 
