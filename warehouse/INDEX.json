@@ -1279,7 +1279,7 @@
       "id": "pixel-art-slender-keeper-and-surveyor-fo-b8ee1fae9c",
       "title": "Slender Keeper and Surveyor four-direction locomotion checkpoint",
       "kind": "pixel-art",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "animation",
         "continuity",
@@ -1288,7 +1288,7 @@
       ],
       "path": "warehouse/records/pixel-art/pixel-art-slender-keeper-and-surveyor-fo-b8ee1fae9c.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/0b86a959f96db9bbd7ab7d9cddf6d34aac44edc3/docs/sprite-studio-slender-motion/README.md",
-      "updated_at": "2026-11-15T18:20:07+00:00",
+      "updated_at": "2026-11-15T18:22:49+00:00",
       "summary": "Isolated creator now includes opt-in slender-v1 controller with 12-frame 9FPS walks, fixed 18/19-unit leg chains, 62 percent stance duty, 14-unit stance span and physical-right Surveyor probe. Native 29 groups and build pass, including 600 support samples, 192 leg/sole cases and 8 exact loop checks. Old idle recipes stay unchanged. Local Chromium blocked by host socket restriction; new CI browser verification pending. Battle actions and engine integration remain unfinished. Earlier heavy checkpoint d8a21aa passed CI run 43735995310."
     },
     {

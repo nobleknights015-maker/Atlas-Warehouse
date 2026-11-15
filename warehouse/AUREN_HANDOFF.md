@@ -593,7 +593,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Slender Keeper and Surveyor four-direction locomotion checkpoint
 
-**pixel-art · unverified** · pixel-art-slender-keeper-and-surveyor-fo-b8ee1fae9c
+**pixel-art · tested** · pixel-art-slender-keeper-and-surveyor-fo-b8ee1fae9c
 
 Isolated creator now includes opt-in slender-v1 controller with 12-frame 9FPS walks, fixed 18/19-unit leg chains, 62 percent stance duty, 14-unit stance span and physical-right Surveyor probe. Native 29 groups and build pass, including 600 support samples, 192 leg/sole cases and 8 exact loop checks. Old idle recipes stay unchanged. Local Chromium blocked by host socket restriction; new CI browser verification pending. Battle actions and engine integration remain unfinished. Earlier heavy checkpoint d8a21aa passed CI run 43735995310.
 
