@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 95,
+  "record_count": 96,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 22,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 40,
+    "pixel-art": 41,
     "research": 4,
     "workflow": 21
   },
@@ -869,6 +869,22 @@
       "source": "Bearframe pixel-art study assignment and prior exercise feedback",
       "updated_at": "2026-11-11T01:54:24+00:00",
       "summary": "Practice an articulated six-leg mechanical walking loop with distinct legs and alternating tripod support and swing phases. Check leg endpoints frame by frame, contact timing, silhouette and missing limb artifacts. Treat previous attempts as exercises, not finished production assets."
+    },
+    {
+      "id": "pixel-art-preserve-preferred-garment-sil-c0cadd5f14",
+      "title": "Preserve preferred garment silhouettes when fixing arm depth",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "occlusion",
+        "outfits",
+        "owner-correction",
+        "regression"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-preserve-preferred-garment-sil-c0cadd5f14.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/c6fa0e4befcb1100ef246187d5ded5042d18a2c7",
+      "updated_at": "2026-11-15T01:52:00+00:00",
+      "summary": "Owner correction: restore all outfit geometry from ded6e05 and retain only the near-arm profile redraw flag. Keep Echo up-view arm-depth fix. Prior outfit redesign is superseded; fix occlusion without redesigning clothing. CI pending for c6fa0e4."
     },
     {
       "id": "pixel-art-relay-portrait-round-06-shape-ffbc59e392",

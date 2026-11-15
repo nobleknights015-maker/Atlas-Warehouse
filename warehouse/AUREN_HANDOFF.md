@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 95 active records; 0 open work orders.
+Inventory: 96 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 22
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 40
+- **pixel-art**: 41
 - **research**: 4
 - **workflow**: 21
 
@@ -406,6 +406,14 @@ Source: Founder feedback on previous Bearframe pixel-art attempts. [Record](http
 Practice an articulated six-leg mechanical walking loop with distinct legs and alternating tripod support and swing phases. Check leg endpoints frame by frame, contact timing, silhouette and missing limb artifacts. Treat previous attempts as exercises, not finished production assets.
 
 Source: Bearframe pixel-art study assignment and prior exercise feedback. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-palinode-six-leg-gait-evaluati-dc71550a16.json)
+
+### Preserve preferred garment silhouettes when fixing arm depth
+
+**pixel-art · unverified** · pixel-art-preserve-preferred-garment-sil-c0cadd5f14
+
+Owner correction: restore all outfit geometry from ded6e05 and retain only the near-arm profile redraw flag. Keep Echo up-view arm-depth fix. Prior outfit redesign is superseded; fix occlusion without redesigning clothing. CI pending for c6fa0e4.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/c6fa0e4befcb1100ef246187d5ded5042d18a2c7. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-preserve-preferred-garment-sil-c0cadd5f14.json)
 
 ### Relay portrait round 06 shape hierarchy lesson
 
