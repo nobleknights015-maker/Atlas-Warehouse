@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 98 active records; 0 open work orders.
+Inventory: 99 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 23
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 42
+- **pixel-art**: 43
 - **research**: 4
 - **workflow**: 21
 
@@ -366,6 +366,14 @@ Source: warehouse/studies/female-frame01-four-direction-walk-v1.md. [Record](htt
 Audited four user-provided 1774x887 RGBA starter sheets (front, left, right, back each). View heights vary within each sheet by only 2-11px, useful for consistency, but 295k-343k distinct RGBA values and soft partial alpha on >99.9% of visible pixels show these are high-resolution 32-bit-STYLE references, NOT clean limited-palette native sprites. At 96px diagnostic sizes, armor details disappear; silhouette, visor color and mantle/ponytail carry identity. Independently rebuilt elongated hips/thighs/knees/shins/boots on earlier original Unit09 study (128x216 to 128x262, binary alpha); proportions improve yet armor/boots remain crude, so artistic quality gate FAILS. Next lock runtime pixel scale, establish one full-body native static art benchmark, check four-view foot anchors and test selectable characters at actual game scale before animation. User-supplied images never copied to public warehouse.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-four-character-scale-and-anatomy-round-02.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-four-starter-selectable-frames-4ce74e6087.json)
+
+### Industrial Echo up-view arm directional correction
+
+**pixel-art · unverified** · pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d
+
+Up-view positions were reversed but walk and tool gesture signs still matched down. Up arm angles and maintenance claw offset now reverse; existing rear-cloth arm visibility retained. 112 role/action/frame cases enforce mirrored arm angles and saved-recipe repair. Other views protected by existing pixel comparisons. CI pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/9814b4910b560d7e38c26f21343f2ae62df232a4. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d.json)
 
 ### LibreSprite Round 09 verified four-layer three-frame static editing and art critique
 

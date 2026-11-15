@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 98,
+  "record_count": 99,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 23,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 42,
+    "pixel-art": 43,
     "research": 4,
     "workflow": 21
   },
@@ -782,6 +782,22 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/starter-four-character-scale-and-anatomy-round-02.md",
       "updated_at": "2026-11-11T04:31:33+00:00",
       "summary": "Audited four user-provided 1774x887 RGBA starter sheets (front, left, right, back each). View heights vary within each sheet by only 2-11px, useful for consistency, but 295k-343k distinct RGBA values and soft partial alpha on >99.9% of visible pixels show these are high-resolution 32-bit-STYLE references, NOT clean limited-palette native sprites. At 96px diagnostic sizes, armor details disappear; silhouette, visor color and mantle/ponytail carry identity. Independently rebuilt elongated hips/thighs/knees/shins/boots on earlier original Unit09 study (128x216 to 128x262, binary alpha); proportions improve yet armor/boots remain crude, so artistic quality gate FAILS. Next lock runtime pixel scale, establish one full-body native static art benchmark, check four-view foot anchors and test selectable characters at actual game scale before animation. User-supplied images never copied to public warehouse."
+    },
+    {
+      "id": "pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d",
+      "title": "Industrial Echo up-view arm directional correction",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "arms",
+        "direction",
+        "echo",
+        "regression"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/9814b4910b560d7e38c26f21343f2ae62df232a4",
+      "updated_at": "2026-11-15T15:07:22+00:00",
+      "summary": "Up-view positions were reversed but walk and tool gesture signs still matched down. Up arm angles and maintenance claw offset now reverse; existing rear-cloth arm visibility retained. 112 role/action/frame cases enforce mirrored arm angles and saved-recipe repair. Other views protected by existing pixel comparisons. CI pending."
     },
     {
       "id": "pixel-art-libresprite-round-09-verified-2b6c88d2e9",
