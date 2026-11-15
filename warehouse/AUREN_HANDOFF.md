@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 105 active records; 0 open work orders.
+Inventory: 106 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 24
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 46
+- **pixel-art**: 47
 - **research**: 6
 - **workflow**: 21
 
@@ -582,6 +582,14 @@ Source: warehouse/studies/unit09-round52-far-foot-chest-ownership.md. [Record](h
 Preserve Round52 proportions far foot and chest ownership. Fixed authored26-color lookup reduces noisy raster shading; W0 uses25 colors from4171.16 side alpha silhouettes and motion exact, S/N58 files each unchanged,32 ASE composites pass. Native sheets and detail comparisons inspected. First palette pass only; knee/shin contour clusters still need manual work, no final art approval. Exact Round52 baseline retained.
 
 Source: warehouse/studies/unit09-round53-palette-cleanup.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-round53-reversible-palette-cle-0cd46572dc.json)
+
+### Six-role native creator battle animation library v1
+
+**pixel-art · unverified** · pixel-art-six-role-native-creator-battle-6fc021b181
+
+Bulwark Breaker Keeper Surveyor Archivist and Relay each gain seven authored one-shot actions across four views: attack charge guard hurt malfunction defeat recover. 2688 action exposures include holds, not independent paintings. Native 29 groups pass with 2560 planted-foot and 288 endpoint checks. Baked local emission FX and per-frame event-bound attachment origins export; edited frames mark origins unknown. Defeat/recover join exactly. Independent Pillow verifier recomposed all 2880 exported exposures including idle against source RGBA hashes; 29 atlas pages under 2048. Gameplay damage projectiles hitboxes and phone integration remain pending. Source and preview checkpoint is fd4f006d8c5c160403190dcb16a87854686987ec; browser CI currently pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/blob/fd4f006d8c5c160403190dcb16a87854686987ec/docs/sprite-studio-battle-motion/README.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-six-role-native-creator-battle-6fc021b181.json)
 
 ### Sleeper Unit 09 manual static sprite construction failed quality gate
 
