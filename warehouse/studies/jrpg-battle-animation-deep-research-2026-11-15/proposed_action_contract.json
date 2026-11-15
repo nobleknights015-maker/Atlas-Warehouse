@@ -1,0 +1,62 @@
+{
+  "status": "PROPOSED; not implemented",
+  "version": 2,
+  "concept": "action presentation coordinates actor delivery target outcome audio and exit state",
+  "action_example": {
+    "id": "precision_shot_example",
+    "actor": "actor-instance",
+    "targetIds": [
+      "target-instance"
+    ],
+    "entry": "battle_ready",
+    "phases": [
+      "prepare",
+      "aim_hold",
+      "release",
+      "delivery",
+      "contact",
+      "recovery",
+      "battle_ready"
+    ],
+    "events": [
+      {
+        "id": "release-0",
+        "kind": "projectile_launch",
+        "atMs": 320,
+        "sourceSocket": "weapon.muzzle",
+        "space": "actor-local"
+      },
+      {
+        "id": "hit-0-target-0",
+        "kind": "contact",
+        "atMs": 480,
+        "targetAnchor": "core",
+        "space": "target-local"
+      },
+      {
+        "id": "complete-0",
+        "kind": "action_complete",
+        "atMs": 780
+      }
+    ],
+    "results": [
+      "hit",
+      "miss",
+      "guard",
+      "resist",
+      "lethal"
+    ],
+    "exit": "battle_ready"
+  },
+  "rules": [
+    "Controller identity is separate from character rig and animation kit",
+    "Gameplay result is not rerolled by the renderer",
+    "Release and impact are different events",
+    "Dedupe events by actionInstance hitIndex targetId eventKind",
+    "Dispatch crossed intervals once in deterministic order",
+    "Hand-edited origins require review",
+    "Sustain and exit poses are explicit",
+    "Playback-speed change preserves outcome ordering",
+    "Effects may follow actor, projectile, target, ground or screen spaces explicitly"
+  ]
+}

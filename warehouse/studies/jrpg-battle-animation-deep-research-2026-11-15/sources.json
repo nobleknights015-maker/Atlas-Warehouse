@@ -1,0 +1,410 @@
+{
+  "substantive_page_or_excerpt_references": 38,
+  "further_watch_descriptions": 1,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Sabotage: Sea of Stars combat",
+      "url": "https://blog.playstation.com/2022/07/07/a-closer-look-at-the-turn-based-combat-in-sea-of-stars/",
+      "source_type": "developer article",
+      "inspection": "page text",
+      "application": "Combat systems require synchronized action, target and party presentation.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S02",
+      "title": "Sabotage: Sea of Stars press kit",
+      "url": "https://sabotagestudio.com/presskits/sea-of-stars/",
+      "source_type": "official studio overview",
+      "inspection": "page text",
+      "application": "Combat features and seamless-stage design are game-specific choices.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S03",
+      "title": "Acquire: Octopath Traveler II developer interview",
+      "url": "https://www.unrealengine.com/developer-interviews/octopath-traveler-ii-builds-a-bigger-bolder-world-in-its-stunning-hd-2d-style?lang=en-au",
+      "source_type": "direct studio interview",
+      "inspection": "page text",
+      "application": "Sprite proportions and camera constraints affect action presentation.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S04",
+      "title": "Square Enix: 8 things about Octopath Traveler II",
+      "url": "https://www.square-enix-games.com/en_US/news/octopath-traveler-ii",
+      "source_type": "official developer/publisher overview",
+      "inspection": "primary search excerpt",
+      "application": "Expanded character animation and camera presentation.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S05",
+      "title": "Square Enix: Octopath Traveler 0 developer interview",
+      "url": "https://www.square-enix-games.com/en_US/news/interview-octopath-traveler-0-developers-talk-town-building-ultimate-techniques-more",
+      "source_type": "direct developer interview",
+      "inspection": "primary search excerpt",
+      "application": "Recruit production includes abilities and effects as well as pixel art.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S06",
+      "title": "RPG Maker MZ: Side-View Character Standards",
+      "url": "https://rpgmakerofficial.com/product/MZ_help-en/01_11_02.html",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Actor motion-sheet and loop/one-shot conventions are explicit contracts.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S07",
+      "title": "RPG Maker MZ: Asset Standards",
+      "url": "https://rpgmakerofficial.com/product/MZ_help-en/01_11_01.html",
+      "source_type": "official documentation",
+      "inspection": "primary search excerpt",
+      "application": "Actor and enemy image contracts differ; do not assume animated enemy compatibility.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S08",
+      "title": "RPG Maker MV: Animation Settings",
+      "url": "https://rpgmakerofficial.com/product/MV_Help/page/01_08_09.html",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Target-relative effect anchors and sound/flash timings are separate data.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S09",
+      "title": "SLYNYRD: Pixelblog 9 - Melee Attacks",
+      "url": "https://www.slynyrd.com/blog/2018/9/8/pixelblog-9-melee-attacks",
+      "source_type": "original artist teaching",
+      "inspection": "page text",
+      "application": "Stance, mechanics, overshoot and gameplay context.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S10",
+      "title": "SLYNYRD: Pixelblog 52 - Idle Fighting Stance",
+      "url": "https://www.slynyrd.com/blog/2024/9/26/pixelblog-52-idle-fighting-stance",
+      "source_type": "original artist teaching",
+      "inspection": "page text",
+      "application": "Battle readiness and personality are conveyed by the idle pose.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S11",
+      "title": "SLYNYRD: Pixelblog 53 - Punches and Kicks",
+      "url": "https://www.slynyrd.com/blog/2024/11/25/pixelblog-53-punches-and-kicks",
+      "source_type": "original artist teaching",
+      "inspection": "page text",
+      "application": "Primary motion precedes clothing/detail polish.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S12",
+      "title": "SLYNYRD: Pixelblog 56 - Top Down Character Attack Animation",
+      "url": "https://www.slynyrd.com/blog/2025/5/23/pixelblog-56-top-down-character-attack-animation",
+      "source_type": "original artist teaching",
+      "inspection": "page text",
+      "application": "Weapon-specific timing and preserved physical handedness.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S13",
+      "title": "SLYNYRD: Pixelblog 62 - Landscape Backgrounds",
+      "url": "https://www.slynyrd.com/blog/2026/5/27/pixelblog-62-landscape-backgrounds",
+      "source_type": "original artist teaching",
+      "inspection": "page text",
+      "application": "Front-facing enemy and rear-party composition in a PSIV-inspired study.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S14",
+      "title": "Animation Mentor: Anticipation",
+      "url": "https://www.animationmentor.com/blog/anticipation-the-12-basic-principles-of-animation/",
+      "source_type": "original instructor teaching",
+      "inspection": "page text; embedded videos not watched",
+      "application": "Anticipation and preventing pre-hit damage motion.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S15",
+      "title": "Animation Mentor: Timing and Spacing",
+      "url": "https://www.animationmentor.com/blog/tutorial-animate-with-timing-and-spacing-in-mind/",
+      "source_type": "original instructor teaching",
+      "inspection": "page text; embedded full lesson not watched",
+      "application": "Contrasting spacing/holds and staged animation production.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S16",
+      "title": "Spine: Animating",
+      "url": "https://en.esotericsoftware.com/spine-animating",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Pose-to-pose blocking and iterative workflow.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S17",
+      "title": "Spine: Applying Animations",
+      "url": "https://en.esotericsoftware.com/spine-applying-animations",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Queues, layers, state and mixing policy.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S18",
+      "title": "Spine: Slots",
+      "url": "https://en.esotericsoftware.com/spine-slots",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Attachment ownership and draw order are separate.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S19",
+      "title": "Spine: Events",
+      "url": "https://en.esotericsoftware.com/spine-events",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Semantic event markers require runtime interpretation.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S20",
+      "title": "Spine: AnimationState callbacks",
+      "url": "https://en.esotericsoftware.com/spine-unity-events",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Mixing and interruption affect event delivery.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S21",
+      "title": "Spine: JSON export format",
+      "url": "https://en.esotericsoftware.com/spine-json-format",
+      "source_type": "official documentation",
+      "inspection": "relevant page sections",
+      "application": "Events, attachments and draw-order timelines can be explicit data.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S22",
+      "title": "Godot: Using AnimationTree",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html",
+      "source_type": "official documentation",
+      "inspection": "relevant page sections",
+      "application": "State transitions, layers and one-shots have different roles.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S23",
+      "title": "Godot: Animation Track Types",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/animation/animation_track_types.html",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Precise semantic tracks; method events do not run in editor preview.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S24",
+      "title": "Godot: SpriteFrames",
+      "url": "https://docs.godotengine.org/en/stable/classes/class_spriteframes.html",
+      "source_type": "official documentation",
+      "inspection": "relevant page sections",
+      "application": "Frame durations, speed and loop behavior must be represented explicitly.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S25",
+      "title": "Godot: AnimationPlayer",
+      "url": "https://docs.godotengine.org/en/stable/classes/class_animationplayer.html",
+      "source_type": "official documentation",
+      "inspection": "relevant page sections",
+      "application": "A dedicated player handles complex timelines, queues and sections.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S26",
+      "title": "Aseprite: Animation",
+      "url": "https://aseprite.org/docs/animation/",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Frames, layers, cels, tags and per-frame duration are authoring tools.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S27",
+      "title": "Aseprite: Slices",
+      "url": "https://aseprite.org/docs/slices/",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Bounds and registration pivots are distinct exported information.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S28",
+      "title": "Aseprite: Sprite sheets",
+      "url": "https://aseprite.org/docs/sprite-sheet/",
+      "source_type": "official documentation",
+      "inspection": "page text",
+      "application": "Exports can select layers and tagged frame ranges.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S29",
+      "title": "Riot: Art Education - Visual Effects",
+      "url": "https://www.riotgames.com/en/artedu/visual-effects",
+      "source_type": "developer-authored teaching",
+      "inspection": "page text; embedded lesson not watched",
+      "application": "Clarity, restraint and source identity across a roster.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S30",
+      "title": "Riot: Clarity in League",
+      "url": "https://www.leagueoflegends.com/en-us/news/dev/clarity-in-league/",
+      "source_type": "developer-authored article",
+      "inspection": "page text",
+      "application": "Visual hierarchy, silhouette identity and honest interaction cues.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S31",
+      "title": "MDN: requestAnimationFrame",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+      "source_type": "platform documentation",
+      "inspection": "relevant page sections",
+      "application": "Timestamp progression is independent of display refresh; hidden-tab behavior matters.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S32",
+      "title": "MDN: Optimizing canvas",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Optimizing_canvas",
+      "source_type": "platform documentation",
+      "inspection": "relevant page sections",
+      "application": "Cache repeated work and avoid unnecessary per-frame raster operations.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S33",
+      "title": "MDN: Web Audio API best practices",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices",
+      "source_type": "platform documentation",
+      "inspection": "relevant page sections",
+      "application": "Loading, user control and autoplay handling require deliberate policies.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S34",
+      "title": "W3C: Three Flashes or Below Threshold",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html",
+      "source_type": "standards organization guidance",
+      "inspection": "relevant page sections",
+      "application": "Review combined flashes at the final display size and viewing mode.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S35",
+      "title": "Microsoft XAG 117: Visual distractions and motion settings",
+      "url": "https://learn.microsoft.com/en-us/xbox/accessibility/xbox-accessibility-guidelines/117",
+      "source_type": "platform-holder guidance",
+      "inspection": "public page text; authorization banner also present",
+      "application": "Offer control over distracting animation and camera motion.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S36",
+      "title": "Effekseer-hosted Quick Tutorial: Recorder",
+      "url": "https://effekseer.github.io/QuickTutorial_Tool/QuickTutorial_en.html",
+      "source_type": "original tutorial hosted by tool project",
+      "inspection": "page text; older v1.20 tutorial",
+      "application": "Effects can be recorded into sprite sheets; inspect alpha and bounds.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S37",
+      "title": "Saint11: Simple Attack Animation",
+      "url": "https://www.patreon.com/saint11/posts/simple-attack-6837623",
+      "source_type": "original artist teaching",
+      "inspection": "public author search excerpt",
+      "application": "Immediate visible response in an action-game context differs from queued JRPG staging.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S38",
+      "title": "Junya Motomura: Guilty Gear Xrd GDC presentation",
+      "url": "https://www.ggxrd.com/Motomura_Junya_GuiltyGearXrd.pdf",
+      "source_type": "primary developer presentation",
+      "inspection": "indexed animation-slide excerpt; full PDF timed out",
+      "application": "Limited hand-posed animation is an intentional style choice, not a lack of smooth samples.",
+      "accessed": "2026-11-15",
+      "status": "inspected-at-stated-depth"
+    },
+    {
+      "id": "S39",
+      "title": "Masahiro Sakurai: Eight Hit Stop Techniques",
+      "url": "https://www.youtube.com/watch?v=tycbMSjDDLg",
+      "source_type": "official creator video",
+      "inspection": "description only; video not watched",
+      "application": "Further-watch reference only; no timings or eight-technique summary inferred.",
+      "accessed": "2026-11-15",
+      "status": "further-watch"
+    }
+  ],
+  "retrieval_limits": [
+    {
+      "url": "https://manuals.sega.com/megadrivemini/manuals/phantasystar/index.html",
+      "result": "Index retrieved; referenced page-image requests returned 404; no pose/timing claims based on them."
+    },
+    {
+      "url": "https://media.gdcvault.com/gdc2013/slides/824727Unger_Simon_FromStageTo.pdf",
+      "result": "Full file exceeds browser size limit; not treated as fully read."
+    },
+    {
+      "url": "https://www.ggxrd.com/Motomura_Junya_GuiltyGearXrd.pdf",
+      "result": "Full fetch timed out; only indexed primary slide excerpt used, labeled S38."
+    }
+  ]
+}

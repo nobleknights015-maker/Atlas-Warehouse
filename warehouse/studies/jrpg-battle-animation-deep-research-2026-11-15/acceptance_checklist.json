@@ -1,0 +1,133 @@
+{
+  "status": "proposed requirements; not an implementation result",
+  "gates": {
+    "art": [
+      {
+        "requirement": "Gameplay-scale silhouette communicates facing and intent",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Distinct ready, preparation, decisive action and recovery",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Weapon grip and identity preserved",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Body-only action readable without FX",
+        "status": "pending-new-JRPG-scene-proof"
+      }
+    ],
+    "causality": [
+      {
+        "requirement": "Damage reaction starts at or after contact",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Miss has no full contact reaction",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Block occurs at guard surface",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Heal produces positive receive response",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Lethal outcome transitions only after impact",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Multi-hit count/order matches resolved hits",
+        "status": "pending-new-JRPG-scene-proof"
+      }
+    ],
+    "state": [
+      {
+        "requirement": "Guard sustains until game releases it",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Channel can release or cancel",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Downed persists and has allowed exit only",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Swaps preserve condition",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Interruption policy explicit",
+        "status": "pending-new-JRPG-scene-proof"
+      }
+    ],
+    "data": [
+      {
+        "requirement": "Exposure durations preserved",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Loop/one-shot and exit state explicit",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Source/target sockets and coordinate spaces explicit",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Painted-edit origins marked unknown until reviewed",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Independent atlas pixel reconstruction passes",
+        "status": "pending-new-JRPG-scene-proof"
+      }
+    ],
+    "runtime": [
+      {
+        "requirement": "One real encounter uses the complete sequence",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Pause and fast-mode do not duplicate events",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Skipped render frames preserve event order",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Removed targets and cancelled actors handled",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Physical Moto G frame-time and memory measured",
+        "status": "pending-new-JRPG-scene-proof"
+      }
+    ],
+    "presentation": [
+      {
+        "requirement": "Hit/block/miss distinguishable without damage number",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Effects do not hide target or UI",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Muted-sound and reduced-FX playback readable",
+        "status": "pending-new-JRPG-scene-proof"
+      },
+      {
+        "requirement": "Ordinary attacks remain tolerable across repeated turns",
+        "status": "pending-new-JRPG-scene-proof"
+      }
+    ]
+  }
+}

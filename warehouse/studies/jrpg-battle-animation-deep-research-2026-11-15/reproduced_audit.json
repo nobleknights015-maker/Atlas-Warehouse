@@ -1,0 +1,61 @@
+{
+  "units": [
+    {
+      "role": "bulwark",
+      "attackDurationMs": 1640,
+      "activeMs": 740,
+      "exposures": 480,
+      "uniqueFrames": 306,
+      "pagePixels": 15664176,
+      "rgbaMiB": 59.75
+    },
+    {
+      "role": "breaker",
+      "attackDurationMs": 1640,
+      "activeMs": 740,
+      "exposures": 480,
+      "uniqueFrames": 314,
+      "pagePixels": 17677440,
+      "rgbaMiB": 67.43
+    },
+    {
+      "role": "keeper",
+      "attackDurationMs": 1640,
+      "activeMs": 740,
+      "exposures": 480,
+      "uniqueFrames": 302,
+      "pagePixels": 12489120,
+      "rgbaMiB": 47.64
+    },
+    {
+      "role": "surveyor",
+      "attackDurationMs": 1640,
+      "activeMs": 740,
+      "exposures": 480,
+      "uniqueFrames": 304,
+      "pagePixels": 14273280,
+      "rgbaMiB": 54.45
+    },
+    {
+      "role": "archive",
+      "attackDurationMs": 1640,
+      "activeMs": 740,
+      "exposures": 480,
+      "uniqueFrames": 307,
+      "pagePixels": 21288960,
+      "rgbaMiB": 81.21
+    },
+    {
+      "role": "relay",
+      "attackDurationMs": 1640,
+      "activeMs": 740,
+      "exposures": 480,
+      "uniqueFrames": 310,
+      "pagePixels": 21565440,
+      "rgbaMiB": 82.27
+    }
+  ],
+  "totalRgbaMiB": 392.76,
+  "totalUniqueFrames": 1843,
+  "memoryMeaning": "RGBA page-footprint estimate, not measured Android allocation"
+}

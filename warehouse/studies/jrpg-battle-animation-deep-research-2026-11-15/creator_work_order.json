@@ -1,0 +1,37 @@
+{
+  "status": "proposed; not executed",
+  "baseline": "fd4f006d8c5c160403190dcb16a87854686987ec",
+  "preserve": [
+    "Working world walks",
+    "Industrial Echo rear cloth",
+    "Saved edits",
+    "Timing/event/export infrastructure",
+    "v1 candidate archive"
+  ],
+  "order": [
+    {
+      "priority": 0,
+      "deliverable": "Camera composition and paired-actor stage"
+    },
+    {
+      "priority": 1,
+      "deliverable": "Player weapon vs guarded heavy: hit block miss"
+    },
+    {
+      "priority": 2,
+      "deliverable": "Enemy cannon vs party target: delivery impact reactions"
+    },
+    {
+      "priority": 3,
+      "deliverable": "NPC ally support action with recipient or intercept"
+    },
+    {
+      "priority": 4,
+      "deliverable": "Persistent states, compatible family variants and actual ability kits"
+    },
+    {
+      "priority": 5,
+      "deliverable": "Deduplicated encounter-scoped exports and physical-device proof"
+    }
+  ]
+}
