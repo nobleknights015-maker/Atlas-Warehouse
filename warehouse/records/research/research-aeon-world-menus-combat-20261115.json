@@ -1,0 +1,27 @@
+{
+  "id": "research-aeon-world-menus-combat-20261115",
+  "kind": "research",
+  "title": "Aeon Circuit connected maps, worldbuilding, interactive events, menus and combat research, 2026-11-15",
+  "summary": "Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations.",
+  "tags": [
+    "aeon-circuit",
+    "bearframe",
+    "worldbuilding",
+    "connected-maps",
+    "map-graph",
+    "tiled",
+    "interactions",
+    "event-system",
+    "menus",
+    "combat",
+    "phantasy-star",
+    "ghost-signal",
+    "android",
+    "research"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md",
+  "confidence": "reviewed",
+  "visibility": "public",
+  "created_at": "2026-11-15T15:15:00+00:00",
+  "updated_at": "2026-11-15T15:15:00+00:00"
+}
