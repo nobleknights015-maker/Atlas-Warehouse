@@ -313,7 +313,7 @@ Source: Founder correction to Auren pixel-art study scope, Nov 2026. [Record](ht
 
 ### Echo rear arm depth must follow swing phase
 
-**pixel-art · unverified** · pixel-art-echo-rear-arm-depth-must-follo-0dae9fd0c9
+**pixel-art · tested** · pixel-art-echo-rear-arm-depth-must-follo-0dae9fd0c9
 
 Supersedes blanket all-visible back-arm rule and test. Up-view arms now occupy opposite near/far planes during walk; away reach is occluded by rear body/cloth. Actual raster overlap test:411 near-arm pixels,294 hidden far pixels,136 near/body overlaps across both quarter poses and roles. Other directions preserved. CI pending; owner art approval pending.
 
