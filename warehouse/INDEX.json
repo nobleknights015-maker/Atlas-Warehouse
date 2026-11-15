@@ -386,7 +386,7 @@
       "id": "asset-standards-six-world-variety-studies-and-dbacffcd6b",
       "title": "Six world variety studies and honest clip capabilities",
       "kind": "asset-standards",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "clips",
         "prototype",
@@ -395,7 +395,7 @@
       ],
       "path": "warehouse/records/asset-standards/asset-standards-six-world-variety-studies-and-dbacffcd6b.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/58203684eb3bc1c16f098bdd54ccbc697f99fa4e",
-      "updated_at": "2026-11-15T15:56:40+00:00",
+      "updated_at": "2026-11-15T15:59:24+00:00",
       "summary": "Separate Bulwark/Breaker, Keeper/Surveyor, suspended Archivist/asymmetric Relay presets. Four authored views; physical gear sides; rooted moss. Grounded studies expose idle only, suspended variants idle/hover. Optional validated rig.clips preserves legacy projects. Local256 render/bounds and64 root-connectivity cases plus29 native checks/build pass. Browser CI pending; art/runtime pending."
     },
     {
@@ -782,7 +782,7 @@
       "id": "pixel-art-final-owner-preference-rear-ec-e44e54a390",
       "title": "Final owner preference rear Echo fabric covers arms",
       "kind": "pixel-art",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "echo",
         "fabric",
@@ -790,7 +790,7 @@
       ],
       "path": "warehouse/records/pixel-art/pixel-art-final-owner-preference-rear-ec-e44e54a390.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/89bccc7adeea446be4eaacfc9f6183b923285788",
-      "updated_at": "2026-11-15T15:32:08+00:00",
+      "updated_at": "2026-11-15T15:59:24+00:00",
       "summary": "Stop refining arm depth. Up-view mantle now draws above both arms for fresh and saved rigs. Supersedes earlier dynamic arm/fabric visibility goal. Other views and movement unchanged. Targeted 2864 fabric pixels across16 walk frames and468 profile samples pass; build passes. Full CI pending."
     },
     {

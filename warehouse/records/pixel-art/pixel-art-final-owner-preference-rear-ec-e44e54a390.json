@@ -9,8 +9,16 @@
     "owner-preference"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/89bccc7adeea446be4eaacfc9f6183b923285788",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-15T15:32:08+00:00",
-  "updated_at": "2026-11-15T15:32:08+00:00"
+  "updated_at": "2026-11-15T15:59:24+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-15T15:59:24+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Preference preserved unchanged in5820368. CI43732639526:29 native,43 browser and build PASS, including2864 rear-fabric pixels across16 role/walk frames. No further Echo art or motion changes made during the separate variety expansion."
+    }
+  ]
 }

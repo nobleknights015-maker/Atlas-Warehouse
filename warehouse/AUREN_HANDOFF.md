@@ -193,7 +193,7 @@ Source: warehouse/studies/unit09-round50-body-locked-targeted-fix.md. [Record](h
 
 ### Six world variety studies and honest clip capabilities
 
-**asset-standards · unverified** · asset-standards-six-world-variety-studies-and-dbacffcd6b
+**asset-standards · tested** · asset-standards-six-world-variety-studies-and-dbacffcd6b
 
 Separate Bulwark/Breaker, Keeper/Surveyor, suspended Archivist/asymmetric Relay presets. Four authored views; physical gear sides; rooted moss. Grounded studies expose idle only, suspended variants idle/hover. Optional validated rig.clips preserves legacy projects. Local256 render/bounds and64 root-connectivity cases plus29 native checks/build pass. Browser CI pending; art/runtime pending.
 
@@ -369,7 +369,7 @@ Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https
 
 ### Final owner preference rear Echo fabric covers arms
 
-**pixel-art · unverified** · pixel-art-final-owner-preference-rear-ec-e44e54a390
+**pixel-art · tested** · pixel-art-final-owner-preference-rear-ec-e44e54a390
 
 Stop refining arm depth. Up-view mantle now draws above both arms for fresh and saved rigs. Supersedes earlier dynamic arm/fabric visibility goal. Other views and movement unchanged. Targeted 2864 fabric pixels across16 walk frames and468 profile samples pass; build passes. Full CI pending.
 

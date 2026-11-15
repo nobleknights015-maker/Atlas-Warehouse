@@ -10,8 +10,16 @@
     "world"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/58203684eb3bc1c16f098bdd54ccbc697f99fa4e",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-15T15:56:40+00:00",
-  "updated_at": "2026-11-15T15:56:40+00:00"
+  "updated_at": "2026-11-15T15:59:24+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-15T15:59:24+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Source5820368 CI43732639526 passed29 native,43 Chromium checks and build.256 new render/bounds cases,64 moss-root samples, saved role/anchor/clip roundtrips, unavailable-clip rejection and all6 real-editor selections pass. Native standing/hover previews inspected. Existing Echo unchanged. Art acceptance, grounded walks, combat and game/device integration remain pending."
+    }
+  ]
 }
