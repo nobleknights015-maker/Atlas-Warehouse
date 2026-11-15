@@ -1,0 +1,17 @@
+{
+  "id": "pixel-art-visible-vine-roots-on-grid-dec-c3a5c46a10",
+  "kind": "pixel-art",
+  "title": "Visible vine roots on Grid deck and shell",
+  "summary": "Root parenting alone left floating strands. Crawler vines now overlap deck moss patch; orbital vines overlap shell patch and inherit its transform. Old saved family recipes repaired on regeneration. 896 native connected-component probes pass. Other-unit gallery shows existing Echo, Heavy Sentinel, Archive Sentinel and drone prototypes. CI pending.",
+  "tags": [
+    "attachment",
+    "grid",
+    "regression",
+    "vines"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5c9bdfcc8bd8d7b99fc912b82a5286750c88572f",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-15T14:49:06+00:00",
+  "updated_at": "2026-11-15T14:49:06+00:00"
+}

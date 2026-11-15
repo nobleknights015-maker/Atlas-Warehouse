@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 97,
+  "record_count": 98,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 23,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 41,
+    "pixel-art": 42,
     "research": 4,
     "workflow": 21
   },
@@ -1298,6 +1298,22 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/unit09-lowerleg-locked-section-rebuild-20261111.md",
       "updated_at": "2026-11-11T22:29:26+00:00",
       "summary": "Revisited locally available older 128x262 Unit 09 static practice drawing, constructed two distinct lower-leg A/B native-pixel corrections after a joint/silhouette inspection, and visualized both enlarged against the old figure. Candidate A changed 996 pixel positions, B 1055. Byte-identical upper+knee rows 0..211 and boot rows 245..261, 0/255 alpha and matching bbox all validated. Visual quality gate FAILED: excessive horizontal knee seam, shins still broad/flat and weak taper, full anatomy still too simple. Critical provenance: latest hourly v4b checkpoint was NOT available in active chat, so A/B are isolated practice and MUST NOT replace v4b or be called the new best. Next priority is reopening actual v4b then resolving knee/shin/ankle form with a real skeleton/section edit. No user art uploaded publicly."
+    },
+    {
+      "id": "pixel-art-visible-vine-roots-on-grid-dec-c3a5c46a10",
+      "title": "Visible vine roots on Grid deck and shell",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "attachment",
+        "grid",
+        "regression",
+        "vines"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-visible-vine-roots-on-grid-dec-c3a5c46a10.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5c9bdfcc8bd8d7b99fc912b82a5286750c88572f",
+      "updated_at": "2026-11-15T14:49:06+00:00",
+      "summary": "Root parenting alone left floating strands. Crawler vines now overlap deck moss patch; orbital vines overlap shell patch and inherit its transform. Old saved family recipes repaired on regeneration. 896 native connected-component probes pass. Other-unit gallery shows existing Echo, Heavy Sentinel, Archive Sentinel and drone prototypes. CI pending."
     },
     {
       "id": "research-echo-and-ghost-grid-deep-gener-18c04a7fa0",
