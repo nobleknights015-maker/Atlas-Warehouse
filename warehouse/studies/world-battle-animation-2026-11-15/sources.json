@@ -1,0 +1,269 @@
+{
+  "scope": "Animation authoring and creator integration",
+  "source_count": 23,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Saint11: Basic Aseprite Animation",
+      "url": "https://saint11.art/pixel_art_articles/article3/",
+      "topic": "Pixel timing, pose construction and sequence export",
+      "application": "Per-frame holds are an authored timing decision; do not judge motion only from frame count.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S02",
+      "title": "Animation Mentor: Basic Human Walk",
+      "url": "https://www.animationmentor.com/blog/tutorial-animating-human-walk-cycle/",
+      "topic": "Contact, down, passing and rise; linear planted-foot travel",
+      "application": "Separate stance constraints from stylistic body motion and verify actual travel.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S03",
+      "title": "Animation Mentor: Big and Small Characters",
+      "url": "https://www.animationmentor.com/blog/tutorial-animating-big-and-small-characters/",
+      "topic": "Body-led timing, layered offsets, duplicate loop endpoint caution",
+      "application": "Loaded heavy arms use smaller movement; avoid appending a duplicate first frame to a loop.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S04",
+      "title": "Animation Mentor: Timing and Spacing",
+      "url": "https://www.animationmentor.com/blog/tutorial-animate-with-timing-and-spacing-in-mind/",
+      "topic": "Holds and contrasting movement spacing",
+      "application": "Implement nonuniform holds instead of forcing every action to one FPS rhythm.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S05",
+      "title": "Animation Mentor: Anticipation",
+      "url": "https://www.animationmentor.com/blog/anticipation-the-12-basic-principles-of-animation/",
+      "topic": "Readable preparation for action and impact timing",
+      "application": "Future weapon actions need authored anticipation and recovery, not merely a sinusoidal arm offset.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S06",
+      "title": "Spine: IK Constraints",
+      "url": "https://esotericsoftware.com/spine-ik-constraints",
+      "topic": "IK targets, bend choice, reach and softness",
+      "application": "Reuse our own fixed-length solver; keep normal poses away from reach singularity.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S07",
+      "title": "Spine: Slots",
+      "url": "https://esotericsoftware.com/spine-slots",
+      "topic": "Draw order independent from bone hierarchy",
+      "application": "Keep physical attachment and view-specific depth as separate concerns; preserve the owner-selected Echo cloth order.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S08",
+      "title": "Spine: Events",
+      "url": "https://esotericsoftware.com/spine-events",
+      "topic": "Event markers intended for runtime handlers",
+      "application": "Creator events remain inert data; game code must decide what an impact means.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S09",
+      "title": "Spine: JSON Format",
+      "url": "https://esotericsoftware.com/spine-json-format/",
+      "topic": "Animation data includes events and draw-order timelines",
+      "application": "Export event time and clip behavior explicitly rather than infer semantics from filenames.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S10",
+      "title": "Godot: SpriteFrames",
+      "url": "https://docs.godotengine.org/en/stable/classes/class_spriteframes.html",
+      "topic": "Loop modes and relative duration versus speed",
+      "application": "Our format chooses milliseconds; adapters must convert engine-specific units deliberately.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S11",
+      "title": "Godot: AnimationTree",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html",
+      "topic": "One-shots, filtered layers and root-motion extraction",
+      "application": "Separate actor travel from in-place presentation; implement one-shot terminal holds without introducing Godot.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S12",
+      "title": "Godot: Animation Introduction",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/animation/introduction.html",
+      "topic": "Discrete updates and loop interpolation",
+      "application": "Frame art should be sampled discretely; interpolation belongs in authored pose/controller space.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S13",
+      "title": "Godot: Animation Track Types",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/animation/animation_track_types.html",
+      "topic": "Precise method tracks; editor does not execute method events",
+      "application": "Preview marker names safely instead of running arbitrary callbacks.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S14",
+      "title": "Aseprite: Animation",
+      "url": "https://www.aseprite.org/docs/animation",
+      "topic": "Frame/layer/cel timeline and duration operations",
+      "application": "Preserve editable baked cells alongside procedural generation.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S15",
+      "title": "Aseprite: Tags",
+      "url": "https://www.aseprite.org/docs/tags/",
+      "topic": "Clip grouping and forward/reverse/ping-pong directions",
+      "application": "Treat clips as explicit authored ranges; this round implements loop/one-shot only, not ping-pong.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S16",
+      "title": "Aseprite: Sprite Sheet",
+      "url": "https://www.aseprite.org/docs/sprite-sheet/",
+      "topic": "Sheet layout and tag-based export",
+      "application": "Keep exact frame rectangles and bounded pages; no claim of native Aseprite file output.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S17",
+      "title": "Aseprite: Slices",
+      "url": "https://www.aseprite.org/docs/slices/",
+      "topic": "Bounds and pivot/base location metadata",
+      "application": "Keep ground registration independent of art bounds and collision footprint.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S18",
+      "title": "MDN: requestAnimationFrame",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+      "topic": "Timestamp-based advancement and hidden-tab suspension",
+      "application": "Use an elapsed preview clock, preserve pause state, reset hidden-tab delta.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S19",
+      "title": "MDN: imageSmoothingEnabled",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
+      "topic": "Disabling smoothing retains sharp enlarged pixels",
+      "application": "Use nearest-neighbour inspection at integer magnification.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S20",
+      "title": "W3C: Three Flashes or Below Threshold",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html",
+      "topic": "Flash frequency, area and final display context",
+      "application": "Review future weapon/glitch effects separately; do not claim accessibility certification from a sprite test.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S21",
+      "title": "Unity: Animation Events",
+      "url": "https://docs.unity.cn/Manual/script-AnimationWindowEvent.html",
+      "topic": "Events at specific animation times",
+      "application": "Use explicit contact/impact markers rather than guessed event timing.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S22",
+      "title": "Unity: Humanoid Retargeting",
+      "url": "https://docs.unity.com/en-us/engine/6000.7/manual/animation-section/animation-mecanim/avatar-creationand-setup/retargeting",
+      "topic": "Retargeting depends on configured compatible humanoid mapping",
+      "application": "No universal retarget between different limb counts or unmatched tool chains.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "official primary-source search excerpt; generic manual redirect could not be opened",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    },
+    {
+      "id": "S23",
+      "title": "Pixi: AnimatedSprite",
+      "url": "https://pixijs.download/release/docs/scene.AnimatedSprite.html",
+      "topic": "Loop, completion and timed frame objects",
+      "application": "Expose hold timing and completion semantics without adding a new rendering dependency.",
+      "source_type": "first-party documentation or author teaching",
+      "access": "relevant page/search excerpts; embedded videos not watched",
+      "accessed": "2026-11-15",
+      "status": "inspected"
+    }
+  ],
+  "fetch_failures": [
+    {
+      "url": "https://www.aseprite.org/docs/frame-properties/",
+      "result": "inaccessible; not used as evidence"
+    },
+    {
+      "url": "https://docs.unity3d.com/Manual/Retargeting.html",
+      "result": "generic redirect inaccessible; source S22 official search excerpt used instead"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "implemented": [
+    "heavy four-direction walk",
+    "contact-aware IK and flat soles",
+    "stance travel metadata",
+    "opt-in closed tabard material loop",
+    "per-frame holds",
+    "one-shot terminal pose and replay",
+    "inert event markers and interval helper",
+    "preview clock pause and hidden-tab behavior",
+    "event rescaling when frame count changes",
+    "timing/save/export validation",
+    "world-unit supported motion selector"
+  ],
+  "remaining": [
+    "slender walk",
+    "role-specific battle pose libraries",
+    "hitboxes and gameplay event dispatch",
+    "accelerating/turning locomotion transitions",
+    "engine adapter",
+    "target-device performance",
+    "owner visual acceptance"
+  ],
+  "source_before": "b454315421266fe19e09248aa90eb588c3a0378e",
+  "planned_checks": {
+    "support_samples": 600,
+    "limb_sole_checks": 192,
+    "exact_loop_cases": 16
+  },
+  "no_new_external_runtime": true
+}
