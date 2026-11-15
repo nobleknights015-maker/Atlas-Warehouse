@@ -409,7 +409,7 @@ Source: Bearframe pixel-art study assignment and prior exercise feedback. [Recor
 
 ### Preserve preferred garment silhouettes when fixing arm depth
 
-**pixel-art · unverified** · pixel-art-preserve-preferred-garment-sil-c0cadd5f14
+**pixel-art · tested** · pixel-art-preserve-preferred-garment-sil-c0cadd5f14
 
 Owner correction: restore all outfit geometry from ded6e05 and retain only the near-arm profile redraw flag. Keep Echo up-view arm-depth fix. Prior outfit redesign is superseded; fix occlusion without redesigning clothing. CI pending for c6fa0e4.
 

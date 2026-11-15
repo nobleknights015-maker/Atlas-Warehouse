@@ -874,7 +874,7 @@
       "id": "pixel-art-preserve-preferred-garment-sil-c0cadd5f14",
       "title": "Preserve preferred garment silhouettes when fixing arm depth",
       "kind": "pixel-art",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "occlusion",
         "outfits",
@@ -883,7 +883,7 @@
       ],
       "path": "warehouse/records/pixel-art/pixel-art-preserve-preferred-garment-sil-c0cadd5f14.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/c6fa0e4befcb1100ef246187d5ded5042d18a2c7",
-      "updated_at": "2026-11-15T01:52:00+00:00",
+      "updated_at": "2026-11-15T01:54:38+00:00",
       "summary": "Owner correction: restore all outfit geometry from ded6e05 and retain only the near-arm profile redraw flag. Keep Echo up-view arm-depth fix. Prior outfit redesign is superseded; fix occlusion without redesigning clothing. CI pending for c6fa0e4."
     },
     {
