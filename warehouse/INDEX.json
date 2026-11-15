@@ -3,13 +3,13 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 101,
+  "record_count": 102,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 23,
     "engine": 7,
     "lore": 1,
-    "pixel-art": 44,
+    "pixel-art": 45,
     "research": 5,
     "workflow": 21
   },
@@ -761,6 +761,21 @@
       "source": "warehouse/studies/female-frame01-v7-closed-thigh-knee.md",
       "updated_at": "2026-11-14T02:21:59+00:00",
       "summary": "Owner liked v6 overall but identified broken panel/knee appearance. Replaced jagged distal thigh and old knee fragment with closed plate and one knee-registered cap.2718 visible edits confined to far-thigh/knee; other layers and all geometry/movement S/N exact,32 ASE checks pass. Native comparison inspected; revised initial dark gap. Cleaner surface needs wear/depth acceptance; no final art or all-action readiness claim."
+    },
+    {
+      "id": "pixel-art-final-owner-preference-rear-ec-e44e54a390",
+      "title": "Final owner preference rear Echo fabric covers arms",
+      "kind": "pixel-art",
+      "confidence": "unverified",
+      "tags": [
+        "echo",
+        "fabric",
+        "owner-preference"
+      ],
+      "path": "warehouse/records/pixel-art/pixel-art-final-owner-preference-rear-ec-e44e54a390.json",
+      "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/89bccc7adeea446be4eaacfc9f6183b923285788",
+      "updated_at": "2026-11-15T15:32:08+00:00",
+      "summary": "Stop refining arm depth. Up-view mantle now draws above both arms for fresh and saved rigs. Supersedes earlier dynamic arm/fabric visibility goal. Other views and movement unchanged. Targeted 2864 fabric pixels across16 walk frames and468 profile samples pass; build passes. Full CI pending."
     },
     {
       "id": "pixel-art-first-selected-female-frame-fo-15de4d31ec",

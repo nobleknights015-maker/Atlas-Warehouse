@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 101 active records; 0 open work orders.
+Inventory: 102 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -17,7 +17,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **asset-standards**: 23
 - **engine**: 7
 - **lore**: 1
-- **pixel-art**: 44
+- **pixel-art**: 45
 - **research**: 5
 - **workflow**: 21
 
@@ -358,6 +358,14 @@ Source: warehouse/studies/female-frame01-v6-torso-cloth-repair.md. [Record](http
 Owner liked v6 overall but identified broken panel/knee appearance. Replaced jagged distal thigh and old knee fragment with closed plate and one knee-registered cap.2718 visible edits confined to far-thigh/knee; other layers and all geometry/movement S/N exact,32 ASE checks pass. Native comparison inspected; revised initial dark gap. Cleaner surface needs wear/depth acceptance; no final art or all-action readiness claim.
 
 Source: warehouse/studies/female-frame01-v7-closed-thigh-knee.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-female-frame01-v7-closed-far-t-ceefb9fd50.json)
+
+### Final owner preference rear Echo fabric covers arms
+
+**pixel-art · unverified** · pixel-art-final-owner-preference-rear-ec-e44e54a390
+
+Stop refining arm depth. Up-view mantle now draws above both arms for fresh and saved rigs. Supersedes earlier dynamic arm/fabric visibility goal. Other views and movement unchanged. Targeted 2864 fabric pixels across16 walk frames and468 profile samples pass; build passes. Full CI pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/89bccc7adeea446be4eaacfc9f6183b923285788. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/pixel-art/pixel-art-final-owner-preference-rear-ec-e44e54a390.json)
 
 ### First selected female frame four-direction walk v1
 
