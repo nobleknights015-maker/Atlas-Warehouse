@@ -10,8 +10,16 @@
     "regression"
   ],
   "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/9814b4910b560d7e38c26f21343f2ae62df232a4",
-  "confidence": "unverified",
+  "confidence": "tested",
   "visibility": "public",
   "created_at": "2026-11-15T15:07:22+00:00",
-  "updated_at": "2026-11-15T15:07:22+00:00"
+  "updated_at": "2026-11-15T15:10:30+00:00",
+  "reviews": [
+    {
+      "at": "2026-11-15T15:10:30+00:00",
+      "by": "nobleknights015-maker",
+      "level": "tested",
+      "evidence": "Source9814b49 CI43728076597:29 native/37 Chromium checks and build PASS. 112 role/action/frame cases require up arm angles to reverse down; saved old claw offsets repair identically.336 other Echo direction renders remain pixel-exact. Front/old-back/corrected-back contact inspected. Owner visual approval pending."
+    }
+  ]
 }

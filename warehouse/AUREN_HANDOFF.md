@@ -369,7 +369,7 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/wareh
 
 ### Industrial Echo up-view arm directional correction
 
-**pixel-art · unverified** · pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d
+**pixel-art · tested** · pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d
 
 Up-view positions were reversed but walk and tool gesture signs still matched down. Up arm angles and maintenance claw offset now reverse; existing rear-cloth arm visibility retained. 112 role/action/frame cases enforce mirrored arm angles and saved-recipe repair. Other views protected by existing pixel comparisons. CI pending.
 

@@ -787,7 +787,7 @@
       "id": "pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d",
       "title": "Industrial Echo up-view arm directional correction",
       "kind": "pixel-art",
-      "confidence": "unverified",
+      "confidence": "tested",
       "tags": [
         "arms",
         "direction",
@@ -796,7 +796,7 @@
       ],
       "path": "warehouse/records/pixel-art/pixel-art-industrial-echo-up-view-arm-di-6f0e1e922d.json",
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/9814b4910b560d7e38c26f21343f2ae62df232a4",
-      "updated_at": "2026-11-15T15:07:22+00:00",
+      "updated_at": "2026-11-15T15:10:30+00:00",
       "summary": "Up-view positions were reversed but walk and tool gesture signs still matched down. Up arm angles and maintenance claw offset now reverse; existing rear-cloth arm visibility retained. 112 role/action/frame cases enforce mirrored arm angles and saved-recipe repair. Other views protected by existing pixel comparisons. CI pending."
     },
     {
