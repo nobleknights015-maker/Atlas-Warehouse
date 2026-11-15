@@ -1,0 +1,17 @@
+{
+  "id": "asset-standards-crawler-and-orbital-core-first-9d0a204406",
+  "kind": "asset-standards",
+  "title": "Crawler and orbital core first family prototypes",
+  "summary": "Four authored views added to copy branch. Crawler has six persistent chains, tripod/ripple stance and fixed 22/24 bones; floater has split ring depth and fixed ground projection. 896 new render/bounds cases and 240 support samples pass locally. Native suite29/build pass; CI pending. Native preview inspected; art approval and runtime integration pending.",
+  "tags": [
+    "crawler",
+    "family",
+    "orbital",
+    "prototype"
+  ],
+  "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/770557cf2ac0d2579e4c3cc57ea4f8bdcd443476",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-15T02:09:58+00:00",
+  "updated_at": "2026-11-15T02:09:58+00:00"
+}

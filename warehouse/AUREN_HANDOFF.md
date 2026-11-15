@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 96 active records; 0 open work orders.
+Inventory: 97 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -14,7 +14,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 
 ## Indexed aisles
 
-- **asset-standards**: 22
+- **asset-standards**: 23
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 41
@@ -62,6 +62,14 @@ Source: Founder-defined Bearframe World Editor v1 production standard. [Record](
 Founder correction expands the animation target from four cardinal directions to N NE E SE S SW W NW. Each diagonal needs its own perspective-aware poses and registered feet; rotating whole sprites or replaying one standing view is not an accepted walk. Preserve canonical identity and asymmetric armor. Establish eight-direction static geometry before expanding gait cycles; static coverage must never be reported as eight complete animated directions.
 
 Source: Founder art feedback in Round24 continuation 2026-11-12; private assets excluded. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-bearframe-sprite-motion-target-ca3c495bae.json)
+
+### Crawler and orbital core first family prototypes
+
+**asset-standards · unverified** · asset-standards-crawler-and-orbital-core-first-9d0a204406
+
+Four authored views added to copy branch. Crawler has six persistent chains, tripod/ripple stance and fixed 22/24 bones; floater has split ring depth and fixed ground projection. 896 new render/bounds cases and 240 support samples pass locally. Native suite29/build pass; CI pending. Native preview inspected; art approval and runtime integration pending.
+
+Source: https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/770557cf2ac0d2579e4c3cc57ea4f8bdcd443476. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/asset-standards/asset-standards-crawler-and-orbital-core-first-9d0a204406.json)
 
 ### Echo and Ghost Grid ring array controls
 
