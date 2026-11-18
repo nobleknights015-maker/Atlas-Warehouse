@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 108,
+  "record_count": 109,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 24,
     "engine": 7,
     "lore": 1,
     "pixel-art": 47,
-    "research": 8,
+    "research": 9,
     "workflow": 21
   },
   "records": [
@@ -1409,6 +1409,32 @@
       "source": "https://github.com/nobleknights015-maker/bearframe-ghost-signal/commit/5c9bdfcc8bd8d7b99fc912b82a5286750c88572f",
       "updated_at": "2026-11-15T14:51:04+00:00",
       "summary": "Root parenting alone left floating strands. Crawler vines now overlap deck moss patch; orbital vines overlap shell patch and inherit its transform. Old saved family recipes repaired on regeneration. 896 native connected-component probes pass. Other-unit gallery shows existing Echo, Heavy Sentinel, Archive Sentinel and drone prototypes. CI pending."
+    },
+    {
+      "id": "research-aeon-functional-environments-a20-20261117",
+      "title": "Aeon Circuit environment construction and worldbuilding: functional 32px rooms and A20",
+      "kind": "research",
+      "confidence": "unverified",
+      "tags": [
+        "aeon-circuit",
+        "bearframe",
+        "environment-art",
+        "worldbuilding",
+        "facility-planning",
+        "map-building",
+        "32px",
+        "spatial-design",
+        "pixel-art",
+        "collision",
+        "wayfinding",
+        "atlas-warehouse",
+        "a20",
+        "visual-qa"
+      ],
+      "path": "warehouse/records/research/research-aeon-functional-environments-a20-20261117.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-environment-worldbuilding-and-a20-quality-gate-2026-11-17.md",
+      "updated_at": "2026-11-18T02:44:31+00:00",
+      "summary": "Evidence-backed synthesis of architecture-first level design: facility purpose and causality; diegetic/formal circulation and reachability; landmark hierarchy, authentic tile and object layers; localized decay; visual depth, door occlusion, lighting, runtime screenshots and owner-approval gates. Applied privately to one noncanonical A20 QA room with unchanged original Ghost Signal engine and separate source-art layers. This record is not a complete, canonical or owner-approved campaign map."
     },
     {
       "id": "research-aeon-world-menus-combat-20261115",
