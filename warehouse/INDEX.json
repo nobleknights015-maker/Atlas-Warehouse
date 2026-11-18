@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 107,
+  "record_count": 108,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 24,
     "engine": 7,
     "lore": 1,
     "pixel-art": 47,
-    "research": 7,
+    "research": 8,
     "workflow": 21
   },
   "records": [
@@ -1494,6 +1494,30 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-jrpg-deep-systems-study-2026-11-14.md",
       "updated_at": "2026-11-14T16:25:11+00:00",
       "summary": "Source-backed study of Phantasy Star II-IV, Chrono Trigger, Sea of Stars, Octopath and existing Ghost Signal engine. Require interconnected exploration, authored tactical encounters, meaningful party decisions, persistent world consequences, original Ghost Signal UI and stealth, four-cardinal 32px field movement, lore-specific Sleeper equipment, measurable playable vertical slice, save and Android proof. Recommendations are not implemented features or verified hardware tests. See full archived 387-line study linked in SOURCE."
+    },
+    {
+      "id": "research-ghost-signal-map-worldbuilding-20261118",
+      "title": "Ghost Signal M03–M06 level design, environmental storytelling and technical art quality standard",
+      "kind": "research",
+      "confidence": "unverified",
+      "tags": [
+        "ghost-signal",
+        "m03-m06",
+        "level-design",
+        "worldbuilding",
+        "architecture",
+        "environmental-storytelling",
+        "collision",
+        "door-clearance",
+        "art-composition",
+        "tiled",
+        "android",
+        "quality-gate"
+      ],
+      "path": "warehouse/records/research/research-ghost-signal-map-worldbuilding-20261118.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-environment-design-and-map-quality-2026-11-18.md",
+      "updated_at": "2026-11-18T02:30:00+00:00",
+      "summary": "Research-derived mandatory pipeline: purpose and bubble diagram → navigable blockout → joined architecture → reserved interactive footprints → licensed art clusters → causal environmental storytelling → layer separation and full game viewport review → browser/Android tests → owner signoff. Critically reject pasted controls over doors, art/collision mismatches, unconnected conduits, arbitrary props, untested escort paths, and background/map version drift. Programs: M03 exterior survey/command/supply/ridge; M04 consistent rescue ruins/triage/escort; M05 generator–breaker–physical gate–transmitter; M06 compartmentalized five-door auxiliary bunker. Preserve M01/M02, engine, saves, UI, original Ghost Signal VFX, upgraded generator; no new missions. Source-based method only, not implementation or owner approval."
     },
     {
       "id": "research-independent-reach-contacts-and-d988596346",

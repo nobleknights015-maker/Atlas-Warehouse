@@ -1,0 +1,25 @@
+{
+  "id": "research-ghost-signal-map-worldbuilding-20261118",
+  "kind": "research",
+  "title": "Ghost Signal M03–M06 level design, environmental storytelling and technical art quality standard",
+  "summary": "Research-derived mandatory pipeline: purpose and bubble diagram → navigable blockout → joined architecture → reserved interactive footprints → licensed art clusters → causal environmental storytelling → layer separation and full game viewport review → browser/Android tests → owner signoff. Critically reject pasted controls over doors, art/collision mismatches, unconnected conduits, arbitrary props, untested escort paths, and background/map version drift. Programs: M03 exterior survey/command/supply/ridge; M04 consistent rescue ruins/triage/escort; M05 generator–breaker–physical gate–transmitter; M06 compartmentalized five-door auxiliary bunker. Preserve M01/M02, engine, saves, UI, original Ghost Signal VFX, upgraded generator; no new missions. Source-based method only, not implementation or owner approval.",
+  "tags": [
+    "ghost-signal",
+    "m03-m06",
+    "level-design",
+    "worldbuilding",
+    "architecture",
+    "environmental-storytelling",
+    "collision",
+    "door-clearance",
+    "art-composition",
+    "tiled",
+    "android",
+    "quality-gate"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-environment-design-and-map-quality-2026-11-18.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-18T02:30:00+00:00",
+  "updated_at": "2026-11-18T02:30:00+00:00"
+}
