@@ -1,0 +1,22 @@
+{
+  "id": "research-bearframe-two-game-design-and-9f93b4c09f",
+  "kind": "research",
+  "title": "Bearframe two-game design and production reference",
+  "summary": "Spoiler-free, source-backed handbook for Ghost Signal Expanded and Aeon Circuit The Silent Wake. Covers world and map authoring, stealth pressure and recovery, RPG encounter scaling and economy, quests and cutscene state, presentation, accessibility, persistence, Android QA and release. Includes worked design examples and reusable authoring, experiment and verification cards. Research and proposals only; no gameplay or device verification.",
+  "tags": [
+    "accessibility",
+    "aeon-circuit",
+    "android",
+    "cutscenes",
+    "enemy-scaling",
+    "events",
+    "ghost-signal",
+    "level-design",
+    "production"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/f974f9c1a8b4da14a9c8163fd7e06a1cd0daad3f/warehouse/studies/bearframe-two-game-design-research-2026-11-17.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-18T02:47:19+00:00",
+  "updated_at": "2026-11-18T02:47:19+00:00"
+}

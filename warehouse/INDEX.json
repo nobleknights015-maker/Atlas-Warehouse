@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 109,
+  "record_count": 110,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 24,
     "engine": 7,
     "lore": 1,
     "pixel-art": 47,
-    "research": 9,
+    "research": 10,
     "workflow": 21
   },
   "records": [
@@ -1411,6 +1411,32 @@
       "summary": "Root parenting alone left floating strands. Crawler vines now overlap deck moss patch; orbital vines overlap shell patch and inherit its transform. Old saved family recipes repaired on regeneration. 896 native connected-component probes pass. Other-unit gallery shows existing Echo, Heavy Sentinel, Archive Sentinel and drone prototypes. CI pending."
     },
     {
+      "id": "research-aeon-world-menus-combat-20261115",
+      "title": "Aeon Circuit connected maps, worldbuilding, interactive events, menus and combat research, 2026-11-15",
+      "kind": "research",
+      "confidence": "reviewed",
+      "tags": [
+        "aeon-circuit",
+        "bearframe",
+        "worldbuilding",
+        "connected-maps",
+        "map-graph",
+        "tiled",
+        "interactions",
+        "event-system",
+        "menus",
+        "combat",
+        "phantasy-star",
+        "ghost-signal",
+        "android",
+        "research"
+      ],
+      "path": "warehouse/records/research/research-aeon-world-menus-combat-20261115.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md",
+      "updated_at": "2026-11-15T15:15:00+00:00",
+      "summary": "Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations."
+    },
+    {
       "id": "research-aeon-functional-environments-a20-20261117",
       "title": "Aeon Circuit environment construction and worldbuilding: functional 32px rooms and A20",
       "kind": "research",
@@ -1437,30 +1463,25 @@
       "summary": "Evidence-backed synthesis of architecture-first level design: facility purpose and causality; diegetic/formal circulation and reachability; landmark hierarchy, authentic tile and object layers; localized decay; visual depth, door occlusion, lighting, runtime screenshots and owner-approval gates. Applied privately to one noncanonical A20 QA room with unchanged original Ghost Signal engine and separate source-art layers. This record is not a complete, canonical or owner-approved campaign map."
     },
     {
-      "id": "research-aeon-world-menus-combat-20261115",
-      "title": "Aeon Circuit connected maps, worldbuilding, interactive events, menus and combat research, 2026-11-15",
+      "id": "research-bearframe-two-game-design-and-9f93b4c09f",
+      "title": "Bearframe two-game design and production reference",
       "kind": "research",
-      "confidence": "reviewed",
+      "confidence": "unverified",
       "tags": [
+        "accessibility",
         "aeon-circuit",
-        "bearframe",
-        "worldbuilding",
-        "connected-maps",
-        "map-graph",
-        "tiled",
-        "interactions",
-        "event-system",
-        "menus",
-        "combat",
-        "phantasy-star",
-        "ghost-signal",
         "android",
-        "research"
+        "cutscenes",
+        "enemy-scaling",
+        "events",
+        "ghost-signal",
+        "level-design",
+        "production"
       ],
-      "path": "warehouse/records/research/research-aeon-world-menus-combat-20261115.json",
-      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md",
-      "updated_at": "2026-11-15T15:15:00+00:00",
-      "summary": "Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations."
+      "path": "warehouse/records/research/research-bearframe-two-game-design-and-9f93b4c09f.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/f974f9c1a8b4da14a9c8163fd7e06a1cd0daad3f/warehouse/studies/bearframe-two-game-design-research-2026-11-17.md",
+      "updated_at": "2026-11-18T02:47:19+00:00",
+      "summary": "Spoiler-free, source-backed handbook for Ghost Signal Expanded and Aeon Circuit The Silent Wake. Covers world and map authoring, stealth pressure and recovery, RPG encounter scaling and economy, quests and cutscene state, presentation, accessibility, persistence, Android QA and release. Includes worked design examples and reusable authoring, experiment and verification cards. Research and proposals only; no gameplay or device verification."
     },
     {
       "id": "research-deep-jrpg-battle-presentation-7431443a37",

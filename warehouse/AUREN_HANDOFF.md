@@ -4,7 +4,7 @@
 
 Repository: https://github.com/nobleknights015-maker/Atlas-Warehouse
 
-Inventory: 107 active records; 0 open work orders.
+Inventory: 110 active records; 0 open work orders.
 
 ## Retrieval procedure
 
@@ -18,7 +18,7 @@ To deposit public-safe, source-backed lessons, submit an authorized /atlas recei
 - **engine**: 7
 - **lore**: 1
 - **pixel-art**: 47
-- **research**: 7
+- **research**: 10
 - **workflow**: 21
 
 ## Knowledge shelves
@@ -663,6 +663,22 @@ Owner-requested source-grounded research and integration blueprint. One Ghost Si
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-aeon-world-menus-combat-20261115.json)
 
+### Aeon Circuit environment construction and worldbuilding: functional 32px rooms and A20
+
+**research · unverified** · research-aeon-functional-environments-a20-20261117
+
+Evidence-backed synthesis of architecture-first level design: facility purpose and causality; diegetic/formal circulation and reachability; landmark hierarchy, authentic tile and object layers; localized decay; visual depth, door occlusion, lighting, runtime screenshots and owner-approval gates. Applied privately to one noncanonical A20 QA room with unchanged original Ghost Signal engine and separate source-art layers. This record is not a complete, canonical or owner-approved campaign map.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-environment-worldbuilding-and-a20-quality-gate-2026-11-17.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-aeon-functional-environments-a20-20261117.json)
+
+### Bearframe two-game design and production reference
+
+**research · unverified** · research-bearframe-two-game-design-and-9f93b4c09f
+
+Spoiler-free, source-backed handbook for Ghost Signal Expanded and Aeon Circuit The Silent Wake. Covers world and map authoring, stealth pressure and recovery, RPG encounter scaling and economy, quests and cutscene state, presentation, accessibility, persistence, Android QA and release. Includes worked design examples and reusable authoring, experiment and verification cards. Research and proposals only; no gameplay or device verification.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/f974f9c1a8b4da14a9c8163fd7e06a1cd0daad3f/warehouse/studies/bearframe-two-game-design-research-2026-11-17.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-bearframe-two-game-design-and-9f93b4c09f.json)
+
 ### Deep JRPG battle presentation research and v1 audit
 
 **research · unverified** · research-deep-jrpg-battle-presentation-7431443a37
@@ -686,6 +702,14 @@ Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/fb1f254aa6
 Source-backed study of Phantasy Star II-IV, Chrono Trigger, Sea of Stars, Octopath and existing Ghost Signal engine. Require interconnected exploration, authored tactical encounters, meaningful party decisions, persistent world consequences, original Ghost Signal UI and stealth, four-cardinal 32px field movement, lore-specific Sleeper equipment, measurable playable vertical slice, save and Android proof. Recommendations are not implemented features or verified hardware tests. See full archived 387-line study linked in SOURCE.
 
 Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-jrpg-deep-systems-study-2026-11-14.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-ghost-signal-engine-deep-jrpg-b767a0e875.json)
+
+### Ghost Signal M03–M06 level design, environmental storytelling and technical art quality standard
+
+**research · unverified** · research-ghost-signal-map-worldbuilding-20261118
+
+Research-derived mandatory pipeline: purpose and bubble diagram → navigable blockout → joined architecture → reserved interactive footprints → licensed art clusters → causal environmental storytelling → layer separation and full game viewport review → browser/Android tests → owner signoff. Critically reject pasted controls over doors, art/collision mismatches, unconnected conduits, arbitrary props, untested escort paths, and background/map version drift. Programs: M03 exterior survey/command/supply/ridge; M04 consistent rescue ruins/triage/escort; M05 generator–breaker–physical gate–transmitter; M06 compartmentalized five-door auxiliary bunker. Preserve M01/M02, engine, saves, UI, original Ghost Signal VFX, upgraded generator; no new missions. Source-based method only, not implementation or owner approval.
+
+Source: https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/ghost-signal-environment-design-and-map-quality-2026-11-18.md. [Record](https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/records/research/research-ghost-signal-map-worldbuilding-20261118.json)
 
 ### Independent reach contacts and ring closure experiments
 
