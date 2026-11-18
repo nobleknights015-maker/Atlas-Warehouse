@@ -1,0 +1,27 @@
+{
+  "id": "research-aeon-functional-environments-a20-20261117",
+  "kind": "research",
+  "title": "Aeon Circuit environment construction and worldbuilding: functional 32px rooms and A20",
+  "summary": "Evidence-backed synthesis of architecture-first level design: facility purpose and causality; diegetic/formal circulation and reachability; landmark hierarchy, authentic tile and object layers; localized decay; visual depth, door occlusion, lighting, runtime screenshots and owner-approval gates. Applied privately to one noncanonical A20 QA room with unchanged original Ghost Signal engine and separate source-art layers. This record is not a complete, canonical or owner-approved campaign map.",
+  "tags": [
+    "aeon-circuit",
+    "bearframe",
+    "environment-art",
+    "worldbuilding",
+    "facility-planning",
+    "map-building",
+    "32px",
+    "spatial-design",
+    "pixel-art",
+    "collision",
+    "wayfinding",
+    "atlas-warehouse",
+    "a20",
+    "visual-qa"
+  ],
+  "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-environment-worldbuilding-and-a20-quality-gate-2026-11-17.md",
+  "confidence": "unverified",
+  "visibility": "public",
+  "created_at": "2026-11-18T02:44:31+00:00",
+  "updated_at": "2026-11-18T02:44:31+00:00"
+}
