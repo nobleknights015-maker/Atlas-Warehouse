@@ -45,3 +45,18 @@ Each location needs a coherent silhouette and at least three purposeful subzones
 - Heart Machine visual approach: https://blog.playstation.com/archive/2014/03/14/closer-look-hyper-light-drifter-coming-soon-ps4-ps-vita/
 
 **Research limitations:** GDC talk descriptions were available but large slide decks were not fully inspected. The Ghost Signal user screenshots support visual critique; full physical-device QA and final art acceptance remain open.
+
+
+## Implemented engineering lessons from the next Ghost Signal QA round
+
+**Observed root cause, not merely an art preference:** the owner-only scene compiler had **two methods named `field_architecture`**; the later method silently shadowed the revised authored pass. This is why repeated structural edits were not reliably reflected in screenshots. Consolidate to **one** architecture authoring pass and test its output, never duplicate method names.
+
+**Specific M03 terminal/door error:** an open double-door art sprite was drawn as static scenery and then overlaid by a large bridge display. The revised private compiler excludes that unbound doorway, forbids any live-looking door sprite without a registered scripted door, protects NPC/terminal/door footprints from major art fixtures and rejects stacked duplicate station name signs. A live door's collision, animation and visual frame stay owned by the original engine.
+
+**Reusable public QA gate implemented:** `nobleknights015-maker/bearframe-ghost-signal`, development branch `feature/ghost-signal-expanded-m03-surface-20261117`, commit `61d90976e023565dbac36aa469d223109356f54d`. Added:
+- `frontend/quality/ghost-signal-map-program.json` with operational floor-plan purpose, histories, links and anchors for M03–M06.
+- `frontend/tools/map-quality-gate.mjs`: mission zone/door/interaction audit, reserved gameplay footprints, owner-art no-overlap manifest checks and SHA-256 scene signatures derived from **real collision grid, props and entities**. Scene dimensions alone no longer establish freshness.
+- `frontend/tests/ghost-signal-map-quality-gate.test.mjs`: injected failures for false door art, object over Mira/terminal, oversize sprite footprint, stale scene revision and collision/art mismatch.
+- GitHub Actions expansion and Android workflows now run the gate before treating builds as valid.
+
+**Verification scope:** 38 local Node mission/map tests passed; four private scene composition audits passed for 532/679/673/552 original-size placements at that checkpoint; owner-only Android APK v2/v3 signing and embedded map/module hashes verified. [GitHub public regression run](https://github.com/nobleknights015-maker/bearframe-ghost-signal/actions/runs/44225489012) passed. Actual in-engine Canvas2D same-camera before/after frames exist; **full Android physical touch/landscape, HUD screenshots and owner visual approval still pending**. The proprietary flattened art and compiler remain owner-side, not public Warehouse stock. No new missions or engine rewrites.
