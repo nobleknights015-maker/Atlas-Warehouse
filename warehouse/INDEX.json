@@ -3,14 +3,14 @@
   "purpose": "Public project-knowledge retrieval for Auren and Atlas VI",
   "source_repository": "nobleknights015-maker/Atlas-Warehouse",
   "privacy": "PUBLIC: no private chats, credentials or personal memories",
-  "record_count": 110,
+  "record_count": 111,
   "open_order_count": 0,
   "aisles": {
     "asset-standards": 24,
     "engine": 7,
     "lore": 1,
     "pixel-art": 47,
-    "research": 10,
+    "research": 11,
     "workflow": 21
   },
   "records": [
@@ -1411,32 +1411,6 @@
       "summary": "Root parenting alone left floating strands. Crawler vines now overlap deck moss patch; orbital vines overlap shell patch and inherit its transform. Old saved family recipes repaired on regeneration. 896 native connected-component probes pass. Other-unit gallery shows existing Echo, Heavy Sentinel, Archive Sentinel and drone prototypes. CI pending."
     },
     {
-      "id": "research-aeon-world-menus-combat-20261115",
-      "title": "Aeon Circuit connected maps, worldbuilding, interactive events, menus and combat research, 2026-11-15",
-      "kind": "research",
-      "confidence": "reviewed",
-      "tags": [
-        "aeon-circuit",
-        "bearframe",
-        "worldbuilding",
-        "connected-maps",
-        "map-graph",
-        "tiled",
-        "interactions",
-        "event-system",
-        "menus",
-        "combat",
-        "phantasy-star",
-        "ghost-signal",
-        "android",
-        "research"
-      ],
-      "path": "warehouse/records/research/research-aeon-world-menus-combat-20261115.json",
-      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md",
-      "updated_at": "2026-11-15T15:15:00+00:00",
-      "summary": "Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations."
-    },
-    {
       "id": "research-aeon-functional-environments-a20-20261117",
       "title": "Aeon Circuit environment construction and worldbuilding: functional 32px rooms and A20",
       "kind": "research",
@@ -1461,6 +1435,32 @@
       "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-environment-worldbuilding-and-a20-quality-gate-2026-11-17.md",
       "updated_at": "2026-11-18T02:44:31+00:00",
       "summary": "Evidence-backed synthesis of architecture-first level design: facility purpose and causality; diegetic/formal circulation and reachability; landmark hierarchy, authentic tile and object layers; localized decay; visual depth, door occlusion, lighting, runtime screenshots and owner-approval gates. Applied privately to one noncanonical A20 QA room with unchanged original Ghost Signal engine and separate source-art layers. This record is not a complete, canonical or owner-approved campaign map."
+    },
+    {
+      "id": "research-aeon-world-menus-combat-20261115",
+      "title": "Aeon Circuit connected maps, worldbuilding, interactive events, menus and combat research, 2026-11-15",
+      "kind": "research",
+      "confidence": "reviewed",
+      "tags": [
+        "aeon-circuit",
+        "bearframe",
+        "worldbuilding",
+        "connected-maps",
+        "map-graph",
+        "tiled",
+        "interactions",
+        "event-system",
+        "menus",
+        "combat",
+        "phantasy-star",
+        "ghost-signal",
+        "android",
+        "research"
+      ],
+      "path": "warehouse/records/research/research-aeon-world-menus-combat-20261115.json",
+      "source": "https://github.com/nobleknights015-maker/Atlas-Warehouse/blob/main/warehouse/studies/aeon-circuit-connected-world-interactions-menus-combat-2026-11-15.md",
+      "updated_at": "2026-11-15T15:15:00+00:00",
+      "summary": "Owner-requested source-grounded research and integration blueprint. One Ghost Signal-rendered persistent world composed of discrete 32x32 four-cardinal maps with explicit portal graph, atomic transitions and per-map save deltas. Shared typed event conditions/effects drive doors, salvage, Echo dialogue, quest knowledge, security and encounter outcomes. Original Ghost Signal-styled JRPG menus share touch/gamepad/keyboard focus and transactional item/equipment actions. Compare PSIV-style whole-party command planning with verified sequential combat; use authored telegraphed encounters. Prioritize two connected maps with real travel/reload before expanding to a 6-9-map expedition. Proposals are NOT evidence of implemented production maps or final physical Moto G tests. Public archive excludes private Revision 4.10 revelations."
     },
     {
       "id": "research-bearframe-two-game-design-and-9f93b4c09f",
@@ -1599,6 +1599,28 @@
       "source": "warehouse/studies/unit09-animation-research-round44/FINDINGS.md; SOURCES.md; CORRECTION_PLAN.md",
       "updated_at": "2026-11-13T02:49:55+00:00",
       "summary": "Read21 primary educator/creator/tool sources and audited local assets. Research covers S N W E anatomy, whole-body phases, armor ownership, occlusion, pixel clusters, rig limits, floor contacts, JRPG cadence, action families and later character transfer. Core correction: fit whole-body poses to reference before native contour drawing and motion; masks, fixed bone lengths and export checks are not artistic acceptance. Full sources, limitations, forensic findings and pass/fail plan committed; no art/engine changed or final side fix claimed."
+    },
+    {
+      "id": "research-starbound-frontier-bedrock-worldbuilding-2026-11-23",
+      "title": "Starbound Frontier — Minecraft Bedrock worldbuilding, Star Odyssey visual compatibility, NPC/enemy design and distinct alien worlds",
+      "kind": "research",
+      "confidence": "reviewed",
+      "tags": [
+        "starbound-frontier",
+        "minecraft-bedrock",
+        "star-odyssey",
+        "worldbuilding",
+        "alien-planets",
+        "npc-design",
+        "enemy-design",
+        "texture-pack",
+        "structure-generation",
+        "survival"
+      ],
+      "path": "warehouse/records/research/research-starbound-frontier-bedrock-worldbuilding-2026-11-23.json",
+      "source": "warehouse/studies/starbound-frontier-bedrock-worldbuilding-research-2026-11-23.md",
+      "updated_at": "2026-11-23T21:30:00+00:00",
+      "summary": "Public-safe pack audit and worldbuilding research for 5 distinctive Minecraft-like alien worlds, character/NPC and hostile creature design, procedural settlements, mechanics and Bedrock constraints. Evidence labels preserved."
     },
     {
       "id": "research-world-and-battle-animation-23-d21cc2dfe4",
