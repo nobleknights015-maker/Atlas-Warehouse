@@ -1,0 +1,22 @@
+{
+  "id": "research-starbound-frontier-bedrock-worldbuilding-2026-11-23",
+  "title": "Starbound Frontier — Minecraft Bedrock worldbuilding, Star Odyssey visual compatibility, NPC/enemy design and distinct alien worlds",
+  "kind": "research",
+  "confidence": "reviewed",
+  "tags": [
+    "starbound-frontier",
+    "minecraft-bedrock",
+    "star-odyssey",
+    "worldbuilding",
+    "alien-planets",
+    "npc-design",
+    "enemy-design",
+    "texture-pack",
+    "structure-generation",
+    "survival"
+  ],
+  "path": "warehouse/records/research/research-starbound-frontier-bedrock-worldbuilding-2026-11-23.json",
+  "source": "warehouse/studies/starbound-frontier-bedrock-worldbuilding-research-2026-11-23.md",
+  "updated_at": "2026-11-23T21:30:00+00:00",
+  "summary": "Public-safe in-depth study based on direct pack inspection and Bedrock creator documentation. Five-world identity matrix; preserve Minecraft survival loop; matching 16x16 terrain textures; distinct ecology, settlements, NPC roles, sci-fi enemies, machinery, vehicle and dimension constraints, integration/QA rules. [PACK]/[DOC]/[DESIGN]/[TEST] evidence labels preserved. No paid pack assets bundled."
+}
